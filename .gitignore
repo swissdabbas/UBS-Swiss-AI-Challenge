@@ -2,8 +2,5 @@
 .env
 .env.*
 
-# Data
-*.csv
-
 # OS
 .DS_Store
