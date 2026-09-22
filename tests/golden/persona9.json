@@ -1,0 +1,55 @@
+{
+ "profile": {
+  "age": 68,
+  "employment_type": "retired",
+  "has_pension_fund": false,
+  "children": 0,
+  "canton": "ZH"
+ },
+ "kpis": {
+  "annual_income": 34184,
+  "annual_spending": 16302,
+  "annual_saving": 0,
+  "trailing_monthly_surplus": 2070
+ },
+ "signals": [
+  "idle_cash",
+  "monthly_surplus",
+  "pillar_3a_gap",
+  "recurring_income",
+  "retired"
+ ],
+ "tax": {
+  "eligible": true,
+  "cap": 1797.0,
+  "recommended_annual": 1797.0,
+  "tax_saved_per_year": 206.0
+ },
+ "risk_profile": "Cautious",
+ "baskets": {
+  "Pillar 3a": [
+   "ubs-fisca-3a"
+  ],
+  "Investment": [
+   "fixed-income"
+  ],
+  "Savings": [
+   "ubs-savings-account",
+   "ubs-sustainable-savings-account"
+  ]
+ },
+ "hidden": [
+  "equities",
+  "investment-funds",
+  "sustainable-impact-investing",
+  "ubs-investment-fund-account",
+  "ubs-key4-pension-3a",
+  "ubs-key4-smart-investing",
+  "ubs-key4-trading"
+ ],
+ "projections": {
+  "Pillar 3a": 3611,
+  "Investment": 45663,
+  "Savings": 21546
+ }
+}

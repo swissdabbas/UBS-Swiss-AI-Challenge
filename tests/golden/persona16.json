@@ -1,0 +1,43 @@
+{
+ "profile": {
+  "age": 33,
+  "employment_type": "self_employed",
+  "has_pension_fund": false,
+  "children": 0,
+  "canton": "ZH"
+ },
+ "kpis": {
+  "annual_income": 13042,
+  "annual_spending": 17817,
+  "annual_saving": 0,
+  "trailing_monthly_surplus": -395
+ },
+ "signals": [
+  "debt_stress",
+  "pillar_3a_gap",
+  "recurring_rent",
+  "self_employed",
+  "spending_exceeds_income"
+ ],
+ "tax": {
+  "eligible": true,
+  "cap": 2608.0,
+  "recommended_annual": 0.0,
+  "tax_saved_per_year": 0.0
+ },
+ "risk_profile": "Conservative",
+ "baskets": {
+  "Cards": [
+   "ubs-prepaid-card",
+   "ubs-debit-card",
+   "ubs-business-debit-card",
+   "ubs-business-prepaid-card"
+  ]
+ },
+ "hidden": [
+  "ubs-corporate-credit-cards",
+  "ubs-fisca-3a",
+  "ubs-key4-pension-3a"
+ ],
+ "projections": {}
+}
