@@ -1,0 +1,341 @@
+date,description,category,amount,currency,balance
+2025-09-22,Hypothekarzins,Housing,-2100.00,CHF,2890.00
+2025-09-22,Aldi Suisse,Groceries,-123.30,CHF,2766.70
+2025-09-22,Coop,Groceries,-88.50,CHF,2678.20
+2025-09-22,Migros,Groceries,-145.39,CHF,2532.81
+2025-09-22,Coop,Groceries,-94.41,CHF,2438.40
+2025-09-22,Restaurant Migros,Food,-42.94,CHF,2395.46
+2025-09-22,Bistro Zürich,Food,-16.62,CHF,2378.84
+2025-09-22,Restaurant Migros,Food,-63.17,CHF,2315.67
+2025-09-22,Sushi Restaurant,Food,-59.49,CHF,2256.18
+2025-09-22,EWZ Strom,Utilities,-128.54,CHF,2127.64
+2025-09-22,Wasserwerk,Utilities,-42.08,CHF,2085.56
+2025-09-22,Migrol Tankstelle,Transportation,-253.10,CHF,1832.46
+2025-09-22,Migrol Tankstelle,Transportation,-225.89,CHF,1606.57
+2025-09-22,Säule 3a Einzahlung,Retirement,-400.00,CHF,1206.57
+2025-09-22,Digitec Galaxus,Shopping,-110.68,CHF,1095.89
+2025-09-22,Media Markt,Shopping,-135.82,CHF,960.07
+2025-09-22,Konzert Ticketcorner,Entertainment,-72.99,CHF,887.08
+2025-09-22,Date Night Restaurant,Entertainment,-135.08,CHF,752.00
+2025-09-22,Netflix,Subscriptions,-14.59,CHF,737.41
+2025-09-22,iCloud Speicher,Subscriptions,-16.18,CHF,721.23
+2025-09-23,Migrol Tankstelle,Transportation,-70.72,CHF,650.51
+2025-09-25,Tech AG Lohnzahlung,Income,9151.79,CHF,9802.30
+2025-09-27,Restaurant Migros,Food,-52.67,CHF,9749.63
+2025-09-28,Swisscom Internet,Utilities,-77.19,CHF,9672.44
+2025-09-29,Restaurant Migros,Food,-46.13,CHF,9626.31
+2025-09-29,Digitec Galaxus,Shopping,-67.21,CHF,9559.10
+2025-10-02,Coop,Groceries,-120.50,CHF,9438.60
+2025-10-02,Restaurant Migros,Food,-16.76,CHF,9421.84
+2025-10-02,NZZ Abo,Subscriptions,-10.17,CHF,9411.67
+2025-10-05,Hypothekarzins,Housing,-2100.00,CHF,7311.67
+2025-10-05,Migros,Groceries,-62.01,CHF,7249.66
+2025-10-06,Booking.com Hotel,Travel,-184.02,CHF,7065.64
+2025-10-07,Wasserwerk,Utilities,-55.50,CHF,7010.14
+2025-10-07,iCloud Speicher,Subscriptions,-16.20,CHF,6993.94
+2025-10-08,EWZ Strom,Utilities,-68.98,CHF,6924.96
+2025-10-10,Sushi Restaurant,Food,-21.00,CHF,6903.96
+2025-10-10,Sushi Restaurant,Food,-26.95,CHF,6877.01
+2025-10-10,Media Markt,Shopping,-76.77,CHF,6800.24
+2025-10-12,Garage Autoleasing,Transportation,-82.45,CHF,6717.79
+2025-10-13,Migros,Groceries,-131.84,CHF,6585.95
+2025-10-13,Migrol Tankstelle,Transportation,-65.05,CHF,6520.90
+2025-10-14,Wasserwerk,Utilities,-129.21,CHF,6391.69
+2025-10-14,Säule 3a Einzahlung,Retirement,-400.00,CHF,5991.69
+2025-10-15,Konzert Ticketcorner,Entertainment,-67.76,CHF,5923.93
+2025-10-17,Bistro Zürich,Food,-61.19,CHF,5862.74
+2025-10-18,Garage Autoleasing,Transportation,-260.95,CHF,5601.79
+2025-10-19,Bistro Zürich,Food,-17.47,CHF,5584.32
+2025-10-20,Jumbo,Shopping,-38.82,CHF,5545.50
+2025-10-24,Restaurant Migros,Food,-21.04,CHF,5524.46
+2025-10-25,Tech AG Lohnzahlung,Income,9208.14,CHF,14732.60
+2025-10-25,Coop,Groceries,-101.52,CHF,14631.08
+2025-10-26,Media Markt,Shopping,-188.60,CHF,14442.48
+2025-10-30,Konzert Ticketcorner,Entertainment,-110.44,CHF,14332.04
+2025-11-01,Aldi Suisse,Groceries,-67.70,CHF,14264.34
+2025-11-03,Wasserwerk,Utilities,-117.10,CHF,14147.24
+2025-11-03,Media Markt,Shopping,-39.64,CHF,14107.60
+2025-11-04,Bistro Zürich,Food,-32.07,CHF,14075.53
+2025-11-06,Bistro Zürich,Food,-26.97,CHF,14048.56
+2025-11-07,Swisscom Internet,Utilities,-82.12,CHF,13966.44
+2025-11-08,Migros,Groceries,-159.85,CHF,13806.59
+2025-11-12,Sushi Restaurant,Food,-26.04,CHF,13780.55
+2025-11-14,Restaurant Migros,Food,-17.66,CHF,13762.89
+2025-11-15,Migrol Tankstelle,Transportation,-248.06,CHF,13514.83
+2025-11-15,Säule 3a Einzahlung,Retirement,-400.00,CHF,13114.83
+2025-11-15,iCloud Speicher,Subscriptions,-9.49,CHF,13105.34
+2025-11-15,Netflix,Subscriptions,-6.16,CHF,13099.18
+2025-11-17,Garage Autoleasing,Transportation,-146.73,CHF,12952.45
+2025-11-18,Coop,Groceries,-63.14,CHF,12889.31
+2025-11-18,Sushi Restaurant,Food,-59.38,CHF,12829.93
+2025-11-18,Swisscom Internet,Utilities,-42.50,CHF,12787.43
+2025-11-18,Media Markt,Shopping,-75.19,CHF,12712.24
+2025-11-21,Media Markt,Shopping,-198.78,CHF,12513.46
+2025-11-22,Hypothekarzins,Housing,-2100.00,CHF,10413.46
+2025-11-25,Tech AG Lohnzahlung,Income,9176.07,CHF,19589.53
+2025-11-25,Tech AG 13. Monatslohn,Income,9200.00,CHF,28789.53
+2025-11-26,Konzert Ticketcorner,Entertainment,-61.25,CHF,28728.28
+2025-11-28,Sushi Restaurant,Food,-42.05,CHF,28686.23
+2025-11-28,Konzert Ticketcorner,Entertainment,-146.64,CHF,28539.59
+2025-11-29,Garage Autoleasing,Transportation,-169.82,CHF,28369.77
+2025-11-30,Aldi Suisse,Groceries,-158.06,CHF,28211.71
+2025-12-01,Digitec Galaxus,Shopping,-145.74,CHF,28065.97
+2025-12-02,Sushi Restaurant,Food,-52.82,CHF,28013.15
+2025-12-06,Media Markt,Shopping,-115.52,CHF,27897.63
+2025-12-09,Restaurant Migros,Food,-45.90,CHF,27851.73
+2025-12-09,Migrol Tankstelle,Transportation,-266.29,CHF,27585.44
+2025-12-09,Date Night Restaurant,Entertainment,-58.58,CHF,27526.86
+2025-12-10,Coop,Groceries,-121.05,CHF,27405.81
+2025-12-11,Coop,Groceries,-96.02,CHF,27309.79
+2025-12-13,Konzert Ticketcorner,Entertainment,-72.28,CHF,27237.51
+2025-12-14,Bistro Zürich,Food,-17.55,CHF,27219.96
+2025-12-15,Säule 3a Einzahlung,Retirement,-400.00,CHF,26819.96
+2025-12-16,Bistro Zürich,Food,-46.43,CHF,26773.53
+2025-12-19,Hypothekarzins,Housing,-2100.00,CHF,24673.53
+2025-12-19,Migrol Tankstelle,Transportation,-337.12,CHF,24336.41
+2025-12-19,Digitec Galaxus,Shopping,-135.00,CHF,24201.41
+2025-12-21,Swisscom Internet,Utilities,-104.59,CHF,24096.82
+2025-12-23,Migros,Groceries,-64.24,CHF,24032.58
+2025-12-25,Tech AG Lohnzahlung,Income,9219.12,CHF,33251.70
+2025-12-25,Sushi Restaurant,Food,-55.98,CHF,33195.72
+2025-12-26,Sushi Restaurant,Food,-21.42,CHF,33174.30
+2025-12-26,iCloud Speicher,Subscriptions,-15.51,CHF,33158.79
+2025-12-26,iCloud Speicher,Subscriptions,-18.14,CHF,33140.65
+2025-12-28,Migrol Tankstelle,Transportation,-418.36,CHF,32722.29
+2025-12-29,Migros,Groceries,-146.17,CHF,32576.12
+2025-12-29,Wasserwerk,Utilities,-126.42,CHF,32449.70
+2025-12-30,EWZ Strom,Utilities,-60.66,CHF,32389.04
+2026-01-02,Sushi Restaurant,Food,-21.23,CHF,32367.81
+2026-01-03,Bistro Zürich,Food,-40.77,CHF,32327.04
+2026-01-05,Swisscom Internet,Utilities,-56.85,CHF,32270.19
+2026-01-07,EWZ Strom,Utilities,-116.85,CHF,32153.34
+2026-01-07,Garage Autoleasing,Transportation,-257.66,CHF,31895.68
+2026-01-07,Media Markt,Shopping,-182.98,CHF,31712.70
+2026-01-09,Hypothekarzins,Housing,-2100.00,CHF,29612.70
+2026-01-11,Sushi Restaurant,Food,-22.85,CHF,29589.85
+2026-01-11,Media Markt,Shopping,-166.61,CHF,29423.24
+2026-01-12,Bistro Zürich,Food,-34.29,CHF,29388.95
+2026-01-12,Säule 3a Einzahlung,Retirement,-400.00,CHF,28988.95
+2026-01-13,Date Night Restaurant,Entertainment,-110.31,CHF,28878.64
+2026-01-14,Aldi Suisse,Groceries,-123.43,CHF,28755.21
+2026-01-14,iCloud Speicher,Subscriptions,-9.68,CHF,28745.53
+2026-01-16,Restaurant Migros,Food,-63.73,CHF,28681.80
+2026-01-16,NZZ Abo,Subscriptions,-12.89,CHF,28668.91
+2026-01-17,Aldi Suisse,Groceries,-98.62,CHF,28570.29
+2026-01-19,Bistro Zürich,Food,-30.21,CHF,28540.08
+2026-01-19,Garage Autoleasing,Transportation,-272.96,CHF,28267.12
+2026-01-21,Media Markt,Shopping,-116.65,CHF,28150.47
+2026-01-22,Aldi Suisse,Groceries,-115.93,CHF,28034.54
+2026-01-25,Tech AG Lohnzahlung,Income,9223.13,CHF,37257.67
+2026-01-25,Date Night Restaurant,Entertainment,-116.85,CHF,37140.82
+2026-01-27,Migrol Tankstelle,Transportation,-413.78,CHF,36727.04
+2026-01-29,Wasserwerk,Utilities,-57.07,CHF,36669.97
+2026-01-31,Migros,Groceries,-141.15,CHF,36528.82
+2026-02-01,Aldi Suisse,Groceries,-138.84,CHF,36389.98
+2026-02-02,Wasserwerk,Utilities,-120.98,CHF,36269.00
+2026-02-02,Jumbo,Shopping,-94.99,CHF,36174.01
+2026-02-06,Bistro Zürich,Food,-17.15,CHF,36156.86
+2026-02-06,Wasserwerk,Utilities,-117.86,CHF,36039.00
+2026-02-06,Swisscom Internet,Utilities,-78.10,CHF,35960.90
+2026-02-07,Garage Autoleasing,Transportation,-370.71,CHF,35590.19
+2026-02-08,Säule 3a Einzahlung,Retirement,-400.00,CHF,35190.19
+2026-02-10,Migros,Groceries,-103.74,CHF,35086.45
+2026-02-10,Media Markt,Shopping,-61.30,CHF,35025.15
+2026-02-10,Date Night Restaurant,Entertainment,-133.54,CHF,34891.61
+2026-02-11,Aldi Suisse,Groceries,-62.01,CHF,34829.60
+2026-02-11,Sushi Restaurant,Food,-36.43,CHF,34793.17
+2026-02-13,Restaurant Migros,Food,-54.76,CHF,34738.41
+2026-02-13,Sushi Restaurant,Food,-46.83,CHF,34691.58
+2026-02-14,Hypothekarzins,Housing,-2100.00,CHF,32591.58
+2026-02-15,iCloud Speicher,Subscriptions,-10.60,CHF,32580.98
+2026-02-17,Migros,Groceries,-90.30,CHF,32490.68
+2026-02-18,Restaurant Migros,Food,-15.17,CHF,32475.51
+2026-02-18,Migrol Tankstelle,Transportation,-242.85,CHF,32232.66
+2026-02-20,Restaurant Migros,Food,-47.51,CHF,32185.15
+2026-02-21,Digitec Galaxus,Shopping,-190.91,CHF,31994.24
+2026-02-25,Tech AG Lohnzahlung,Income,9120.06,CHF,41114.30
+2026-02-26,Garage Autoleasing,Transportation,-154.88,CHF,40959.42
+2026-02-27,Konzert Ticketcorner,Entertainment,-87.94,CHF,40871.48
+2026-02-28,Netflix,Subscriptions,-9.33,CHF,40862.15
+2026-03-01,NZZ Abo,Subscriptions,-5.21,CHF,40856.94
+2026-03-02,Swisscom Internet,Utilities,-72.10,CHF,40784.84
+2026-03-03,Sushi Restaurant,Food,-55.16,CHF,40729.68
+2026-03-04,Wasserwerk,Utilities,-48.34,CHF,40681.34
+2026-03-05,Hypothekarzins,Housing,-2100.00,CHF,38581.34
+2026-03-05,Aldi Suisse,Groceries,-66.01,CHF,38515.33
+2026-03-06,Jumbo,Shopping,-172.37,CHF,38342.96
+2026-03-09,Coop,Groceries,-133.80,CHF,38209.16
+2026-03-10,NZZ Abo,Subscriptions,-16.21,CHF,38192.95
+2026-03-11,Aldi Suisse,Groceries,-106.63,CHF,38086.32
+2026-03-11,Date Night Restaurant,Entertainment,-84.61,CHF,38001.71
+2026-03-12,Säule 3a Einzahlung,Retirement,-400.00,CHF,37601.71
+2026-03-13,Jumbo,Shopping,-123.03,CHF,37478.68
+2026-03-14,Restaurant Migros,Food,-17.65,CHF,37461.03
+2026-03-14,Bistro Zürich,Food,-62.51,CHF,37398.52
+2026-03-15,Sushi Restaurant,Food,-15.90,CHF,37382.62
+2026-03-15,Konzert Ticketcorner,Entertainment,-79.93,CHF,37302.69
+2026-03-16,Bistro Zürich,Food,-53.00,CHF,37249.69
+2026-03-18,Restaurant Migros,Food,-28.50,CHF,37221.19
+2026-03-18,Garage Autoleasing,Transportation,-384.81,CHF,36836.38
+2026-03-21,Garage Autoleasing,Transportation,-231.68,CHF,36604.70
+2026-03-22,Media Markt,Shopping,-162.32,CHF,36442.38
+2026-03-24,EWZ Strom,Utilities,-100.80,CHF,36341.58
+2026-03-25,Tech AG Lohnzahlung,Income,9110.42,CHF,45452.00
+2026-03-30,Aldi Suisse,Groceries,-95.26,CHF,45356.74
+2026-03-31,Garage Autoleasing,Transportation,-350.44,CHF,45006.30
+2026-04-01,iCloud Speicher,Subscriptions,-8.06,CHF,44998.24
+2026-04-03,Swisscom Internet,Utilities,-58.91,CHF,44939.33
+2026-04-06,Säule 3a Einzahlung,Retirement,-400.00,CHF,44539.33
+2026-04-08,Jumbo,Shopping,-105.56,CHF,44433.77
+2026-04-09,Migros,Groceries,-122.80,CHF,44310.97
+2026-04-11,Wasserwerk,Utilities,-79.26,CHF,44231.71
+2026-04-12,Migros,Groceries,-78.52,CHF,44153.19
+2026-04-12,Restaurant Migros,Food,-63.44,CHF,44089.75
+2026-04-12,Media Markt,Shopping,-166.29,CHF,43923.46
+2026-04-14,Konzert Ticketcorner,Entertainment,-128.41,CHF,43795.05
+2026-04-15,Restaurant Migros,Food,-49.53,CHF,43745.52
+2026-04-16,Hypothekarzins,Housing,-2100.00,CHF,41645.52
+2026-04-18,Digitec Galaxus,Shopping,-91.07,CHF,41554.45
+2026-04-18,Netflix,Subscriptions,-5.31,CHF,41549.14
+2026-04-19,Coop,Groceries,-120.15,CHF,41428.99
+2026-04-22,Migros,Groceries,-62.13,CHF,41366.86
+2026-04-22,Restaurant Migros,Food,-57.49,CHF,41309.37
+2026-04-22,Migrol Tankstelle,Transportation,-226.53,CHF,41082.84
+2026-04-24,Wasserwerk,Utilities,-125.98,CHF,40956.86
+2026-04-24,Migrol Tankstelle,Transportation,-282.76,CHF,40674.10
+2026-04-25,Tech AG Lohnzahlung,Income,9262.09,CHF,49936.19
+2026-04-25,Migrol Tankstelle,Transportation,-328.49,CHF,49607.70
+2026-04-26,Sushi Restaurant,Food,-58.52,CHF,49549.18
+2026-04-26,Sushi Restaurant,Food,-33.82,CHF,49515.36
+2026-04-29,Bistro Zürich,Food,-16.40,CHF,49498.96
+2026-04-30,Date Night Restaurant,Entertainment,-105.27,CHF,49393.69
+2026-05-02,Garage Autoleasing,Transportation,-349.77,CHF,49043.92
+2026-05-02,Netflix,Subscriptions,-12.35,CHF,49031.57
+2026-05-03,EWZ Strom,Utilities,-99.89,CHF,48931.68
+2026-05-04,Coop,Groceries,-137.23,CHF,48794.45
+2026-05-07,Migrol Tankstelle,Transportation,-338.31,CHF,48456.14
+2026-05-07,Konzert Ticketcorner,Entertainment,-74.99,CHF,48381.15
+2026-05-08,Sushi Restaurant,Food,-53.72,CHF,48327.43
+2026-05-09,Migros,Groceries,-90.04,CHF,48237.39
+2026-05-09,Jumbo,Shopping,-169.56,CHF,48067.83
+2026-05-10,Aldi Suisse,Groceries,-110.00,CHF,47957.83
+2026-05-11,Wasserwerk,Utilities,-50.73,CHF,47907.10
+2026-05-11,Date Night Restaurant,Entertainment,-73.61,CHF,47833.49
+2026-05-15,Wasserwerk,Utilities,-119.85,CHF,47713.64
+2026-05-17,Sushi Restaurant,Food,-19.59,CHF,47694.05
+2026-05-17,Migrol Tankstelle,Transportation,-279.38,CHF,47414.67
+2026-05-17,Säule 3a Einzahlung,Retirement,-400.00,CHF,47014.67
+2026-05-19,Coop,Groceries,-128.37,CHF,46886.30
+2026-05-19,Restaurant Migros,Food,-41.60,CHF,46844.70
+2026-05-22,Sushi Restaurant,Food,-59.02,CHF,46785.68
+2026-05-23,Sushi Restaurant,Food,-15.25,CHF,46770.43
+2026-05-23,Media Markt,Shopping,-95.76,CHF,46674.67
+2026-05-24,Jumbo,Shopping,-157.97,CHF,46516.70
+2026-05-25,Tech AG Lohnzahlung,Income,9155.72,CHF,55672.42
+2026-05-27,Sushi Restaurant,Food,-16.17,CHF,55656.25
+2026-05-28,Hypothekarzins,Housing,-2100.00,CHF,53556.25
+2026-05-31,NZZ Abo,Subscriptions,-16.78,CHF,53539.47
+2026-06-02,Restaurant Migros,Food,-64.81,CHF,53474.66
+2026-06-04,Migros,Groceries,-120.07,CHF,53354.59
+2026-06-04,Restaurant Migros,Food,-48.68,CHF,53305.91
+2026-06-04,Sushi Restaurant,Food,-42.72,CHF,53263.19
+2026-06-05,Migrol Tankstelle,Transportation,-220.22,CHF,53042.97
+2026-06-06,Digitec Galaxus,Shopping,-150.82,CHF,52892.15
+2026-06-07,Konzert Ticketcorner,Entertainment,-82.32,CHF,52809.83
+2026-06-08,Aldi Suisse,Groceries,-92.78,CHF,52717.05
+2026-06-10,Sushi Restaurant,Food,-43.95,CHF,52673.10
+2026-06-10,Migrol Tankstelle,Transportation,-404.63,CHF,52268.47
+2026-06-14,Coop,Groceries,-124.95,CHF,52143.52
+2026-06-14,Netflix,Subscriptions,-18.57,CHF,52124.95
+2026-06-17,Sushi Restaurant,Food,-41.45,CHF,52083.50
+2026-06-18,Hypothekarzins,Housing,-2100.00,CHF,49983.50
+2026-06-20,Migrol Tankstelle,Transportation,-391.32,CHF,49592.18
+2026-06-20,Säule 3a Einzahlung,Retirement,-400.00,CHF,49192.18
+2026-06-20,Netflix,Subscriptions,-13.19,CHF,49178.99
+2026-06-22,Migros,Groceries,-143.35,CHF,49035.64
+2026-06-22,Wasserwerk,Utilities,-100.30,CHF,48935.34
+2026-06-22,Media Markt,Shopping,-142.30,CHF,48793.04
+2026-06-23,Wasserwerk,Utilities,-73.68,CHF,48719.36
+2026-06-24,Date Night Restaurant,Entertainment,-71.87,CHF,48647.49
+2026-06-25,Tech AG Lohnzahlung,Income,9151.12,CHF,57798.61
+2026-06-25,Swisscom Internet,Utilities,-80.54,CHF,57718.07
+2026-06-27,Jumbo,Shopping,-109.38,CHF,57608.69
+2026-06-30,Restaurant Migros,Food,-42.67,CHF,57566.02
+2026-07-02,Coop,Groceries,-112.96,CHF,57453.06
+2026-07-08,Restaurant Migros,Food,-64.92,CHF,57388.14
+2026-07-08,Restaurant Migros,Food,-37.71,CHF,57350.43
+2026-07-08,Garage Autoleasing,Transportation,-234.73,CHF,57115.70
+2026-07-09,iCloud Speicher,Subscriptions,-8.71,CHF,57106.99
+2026-07-11,Garage Autoleasing,Transportation,-168.13,CHF,56938.86
+2026-07-12,Bistro Zürich,Food,-44.97,CHF,56893.89
+2026-07-14,iCloud Speicher,Subscriptions,-15.84,CHF,56878.05
+2026-07-15,Coop,Groceries,-87.06,CHF,56790.99
+2026-07-15,Jumbo,Shopping,-109.30,CHF,56681.69
+2026-07-18,Sushi Restaurant,Food,-35.91,CHF,56645.78
+2026-07-18,Garage Autoleasing,Transportation,-52.09,CHF,56593.69
+2026-07-18,Date Night Restaurant,Entertainment,-135.26,CHF,56458.43
+2026-07-19,Sushi Restaurant,Food,-24.02,CHF,56434.41
+2026-07-19,EWZ Strom,Utilities,-88.26,CHF,56346.15
+2026-07-22,Hypothekarzins,Housing,-2100.00,CHF,54246.15
+2026-07-22,Wasserwerk,Utilities,-84.45,CHF,54161.70
+2026-07-24,Aldi Suisse,Groceries,-125.02,CHF,54036.68
+2026-07-25,Tech AG Lohnzahlung,Income,9291.20,CHF,63327.88
+2026-07-25,Bistro Zürich,Food,-62.13,CHF,63265.75
+2026-07-27,Säule 3a Einzahlung,Retirement,-400.00,CHF,62865.75
+2026-07-27,Digitec Galaxus,Shopping,-166.23,CHF,62699.52
+2026-07-29,Digitec Galaxus,Shopping,-134.07,CHF,62565.45
+2026-07-31,Migros,Groceries,-76.93,CHF,62488.52
+2026-07-31,Swisscom Internet,Utilities,-126.52,CHF,62362.00
+2026-07-31,Date Night Restaurant,Entertainment,-69.11,CHF,62292.89
+2026-08-02,Säule 3a Einzahlung,Retirement,-400.00,CHF,61892.89
+2026-08-03,Migros,Groceries,-140.63,CHF,61752.26
+2026-08-05,Migrol Tankstelle,Transportation,-75.19,CHF,61677.07
+2026-08-06,NZZ Abo,Subscriptions,-18.69,CHF,61658.38
+2026-08-08,Bistro Zürich,Food,-63.65,CHF,61594.73
+2026-08-10,Swisscom Internet,Utilities,-101.07,CHF,61493.66
+2026-08-11,Digitec Galaxus,Shopping,-126.71,CHF,61366.95
+2026-08-12,Digitec Galaxus,Shopping,-30.28,CHF,61336.67
+2026-08-13,Digitec Galaxus,Shopping,-163.77,CHF,61172.90
+2026-08-14,Restaurant Migros,Food,-49.54,CHF,61123.36
+2026-08-14,NZZ Abo,Subscriptions,-5.56,CHF,61117.80
+2026-08-16,Bistro Zürich,Food,-22.81,CHF,61094.99
+2026-08-19,Migros,Groceries,-72.97,CHF,61022.02
+2026-08-19,Date Night Restaurant,Entertainment,-142.03,CHF,60879.99
+2026-08-20,Hypothekarzins,Housing,-2100.00,CHF,58779.99
+2026-08-22,Restaurant Migros,Food,-61.20,CHF,58718.79
+2026-08-23,Garage Autoleasing,Transportation,-74.99,CHF,58643.80
+2026-08-24,Swisscom Internet,Utilities,-56.38,CHF,58587.42
+2026-08-24,EWZ Strom,Utilities,-96.78,CHF,58490.64
+2026-08-25,Tech AG Lohnzahlung,Income,9194.53,CHF,67685.17
+2026-08-25,Date Night Restaurant,Entertainment,-148.31,CHF,67536.86
+2026-08-26,Migrol Tankstelle,Transportation,-121.91,CHF,67414.95
+2026-08-27,Coop,Groceries,-143.85,CHF,67271.10
+2026-08-27,Sushi Restaurant,Food,-52.37,CHF,67218.73
+2026-08-28,Aldi Suisse,Groceries,-87.86,CHF,67130.87
+2026-08-29,Sushi Restaurant,Food,-59.38,CHF,67071.49
+2026-09-01,Konzert Ticketcorner,Entertainment,-68.46,CHF,67003.03
+2026-09-01,Date Night Restaurant,Entertainment,-122.24,CHF,66880.79
+2026-09-02,Säule 3a Einzahlung,Retirement,-400.00,CHF,66480.79
+2026-09-04,EWZ Strom,Utilities,-123.87,CHF,66356.92
+2026-09-05,Migros,Groceries,-79.96,CHF,66276.96
+2026-09-05,iCloud Speicher,Subscriptions,-16.15,CHF,66260.81
+2026-09-06,Hotel Resort Mallorca,Travel,-205.30,CHF,66055.51
+2026-09-09,Sushi Restaurant,Food,-52.60,CHF,66002.91
+2026-09-11,Hypothekarzins,Housing,-2100.00,CHF,63902.91
+2026-09-14,Migrol Tankstelle,Transportation,-307.14,CHF,63595.77
+2026-09-14,Migrol Tankstelle,Transportation,-74.23,CHF,63521.54
+2026-09-16,Migrol Tankstelle,Transportation,-163.43,CHF,63358.11
+2026-09-17,Restaurant Migros,Food,-62.53,CHF,63295.58
+2026-09-17,iCloud Speicher,Subscriptions,-16.26,CHF,63279.32
+2026-09-19,Migros,Groceries,-100.95,CHF,63178.37
+2026-09-19,Sushi Restaurant,Food,-40.78,CHF,63137.59
+2026-09-21,Migros,Groceries,-101.69,CHF,63035.90
+2026-09-22,Migros,Groceries,-87.12,CHF,62948.78
+2026-09-22,Restaurant Migros,Food,-39.18,CHF,62909.60
+2026-09-22,Sushi Restaurant,Food,-57.91,CHF,62851.69
+2026-09-22,Bistro Zürich,Food,-49.56,CHF,62802.13
+2026-09-22,EWZ Strom,Utilities,-98.98,CHF,62703.15
+2026-09-22,Swisscom Internet,Utilities,-69.84,CHF,62633.31
+2026-09-22,Digitec Galaxus,Shopping,-140.35,CHF,62492.96
+2026-09-22,Digitec Galaxus,Shopping,-38.30,CHF,62454.66
+2026-09-22,Jumbo,Shopping,-139.57,CHF,62315.09

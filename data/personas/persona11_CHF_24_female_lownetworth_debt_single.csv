@@ -1,0 +1,252 @@
+date,description,category,amount,currency,balance
+2025-09-22,Too Good To Go Nebenjob,Income,604.70,CHF,1104.70
+2025-09-22,Too Good To Go Nebenjob,Income,410.80,CHF,1515.50
+2025-09-22,WG-Zimmer Miete,Housing,-444.15,CHF,1071.35
+2025-09-22,Denner,Groceries,-19.25,CHF,1052.10
+2025-09-22,Denner,Groceries,-23.91,CHF,1028.19
+2025-09-22,Migros Take Away,Food,-6.79,CHF,1021.40
+2025-09-22,Kebab Haus,Food,-10.00,CHF,1011.40
+2025-09-22,McDonald's,Food,-13.49,CHF,997.91
+2025-09-22,Konsumkredit Rate,Debt Repayment,-71.01,CHF,926.90
+2025-09-22,Kreditkarte Mindestzahlung,Debt Repayment,-113.40,CHF,813.50
+2025-09-22,Salt Prepaid Aufladung,Phone/Utilities,-28.79,CHF,784.71
+2025-09-22,Bancomat Bezug,Misc,-18.15,CHF,766.56
+2025-09-24,Lidl Schweiz,Groceries,-15.33,CHF,751.23
+2025-09-25,McDonald's,Food,-8.46,CHF,742.77
+2025-09-27,FlixBus Ticket,Travel,-34.62,CHF,708.15
+2025-09-28,Randstad Lohnzahlung,Income,635.86,CHF,1344.01
+2025-09-28,Denner,Groceries,-27.32,CHF,1316.69
+2025-09-29,Migros Take Away,Food,-7.24,CHF,1309.45
+2025-09-29,TWINT Transfer,Misc,-19.26,CHF,1290.19
+2025-09-30,Migros Take Away,Food,-13.93,CHF,1276.26
+2025-10-03,Too Good To Go Nebenjob,Income,623.22,CHF,1899.48
+2025-10-03,Lidl Schweiz,Groceries,-22.24,CHF,1877.24
+2025-10-04,Adecco Temporärbüro Auszahlung,Income,567.96,CHF,2445.20
+2025-10-04,McDonald's,Food,-12.22,CHF,2432.98
+2025-10-06,Konsumkredit Rate,Debt Repayment,-90.80,CHF,2342.18
+2025-10-10,Denner,Groceries,-22.38,CHF,2319.80
+2025-10-11,WG-Zimmer Miete,Housing,-483.03,CHF,1836.77
+2025-10-11,Denner,Groceries,-28.14,CHF,1808.63
+2025-10-13,McDonald's,Food,-10.50,CHF,1798.13
+2025-10-15,Kebab Haus,Food,-6.97,CHF,1791.16
+2025-10-15,Kebab Haus,Food,-8.26,CHF,1782.90
+2025-10-17,Bancomat Bezug,Misc,-39.39,CHF,1743.51
+2025-10-19,Denner,Groceries,-15.70,CHF,1727.81
+2025-10-21,Adecco Temporärbüro Auszahlung,Income,668.38,CHF,2396.19
+2025-10-22,Salt Prepaid Aufladung,Phone/Utilities,-25.85,CHF,2370.34
+2025-10-24,Kreditkarte Mindestzahlung,Debt Repayment,-87.02,CHF,2283.32
+2025-10-25,Bancomat Bezug,Misc,-17.18,CHF,2266.14
+2025-10-29,Migros Take Away,Food,-10.03,CHF,2256.11
+2025-10-30,Kebab Haus,Food,-12.18,CHF,2243.93
+2025-11-01,Denner,Groceries,-26.97,CHF,2216.96
+2025-11-02,Randstad Lohnzahlung,Income,657.26,CHF,2874.22
+2025-11-02,Salt Prepaid Aufladung,Phone/Utilities,-28.73,CHF,2845.49
+2025-11-02,Bancomat Bezug,Misc,-28.85,CHF,2816.64
+2025-11-03,WG-Zimmer Miete,Housing,-420.87,CHF,2395.77
+2025-11-04,Kreditkarte Mindestzahlung,Debt Repayment,-101.26,CHF,2294.51
+2025-11-09,Kebab Haus,Food,-14.10,CHF,2280.41
+2025-11-09,Bancomat Bezug,Misc,-17.79,CHF,2262.62
+2025-11-11,Denner,Groceries,-17.73,CHF,2244.89
+2025-11-11,Konsumkredit Rate,Debt Repayment,-139.32,CHF,2105.57
+2025-11-12,Denner,Groceries,-29.02,CHF,2076.55
+2025-11-12,Kebab Haus,Food,-10.05,CHF,2066.50
+2025-11-13,Migros Take Away,Food,-14.80,CHF,2051.70
+2025-11-15,Too Good To Go Nebenjob,Income,692.35,CHF,2744.05
+2025-11-15,Migros Take Away,Food,-8.42,CHF,2735.63
+2025-11-16,Lidl Schweiz,Groceries,-16.35,CHF,2719.28
+2025-11-18,Migros Take Away,Food,-14.77,CHF,2704.51
+2025-11-21,Adecco Temporärbüro Auszahlung,Income,394.50,CHF,3099.01
+2025-11-25,Kebab Haus,Food,-7.75,CHF,3091.26
+2025-11-27,Adecco Temporärbüro Auszahlung,Income,617.03,CHF,3708.29
+2025-12-01,Randstad Lohnzahlung,Income,766.87,CHF,4475.16
+2025-12-03,Bancomat Bezug,Misc,-32.67,CHF,4442.49
+2025-12-04,TWINT Transfer,Misc,-16.68,CHF,4425.81
+2025-12-05,McDonald's,Food,-15.00,CHF,4410.81
+2025-12-06,McDonald's,Food,-10.33,CHF,4400.48
+2025-12-07,Too Good To Go Nebenjob,Income,827.74,CHF,5228.22
+2025-12-07,Konsumkredit Rate,Debt Repayment,-100.43,CHF,5127.79
+2025-12-12,WG-Zimmer Miete,Housing,-437.17,CHF,4690.62
+2025-12-12,Lidl Schweiz,Groceries,-16.70,CHF,4673.92
+2025-12-15,Migros Take Away,Food,-14.46,CHF,4659.46
+2025-12-17,McDonald's,Food,-13.40,CHF,4646.06
+2025-12-18,Denner,Groceries,-22.36,CHF,4623.70
+2025-12-26,Lidl Schweiz,Groceries,-34.27,CHF,4589.43
+2025-12-26,Migros Take Away,Food,-14.16,CHF,4575.27
+2025-12-26,Konsumkredit Rate,Debt Repayment,-126.24,CHF,4449.03
+2025-12-28,Kebab Haus,Food,-5.64,CHF,4443.39
+2025-12-29,Denner,Groceries,-33.72,CHF,4409.67
+2025-12-29,Salt Prepaid Aufladung,Phone/Utilities,-23.36,CHF,4386.31
+2025-12-31,Mahngebühr,Fees,-14.80,CHF,4371.51
+2026-01-01,Randstad Lohnzahlung,Income,697.47,CHF,5068.98
+2026-01-06,McDonald's,Food,-10.23,CHF,5058.75
+2026-01-08,Randstad Lohnzahlung,Income,684.18,CHF,5742.93
+2026-01-09,Migros Take Away,Food,-8.12,CHF,5734.81
+2026-01-15,Migros Take Away,Food,-10.27,CHF,5724.54
+2026-01-16,TWINT Transfer,Misc,-20.62,CHF,5703.92
+2026-01-19,Too Good To Go Nebenjob,Income,805.46,CHF,6509.38
+2026-01-19,WG-Zimmer Miete,Housing,-448.37,CHF,6061.01
+2026-01-19,Denner,Groceries,-15.25,CHF,6045.76
+2026-01-20,Lidl Schweiz,Groceries,-28.25,CHF,6017.51
+2026-01-21,TWINT Transfer,Misc,-39.44,CHF,5978.07
+2026-01-23,Kebab Haus,Food,-5.86,CHF,5972.21
+2026-01-24,Kreditkarte Mindestzahlung,Debt Repayment,-124.30,CHF,5847.91
+2026-01-25,Salt Prepaid Aufladung,Phone/Utilities,-23.66,CHF,5824.25
+2026-01-27,McDonald's,Food,-12.29,CHF,5811.96
+2026-01-27,Kreditkarte Mindestzahlung,Debt Repayment,-143.38,CHF,5668.58
+2026-01-28,Denner,Groceries,-32.15,CHF,5636.43
+2026-01-28,Denner,Groceries,-25.00,CHF,5611.43
+2026-01-31,McDonald's,Food,-13.45,CHF,5597.98
+2026-02-01,Kebab Haus,Food,-10.38,CHF,5587.60
+2026-02-06,WG-Zimmer Miete,Housing,-462.72,CHF,5124.88
+2026-02-07,Kebab Haus,Food,-9.11,CHF,5115.77
+2026-02-09,Too Good To Go Nebenjob,Income,544.07,CHF,5659.84
+2026-02-10,Too Good To Go Nebenjob,Income,317.85,CHF,5977.69
+2026-02-11,Too Good To Go Nebenjob,Income,754.79,CHF,6732.48
+2026-02-14,Lidl Schweiz,Groceries,-29.56,CHF,6702.92
+2026-02-15,Denner,Groceries,-24.25,CHF,6678.67
+2026-02-17,Migros Take Away,Food,-7.73,CHF,6670.94
+2026-02-17,Migros Take Away,Food,-5.05,CHF,6665.89
+2026-02-17,McDonald's,Food,-14.17,CHF,6651.72
+2026-02-18,Konsumkredit Rate,Debt Repayment,-119.48,CHF,6532.24
+2026-02-21,Lidl Schweiz,Groceries,-17.31,CHF,6514.93
+2026-02-24,Lidl Schweiz,Groceries,-28.88,CHF,6486.05
+2026-02-24,Salt Prepaid Aufladung,Phone/Utilities,-33.64,CHF,6452.41
+2026-02-24,Bancomat Bezug,Misc,-14.00,CHF,6438.41
+2026-02-25,Kreditkarte Mindestzahlung,Debt Repayment,-68.15,CHF,6370.26
+2026-02-26,Bancomat Bezug,Misc,-13.59,CHF,6356.67
+2026-02-27,Randstad Lohnzahlung,Income,349.92,CHF,6706.59
+2026-02-28,McDonald's,Food,-6.41,CHF,6700.18
+2026-03-03,Konsumkredit Rate,Debt Repayment,-129.73,CHF,6570.45
+2026-03-05,Migros Take Away,Food,-8.40,CHF,6562.05
+2026-03-09,Lidl Schweiz,Groceries,-32.93,CHF,6529.12
+2026-03-09,Migros Take Away,Food,-7.46,CHF,6521.66
+2026-03-12,TWINT Transfer,Misc,-14.60,CHF,6507.06
+2026-03-13,Randstad Lohnzahlung,Income,364.68,CHF,6871.74
+2026-03-13,Adecco Temporärbüro Auszahlung,Income,340.10,CHF,7211.84
+2026-03-15,Migros Take Away,Food,-9.14,CHF,7202.70
+2026-03-16,Denner,Groceries,-15.45,CHF,7187.25
+2026-03-16,Lidl Schweiz,Groceries,-30.60,CHF,7156.65
+2026-03-16,Konsumkredit Rate,Debt Repayment,-60.09,CHF,7096.56
+2026-03-17,Denner,Groceries,-15.60,CHF,7080.96
+2026-03-17,Kebab Haus,Food,-8.17,CHF,7072.79
+2026-03-19,Kebab Haus,Food,-6.22,CHF,7066.57
+2026-03-23,McDonald's,Food,-6.67,CHF,7059.90
+2026-03-24,Bancomat Bezug,Misc,-17.74,CHF,7042.16
+2026-03-27,WG-Zimmer Miete,Housing,-461.04,CHF,6581.12
+2026-03-27,Salt Prepaid Aufladung,Phone/Utilities,-23.68,CHF,6557.44
+2026-04-01,Adecco Temporärbüro Auszahlung,Income,428.10,CHF,6985.54
+2026-04-01,Kebab Haus,Food,-14.25,CHF,6971.29
+2026-04-01,Migros Take Away,Food,-11.87,CHF,6959.42
+2026-04-02,Kebab Haus,Food,-6.94,CHF,6952.48
+2026-04-09,Konsumkredit Rate,Debt Repayment,-144.47,CHF,6808.01
+2026-04-13,Too Good To Go Nebenjob,Income,551.87,CHF,7359.88
+2026-04-13,Denner,Groceries,-28.32,CHF,7331.56
+2026-04-14,Salt Prepaid Aufladung,Phone/Utilities,-26.84,CHF,7304.72
+2026-04-14,Bancomat Bezug,Misc,-29.61,CHF,7275.11
+2026-04-16,Too Good To Go Nebenjob,Income,525.28,CHF,7800.39
+2026-04-16,Lidl Schweiz,Groceries,-32.83,CHF,7767.56
+2026-04-16,McDonald's,Food,-6.05,CHF,7761.51
+2026-04-21,Too Good To Go Nebenjob,Income,419.09,CHF,8180.60
+2026-04-21,WG-Zimmer Miete,Housing,-494.04,CHF,7686.56
+2026-04-22,Denner,Groceries,-27.24,CHF,7659.32
+2026-04-23,Kebab Haus,Food,-12.79,CHF,7646.53
+2026-04-24,McDonald's,Food,-8.55,CHF,7637.98
+2026-04-25,Lidl Schweiz,Groceries,-33.11,CHF,7604.87
+2026-04-25,Bancomat Bezug,Misc,-32.38,CHF,7572.49
+2026-04-29,Kreditkarte Mindestzahlung,Debt Repayment,-112.40,CHF,7460.09
+2026-05-01,Adecco Temporärbüro Auszahlung,Income,878.45,CHF,8338.54
+2026-05-05,Adecco Temporärbüro Auszahlung,Income,447.83,CHF,8786.37
+2026-05-05,Lidl Schweiz,Groceries,-17.69,CHF,8768.68
+2026-05-11,Randstad Lohnzahlung,Income,352.29,CHF,9120.97
+2026-05-11,Bancomat Bezug,Misc,-12.36,CHF,9108.61
+2026-05-12,Salt Prepaid Aufladung,Phone/Utilities,-27.92,CHF,9080.69
+2026-05-13,WG-Zimmer Miete,Housing,-488.22,CHF,8592.47
+2026-05-14,TWINT Transfer,Misc,-26.93,CHF,8565.54
+2026-05-16,Mahngebühr,Fees,-22.62,CHF,8542.92
+2026-05-18,Konsumkredit Rate,Debt Repayment,-57.68,CHF,8485.24
+2026-05-19,Denner,Groceries,-33.42,CHF,8451.82
+2026-05-20,Kebab Haus,Food,-6.60,CHF,8445.22
+2026-05-21,McDonald's,Food,-9.13,CHF,8436.09
+2026-05-22,Kreditkarte Mindestzahlung,Debt Repayment,-90.61,CHF,8345.48
+2026-05-23,McDonald's,Food,-6.98,CHF,8338.50
+2026-05-26,Denner,Groceries,-31.12,CHF,8307.38
+2026-05-28,Migros Take Away,Food,-10.10,CHF,8297.28
+2026-05-28,McDonald's,Food,-11.31,CHF,8285.97
+2026-05-29,Denner,Groceries,-19.28,CHF,8266.69
+2026-05-29,Migros Take Away,Food,-9.37,CHF,8257.32
+2026-06-02,Randstad Lohnzahlung,Income,578.96,CHF,8836.28
+2026-06-03,Bancomat Bezug,Misc,-19.30,CHF,8816.98
+2026-06-04,WG-Zimmer Miete,Housing,-410.90,CHF,8406.08
+2026-06-05,Salt Prepaid Aufladung,Phone/Utilities,-30.02,CHF,8376.06
+2026-06-06,Adecco Temporärbüro Auszahlung,Income,709.25,CHF,9085.31
+2026-06-07,McDonald's,Food,-13.51,CHF,9071.80
+2026-06-07,Kebab Haus,Food,-12.78,CHF,9059.02
+2026-06-09,Denner,Groceries,-31.44,CHF,9027.58
+2026-06-11,Kebab Haus,Food,-13.91,CHF,9013.67
+2026-06-15,Denner,Groceries,-24.43,CHF,8989.24
+2026-06-15,Bancomat Bezug,Misc,-18.97,CHF,8970.27
+2026-06-19,Kebab Haus,Food,-13.57,CHF,8956.70
+2026-06-19,Kreditkarte Mindestzahlung,Debt Repayment,-52.28,CHF,8904.42
+2026-06-23,Konsumkredit Rate,Debt Repayment,-61.96,CHF,8842.46
+2026-06-27,Lidl Schweiz,Groceries,-23.28,CHF,8819.18
+2026-06-28,Denner,Groceries,-15.81,CHF,8803.37
+2026-06-29,McDonald's,Food,-6.81,CHF,8796.56
+2026-06-30,Migros Take Away,Food,-12.41,CHF,8784.15
+2026-07-04,Migros Take Away,Food,-9.35,CHF,8774.80
+2026-07-05,Kebab Haus,Food,-13.89,CHF,8760.91
+2026-07-07,McDonald's,Food,-9.03,CHF,8751.88
+2026-07-09,Denner,Groceries,-32.46,CHF,8719.42
+2026-07-09,Kreditkarte Mindestzahlung,Debt Repayment,-94.36,CHF,8625.06
+2026-07-10,Mahngebühr,Fees,-24.50,CHF,8600.56
+2026-07-10,Bancomat Bezug,Misc,-36.45,CHF,8564.11
+2026-07-11,Denner,Groceries,-16.49,CHF,8547.62
+2026-07-13,Randstad Lohnzahlung,Income,369.90,CHF,8917.52
+2026-07-15,FlixBus Ticket,Travel,-55.24,CHF,8862.28
+2026-07-16,TWINT Transfer,Misc,-31.75,CHF,8830.53
+2026-07-17,Too Good To Go Nebenjob,Income,414.41,CHF,9244.94
+2026-07-18,Kebab Haus,Food,-12.90,CHF,9232.04
+2026-07-21,Salt Prepaid Aufladung,Phone/Utilities,-28.73,CHF,9203.31
+2026-07-22,Lidl Schweiz,Groceries,-29.17,CHF,9174.14
+2026-07-23,WG-Zimmer Miete,Housing,-439.16,CHF,8734.98
+2026-07-23,Lidl Schweiz,Groceries,-31.78,CHF,8703.20
+2026-07-24,Migros Take Away,Food,-5.88,CHF,8697.32
+2026-07-25,Too Good To Go Nebenjob,Income,378.58,CHF,9075.90
+2026-07-25,Konsumkredit Rate,Debt Repayment,-69.54,CHF,9006.36
+2026-07-26,Kebab Haus,Food,-5.18,CHF,9001.18
+2026-08-01,Too Good To Go Nebenjob,Income,461.88,CHF,9463.06
+2026-08-04,McDonald's,Food,-12.05,CHF,9451.01
+2026-08-09,Konsumkredit Rate,Debt Repayment,-75.09,CHF,9375.92
+2026-08-10,Adecco Temporärbüro Auszahlung,Income,898.74,CHF,10274.66
+2026-08-11,TWINT Transfer,Misc,-31.28,CHF,10243.38
+2026-08-12,Migros Take Away,Food,-14.11,CHF,10229.27
+2026-08-13,Denner,Groceries,-24.10,CHF,10205.17
+2026-08-16,Kebab Haus,Food,-6.06,CHF,10199.11
+2026-08-18,Konsumkredit Rate,Debt Repayment,-104.05,CHF,10095.06
+2026-08-20,WG-Zimmer Miete,Housing,-449.10,CHF,9645.96
+2026-08-24,Salt Prepaid Aufladung,Phone/Utilities,-27.96,CHF,9618.00
+2026-08-24,Bancomat Bezug,Misc,-19.81,CHF,9598.19
+2026-08-25,Denner,Groceries,-31.59,CHF,9566.60
+2026-08-25,Denner,Groceries,-17.82,CHF,9548.78
+2026-08-25,McDonald's,Food,-8.43,CHF,9540.35
+2026-08-25,McDonald's,Food,-10.52,CHF,9529.83
+2026-08-26,Denner,Groceries,-26.28,CHF,9503.55
+2026-08-27,Kebab Haus,Food,-6.89,CHF,9496.66
+2026-09-03,WG-Zimmer Miete,Housing,-412.64,CHF,9084.02
+2026-09-03,Denner,Groceries,-28.69,CHF,9055.33
+2026-09-04,Lidl Schweiz,Groceries,-23.93,CHF,9031.40
+2026-09-04,Kebab Haus,Food,-7.04,CHF,9024.36
+2026-09-06,Too Good To Go Nebenjob,Income,536.56,CHF,9560.92
+2026-09-10,Kebab Haus,Food,-14.27,CHF,9546.65
+2026-09-11,Migros Take Away,Food,-8.91,CHF,9537.74
+2026-09-11,Bancomat Bezug,Misc,-16.64,CHF,9521.10
+2026-09-15,Kebab Haus,Food,-5.78,CHF,9515.32
+2026-09-16,Kebab Haus,Food,-6.47,CHF,9508.85
+2026-09-19,McDonald's,Food,-5.62,CHF,9503.23
+2026-09-19,Kreditkarte Mindestzahlung,Debt Repayment,-134.64,CHF,9368.59
+2026-09-21,Adecco Temporärbüro Auszahlung,Income,646.18,CHF,10014.77
+2026-09-21,Kreditkarte Mindestzahlung,Debt Repayment,-94.43,CHF,9920.34
+2026-09-22,Denner,Groceries,-24.50,CHF,9895.84
+2026-09-22,Lidl Schweiz,Groceries,-15.22,CHF,9880.62
+2026-09-22,Überziehungszins Gebühr,Fees,-32.43,CHF,9848.19
+2026-09-22,Salt Prepaid Aufladung,Phone/Utilities,-21.93,CHF,9826.26
+2026-09-22,TWINT Transfer,Misc,-39.77,CHF,9786.49

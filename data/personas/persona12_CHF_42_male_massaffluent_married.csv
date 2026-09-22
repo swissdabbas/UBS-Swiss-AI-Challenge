@@ -1,0 +1,270 @@
+date,description,category,amount,currency,balance
+2025-09-22,Hypothekarzins,Housing,-1900.00,CHF,1840.00
+2025-09-22,Migros,Groceries,-92.70,CHF,1747.30
+2025-09-22,Coop,Groceries,-94.28,CHF,1653.02
+2025-09-22,Migros,Groceries,-106.71,CHF,1546.31
+2025-09-22,Coop,Groceries,-98.45,CHF,1447.86
+2025-09-22,EWZ Strom,Utilities,-86.56,CHF,1361.30
+2025-09-22,EWZ Strom,Utilities,-74.07,CHF,1287.23
+2025-09-22,Garage Autoleasing,Transportation,-150.00,CHF,1137.23
+2025-09-22,Garage Autoleasing,Transportation,-69.43,CHF,1067.80
+2025-09-22,Swissquote Einzahlung,Investing,-233.99,CHF,833.81
+2025-09-22,Restaurant Zürich,Food,-44.88,CHF,788.93
+2025-09-22,Pizzeria,Food,-44.94,CHF,743.99
+2025-09-22,Restaurant Zürich,Food,-57.48,CHF,686.51
+2025-09-22,Amazon,Shopping,-69.33,CHF,617.18
+2025-09-23,Swisscom Internet,Utilities,-63.26,CHF,553.92
+2025-09-23,Migros Do It + Garden,Shopping,-69.10,CHF,484.82
+2025-09-25,Firma AG Lohnzahlung,Income,7196.34,CHF,7681.16
+2025-09-25,Krankenkasse Prämie,Insurance,-397.57,CHF,7283.59
+2025-09-25,TUI Suisse Pauschalreise,Travel,-223.71,CHF,7059.88
+2025-09-27,Garage Autoleasing,Transportation,-42.18,CHF,7017.70
+2025-09-29,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,6717.70
+2025-09-30,Restaurant Zürich,Food,-32.72,CHF,6684.98
+2025-10-02,Hypothekarzins,Housing,-1900.00,CHF,4784.98
+2025-10-02,Coop,Groceries,-99.01,CHF,4685.97
+2025-10-02,Hotel Mallorca,Travel,-183.28,CHF,4502.69
+2025-10-03,Restaurant Zürich,Food,-58.39,CHF,4444.30
+2025-10-04,Swisscom Internet,Utilities,-82.08,CHF,4362.22
+2025-10-04,Amazon,Shopping,-40.21,CHF,4322.01
+2025-10-06,Coop,Groceries,-67.02,CHF,4254.99
+2025-10-08,Swisscom Internet,Utilities,-69.64,CHF,4185.35
+2025-10-09,Pizzeria,Food,-51.17,CHF,4134.18
+2025-10-12,Migros,Groceries,-114.19,CHF,4019.99
+2025-10-14,Migrol Tankstelle,Transportation,-208.97,CHF,3811.02
+2025-10-16,Amazon,Shopping,-87.24,CHF,3723.78
+2025-10-17,EWZ Strom,Utilities,-92.24,CHF,3631.54
+2025-10-19,Migrol Tankstelle,Transportation,-280.80,CHF,3350.74
+2025-10-20,Migros,Groceries,-69.24,CHF,3281.50
+2025-10-20,Pizzeria,Food,-27.02,CHF,3254.48
+2025-10-21,Migrol Tankstelle,Transportation,-93.71,CHF,3160.77
+2025-10-21,Krankenkasse Prämie,Insurance,-417.34,CHF,2743.43
+2025-10-25,Firma AG Lohnzahlung,Income,7222.68,CHF,9966.11
+2025-10-27,Pizzeria,Food,-59.47,CHF,9906.64
+2025-10-31,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,9606.64
+2025-11-02,Migrol Tankstelle,Transportation,-296.55,CHF,9310.09
+2025-11-05,Migrol Tankstelle,Transportation,-117.53,CHF,9192.56
+2025-11-06,EWZ Strom,Utilities,-46.55,CHF,9146.01
+2025-11-08,Migros,Groceries,-146.03,CHF,8999.98
+2025-11-11,SWISS Flug,Travel,-608.51,CHF,8391.47
+2025-11-12,Coop,Groceries,-78.79,CHF,8312.68
+2025-11-12,Restaurant Zürich,Food,-32.67,CHF,8280.01
+2025-11-13,Migrol Tankstelle,Transportation,-62.67,CHF,8217.34
+2025-11-15,Coop,Groceries,-102.86,CHF,8114.48
+2025-11-15,Coop,Groceries,-143.18,CHF,7971.30
+2025-11-15,Migros Do It + Garden,Shopping,-141.93,CHF,7829.37
+2025-11-21,Krankenkasse Prämie,Insurance,-358.63,CHF,7470.74
+2025-11-21,Pizzeria,Food,-58.38,CHF,7412.36
+2025-11-22,Hypothekarzins,Housing,-1900.00,CHF,5512.36
+2025-11-22,Restaurant Zürich,Food,-47.60,CHF,5464.76
+2025-11-24,Swisscom Internet,Utilities,-36.45,CHF,5428.31
+2025-11-25,Firma AG Lohnzahlung,Income,7223.96,CHF,12652.27
+2025-11-25,Firma AG 13. Monatslohn,Income,7200.00,CHF,19852.27
+2025-11-27,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,19552.27
+2025-11-28,Restaurant Zürich,Food,-28.77,CHF,19523.50
+2025-11-29,Swisscom Internet,Utilities,-65.67,CHF,19457.83
+2025-11-29,Migros Do It + Garden,Shopping,-113.55,CHF,19344.28
+2025-12-03,Hypothekarzins,Housing,-1900.00,CHF,17444.28
+2025-12-03,Amazon,Shopping,-136.84,CHF,17307.44
+2025-12-05,EWZ Strom,Utilities,-56.41,CHF,17251.03
+2025-12-06,Migros,Groceries,-81.74,CHF,17169.29
+2025-12-07,Restaurant Zürich,Food,-53.83,CHF,17115.46
+2025-12-08,Migrol Tankstelle,Transportation,-72.04,CHF,17043.42
+2025-12-14,Swisscom Internet,Utilities,-103.31,CHF,16940.11
+2025-12-14,Swisscom Internet,Utilities,-114.57,CHF,16825.54
+2025-12-14,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,16525.54
+2025-12-14,TUI Suisse Pauschalreise,Travel,-557.88,CHF,15967.66
+2025-12-17,Migros,Groceries,-63.60,CHF,15904.06
+2025-12-17,Pizzeria,Food,-28.10,CHF,15875.96
+2025-12-18,Pizzeria,Food,-51.05,CHF,15824.91
+2025-12-20,Migros Do It + Garden,Shopping,-83.45,CHF,15741.46
+2025-12-22,Garage Autoleasing,Transportation,-112.23,CHF,15629.23
+2025-12-22,Restaurant Zürich,Food,-39.16,CHF,15590.07
+2025-12-24,Migrol Tankstelle,Transportation,-128.43,CHF,15461.64
+2025-12-25,Firma AG Lohnzahlung,Income,7148.53,CHF,22610.17
+2025-12-25,Migros,Groceries,-127.37,CHF,22482.80
+2025-12-26,Krankenkasse Prämie,Insurance,-359.85,CHF,22122.95
+2025-12-31,Coop,Groceries,-84.14,CHF,22038.81
+2026-01-02,Amazon,Shopping,-30.29,CHF,22008.52
+2026-01-03,Migrol Tankstelle,Transportation,-99.93,CHF,21908.59
+2026-01-04,Hotel Mallorca,Travel,-176.47,CHF,21732.12
+2026-01-05,EWZ Strom,Utilities,-45.70,CHF,21686.42
+2026-01-05,Pizzeria,Food,-24.59,CHF,21661.83
+2026-01-06,Pizzeria,Food,-41.21,CHF,21620.62
+2026-01-07,Restaurant Zürich,Food,-27.03,CHF,21593.59
+2026-01-10,Amazon,Shopping,-145.50,CHF,21448.09
+2026-01-11,Migrol Tankstelle,Transportation,-194.45,CHF,21253.64
+2026-01-11,Migrol Tankstelle,Transportation,-90.64,CHF,21163.00
+2026-01-11,Pizzeria,Food,-38.79,CHF,21124.21
+2026-01-15,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,20824.21
+2026-01-16,Coop,Groceries,-116.43,CHF,20707.78
+2026-01-18,Migros,Groceries,-105.32,CHF,20602.46
+2026-01-21,Coop,Groceries,-70.63,CHF,20531.83
+2026-01-22,Hypothekarzins,Housing,-1900.00,CHF,18631.83
+2026-01-25,Firma AG Lohnzahlung,Income,7129.56,CHF,25761.39
+2026-01-27,Swisscom Internet,Utilities,-90.95,CHF,25670.44
+2026-01-28,Swisscom Internet,Utilities,-102.10,CHF,25568.34
+2026-01-30,Coop,Groceries,-89.02,CHF,25479.32
+2026-01-31,Krankenkasse Prämie,Insurance,-385.24,CHF,25094.08
+2026-02-02,Hotel Mallorca,Travel,-456.77,CHF,24637.31
+2026-02-05,Migros Do It + Garden,Shopping,-126.41,CHF,24510.90
+2026-02-06,Restaurant Zürich,Food,-58.51,CHF,24452.39
+2026-02-07,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,24152.39
+2026-02-09,Coop,Groceries,-89.70,CHF,24062.69
+2026-02-13,EWZ Strom,Utilities,-114.89,CHF,23947.80
+2026-02-13,Amazon,Shopping,-97.29,CHF,23850.51
+2026-02-14,Hypothekarzins,Housing,-1900.00,CHF,21950.51
+2026-02-14,Swisscom Internet,Utilities,-100.34,CHF,21850.17
+2026-02-14,Garage Autoleasing,Transportation,-297.61,CHF,21552.56
+2026-02-14,Restaurant Zürich,Food,-46.21,CHF,21506.35
+2026-02-15,Migros,Groceries,-140.49,CHF,21365.86
+2026-02-15,Migros,Groceries,-86.22,CHF,21279.64
+2026-02-18,Pizzeria,Food,-48.05,CHF,21231.59
+2026-02-19,Migrol Tankstelle,Transportation,-72.98,CHF,21158.61
+2026-02-20,Swisscom Internet,Utilities,-90.97,CHF,21067.64
+2026-02-21,Restaurant Zürich,Food,-43.09,CHF,21024.55
+2026-02-23,Coop,Groceries,-131.29,CHF,20893.26
+2026-02-24,Migrol Tankstelle,Transportation,-112.55,CHF,20780.71
+2026-02-25,Firma AG Lohnzahlung,Income,7181.96,CHF,27962.67
+2026-02-27,Krankenkasse Prämie,Insurance,-412.81,CHF,27549.86
+2026-03-01,Migros,Groceries,-121.50,CHF,27428.36
+2026-03-01,Migros Do It + Garden,Shopping,-68.21,CHF,27360.15
+2026-03-05,Hypothekarzins,Housing,-1900.00,CHF,25460.15
+2026-03-05,Coop,Groceries,-110.22,CHF,25349.93
+2026-03-07,EWZ Strom,Utilities,-106.04,CHF,25243.89
+2026-03-08,Krankenkasse Prämie,Insurance,-408.25,CHF,24835.64
+2026-03-09,EWZ Strom,Utilities,-79.43,CHF,24756.21
+2026-03-10,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,24456.21
+2026-03-13,Migrol Tankstelle,Transportation,-127.28,CHF,24328.93
+2026-03-14,Migros,Groceries,-72.45,CHF,24256.48
+2026-03-14,Migros,Groceries,-102.46,CHF,24154.02
+2026-03-16,Pizzeria,Food,-49.22,CHF,24104.80
+2026-03-18,Migrol Tankstelle,Transportation,-80.57,CHF,24024.23
+2026-03-20,Migros Do It + Garden,Shopping,-69.49,CHF,23954.74
+2026-03-21,Migrol Tankstelle,Transportation,-168.03,CHF,23786.71
+2026-03-22,Restaurant Zürich,Food,-26.81,CHF,23759.90
+2026-03-24,Restaurant Zürich,Food,-55.59,CHF,23704.31
+2026-03-25,Firma AG Lohnzahlung,Income,7167.46,CHF,30871.77
+2026-03-28,Swisscom Internet,Utilities,-106.01,CHF,30765.76
+2026-03-30,Pizzeria,Food,-23.54,CHF,30742.22
+2026-04-03,Migrol Tankstelle,Transportation,-84.98,CHF,30657.24
+2026-04-04,Amazon,Shopping,-70.39,CHF,30586.85
+2026-04-05,Pizzeria,Food,-57.14,CHF,30529.71
+2026-04-08,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,30229.71
+2026-04-10,Krankenkasse Prämie,Insurance,-382.07,CHF,29847.64
+2026-04-10,Amazon,Shopping,-70.57,CHF,29777.07
+2026-04-19,Coop,Groceries,-68.36,CHF,29708.71
+2026-04-20,Coop,Groceries,-124.69,CHF,29584.02
+2026-04-23,Restaurant Zürich,Food,-42.48,CHF,29541.54
+2026-04-24,EWZ Strom,Utilities,-109.78,CHF,29431.76
+2026-04-25,Firma AG Lohnzahlung,Income,7244.69,CHF,36676.45
+2026-04-25,Coop,Groceries,-63.53,CHF,36612.92
+2026-04-26,Coop,Groceries,-77.91,CHF,36535.01
+2026-04-26,Restaurant Zürich,Food,-56.37,CHF,36478.64
+2026-04-28,EWZ Strom,Utilities,-108.55,CHF,36370.09
+2026-04-29,Hypothekarzins,Housing,-1900.00,CHF,34470.09
+2026-04-29,Migrol Tankstelle,Transportation,-93.29,CHF,34376.80
+2026-04-29,Swissquote Einzahlung,Investing,-256.53,CHF,34120.27
+2026-04-29,Restaurant Zürich,Food,-31.01,CHF,34089.26
+2026-04-30,EWZ Strom,Utilities,-60.97,CHF,34028.29
+2026-04-30,Migrol Tankstelle,Transportation,-125.89,CHF,33902.40
+2026-05-01,Migros,Groceries,-121.99,CHF,33780.41
+2026-05-02,EWZ Strom,Utilities,-36.10,CHF,33744.31
+2026-05-02,Garage Autoleasing,Transportation,-174.09,CHF,33570.22
+2026-05-02,Amazon,Shopping,-79.70,CHF,33490.52
+2026-05-03,Hypothekarzins,Housing,-1900.00,CHF,31590.52
+2026-05-07,Swisscom Internet,Utilities,-48.88,CHF,31541.64
+2026-05-10,Migrol Tankstelle,Transportation,-127.44,CHF,31414.20
+2026-05-13,Pizzeria,Food,-26.52,CHF,31387.68
+2026-05-14,Pizzeria,Food,-44.01,CHF,31343.67
+2026-05-17,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,31043.67
+2026-05-20,Garage Autoleasing,Transportation,-130.97,CHF,30912.70
+2026-05-21,Migros,Groceries,-126.23,CHF,30786.47
+2026-05-21,Restaurant Zürich,Food,-30.43,CHF,30756.04
+2026-05-25,Firma AG Lohnzahlung,Income,7227.45,CHF,37983.49
+2026-05-25,Krankenkasse Prämie,Insurance,-361.75,CHF,37621.74
+2026-05-29,Migros,Groceries,-62.78,CHF,37558.96
+2026-05-29,Coop,Groceries,-66.57,CHF,37492.39
+2026-05-30,EWZ Strom,Utilities,-51.15,CHF,37441.24
+2026-05-30,Restaurant Zürich,Food,-57.91,CHF,37383.33
+2026-05-30,Amazon,Shopping,-123.72,CHF,37259.61
+2026-06-01,Restaurant Zürich,Food,-24.89,CHF,37234.72
+2026-06-05,Pizzeria,Food,-58.57,CHF,37176.15
+2026-06-06,Garage Autoleasing,Transportation,-250.54,CHF,36925.61
+2026-06-07,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,36625.61
+2026-06-08,Amazon,Shopping,-64.78,CHF,36560.83
+2026-06-09,Coop,Groceries,-144.06,CHF,36416.77
+2026-06-10,Krankenkasse Prämie,Insurance,-380.27,CHF,36036.50
+2026-06-12,EWZ Strom,Utilities,-93.22,CHF,35943.28
+2026-06-15,EWZ Strom,Utilities,-43.34,CHF,35899.94
+2026-06-16,Hypothekarzins,Housing,-1900.00,CHF,33999.94
+2026-06-17,Migrol Tankstelle,Transportation,-66.30,CHF,33933.64
+2026-06-18,EWZ Strom,Utilities,-108.28,CHF,33825.36
+2026-06-20,Migros,Groceries,-115.00,CHF,33710.36
+2026-06-22,Migrol Tankstelle,Transportation,-120.82,CHF,33589.54
+2026-06-22,Restaurant Zürich,Food,-22.50,CHF,33567.04
+2026-06-23,Coop,Groceries,-91.79,CHF,33475.25
+2026-06-25,Firma AG Lohnzahlung,Income,7214.61,CHF,40689.86
+2026-06-25,Restaurant Zürich,Food,-54.50,CHF,40635.36
+2026-06-26,Migros,Groceries,-143.43,CHF,40491.93
+2026-06-26,Amazon,Shopping,-112.14,CHF,40379.79
+2026-07-03,Coop,Groceries,-96.62,CHF,40283.17
+2026-07-03,Migros,Groceries,-121.68,CHF,40161.49
+2026-07-03,Garage Autoleasing,Transportation,-258.70,CHF,39902.79
+2026-07-03,Pizzeria,Food,-51.76,CHF,39851.03
+2026-07-07,Garage Autoleasing,Transportation,-91.02,CHF,39760.01
+2026-07-09,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,39460.01
+2026-07-12,Amazon,Shopping,-94.24,CHF,39365.77
+2026-07-12,Migros Do It + Garden,Shopping,-55.24,CHF,39310.53
+2026-07-17,Pizzeria,Food,-27.03,CHF,39283.50
+2026-07-18,Pizzeria,Food,-28.30,CHF,39255.20
+2026-07-21,Hypothekarzins,Housing,-1900.00,CHF,37355.20
+2026-07-21,Swisscom Internet,Utilities,-59.94,CHF,37295.26
+2026-07-21,Swisscom Internet,Utilities,-106.43,CHF,37188.83
+2026-07-21,Garage Autoleasing,Transportation,-95.16,CHF,37093.67
+2026-07-21,Restaurant Zürich,Food,-56.86,CHF,37036.81
+2026-07-22,Coop,Groceries,-68.15,CHF,36968.66
+2026-07-23,Migros,Groceries,-121.12,CHF,36847.54
+2026-07-25,Firma AG Lohnzahlung,Income,7208.38,CHF,44055.92
+2026-07-26,Swisscom Internet,Utilities,-68.38,CHF,43987.54
+2026-07-31,Krankenkasse Prämie,Insurance,-351.45,CHF,43636.09
+2026-08-01,Swisscom Internet,Utilities,-95.78,CHF,43540.31
+2026-08-01,Swisscom Internet,Utilities,-113.61,CHF,43426.70
+2026-08-03,Migros Do It + Garden,Shopping,-131.45,CHF,43295.25
+2026-08-04,Krankenkasse Prämie,Insurance,-392.91,CHF,42902.34
+2026-08-05,Restaurant Zürich,Food,-24.30,CHF,42878.04
+2026-08-06,Coop,Groceries,-128.37,CHF,42749.67
+2026-08-06,Coop,Groceries,-65.10,CHF,42684.57
+2026-08-09,Pizzeria,Food,-50.39,CHF,42634.18
+2026-08-09,Pizzeria,Food,-32.18,CHF,42602.00
+2026-08-11,Restaurant Zürich,Food,-59.11,CHF,42542.89
+2026-08-12,Migros,Groceries,-75.82,CHF,42467.07
+2026-08-15,Migrol Tankstelle,Transportation,-141.07,CHF,42326.00
+2026-08-16,Coop,Groceries,-116.07,CHF,42209.93
+2026-08-20,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,41909.93
+2026-08-22,Hypothekarzins,Housing,-1900.00,CHF,40009.93
+2026-08-25,Firma AG Lohnzahlung,Income,7223.23,CHF,47233.16
+2026-08-25,EWZ Strom,Utilities,-107.72,CHF,47125.44
+2026-08-27,Amazon,Shopping,-87.36,CHF,47038.08
+2026-08-30,Migrol Tankstelle,Transportation,-165.73,CHF,46872.35
+2026-08-31,Garage Autoleasing,Transportation,-120.63,CHF,46751.72
+2026-09-01,Coop,Groceries,-146.75,CHF,46604.97
+2026-09-01,VIAC Säule 3a Einzahlung,Investing,-300.00,CHF,46304.97
+2026-09-04,Amazon,Shopping,-52.31,CHF,46252.66
+2026-09-09,Coop,Groceries,-136.39,CHF,46116.27
+2026-09-10,Migros,Groceries,-79.83,CHF,46036.44
+2026-09-11,Krankenkasse Prämie,Insurance,-352.81,CHF,45683.63
+2026-09-12,Garage Autoleasing,Transportation,-143.74,CHF,45539.89
+2026-09-12,Pizzeria,Food,-57.98,CHF,45481.91
+2026-09-13,Hypothekarzins,Housing,-1900.00,CHF,43581.91
+2026-09-14,Swissquote Einzahlung,Investing,-311.95,CHF,43269.96
+2026-09-17,Migrol Tankstelle,Transportation,-211.40,CHF,43058.56
+2026-09-20,EWZ Strom,Utilities,-66.87,CHF,42991.69
+2026-09-20,Restaurant Zürich,Food,-51.89,CHF,42939.80
+2026-09-22,Migros,Groceries,-89.47,CHF,42850.33
+2026-09-22,Swisscom Internet,Utilities,-102.68,CHF,42747.65
+2026-09-22,Swisscom Internet,Utilities,-112.93,CHF,42634.72
+2026-09-22,Migrol Tankstelle,Transportation,-91.08,CHF,42543.64
+2026-09-22,Pizzeria,Food,-43.39,CHF,42500.25
+2026-09-22,Pizzeria,Food,-48.04,CHF,42452.21
+2026-09-22,Migros Do It + Garden,Shopping,-89.67,CHF,42362.54

@@ -1,0 +1,315 @@
+date,description,category,amount,currency,balance
+2025-09-22,Wohnungsmiete,Housing,-1500.00,CHF,2250.00
+2025-09-22,Babysitter Zahlung,Childcare,-127.19,CHF,2122.81
+2025-09-22,Kindertagesstätte,Childcare,-103.89,CHF,2018.92
+2025-09-22,Kindertagesstätte,Childcare,-61.97,CHF,1956.95
+2025-09-22,Coop,Groceries,-117.18,CHF,1839.77
+2025-09-22,Aldi Suisse,Groceries,-101.51,CHF,1738.26
+2025-09-22,Garage Autoleasing,Transportation,-265.39,CHF,1472.87
+2025-09-22,Tankstelle,Transportation,-78.32,CHF,1394.55
+2025-09-22,Wasserwerk,Utilities,-85.88,CHF,1308.67
+2025-09-22,EWZ Strom,Utilities,-40.28,CHF,1268.39
+2025-09-22,Swisscom Internet,Utilities,-87.88,CHF,1180.51
+2025-09-22,Mittagslunch,Food,-21.86,CHF,1158.65
+2025-09-22,Familienrestaurant,Food,-15.34,CHF,1143.31
+2025-09-22,Mittagslunch,Food,-32.00,CHF,1111.31
+2025-09-22,Kinderarzt Selbstbehalt,Healthcare,-24.67,CHF,1086.64
+2025-09-22,Kinderarzt Selbstbehalt,Healthcare,-48.20,CHF,1038.44
+2025-09-22,Ferienwohnung Graubünden,Travel,-296.53,CHF,741.91
+2025-09-23,Coop,Groceries,-91.81,CHF,650.10
+2025-09-24,Coop,Groceries,-120.04,CHF,530.06
+2025-09-24,Mittagslunch,Food,-22.40,CHF,507.66
+2025-09-26,Spital Lohnzahlung,Income,2041.52,CHF,2549.18
+2025-09-26,Mittagslunch,Food,-23.26,CHF,2525.92
+2025-09-30,Garage Autoleasing,Transportation,-265.72,CHF,2260.20
+2025-10-01,Alimente erhalten,Income,550.00,CHF,2810.20
+2025-10-05,Tankstelle,Transportation,-254.59,CHF,2555.61
+2025-10-05,Mittagslunch,Food,-14.45,CHF,2541.16
+2025-10-06,Coop,Groceries,-99.66,CHF,2441.50
+2025-10-06,Coop,Groceries,-78.95,CHF,2362.55
+2025-10-07,Tankstelle,Transportation,-274.94,CHF,2087.61
+2025-10-08,Wohnungsmiete,Housing,-1500.00,CHF,587.61
+2025-10-09,Wasserwerk,Utilities,-95.11,CHF,492.50
+2025-10-10,Spital Lohnzahlung,Income,2050.45,CHF,2542.95
+2025-10-10,Wasserwerk,Utilities,-75.86,CHF,2467.09
+2025-10-11,Familienrestaurant,Food,-53.39,CHF,2413.70
+2025-10-12,Coop,Groceries,-99.22,CHF,2314.48
+2025-10-14,Babysitter Zahlung,Childcare,-143.42,CHF,2171.06
+2025-10-17,Babysitter Zahlung,Childcare,-100.64,CHF,2070.42
+2025-10-20,Familienrestaurant,Food,-35.79,CHF,2034.63
+2025-10-21,Coop,Groceries,-61.39,CHF,1973.24
+2025-10-21,Kinderarzt Selbstbehalt,Healthcare,-56.28,CHF,1916.96
+2025-10-24,Spital Lohnzahlung,Income,1945.33,CHF,3862.29
+2025-10-24,Kinderarzt Selbstbehalt,Healthcare,-31.09,CHF,3831.20
+2025-10-26,Babysitter Zahlung,Childcare,-92.49,CHF,3738.71
+2025-10-26,Familienrestaurant,Food,-19.79,CHF,3718.92
+2025-10-28,Tankstelle,Transportation,-282.82,CHF,3436.10
+2025-10-28,Wasserwerk,Utilities,-47.75,CHF,3388.35
+2025-10-29,Familienrestaurant,Food,-28.89,CHF,3359.46
+2025-11-01,Alimente erhalten,Income,550.00,CHF,3909.46
+2025-11-04,Wohnungsmiete,Housing,-1500.00,CHF,2409.46
+2025-11-06,Coop,Groceries,-119.37,CHF,2290.09
+2025-11-06,Mittagslunch,Food,-33.94,CHF,2256.15
+2025-11-07,Spital Lohnzahlung,Income,1875.63,CHF,4131.78
+2025-11-08,Migros,Groceries,-114.12,CHF,4017.66
+2025-11-08,Familienrestaurant,Food,-36.44,CHF,3981.22
+2025-11-09,Babysitter Zahlung,Childcare,-114.22,CHF,3867.00
+2025-11-09,Tankstelle,Transportation,-126.02,CHF,3740.98
+2025-11-12,Tankstelle,Transportation,-202.68,CHF,3538.30
+2025-11-14,Apotheke,Healthcare,-52.60,CHF,3485.70
+2025-11-16,Babysitter Zahlung,Childcare,-72.80,CHF,3412.90
+2025-11-16,Babysitter Zahlung,Childcare,-87.51,CHF,3325.39
+2025-11-17,Swisscom Internet,Utilities,-91.02,CHF,3234.37
+2025-11-19,Familienrestaurant,Food,-44.64,CHF,3189.73
+2025-11-19,Mittagslunch,Food,-47.71,CHF,3142.02
+2025-11-20,Swisscom Internet,Utilities,-107.84,CHF,3034.18
+2025-11-20,Kinderarzt Selbstbehalt,Healthcare,-58.56,CHF,2975.62
+2025-11-21,Spital Lohnzahlung,Income,1794.14,CHF,4769.76
+2025-11-22,Familienrestaurant,Food,-46.99,CHF,4722.77
+2025-11-28,Coop,Groceries,-88.01,CHF,4634.76
+2025-11-28,Tankstelle,Transportation,-38.04,CHF,4596.72
+2025-11-29,EWZ Strom,Utilities,-88.88,CHF,4507.84
+2025-11-30,Migros,Groceries,-65.70,CHF,4442.14
+2025-12-01,Alimente erhalten,Income,550.00,CHF,4992.14
+2025-12-01,Migros,Groceries,-121.85,CHF,4870.29
+2025-12-01,Migros,Groceries,-88.79,CHF,4781.50
+2025-12-01,Swisscom Internet,Utilities,-99.43,CHF,4682.07
+2025-12-05,Spital Lohnzahlung,Income,2000.80,CHF,6682.87
+2025-12-06,Wasserwerk,Utilities,-98.32,CHF,6584.55
+2025-12-08,Familienrestaurant,Food,-43.17,CHF,6541.38
+2025-12-08,Mittagslunch,Food,-27.84,CHF,6513.54
+2025-12-12,Familienrestaurant,Food,-46.17,CHF,6467.37
+2025-12-13,Aldi Suisse,Groceries,-70.99,CHF,6396.38
+2025-12-14,Garage Autoleasing,Transportation,-212.41,CHF,6183.97
+2025-12-16,Wasserwerk,Utilities,-76.77,CHF,6107.20
+2025-12-19,Spital Lohnzahlung,Income,1940.72,CHF,8047.92
+2025-12-20,Apotheke,Healthcare,-36.00,CHF,8011.92
+2025-12-21,Babysitter Zahlung,Childcare,-95.85,CHF,7916.07
+2025-12-21,Apotheke,Healthcare,-39.86,CHF,7876.21
+2025-12-22,Wohnungsmiete,Housing,-1500.00,CHF,6376.21
+2025-12-22,Babysitter Zahlung,Childcare,-74.67,CHF,6301.54
+2025-12-23,Babysitter Zahlung,Childcare,-114.27,CHF,6187.27
+2025-12-25,Garage Autoleasing,Transportation,-121.90,CHF,6065.37
+2025-12-25,Europapark Eintritt,Travel,-129.19,CHF,5936.18
+2025-12-28,Aldi Suisse,Groceries,-87.39,CHF,5848.79
+2025-12-30,Garage Autoleasing,Transportation,-217.99,CHF,5630.80
+2025-12-30,Familienrestaurant,Food,-38.99,CHF,5591.81
+2025-12-30,Familienrestaurant,Food,-29.62,CHF,5562.19
+2026-01-01,Alimente erhalten,Income,550.00,CHF,6112.19
+2026-01-02,Spital Lohnzahlung,Income,2031.04,CHF,8143.23
+2026-01-05,Migros,Groceries,-68.95,CHF,8074.28
+2026-01-05,Garage Autoleasing,Transportation,-249.63,CHF,7824.65
+2026-01-05,Wasserwerk,Utilities,-55.85,CHF,7768.80
+2026-01-06,Babysitter Zahlung,Childcare,-144.30,CHF,7624.50
+2026-01-07,EWZ Strom,Utilities,-88.06,CHF,7536.44
+2026-01-08,Wohnungsmiete,Housing,-1500.00,CHF,6036.44
+2026-01-08,Mittagslunch,Food,-14.68,CHF,6021.76
+2026-01-10,Familienrestaurant,Food,-23.04,CHF,5998.72
+2026-01-12,Coop,Groceries,-78.11,CHF,5920.61
+2026-01-12,Familienrestaurant,Food,-35.91,CHF,5884.70
+2026-01-14,Mittagslunch,Food,-38.76,CHF,5845.94
+2026-01-16,Spital Lohnzahlung,Income,1910.43,CHF,7756.37
+2026-01-17,Garage Autoleasing,Transportation,-299.70,CHF,7456.67
+2026-01-17,Tankstelle,Transportation,-184.59,CHF,7272.08
+2026-01-18,Babysitter Zahlung,Childcare,-60.56,CHF,7211.52
+2026-01-18,Apotheke,Healthcare,-26.49,CHF,7185.03
+2026-01-21,Migros,Groceries,-101.23,CHF,7083.80
+2026-01-22,Coop,Groceries,-66.58,CHF,7017.22
+2026-01-23,Mittagslunch,Food,-36.44,CHF,6980.78
+2026-01-24,Wasserwerk,Utilities,-57.69,CHF,6923.09
+2026-01-30,Spital Lohnzahlung,Income,2034.28,CHF,8957.37
+2026-01-31,Kindertagesstätte,Childcare,-65.14,CHF,8892.23
+2026-01-31,Kinderarzt Selbstbehalt,Healthcare,-24.50,CHF,8867.73
+2026-02-01,Alimente erhalten,Income,550.00,CHF,9417.73
+2026-02-01,Mittagslunch,Food,-48.63,CHF,9369.10
+2026-02-03,Coop,Groceries,-60.19,CHF,9308.91
+2026-02-03,Wasserwerk,Utilities,-96.14,CHF,9212.77
+2026-02-03,Familienrestaurant,Food,-30.41,CHF,9182.36
+2026-02-09,Garage Autoleasing,Transportation,-72.48,CHF,9109.88
+2026-02-11,Tankstelle,Transportation,-274.89,CHF,8834.99
+2026-02-12,Babysitter Zahlung,Childcare,-148.43,CHF,8686.56
+2026-02-13,Spital Lohnzahlung,Income,1879.08,CHF,10565.64
+2026-02-16,Coop,Groceries,-119.51,CHF,10446.13
+2026-02-16,EWZ Strom,Utilities,-104.33,CHF,10341.80
+2026-02-16,Kinderarzt Selbstbehalt,Healthcare,-32.49,CHF,10309.31
+2026-02-19,Babysitter Zahlung,Childcare,-70.09,CHF,10239.22
+2026-02-19,EWZ Strom,Utilities,-48.87,CHF,10190.35
+2026-02-20,Familienrestaurant,Food,-12.91,CHF,10177.44
+2026-02-21,Coop,Groceries,-115.44,CHF,10062.00
+2026-02-21,Mittagslunch,Food,-12.65,CHF,10049.35
+2026-02-22,Coop,Groceries,-86.25,CHF,9963.10
+2026-02-23,Wohnungsmiete,Housing,-1500.00,CHF,8463.10
+2026-02-27,Spital Lohnzahlung,Income,2044.20,CHF,10507.30
+2026-02-27,Familienrestaurant,Food,-42.94,CHF,10464.36
+2026-02-28,Kindertagesstätte,Childcare,-113.08,CHF,10351.28
+2026-02-28,Garage Autoleasing,Transportation,-112.81,CHF,10238.47
+2026-02-28,Apotheke,Healthcare,-52.65,CHF,10185.82
+2026-03-01,Alimente erhalten,Income,550.00,CHF,10735.82
+2026-03-01,Wohnungsmiete,Housing,-1500.00,CHF,9235.82
+2026-03-01,Mittagslunch,Food,-25.60,CHF,9210.22
+2026-03-03,Kindertagesstätte,Childcare,-102.20,CHF,9108.02
+2026-03-03,Migros,Groceries,-95.04,CHF,9012.98
+2026-03-04,EWZ Strom,Utilities,-84.20,CHF,8928.78
+2026-03-06,Familienrestaurant,Food,-50.98,CHF,8877.80
+2026-03-08,Coop,Groceries,-121.84,CHF,8755.96
+2026-03-09,Babysitter Zahlung,Childcare,-115.21,CHF,8640.75
+2026-03-13,Spital Lohnzahlung,Income,2021.71,CHF,10662.46
+2026-03-14,Swisscom Internet,Utilities,-39.08,CHF,10623.38
+2026-03-18,Mittagslunch,Food,-13.18,CHF,10610.20
+2026-03-19,Coop,Groceries,-128.46,CHF,10481.74
+2026-03-20,Garage Autoleasing,Transportation,-240.10,CHF,10241.64
+2026-03-20,Familienrestaurant,Food,-43.09,CHF,10198.55
+2026-03-25,Aldi Suisse,Groceries,-103.05,CHF,10095.50
+2026-03-26,Babysitter Zahlung,Childcare,-130.41,CHF,9965.09
+2026-03-26,Garage Autoleasing,Transportation,-230.96,CHF,9734.13
+2026-03-27,Spital Lohnzahlung,Income,1923.17,CHF,11657.30
+2026-03-27,Garage Autoleasing,Transportation,-178.96,CHF,11478.34
+2026-03-27,Familienrestaurant,Food,-51.53,CHF,11426.81
+2026-03-28,Apotheke,Healthcare,-28.05,CHF,11398.76
+2026-03-29,Wasserwerk,Utilities,-76.02,CHF,11322.74
+2026-03-30,Apotheke,Healthcare,-41.22,CHF,11281.52
+2026-04-01,Alimente erhalten,Income,550.00,CHF,11831.52
+2026-04-01,Mittagslunch,Food,-44.87,CHF,11786.65
+2026-04-02,Swisscom Internet,Utilities,-71.18,CHF,11715.47
+2026-04-02,Mittagslunch,Food,-10.71,CHF,11704.76
+2026-04-04,Apotheke,Healthcare,-41.03,CHF,11663.73
+2026-04-05,Kindertagesstätte,Childcare,-121.28,CHF,11542.45
+2026-04-06,Familienrestaurant,Food,-32.23,CHF,11510.22
+2026-04-07,Garage Autoleasing,Transportation,-135.05,CHF,11375.17
+2026-04-10,Spital Lohnzahlung,Income,1961.95,CHF,13337.12
+2026-04-11,Kinderarzt Selbstbehalt,Healthcare,-18.88,CHF,13318.24
+2026-04-13,Mittagslunch,Food,-26.24,CHF,13292.00
+2026-04-15,Coop,Groceries,-65.20,CHF,13226.80
+2026-04-15,Swisscom Internet,Utilities,-55.19,CHF,13171.61
+2026-04-17,Wohnungsmiete,Housing,-1500.00,CHF,11671.61
+2026-04-17,Wasserwerk,Utilities,-97.77,CHF,11573.84
+2026-04-20,Kindertagesstätte,Childcare,-88.65,CHF,11485.19
+2026-04-20,Familienrestaurant,Food,-25.48,CHF,11459.71
+2026-04-21,Kindertagesstätte,Childcare,-120.13,CHF,11339.58
+2026-04-22,Migros,Groceries,-133.18,CHF,11206.40
+2026-04-23,Coop,Groceries,-138.58,CHF,11067.82
+2026-04-24,Spital Lohnzahlung,Income,2006.80,CHF,13074.62
+2026-04-24,Migros,Groceries,-91.15,CHF,12983.47
+2026-04-24,Garage Autoleasing,Transportation,-268.30,CHF,12715.17
+2026-04-27,Garage Autoleasing,Transportation,-224.50,CHF,12490.67
+2026-05-01,Alimente erhalten,Income,550.00,CHF,13040.67
+2026-05-03,Apotheke,Healthcare,-34.38,CHF,13006.29
+2026-05-04,Swisscom Internet,Utilities,-109.49,CHF,12896.80
+2026-05-04,Familienrestaurant,Food,-35.29,CHF,12861.51
+2026-05-04,Mittagslunch,Food,-19.52,CHF,12841.99
+2026-05-06,Garage Autoleasing,Transportation,-99.29,CHF,12742.70
+2026-05-07,Coop,Groceries,-78.61,CHF,12664.09
+2026-05-07,Mittagslunch,Food,-19.26,CHF,12644.83
+2026-05-08,Spital Lohnzahlung,Income,1854.21,CHF,14499.04
+2026-05-09,Migros,Groceries,-99.80,CHF,14399.24
+2026-05-11,Familienrestaurant,Food,-52.07,CHF,14347.17
+2026-05-15,Migros,Groceries,-74.72,CHF,14272.45
+2026-05-16,Wohnungsmiete,Housing,-1500.00,CHF,12772.45
+2026-05-16,Kindertagesstätte,Childcare,-101.64,CHF,12670.81
+2026-05-20,Kindertagesstätte,Childcare,-134.94,CHF,12535.87
+2026-05-20,Garage Autoleasing,Transportation,-66.50,CHF,12469.37
+2026-05-20,Apotheke,Healthcare,-59.37,CHF,12410.00
+2026-05-21,Kindertagesstätte,Childcare,-62.78,CHF,12347.22
+2026-05-21,Wasserwerk,Utilities,-107.77,CHF,12239.45
+2026-05-22,Spital Lohnzahlung,Income,1966.73,CHF,14206.18
+2026-05-25,Migros,Groceries,-100.53,CHF,14105.65
+2026-05-26,Wasserwerk,Utilities,-66.96,CHF,14038.69
+2026-05-28,Tankstelle,Transportation,-171.54,CHF,13867.15
+2026-05-28,Familienrestaurant,Food,-53.94,CHF,13813.21
+2026-06-01,Alimente erhalten,Income,550.00,CHF,14363.21
+2026-06-02,Wasserwerk,Utilities,-83.73,CHF,14279.48
+2026-06-05,Spital Lohnzahlung,Income,2045.20,CHF,16324.68
+2026-06-12,Coop,Groceries,-113.76,CHF,16210.92
+2026-06-13,Wohnungsmiete,Housing,-1500.00,CHF,14710.92
+2026-06-16,Kindertagesstätte,Childcare,-122.44,CHF,14588.48
+2026-06-16,Familienrestaurant,Food,-26.63,CHF,14561.85
+2026-06-17,Familienrestaurant,Food,-18.97,CHF,14542.88
+2026-06-19,Spital Lohnzahlung,Income,1876.84,CHF,16419.72
+2026-06-20,Aldi Suisse,Groceries,-109.86,CHF,16309.86
+2026-06-21,Babysitter Zahlung,Childcare,-142.03,CHF,16167.83
+2026-06-21,Garage Autoleasing,Transportation,-110.13,CHF,16057.70
+2026-06-21,Wasserwerk,Utilities,-47.18,CHF,16010.52
+2026-06-23,Aldi Suisse,Groceries,-129.07,CHF,15881.45
+2026-06-23,Familienrestaurant,Food,-44.01,CHF,15837.44
+2026-06-24,Tankstelle,Transportation,-76.21,CHF,15761.23
+2026-06-25,Migros,Groceries,-98.98,CHF,15662.25
+2026-06-26,Tankstelle,Transportation,-90.95,CHF,15571.30
+2026-06-26,Apotheke,Healthcare,-29.24,CHF,15542.06
+2026-06-27,Babysitter Zahlung,Childcare,-144.91,CHF,15397.15
+2026-06-27,Swisscom Internet,Utilities,-84.74,CHF,15312.41
+2026-06-27,Mittagslunch,Food,-18.57,CHF,15293.84
+2026-06-30,Mittagslunch,Food,-33.78,CHF,15260.06
+2026-06-30,Kinderarzt Selbstbehalt,Healthcare,-53.54,CHF,15206.52
+2026-07-01,Alimente erhalten,Income,550.00,CHF,15756.52
+2026-07-01,Migros,Groceries,-85.63,CHF,15670.89
+2026-07-01,Garage Autoleasing,Transportation,-52.42,CHF,15618.47
+2026-07-02,Apotheke,Healthcare,-23.38,CHF,15595.09
+2026-07-03,Spital Lohnzahlung,Income,2044.65,CHF,17639.74
+2026-07-03,Wohnungsmiete,Housing,-1500.00,CHF,16139.74
+2026-07-05,Aldi Suisse,Groceries,-57.58,CHF,16082.16
+2026-07-11,Tankstelle,Transportation,-52.47,CHF,16029.69
+2026-07-11,Mittagslunch,Food,-49.81,CHF,15979.88
+2026-07-14,EWZ Strom,Utilities,-75.02,CHF,15904.86
+2026-07-15,Babysitter Zahlung,Childcare,-100.24,CHF,15804.62
+2026-07-16,Kindertagesstätte,Childcare,-124.12,CHF,15680.50
+2026-07-16,Tankstelle,Transportation,-318.19,CHF,15362.31
+2026-07-17,Spital Lohnzahlung,Income,2007.94,CHF,17370.25
+2026-07-17,Mittagslunch,Food,-54.59,CHF,17315.66
+2026-07-17,Familienrestaurant,Food,-35.60,CHF,17280.06
+2026-07-19,Apotheke,Healthcare,-48.50,CHF,17231.56
+2026-07-21,Mittagslunch,Food,-53.13,CHF,17178.43
+2026-07-22,Wasserwerk,Utilities,-43.38,CHF,17135.05
+2026-07-22,EWZ Strom,Utilities,-54.74,CHF,17080.31
+2026-07-24,Mittagslunch,Food,-13.67,CHF,17066.64
+2026-07-27,Babysitter Zahlung,Childcare,-132.02,CHF,16934.62
+2026-07-27,Aldi Suisse,Groceries,-137.55,CHF,16797.07
+2026-07-28,SBB Ticket Kinder,Travel,-272.30,CHF,16524.77
+2026-07-31,Spital Lohnzahlung,Income,2057.42,CHF,18582.19
+2026-07-31,Migros,Groceries,-83.95,CHF,18498.24
+2026-08-01,Alimente erhalten,Income,550.00,CHF,19048.24
+2026-08-01,Aldi Suisse,Groceries,-94.41,CHF,18953.83
+2026-08-03,Migros,Groceries,-112.55,CHF,18841.28
+2026-08-03,Wasserwerk,Utilities,-90.56,CHF,18750.72
+2026-08-04,Tankstelle,Transportation,-144.46,CHF,18606.26
+2026-08-04,Tankstelle,Transportation,-245.19,CHF,18361.07
+2026-08-05,Garage Autoleasing,Transportation,-272.34,CHF,18088.73
+2026-08-05,Mittagslunch,Food,-37.01,CHF,18051.72
+2026-08-06,Kinderarzt Selbstbehalt,Healthcare,-42.30,CHF,18009.42
+2026-08-08,Familienrestaurant,Food,-24.68,CHF,17984.74
+2026-08-08,Kinderarzt Selbstbehalt,Healthcare,-28.13,CHF,17956.61
+2026-08-09,Babysitter Zahlung,Childcare,-84.67,CHF,17871.94
+2026-08-09,Coop,Groceries,-74.57,CHF,17797.37
+2026-08-10,Mittagslunch,Food,-14.73,CHF,17782.64
+2026-08-13,Swisscom Internet,Utilities,-79.49,CHF,17703.15
+2026-08-14,Spital Lohnzahlung,Income,1898.70,CHF,19601.85
+2026-08-14,Babysitter Zahlung,Childcare,-99.98,CHF,19501.87
+2026-08-14,Coop,Groceries,-101.39,CHF,19400.48
+2026-08-22,Familienrestaurant,Food,-19.35,CHF,19381.13
+2026-08-23,Wasserwerk,Utilities,-58.19,CHF,19322.94
+2026-08-25,Mittagslunch,Food,-48.50,CHF,19274.44
+2026-08-27,Wohnungsmiete,Housing,-1500.00,CHF,17774.44
+2026-08-28,Spital Lohnzahlung,Income,1823.06,CHF,19597.50
+2026-08-31,Babysitter Zahlung,Childcare,-63.05,CHF,19534.45
+2026-09-01,Alimente erhalten,Income,550.00,CHF,20084.45
+2026-09-03,Kindertagesstätte,Childcare,-82.46,CHF,20001.99
+2026-09-03,Mittagslunch,Food,-29.50,CHF,19972.49
+2026-09-04,Tankstelle,Transportation,-315.95,CHF,19656.54
+2026-09-05,Mittagslunch,Food,-40.23,CHF,19616.31
+2026-09-05,Kinderarzt Selbstbehalt,Healthcare,-40.86,CHF,19575.45
+2026-09-08,EWZ Strom,Utilities,-92.52,CHF,19482.93
+2026-09-10,Coop,Groceries,-130.48,CHF,19352.45
+2026-09-11,Spital Lohnzahlung,Income,2043.69,CHF,21396.14
+2026-09-11,Kindertagesstätte,Childcare,-93.34,CHF,21302.80
+2026-09-13,Aldi Suisse,Groceries,-138.47,CHF,21164.33
+2026-09-14,Familienrestaurant,Food,-23.53,CHF,21140.80
+2026-09-15,Wasserwerk,Utilities,-89.51,CHF,21051.29
+2026-09-16,Wohnungsmiete,Housing,-1500.00,CHF,19551.29
+2026-09-18,Kindertagesstätte,Childcare,-127.09,CHF,19424.20
+2026-09-18,Familienrestaurant,Food,-39.44,CHF,19384.76
+2026-09-19,Aldi Suisse,Groceries,-98.99,CHF,19285.77
+2026-09-21,Familienrestaurant,Food,-41.58,CHF,19244.19
+2026-09-22,Coop,Groceries,-77.96,CHF,19166.23
+2026-09-22,Tankstelle,Transportation,-168.67,CHF,18997.56
+2026-09-22,Garage Autoleasing,Transportation,-40.51,CHF,18957.05
+2026-09-22,Wasserwerk,Utilities,-73.65,CHF,18883.40
+2026-09-22,Apotheke,Healthcare,-25.11,CHF,18858.29

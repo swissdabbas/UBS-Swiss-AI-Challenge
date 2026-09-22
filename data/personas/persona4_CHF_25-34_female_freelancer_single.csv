@@ -1,0 +1,313 @@
+date,description,category,amount,currency,balance
+2025-09-22,Vorschuss Auftraggeber,Income,606.33,CHF,8936.33
+2025-09-22,Kundenzahlung - Branding Projekt,Income,709.94,CHF,9646.27
+2025-09-22,Wohnungsmiete,Housing,-1350.00,CHF,8296.27
+2025-09-22,Canva Pro,Software,-29.35,CHF,8266.92
+2025-09-22,Impact Hub Zürich Membership,Coworking,-266.53,CHF,8000.39
+2025-09-22,Markt Zürich,Groceries,-44.07,CHF,7956.32
+2025-09-22,Mittagslunch Bistro,Food,-8.23,CHF,7948.09
+2025-09-22,Mittagslunch Bistro,Food,-12.61,CHF,7935.48
+2025-09-22,Mittagslunch Bistro,Food,-7.45,CHF,7928.03
+2025-09-22,Mittagslunch Bistro,Food,-10.87,CHF,7917.16
+2025-09-22,Café Sprüngli,Food,-5.93,CHF,7911.23
+2025-09-22,Café Sprüngli,Food,-18.15,CHF,7893.08
+2025-09-22,Café Sprüngli,Food,-19.40,CHF,7873.68
+2025-09-22,Café Sprüngli,Food,-7.35,CHF,7866.33
+2025-09-22,Café Sprüngli,Food,-8.47,CHF,7857.86
+2025-09-22,Krankenkasse CSS Prämie,Health Insurance,-411.90,CHF,7445.96
+2025-09-22,Netflix,Entertainment,-31.75,CHF,7414.21
+2025-09-22,Netflix,Entertainment,-53.93,CHF,7360.28
+2025-09-23,Markt Zürich,Groceries,-30.90,CHF,7329.38
+2025-09-26,Markt Zürich,Groceries,-50.05,CHF,7279.33
+2025-09-28,Migros,Groceries,-36.85,CHF,7242.48
+2025-09-28,Café Sprüngli,Food,-11.01,CHF,7231.47
+2025-09-28,Galerie Vernissage,Entertainment,-41.09,CHF,7190.38
+2025-10-03,easyJet Flug,Travel,-428.44,CHF,6761.94
+2025-10-04,Mittagslunch Bistro,Food,-12.12,CHF,6749.82
+2025-10-07,Wohnungsmiete,Housing,-1350.00,CHF,5399.82
+2025-10-07,Krankenkasse CSS Prämie,Health Insurance,-387.06,CHF,5012.76
+2025-10-09,Mittagslunch Bistro,Food,-13.68,CHF,4999.08
+2025-10-10,Mittagslunch Bistro,Food,-18.96,CHF,4980.12
+2025-10-11,Café Sprüngli,Food,-17.71,CHF,4962.41
+2025-10-11,Netflix,Entertainment,-36.73,CHF,4925.68
+2025-10-12,Migros,Groceries,-33.02,CHF,4892.66
+2025-10-13,Honorar - Editorial Design,Income,1498.80,CHF,6391.46
+2025-10-13,Kantonale Steuerverwaltung Akontozahlung,Taxes,-1229.97,CHF,5161.49
+2025-10-15,Impact Hub Zürich Membership,Coworking,-251.32,CHF,4910.17
+2025-10-17,Markt Zürich,Groceries,-33.59,CHF,4876.58
+2025-10-20,Markt Zürich,Groceries,-56.77,CHF,4819.81
+2025-10-20,Café Sprüngli,Food,-16.07,CHF,4803.74
+2025-10-22,Kunstmaterial Laden,Entertainment,-21.90,CHF,4781.84
+2025-10-23,Mittagslunch Bistro,Food,-12.98,CHF,4768.86
+2025-10-24,Mittagslunch Bistro,Food,-15.60,CHF,4753.26
+2025-10-26,Mittagslunch Bistro,Food,-18.43,CHF,4734.83
+2025-10-26,Café Sprüngli,Food,-17.51,CHF,4717.32
+2025-10-28,Migros,Groceries,-46.93,CHF,4670.39
+2025-10-29,Café Sprüngli,Food,-9.74,CHF,4660.65
+2025-10-29,Netflix,Entertainment,-48.83,CHF,4611.82
+2025-10-30,Figma Abo,Software,-17.45,CHF,4594.37
+2025-11-01,Café Sprüngli,Food,-12.17,CHF,4582.20
+2025-11-02,Wohnungsmiete,Housing,-1350.00,CHF,3232.20
+2025-11-02,Café Sprüngli,Food,-8.01,CHF,3224.19
+2025-11-03,Mittagslunch Bistro,Food,-17.66,CHF,3206.53
+2025-11-04,Impact Hub Zürich Membership,Coworking,-274.44,CHF,2932.09
+2025-11-04,Kantonale Steuerverwaltung Akontozahlung,Taxes,-751.44,CHF,2180.65
+2025-11-05,Markt Zürich,Groceries,-33.81,CHF,2146.84
+2025-11-08,Honorar - Editorial Design,Income,1440.68,CHF,3587.52
+2025-11-08,Galerie Vernissage,Entertainment,-53.85,CHF,3533.67
+2025-11-10,Krankenkasse CSS Prämie,Health Insurance,-381.32,CHF,3152.35
+2025-11-11,Café Sprüngli,Food,-16.72,CHF,3135.63
+2025-11-16,Café Sprüngli,Food,-12.79,CHF,3122.84
+2025-11-17,Mittagslunch Bistro,Food,-12.14,CHF,3110.70
+2025-11-18,Kunstmaterial Laden,Entertainment,-52.22,CHF,3058.48
+2025-11-19,Markt Zürich,Groceries,-35.70,CHF,3022.78
+2025-11-20,Markt Zürich,Groceries,-46.61,CHF,2976.17
+2025-11-20,Café Sprüngli,Food,-19.32,CHF,2956.85
+2025-11-22,Markt Zürich,Groceries,-36.90,CHF,2919.95
+2025-11-23,Mittagslunch Bistro,Food,-5.57,CHF,2914.38
+2025-11-23,Café Sprüngli,Food,-9.63,CHF,2904.75
+2025-11-26,Figma Abo,Software,-50.53,CHF,2854.22
+2025-11-30,Café Sprüngli,Food,-6.22,CHF,2848.00
+2025-11-30,Galerie Vernissage,Entertainment,-31.10,CHF,2816.90
+2025-12-05,Wohnungsmiete,Housing,-1350.00,CHF,1466.90
+2025-12-05,Impact Hub Zürich Membership,Coworking,-252.07,CHF,1214.83
+2025-12-05,Migros,Groceries,-48.64,CHF,1166.19
+2025-12-06,Café Sprüngli,Food,-11.18,CHF,1155.01
+2025-12-06,Mittagslunch Bistro,Food,-8.22,CHF,1146.79
+2025-12-07,Markt Zürich,Groceries,-45.16,CHF,1101.63
+2025-12-08,Mittagslunch Bistro,Food,-18.35,CHF,1083.28
+2025-12-09,Kundenzahlung - Branding Projekt,Income,828.80,CHF,1912.08
+2025-12-10,Markt Zürich,Groceries,-56.57,CHF,1855.51
+2025-12-11,Mittagslunch Bistro,Food,-16.34,CHF,1839.17
+2025-12-14,Galerie Vernissage,Entertainment,-48.18,CHF,1790.99
+2025-12-17,Canva Pro,Software,-19.69,CHF,1771.30
+2025-12-18,Café Sprüngli,Food,-15.36,CHF,1755.94
+2025-12-21,Café Sprüngli,Food,-14.07,CHF,1741.87
+2025-12-22,Migros,Groceries,-46.73,CHF,1695.14
+2025-12-23,Mittagslunch Bistro,Food,-15.55,CHF,1679.59
+2025-12-25,Kundenzahlung - Branding Projekt,Income,745.33,CHF,2424.92
+2025-12-25,Mittagslunch Bistro,Food,-12.66,CHF,2412.26
+2025-12-27,Honorar - Editorial Design,Income,1681.38,CHF,4093.64
+2025-12-27,Mittagslunch Bistro,Food,-19.74,CHF,4073.90
+2025-12-29,Mittagslunch Bistro,Food,-11.56,CHF,4062.34
+2025-12-29,Galerie Vernissage,Entertainment,-47.09,CHF,4015.25
+2025-12-31,Krankenkasse CSS Prämie,Health Insurance,-380.10,CHF,3635.15
+2025-12-31,Netflix,Entertainment,-10.59,CHF,3624.56
+2026-01-03,Honorar - Editorial Design,Income,2089.58,CHF,5714.14
+2026-01-06,Migros,Groceries,-35.52,CHF,5678.62
+2026-01-07,Honorar - Editorial Design,Income,729.64,CHF,6408.26
+2026-01-08,Krankenkasse CSS Prämie,Health Insurance,-394.92,CHF,6013.34
+2026-01-09,Café Sprüngli,Food,-12.67,CHF,6000.67
+2026-01-11,Wohnungsmiete,Housing,-1350.00,CHF,4650.67
+2026-01-11,Figma Abo,Software,-51.53,CHF,4599.14
+2026-01-11,Markt Zürich,Groceries,-47.90,CHF,4551.24
+2026-01-11,Galerie Vernissage,Entertainment,-27.99,CHF,4523.25
+2026-01-13,Mittagslunch Bistro,Food,-8.95,CHF,4514.30
+2026-01-17,Impact Hub Zürich Membership,Coworking,-295.25,CHF,4219.05
+2026-01-18,Netflix,Entertainment,-45.85,CHF,4173.20
+2026-01-20,Migros,Groceries,-25.70,CHF,4147.50
+2026-01-20,Café Sprüngli,Food,-16.37,CHF,4131.13
+2026-01-20,Café Sprüngli,Food,-6.38,CHF,4124.75
+2026-01-21,Honorar - Editorial Design,Income,2134.64,CHF,6259.39
+2026-01-21,Migros,Groceries,-57.77,CHF,6201.62
+2026-01-22,Café Sprüngli,Food,-18.72,CHF,6182.90
+2026-01-25,Mittagslunch Bistro,Food,-14.30,CHF,6168.60
+2026-01-29,Café Sprüngli,Food,-14.63,CHF,6153.97
+2026-01-30,Mittagslunch Bistro,Food,-17.63,CHF,6136.34
+2026-01-30,Café Sprüngli,Food,-19.80,CHF,6116.54
+2026-01-30,Café Sprüngli,Food,-19.00,CHF,6097.54
+2026-01-30,Galerie Vernissage,Entertainment,-43.04,CHF,6054.50
+2026-02-01,Honorar - Editorial Design,Income,2217.74,CHF,8272.24
+2026-02-01,Café Sprüngli,Food,-11.83,CHF,8260.41
+2026-02-04,Mittagslunch Bistro,Food,-16.96,CHF,8243.45
+2026-02-06,Markt Zürich,Groceries,-31.38,CHF,8212.07
+2026-02-06,Café Sprüngli,Food,-6.40,CHF,8205.67
+2026-02-06,Café Sprüngli,Food,-7.58,CHF,8198.09
+2026-02-09,Canva Pro,Software,-53.28,CHF,8144.81
+2026-02-10,Wohnungsmiete,Housing,-1350.00,CHF,6794.81
+2026-02-10,Café Sprüngli,Food,-18.04,CHF,6776.77
+2026-02-13,Galerie Vernissage,Entertainment,-47.08,CHF,6729.69
+2026-02-16,Honorar - Editorial Design,Income,960.00,CHF,7689.69
+2026-02-17,Kundenzahlung - Webdesign,Income,897.75,CHF,8587.44
+2026-02-19,Mittagslunch Bistro,Food,-9.87,CHF,8577.57
+2026-02-20,Kunstmaterial Laden,Entertainment,-35.42,CHF,8542.15
+2026-02-21,Krankenkasse CSS Prämie,Health Insurance,-397.66,CHF,8144.49
+2026-02-22,Migros,Groceries,-45.09,CHF,8099.40
+2026-02-22,Café Sprüngli,Food,-8.09,CHF,8091.31
+2026-02-23,Café Sprüngli,Food,-16.20,CHF,8075.11
+2026-02-24,Café Sprüngli,Food,-6.14,CHF,8068.97
+2026-02-24,Mittagslunch Bistro,Food,-19.74,CHF,8049.23
+2026-02-25,Migros,Groceries,-57.40,CHF,7991.83
+2026-02-26,Migros,Groceries,-53.45,CHF,7938.38
+2026-02-26,Galerie Vernissage,Entertainment,-16.79,CHF,7921.59
+2026-02-27,Impact Hub Zürich Membership,Coworking,-253.74,CHF,7667.85
+2026-02-28,Kundenzahlung - Webdesign,Income,1930.42,CHF,9598.27
+2026-03-02,Café Sprüngli,Food,-19.27,CHF,9579.00
+2026-03-03,Honorar - Editorial Design,Income,492.64,CHF,10071.64
+2026-03-03,Krankenkasse CSS Prämie,Health Insurance,-393.75,CHF,9677.89
+2026-03-04,Café Sprüngli,Food,-17.70,CHF,9660.19
+2026-03-05,Mittagslunch Bistro,Food,-10.37,CHF,9649.82
+2026-03-07,Wohnungsmiete,Housing,-1350.00,CHF,8299.82
+2026-03-08,Café Sprüngli,Food,-10.46,CHF,8289.36
+2026-03-09,Kundenzahlung - Branding Projekt,Income,2025.18,CHF,10314.54
+2026-03-13,Adobe Creative Cloud,Software,-50.45,CHF,10264.09
+2026-03-13,Mittagslunch Bistro,Food,-12.18,CHF,10251.91
+2026-03-14,Vorschuss Auftraggeber,Income,1597.82,CHF,11849.73
+2026-03-15,Honorar - Editorial Design,Income,722.64,CHF,12572.37
+2026-03-16,Migros,Groceries,-48.64,CHF,12523.73
+2026-03-18,Mittagslunch Bistro,Food,-9.86,CHF,12513.87
+2026-03-18,Kunstmaterial Laden,Entertainment,-18.80,CHF,12495.07
+2026-03-20,Markt Zürich,Groceries,-52.53,CHF,12442.54
+2026-03-20,Netflix,Entertainment,-44.71,CHF,12397.83
+2026-03-22,Mittagslunch Bistro,Food,-18.55,CHF,12379.28
+2026-03-22,Netflix,Entertainment,-31.74,CHF,12347.54
+2026-03-24,Café Sprüngli,Food,-11.09,CHF,12336.45
+2026-03-25,Café Sprüngli,Food,-18.78,CHF,12317.67
+2026-03-26,Impact Hub Zürich Membership,Coworking,-298.83,CHF,12018.84
+2026-03-28,Markt Zürich,Groceries,-57.47,CHF,11961.37
+2026-03-29,Markt Zürich,Groceries,-45.97,CHF,11915.40
+2026-03-31,Mittagslunch Bistro,Food,-14.37,CHF,11901.03
+2026-04-01,Café Sprüngli,Food,-11.70,CHF,11889.33
+2026-04-02,Krankenkasse CSS Prämie,Health Insurance,-396.26,CHF,11493.07
+2026-04-03,Kundenzahlung - Webdesign,Income,1225.59,CHF,12718.66
+2026-04-04,Mittagslunch Bistro,Food,-7.87,CHF,12710.79
+2026-04-05,Kunstmaterial Laden,Entertainment,-12.25,CHF,12698.54
+2026-04-06,Honorar - Editorial Design,Income,1111.66,CHF,13810.20
+2026-04-06,Mittagslunch Bistro,Food,-7.09,CHF,13803.11
+2026-04-07,Café Sprüngli,Food,-19.94,CHF,13783.17
+2026-04-09,Adobe Creative Cloud,Software,-40.02,CHF,13743.15
+2026-04-10,Markt Zürich,Groceries,-37.87,CHF,13705.28
+2026-04-10,Mittagslunch Bistro,Food,-17.01,CHF,13688.27
+2026-04-15,Mittagslunch Bistro,Food,-5.45,CHF,13682.82
+2026-04-16,Wohnungsmiete,Housing,-1350.00,CHF,12332.82
+2026-04-16,Impact Hub Zürich Membership,Coworking,-292.77,CHF,12040.05
+2026-04-18,Markt Zürich,Groceries,-46.94,CHF,11993.11
+2026-04-18,Café Sprüngli,Food,-15.62,CHF,11977.49
+2026-04-18,Café Sprüngli,Food,-8.19,CHF,11969.30
+2026-04-18,Café Sprüngli,Food,-12.46,CHF,11956.84
+2026-04-20,Mittagslunch Bistro,Food,-11.96,CHF,11944.88
+2026-04-21,Honorar - Editorial Design,Income,1665.33,CHF,13610.21
+2026-04-22,Galerie Vernissage,Entertainment,-53.49,CHF,13556.72
+2026-04-23,Kundenzahlung - Webdesign,Income,1085.69,CHF,14642.41
+2026-04-25,Galerie Vernissage,Entertainment,-27.00,CHF,14615.41
+2026-04-27,Markt Zürich,Groceries,-35.96,CHF,14579.45
+2026-04-29,Markt Zürich,Groceries,-53.10,CHF,14526.35
+2026-05-01,Markt Zürich,Groceries,-33.79,CHF,14492.56
+2026-05-03,Kunstmaterial Laden,Entertainment,-11.78,CHF,14480.78
+2026-05-04,Impact Hub Zürich Membership,Coworking,-295.79,CHF,14184.99
+2026-05-05,Markt Zürich,Groceries,-42.90,CHF,14142.09
+2026-05-06,Mittagslunch Bistro,Food,-15.95,CHF,14126.14
+2026-05-09,Netflix,Entertainment,-49.71,CHF,14076.43
+2026-05-11,Café Sprüngli,Food,-9.43,CHF,14067.00
+2026-05-13,Migros,Groceries,-58.29,CHF,14008.71
+2026-05-13,Café Sprüngli,Food,-11.55,CHF,13997.16
+2026-05-14,Krankenkasse CSS Prämie,Health Insurance,-407.35,CHF,13589.81
+2026-05-20,Café Sprüngli,Food,-5.29,CHF,13584.52
+2026-05-20,Café Sprüngli,Food,-5.64,CHF,13578.88
+2026-05-20,Mittagslunch Bistro,Food,-9.28,CHF,13569.60
+2026-05-21,Wohnungsmiete,Housing,-1350.00,CHF,12219.60
+2026-05-22,Café Sprüngli,Food,-12.90,CHF,12206.70
+2026-05-23,Kundenzahlung - Webdesign,Income,857.74,CHF,13064.44
+2026-05-23,Canva Pro,Software,-38.58,CHF,13025.86
+2026-05-23,Markt Zürich,Groceries,-44.64,CHF,12981.22
+2026-05-24,Mittagslunch Bistro,Food,-9.72,CHF,12971.50
+2026-05-26,Kantonale Steuerverwaltung Akontozahlung,Taxes,-1075.07,CHF,11896.43
+2026-05-27,Mittagslunch Bistro,Food,-14.23,CHF,11882.20
+2026-05-27,Kunstmaterial Laden,Entertainment,-32.46,CHF,11849.74
+2026-05-29,Kundenzahlung - Branding Projekt,Income,1047.07,CHF,12896.81
+2026-05-29,Café Sprüngli,Food,-6.18,CHF,12890.63
+2026-06-02,Wohnungsmiete,Housing,-1350.00,CHF,11540.63
+2026-06-03,Café Sprüngli,Food,-18.25,CHF,11522.38
+2026-06-05,Interrail Pass Europa,Travel,-92.80,CHF,11429.58
+2026-06-06,Café Sprüngli,Food,-7.15,CHF,11422.43
+2026-06-10,Mittagslunch Bistro,Food,-12.13,CHF,11410.30
+2026-06-11,Honorar - Editorial Design,Income,2269.16,CHF,13679.46
+2026-06-11,Café Sprüngli,Food,-19.48,CHF,13659.98
+2026-06-12,Krankenkasse CSS Prämie,Health Insurance,-393.73,CHF,13266.25
+2026-06-13,Adobe Creative Cloud,Software,-51.74,CHF,13214.51
+2026-06-14,Impact Hub Zürich Membership,Coworking,-270.79,CHF,12943.72
+2026-06-16,Markt Zürich,Groceries,-32.78,CHF,12910.94
+2026-06-16,Café Sprüngli,Food,-12.07,CHF,12898.87
+2026-06-18,Café Sprüngli,Food,-7.28,CHF,12891.59
+2026-06-18,Café Sprüngli,Food,-7.64,CHF,12883.95
+2026-06-20,Mittagslunch Bistro,Food,-17.57,CHF,12866.38
+2026-06-20,Kunstmaterial Laden,Entertainment,-18.16,CHF,12848.22
+2026-06-21,Markt Zürich,Groceries,-57.20,CHF,12791.02
+2026-06-21,Galerie Vernissage,Entertainment,-22.14,CHF,12768.88
+2026-06-26,Café Sprüngli,Food,-17.55,CHF,12751.33
+2026-06-26,Netflix,Entertainment,-36.77,CHF,12714.56
+2026-06-28,Café Sprüngli,Food,-19.08,CHF,12695.48
+2026-06-29,Migros,Groceries,-46.13,CHF,12649.35
+2026-06-30,Markt Zürich,Groceries,-28.20,CHF,12621.15
+2026-07-01,Kundenzahlung - Branding Projekt,Income,485.62,CHF,13106.77
+2026-07-01,Honorar - Editorial Design,Income,1045.62,CHF,14152.39
+2026-07-01,Migros,Groceries,-43.35,CHF,14109.04
+2026-07-02,Mittagslunch Bistro,Food,-5.04,CHF,14104.00
+2026-07-03,Café Sprüngli,Food,-8.00,CHF,14096.00
+2026-07-03,Café Sprüngli,Food,-5.16,CHF,14090.84
+2026-07-03,Mittagslunch Bistro,Food,-6.39,CHF,14084.45
+2026-07-05,Krankenkasse CSS Prämie,Health Insurance,-380.02,CHF,13704.43
+2026-07-07,Wohnungsmiete,Housing,-1350.00,CHF,12354.43
+2026-07-07,Adobe Creative Cloud,Software,-51.51,CHF,12302.92
+2026-07-07,Kunstmaterial Laden,Entertainment,-35.67,CHF,12267.25
+2026-07-08,Migros,Groceries,-27.42,CHF,12239.83
+2026-07-08,Netflix,Entertainment,-57.76,CHF,12182.07
+2026-07-10,Café Sprüngli,Food,-7.98,CHF,12174.09
+2026-07-16,Café Sprüngli,Food,-16.40,CHF,12157.69
+2026-07-16,Galerie Vernissage,Entertainment,-26.35,CHF,12131.34
+2026-07-24,Honorar - Editorial Design,Income,1750.43,CHF,13881.77
+2026-07-26,Markt Zürich,Groceries,-45.36,CHF,13836.41
+2026-07-26,Café Sprüngli,Food,-11.37,CHF,13825.04
+2026-07-27,Café Sprüngli,Food,-7.58,CHF,13817.46
+2026-07-29,Honorar - Editorial Design,Income,2328.95,CHF,16146.41
+2026-07-29,Impact Hub Zürich Membership,Coworking,-297.04,CHF,15849.37
+2026-07-29,Mittagslunch Bistro,Food,-7.11,CHF,15842.26
+2026-07-31,Markt Zürich,Groceries,-26.64,CHF,15815.62
+2026-07-31,Mittagslunch Bistro,Food,-9.37,CHF,15806.25
+2026-08-02,Mittagslunch Bistro,Food,-16.51,CHF,15789.74
+2026-08-03,Migros,Groceries,-29.26,CHF,15760.48
+2026-08-05,Wohnungsmiete,Housing,-1350.00,CHF,14410.48
+2026-08-05,Café Sprüngli,Food,-13.81,CHF,14396.67
+2026-08-07,Markt Zürich,Groceries,-26.11,CHF,14370.56
+2026-08-09,Figma Abo,Software,-15.22,CHF,14355.34
+2026-08-10,Vorschuss Auftraggeber,Income,1635.46,CHF,15990.80
+2026-08-13,Krankenkasse CSS Prämie,Health Insurance,-402.91,CHF,15587.89
+2026-08-14,Café Sprüngli,Food,-19.46,CHF,15568.43
+2026-08-16,Impact Hub Zürich Membership,Coworking,-271.12,CHF,15297.31
+2026-08-17,Mittagslunch Bistro,Food,-10.09,CHF,15287.22
+2026-08-19,Café Sprüngli,Food,-14.62,CHF,15272.60
+2026-08-19,Galerie Vernissage,Entertainment,-16.59,CHF,15256.01
+2026-08-20,Migros,Groceries,-56.16,CHF,15199.85
+2026-08-20,Café Sprüngli,Food,-19.33,CHF,15180.52
+2026-08-20,Kunstmaterial Laden,Entertainment,-22.56,CHF,15157.96
+2026-08-21,Café Sprüngli,Food,-8.00,CHF,15149.96
+2026-08-22,Kunstmaterial Laden,Entertainment,-41.75,CHF,15108.21
+2026-08-23,Café Sprüngli,Food,-5.93,CHF,15102.28
+2026-08-25,Kundenzahlung - Branding Projekt,Income,1703.85,CHF,16806.13
+2026-08-25,Mittagslunch Bistro,Food,-9.56,CHF,16796.57
+2026-08-29,Markt Zürich,Groceries,-59.74,CHF,16736.83
+2026-08-31,Mittagslunch Bistro,Food,-16.43,CHF,16720.40
+2026-09-02,Honorar - Editorial Design,Income,1309.57,CHF,18029.97
+2026-09-05,Kundenzahlung - Webdesign,Income,900.09,CHF,18930.06
+2026-09-05,Mittagslunch Bistro,Food,-12.87,CHF,18917.19
+2026-09-06,Impact Hub Zürich Membership,Coworking,-258.82,CHF,18658.37
+2026-09-06,Café Sprüngli,Food,-19.71,CHF,18638.66
+2026-09-07,Kunstmaterial Laden,Entertainment,-45.60,CHF,18593.06
+2026-09-08,Mittagslunch Bistro,Food,-19.78,CHF,18573.28
+2026-09-09,Mittagslunch Bistro,Food,-19.37,CHF,18553.91
+2026-09-11,Honorar - Editorial Design,Income,1546.18,CHF,20100.09
+2026-09-11,Café Sprüngli,Food,-7.43,CHF,20092.66
+2026-09-11,Mittagslunch Bistro,Food,-19.37,CHF,20073.29
+2026-09-11,Kunstmaterial Laden,Entertainment,-55.06,CHF,20018.23
+2026-09-18,Adobe Creative Cloud,Software,-12.40,CHF,20005.83
+2026-09-18,Migros,Groceries,-37.75,CHF,19968.08
+2026-09-19,Wohnungsmiete,Housing,-1350.00,CHF,18618.08
+2026-09-19,Café Sprüngli,Food,-13.37,CHF,18604.71
+2026-09-19,Krankenkasse CSS Prämie,Health Insurance,-397.31,CHF,18207.40
+2026-09-20,Mittagslunch Bistro,Food,-9.38,CHF,18198.02
+2026-09-21,Migros,Groceries,-39.52,CHF,18158.50
+2026-09-22,Migros,Groceries,-49.82,CHF,18108.68
+2026-09-22,Migros,Groceries,-55.82,CHF,18052.86
+2026-09-22,Mittagslunch Bistro,Food,-8.14,CHF,18044.72
+2026-09-22,Mittagslunch Bistro,Food,-14.95,CHF,18029.77
+2026-09-22,Kunstmaterial Laden,Entertainment,-48.98,CHF,17980.79

@@ -1,0 +1,231 @@
+date,description,category,amount,currency,balance
+2025-09-22,Coop,Groceries,-65.01,CHF,1834.99
+2025-09-22,Coop,Groceries,-73.27,CHF,1761.72
+2025-09-22,Migros,Groceries,-94.31,CHF,1667.41
+2025-09-22,SWISS Flug Business,Travel,-1033.02,CHF,634.39
+2025-09-22,Bistro Abendessen,Food,-54.39,CHF,580.00
+2025-09-22,Café,Food,-52.71,CHF,527.29
+2025-09-22,Weinbar Zürich,Food,-32.50,CHF,494.79
+2025-09-22,Bistro Abendessen,Food,-22.14,CHF,472.65
+2025-09-22,Bistro Abendessen,Food,-26.89,CHF,445.76
+2025-09-22,Swisscom Internet,Utilities,-79.89,CHF,365.87
+2025-09-22,Manor,Shopping,-68.71,CHF,297.16
+2025-09-23,Manor,Shopping,-53.18,CHF,243.98
+2025-09-25,Treuhand AG Lohnzahlung,Income,8354.09,CHF,8598.07
+2025-09-27,Hypothekarzins,Housing,-1550.00,CHF,7048.07
+2025-09-27,Krankenkasse Prämie,Healthcare,-206.77,CHF,6841.30
+2025-09-28,Swisscom Internet,Utilities,-104.36,CHF,6736.94
+2025-09-29,Säule 3a Einzahlung,Retirement,-416.79,CHF,6320.15
+2025-09-30,Coop,Groceries,-45.89,CHF,6274.26
+2025-10-01,Hypothekarzins,Housing,-1550.00,CHF,4724.26
+2025-10-01,Swisscom Internet,Utilities,-91.63,CHF,4632.63
+2025-10-01,Globus,Shopping,-92.39,CHF,4540.24
+2025-10-03,Pensionskasse Einkauf,Retirement,-329.93,CHF,4210.31
+2025-10-04,Globus,Shopping,-93.25,CHF,4117.06
+2025-10-07,Migros,Groceries,-117.98,CHF,3999.08
+2025-10-10,Coop,Groceries,-53.74,CHF,3945.34
+2025-10-11,Coop,Groceries,-107.73,CHF,3837.61
+2025-10-11,Weinbar Zürich,Food,-14.62,CHF,3822.99
+2025-10-14,Café,Food,-28.12,CHF,3794.87
+2025-10-17,Mietwagen Europcar,Travel,-733.66,CHF,3061.21
+2025-10-17,Bistro Abendessen,Food,-27.50,CHF,3033.71
+2025-10-22,Migros,Groceries,-108.91,CHF,2924.80
+2025-10-22,Weinbar Zürich,Food,-13.66,CHF,2911.14
+2025-10-23,EWZ Strom,Utilities,-101.30,CHF,2809.84
+2025-10-25,Treuhand AG Lohnzahlung,Income,8477.67,CHF,11287.51
+2025-10-25,Krankenkasse Prämie,Healthcare,-157.40,CHF,11130.11
+2025-10-30,Café,Food,-42.53,CHF,11087.58
+2025-11-03,Coop,Groceries,-94.74,CHF,10992.84
+2025-11-05,Coop,Groceries,-75.76,CHF,10917.08
+2025-11-06,Café,Food,-24.97,CHF,10892.11
+2025-11-07,Booking.com Hotel,Travel,-768.52,CHF,10123.59
+2025-11-09,Bistro Abendessen,Food,-45.79,CHF,10077.80
+2025-11-09,Bistro Abendessen,Food,-31.53,CHF,10046.27
+2025-11-10,Migros,Groceries,-98.76,CHF,9947.51
+2025-11-10,Bistro Abendessen,Food,-29.33,CHF,9918.18
+2025-11-12,Manor,Shopping,-60.56,CHF,9857.62
+2025-11-14,Migros,Groceries,-76.35,CHF,9781.27
+2025-11-16,EWZ Strom,Utilities,-100.73,CHF,9680.54
+2025-11-19,Digitec Galaxus,Shopping,-41.34,CHF,9639.20
+2025-11-20,EWZ Strom,Utilities,-48.14,CHF,9591.06
+2025-11-21,Apotheke,Healthcare,-161.95,CHF,9429.11
+2025-11-24,Café,Food,-24.38,CHF,9404.73
+2025-11-25,Treuhand AG Lohnzahlung,Income,8337.22,CHF,17741.95
+2025-11-25,Treuhand AG 13. Monatslohn,Income,8400.00,CHF,26141.95
+2025-11-30,Hypothekarzins,Housing,-1550.00,CHF,24591.95
+2025-11-30,Pensionskasse Einkauf,Retirement,-353.01,CHF,24238.94
+2025-12-02,Pensionskasse Einkauf,Retirement,-317.15,CHF,23921.79
+2025-12-04,Hypothekarzins,Housing,-1550.00,CHF,22371.79
+2025-12-07,EWZ Strom,Utilities,-53.63,CHF,22318.16
+2025-12-09,EWZ Strom,Utilities,-41.10,CHF,22277.06
+2025-12-15,Café,Food,-26.66,CHF,22250.40
+2025-12-15,Manor,Shopping,-42.06,CHF,22208.34
+2025-12-16,Weinbar Zürich,Food,-36.64,CHF,22171.70
+2025-12-20,Migros,Groceries,-49.72,CHF,22121.98
+2025-12-20,Bistro Abendessen,Food,-40.68,CHF,22081.30
+2025-12-21,Café,Food,-15.83,CHF,22065.47
+2025-12-22,Coop,Groceries,-88.03,CHF,21977.44
+2025-12-24,Café,Food,-16.65,CHF,21960.79
+2025-12-25,Treuhand AG Lohnzahlung,Income,8434.41,CHF,30395.20
+2025-12-26,Krankenkasse Prämie,Healthcare,-213.71,CHF,30181.49
+2025-12-28,Digitec Galaxus,Shopping,-88.38,CHF,30093.11
+2025-12-30,Migros,Groceries,-82.87,CHF,30010.24
+2025-12-30,Coop,Groceries,-55.53,CHF,29954.71
+2026-01-05,Globus,Shopping,-76.77,CHF,29877.94
+2026-01-06,Coop,Groceries,-70.31,CHF,29807.63
+2026-01-07,Migros,Groceries,-49.55,CHF,29758.08
+2026-01-07,Bistro Abendessen,Food,-18.34,CHF,29739.74
+2026-01-09,Weinbar Zürich,Food,-52.75,CHF,29686.99
+2026-01-12,Swisscom Internet,Utilities,-63.85,CHF,29623.14
+2026-01-17,Weinbar Zürich,Food,-47.40,CHF,29575.74
+2026-01-18,Säule 3a Einzahlung,Retirement,-491.88,CHF,29083.86
+2026-01-18,Bistro Abendessen,Food,-46.10,CHF,29037.76
+2026-01-22,Krankenkasse Prämie,Healthcare,-168.52,CHF,28869.24
+2026-01-22,Digitec Galaxus,Shopping,-92.41,CHF,28776.83
+2026-01-23,Weinbar Zürich,Food,-37.37,CHF,28739.46
+2026-01-25,Treuhand AG Lohnzahlung,Income,8330.31,CHF,37069.77
+2026-01-27,Hypothekarzins,Housing,-1550.00,CHF,35519.77
+2026-01-29,Migros,Groceries,-117.39,CHF,35402.38
+2026-01-30,EWZ Strom,Utilities,-71.54,CHF,35330.84
+2026-01-31,Coop,Groceries,-72.45,CHF,35258.39
+2026-02-01,Café,Food,-13.57,CHF,35244.82
+2026-02-01,Café,Food,-54.01,CHF,35190.81
+2026-02-01,Café,Food,-43.72,CHF,35147.09
+2026-02-03,Migros,Groceries,-60.03,CHF,35087.06
+2026-02-04,Globus,Shopping,-124.20,CHF,34962.86
+2026-02-10,Weinbar Zürich,Food,-39.55,CHF,34923.31
+2026-02-13,Coop,Groceries,-54.15,CHF,34869.16
+2026-02-16,Migros,Groceries,-105.85,CHF,34763.31
+2026-02-16,EWZ Strom,Utilities,-97.78,CHF,34665.53
+2026-02-21,Coop,Groceries,-54.48,CHF,34611.05
+2026-02-22,Manor,Shopping,-106.07,CHF,34504.98
+2026-02-23,Hypothekarzins,Housing,-1550.00,CHF,32954.98
+2026-02-24,Pensionskasse Einkauf,Retirement,-450.12,CHF,32504.86
+2026-02-24,EWZ Strom,Utilities,-94.67,CHF,32410.19
+2026-02-25,Treuhand AG Lohnzahlung,Income,8357.57,CHF,40767.76
+2026-02-27,Bistro Abendessen,Food,-21.11,CHF,40746.65
+2026-02-28,Apotheke,Healthcare,-196.85,CHF,40549.80
+2026-03-02,Migros,Groceries,-78.47,CHF,40471.33
+2026-03-03,Coop,Groceries,-98.66,CHF,40372.67
+2026-03-03,Apotheke,Healthcare,-158.84,CHF,40213.83
+2026-03-05,Hypothekarzins,Housing,-1550.00,CHF,38663.83
+2026-03-07,Weinbar Zürich,Food,-26.15,CHF,38637.68
+2026-03-07,Digitec Galaxus,Shopping,-63.13,CHF,38574.55
+2026-03-13,SWISS Flug Business,Travel,-232.06,CHF,38342.49
+2026-03-14,Weinbar Zürich,Food,-22.08,CHF,38320.41
+2026-03-15,Migros,Groceries,-61.91,CHF,38258.50
+2026-03-17,Bistro Abendessen,Food,-33.97,CHF,38224.53
+2026-03-17,Swisscom Internet,Utilities,-92.44,CHF,38132.09
+2026-03-18,EWZ Strom,Utilities,-108.59,CHF,38023.50
+2026-03-19,Coop,Groceries,-74.53,CHF,37948.97
+2026-03-24,Globus,Shopping,-51.83,CHF,37897.14
+2026-03-25,Treuhand AG Lohnzahlung,Income,8483.85,CHF,46380.99
+2026-03-28,Weinbar Zürich,Food,-54.16,CHF,46326.83
+2026-03-30,Pensionskasse Einkauf,Retirement,-324.89,CHF,46001.94
+2026-03-30,Café,Food,-54.41,CHF,45947.53
+2026-04-01,Migros,Groceries,-98.12,CHF,45849.41
+2026-04-04,EWZ Strom,Utilities,-78.03,CHF,45771.38
+2026-04-05,Pensionskasse Einkauf,Retirement,-367.62,CHF,45403.76
+2026-04-07,Hypothekarzins,Housing,-1550.00,CHF,43853.76
+2026-04-07,Manor,Shopping,-144.92,CHF,43708.84
+2026-04-10,SBB Bahnticket,Travel,-547.04,CHF,43161.80
+2026-04-14,Bistro Abendessen,Food,-50.95,CHF,43110.85
+2026-04-14,Bistro Abendessen,Food,-40.24,CHF,43070.61
+2026-04-17,Migros,Groceries,-52.00,CHF,43018.61
+2026-04-17,Coop,Groceries,-62.21,CHF,42956.40
+2026-04-17,Weinbar Zürich,Food,-18.35,CHF,42938.05
+2026-04-17,EWZ Strom,Utilities,-70.56,CHF,42867.49
+2026-04-21,Coop,Groceries,-72.31,CHF,42795.18
+2026-04-21,Krankenkasse Prämie,Healthcare,-154.62,CHF,42640.56
+2026-04-22,Café,Food,-42.51,CHF,42598.05
+2026-04-23,Café,Food,-26.89,CHF,42571.16
+2026-04-25,Treuhand AG Lohnzahlung,Income,8351.18,CHF,50922.34
+2026-04-27,Manor,Shopping,-140.31,CHF,50782.03
+2026-05-02,Café,Food,-29.07,CHF,50752.96
+2026-05-03,Apotheke,Healthcare,-210.13,CHF,50542.83
+2026-05-03,Digitec Galaxus,Shopping,-125.83,CHF,50417.00
+2026-05-06,Säule 3a Einzahlung,Retirement,-340.51,CHF,50076.49
+2026-05-08,Migros,Groceries,-92.43,CHF,49984.06
+2026-05-10,Bistro Abendessen,Food,-14.76,CHF,49969.30
+2026-05-10,Café,Food,-23.31,CHF,49945.99
+2026-05-11,Weinbar Zürich,Food,-41.93,CHF,49904.06
+2026-05-11,Globus,Shopping,-148.18,CHF,49755.88
+2026-05-20,Migros,Groceries,-67.24,CHF,49688.64
+2026-05-20,EWZ Strom,Utilities,-43.67,CHF,49644.97
+2026-05-21,Coop,Groceries,-59.71,CHF,49585.26
+2026-05-22,Weinbar Zürich,Food,-20.56,CHF,49564.70
+2026-05-24,Coop,Groceries,-69.08,CHF,49495.62
+2026-05-24,Swisscom Internet,Utilities,-57.00,CHF,49438.62
+2026-05-25,Treuhand AG Lohnzahlung,Income,8423.83,CHF,57862.45
+2026-05-29,Hypothekarzins,Housing,-1550.00,CHF,56312.45
+2026-06-01,Weinbar Zürich,Food,-29.46,CHF,56282.99
+2026-06-03,Krankenkasse Prämie,Healthcare,-207.04,CHF,56075.95
+2026-06-05,Bistro Abendessen,Food,-42.78,CHF,56033.17
+2026-06-07,Coop,Groceries,-81.39,CHF,55951.78
+2026-06-07,Café,Food,-20.13,CHF,55931.65
+2026-06-10,Globus,Shopping,-46.36,CHF,55885.29
+2026-06-12,Swisscom Internet,Utilities,-74.68,CHF,55810.61
+2026-06-14,Hypothekarzins,Housing,-1550.00,CHF,54260.61
+2026-06-17,Coop,Groceries,-67.66,CHF,54192.95
+2026-06-23,Hotelbuchung,Travel,-214.47,CHF,53978.48
+2026-06-23,Café,Food,-41.79,CHF,53936.69
+2026-06-24,Coop,Groceries,-72.69,CHF,53864.00
+2026-06-24,Swisscom Internet,Utilities,-94.43,CHF,53769.57
+2026-06-25,Treuhand AG Lohnzahlung,Income,8393.13,CHF,62162.70
+2026-06-26,Migros,Groceries,-112.15,CHF,62050.55
+2026-06-27,Digitec Galaxus,Shopping,-132.88,CHF,61917.67
+2026-06-28,Bistro Abendessen,Food,-52.26,CHF,61865.41
+2026-06-29,Säule 3a Einzahlung,Retirement,-434.51,CHF,61430.90
+2026-07-08,Manor,Shopping,-37.76,CHF,61393.14
+2026-07-09,EWZ Strom,Utilities,-40.29,CHF,61352.85
+2026-07-10,Coop,Groceries,-74.78,CHF,61278.07
+2026-07-11,Hypothekarzins,Housing,-1550.00,CHF,59728.07
+2026-07-11,Apotheke,Healthcare,-165.56,CHF,59562.51
+2026-07-18,Swisscom Internet,Utilities,-97.48,CHF,59465.03
+2026-07-19,Manor,Shopping,-42.87,CHF,59422.16
+2026-07-20,Weinbar Zürich,Food,-17.88,CHF,59404.28
+2026-07-22,Bistro Abendessen,Food,-33.43,CHF,59370.85
+2026-07-25,Treuhand AG Lohnzahlung,Income,8392.13,CHF,67762.98
+2026-07-27,Coop,Groceries,-113.92,CHF,67649.06
+2026-07-27,Coop,Groceries,-95.70,CHF,67553.36
+2026-07-28,Migros,Groceries,-113.90,CHF,67439.46
+2026-07-28,Bistro Abendessen,Food,-38.35,CHF,67401.11
+2026-07-29,Café,Food,-33.76,CHF,67367.35
+2026-07-30,Säule 3a Einzahlung,Retirement,-430.97,CHF,66936.38
+2026-07-30,Bistro Abendessen,Food,-15.54,CHF,66920.84
+2026-07-31,Booking.com Hotel,Travel,-327.40,CHF,66593.44
+2026-08-03,Krankenkasse Prämie,Healthcare,-186.40,CHF,66407.04
+2026-08-07,Hypothekarzins,Housing,-1550.00,CHF,64857.04
+2026-08-07,Migros,Groceries,-81.75,CHF,64775.29
+2026-08-08,Bistro Abendessen,Food,-34.31,CHF,64740.98
+2026-08-08,Bistro Abendessen,Food,-52.50,CHF,64688.48
+2026-08-09,Coop,Groceries,-57.26,CHF,64631.22
+2026-08-11,Café,Food,-41.57,CHF,64589.65
+2026-08-13,Digitec Galaxus,Shopping,-40.57,CHF,64549.08
+2026-08-16,Digitec Galaxus,Shopping,-64.60,CHF,64484.48
+2026-08-18,EWZ Strom,Utilities,-39.95,CHF,64444.53
+2026-08-19,SBB Bahnticket,Travel,-1165.13,CHF,63279.40
+2026-08-20,Café,Food,-52.68,CHF,63226.72
+2026-08-23,Säule 3a Einzahlung,Retirement,-446.89,CHF,62779.83
+2026-08-23,Swisscom Internet,Utilities,-105.73,CHF,62674.10
+2026-08-24,Coop,Groceries,-109.98,CHF,62564.12
+2026-08-24,Weinbar Zürich,Food,-41.08,CHF,62523.04
+2026-08-25,Treuhand AG Lohnzahlung,Income,8399.16,CHF,70922.20
+2026-08-25,Coop,Groceries,-53.78,CHF,70868.42
+2026-09-03,Café,Food,-31.11,CHF,70837.31
+2026-09-03,Globus,Shopping,-76.16,CHF,70761.15
+2026-09-04,EWZ Strom,Utilities,-76.03,CHF,70685.12
+2026-09-05,Café,Food,-40.42,CHF,70644.70
+2026-09-08,Migros,Groceries,-72.10,CHF,70572.60
+2026-09-09,Coop,Groceries,-105.32,CHF,70467.28
+2026-09-09,Coop,Groceries,-119.65,CHF,70347.63
+2026-09-10,Swisscom Internet,Utilities,-40.12,CHF,70307.51
+2026-09-14,Digitec Galaxus,Shopping,-70.15,CHF,70237.36
+2026-09-17,Hypothekarzins,Housing,-1550.00,CHF,68687.36
+2026-09-17,Mietwagen Europcar,Travel,-239.60,CHF,68447.76
+2026-09-20,Krankenkasse Prämie,Healthcare,-174.36,CHF,68273.40
+2026-09-20,Weinbar Zürich,Food,-29.10,CHF,68244.30
+2026-09-22,Coop,Groceries,-82.85,CHF,68161.45
+2026-09-22,Säule 3a Einzahlung,Retirement,-458.40,CHF,67703.05
+2026-09-22,Bistro Abendessen,Food,-25.55,CHF,67677.50
+2026-09-22,Weinbar Zürich,Food,-25.35,CHF,67652.15

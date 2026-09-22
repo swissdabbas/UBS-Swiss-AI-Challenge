@@ -1,0 +1,239 @@
+date,description,category,amount,currency,balance
+2025-09-22,Fiverr Auszahlung,Income,281.80,CHF,6571.80
+2025-09-22,Fiverr Auszahlung,Income,267.64,CHF,6839.44
+2025-09-22,Freelance Auftragszahlung,Income,346.70,CHF,7186.14
+2025-09-22,WG-Zimmer Miete,Housing,-539.55,CHF,6646.59
+2025-09-22,Denner,Groceries,-20.69,CHF,6625.90
+2025-09-22,Denner,Groceries,-39.98,CHF,6585.92
+2025-09-22,Lidl Schweiz,Groceries,-35.11,CHF,6550.81
+2025-09-22,Migros Take Away,Food,-12.02,CHF,6538.79
+2025-09-22,Migros Take Away,Food,-19.43,CHF,6519.36
+2025-09-22,Kebab Haus,Food,-18.02,CHF,6501.34
+2025-09-22,Migros Take Away,Food,-19.57,CHF,6481.77
+2025-09-22,Studienkredit Rückzahlung,Debt Repayment,-208.66,CHF,6273.11
+2025-09-22,Konsumkredit Rate,Debt Repayment,-192.47,CHF,6080.64
+2025-09-22,Konsumkredit Rate,Debt Repayment,-226.45,CHF,5854.19
+2025-09-22,Mahngebühr,Fees,-22.60,CHF,5831.59
+2025-09-23,Kebab Haus,Food,-8.05,CHF,5823.54
+2025-09-23,EWZ Strom,Phone/Utilities,-34.71,CHF,5788.83
+2025-09-25,EWZ Strom,Phone/Utilities,-41.49,CHF,5747.34
+2025-09-28,Fiverr Auszahlung,Income,356.24,CHF,6103.58
+2025-10-02,Mahngebühr,Fees,-47.38,CHF,6056.20
+2025-10-05,Uber Auszahlung,Income,479.71,CHF,6535.91
+2025-10-05,Denner,Groceries,-41.43,CHF,6494.48
+2025-10-05,Studienkredit Rückzahlung,Debt Repayment,-298.62,CHF,6195.86
+2025-10-09,Kreditkarte Mindestzahlung,Debt Repayment,-244.49,CHF,5951.37
+2025-10-10,Uber Auszahlung,Income,422.26,CHF,6373.63
+2025-10-10,Freelance Auftragszahlung,Income,89.32,CHF,6462.95
+2025-10-10,Swisscom Rechnung,Phone/Utilities,-86.55,CHF,6376.40
+2025-10-11,Migros Take Away,Food,-19.68,CHF,6356.72
+2025-10-15,EWZ Strom,Phone/Utilities,-88.28,CHF,6268.44
+2025-10-16,Lidl Schweiz,Groceries,-37.42,CHF,6231.02
+2025-10-20,Denner,Groceries,-38.38,CHF,6192.64
+2025-10-24,Migros Take Away,Food,-19.66,CHF,6172.98
+2025-10-25,Kreditkarte Mindestzahlung,Debt Repayment,-131.24,CHF,6041.74
+2025-10-26,Kebab Haus,Food,-13.03,CHF,6028.71
+2025-10-27,WG-Zimmer Miete,Housing,-517.41,CHF,5511.30
+2025-10-29,Kebab Haus,Food,-17.99,CHF,5493.31
+2025-10-30,Kebab Haus,Food,-12.03,CHF,5481.28
+2025-10-31,Freelance Auftragszahlung,Income,333.17,CHF,5814.45
+2025-11-01,Uber Auszahlung,Income,275.19,CHF,6089.64
+2025-11-01,Lidl Schweiz,Groceries,-22.76,CHF,6066.88
+2025-11-02,EWZ Strom,Phone/Utilities,-65.49,CHF,6001.39
+2025-11-03,EWZ Strom,Phone/Utilities,-41.47,CHF,5959.92
+2025-11-05,Denner,Groceries,-21.14,CHF,5938.78
+2025-11-06,Kebab Haus,Food,-15.86,CHF,5922.92
+2025-11-10,Kebab Haus,Food,-12.37,CHF,5910.55
+2025-11-10,Studienkredit Rückzahlung,Debt Repayment,-223.19,CHF,5687.36
+2025-11-11,Konsumkredit Rate,Debt Repayment,-111.07,CHF,5576.29
+2025-11-14,WG-Zimmer Miete,Housing,-584.68,CHF,4991.61
+2025-11-15,Konsumkredit Rate,Debt Repayment,-238.84,CHF,4752.77
+2025-11-18,Kebab Haus,Food,-9.00,CHF,4743.77
+2025-11-21,Freelance Auftragszahlung,Income,375.49,CHF,5119.26
+2025-11-23,Kebab Haus,Food,-8.24,CHF,5111.02
+2025-11-24,Denner,Groceries,-28.60,CHF,5082.42
+2025-11-26,Uber Auszahlung,Income,334.54,CHF,5416.96
+2025-11-28,Migros Take Away,Food,-16.88,CHF,5400.08
+2025-12-01,Kebab Haus,Food,-8.04,CHF,5392.04
+2025-12-04,Migros Take Away,Food,-13.97,CHF,5378.07
+2025-12-10,Fiverr Auszahlung,Income,323.08,CHF,5701.15
+2025-12-10,WG-Zimmer Miete,Housing,-597.42,CHF,5103.73
+2025-12-12,Freelance Auftragszahlung,Income,188.46,CHF,5292.19
+2025-12-12,Uber Auszahlung,Income,287.60,CHF,5579.79
+2025-12-12,Konsumkredit Rate,Debt Repayment,-177.59,CHF,5402.20
+2025-12-15,Swisscom Rechnung,Phone/Utilities,-76.28,CHF,5325.92
+2025-12-17,Kreditkarte Mindestzahlung,Debt Repayment,-113.31,CHF,5212.61
+2025-12-19,Denner,Groceries,-33.09,CHF,5179.52
+2025-12-20,Kebab Haus,Food,-13.81,CHF,5165.71
+2025-12-20,Swisscom Rechnung,Phone/Utilities,-70.02,CHF,5095.69
+2025-12-21,Uber Auszahlung,Income,152.35,CHF,5248.04
+2025-12-23,Migros Take Away,Food,-11.05,CHF,5236.99
+2025-12-23,Studienkredit Rückzahlung,Debt Repayment,-234.81,CHF,5002.18
+2025-12-25,Denner,Groceries,-26.90,CHF,4975.28
+2025-12-28,Migros Take Away,Food,-9.42,CHF,4965.86
+2025-12-30,Denner,Groceries,-22.70,CHF,4943.16
+2026-01-06,Migros Take Away,Food,-12.65,CHF,4930.51
+2026-01-10,Kebab Haus,Food,-9.91,CHF,4920.60
+2026-01-12,EWZ Strom,Phone/Utilities,-66.70,CHF,4853.90
+2026-01-17,Fiverr Auszahlung,Income,236.69,CHF,5090.59
+2026-01-19,Denner,Groceries,-24.52,CHF,5066.07
+2026-01-20,Konsumkredit Rate,Debt Repayment,-247.54,CHF,4818.53
+2026-01-21,Kebab Haus,Food,-10.45,CHF,4808.08
+2026-01-24,Studienkredit Rückzahlung,Debt Repayment,-259.22,CHF,4548.86
+2026-01-24,Kreditkarte Mindestzahlung,Debt Repayment,-101.21,CHF,4447.65
+2026-01-25,Denner,Groceries,-26.15,CHF,4421.50
+2026-01-25,Lidl Schweiz,Groceries,-30.63,CHF,4390.87
+2026-01-25,Swisscom Rechnung,Phone/Utilities,-81.56,CHF,4309.31
+2026-01-26,WG-Zimmer Miete,Housing,-530.50,CHF,3778.81
+2026-01-27,Freelance Auftragszahlung,Income,499.98,CHF,4278.79
+2026-01-30,Migros Take Away,Food,-19.93,CHF,4258.86
+2026-01-31,Kebab Haus,Food,-8.88,CHF,4249.98
+2026-02-04,Denner,Groceries,-38.33,CHF,4211.65
+2026-02-09,Migros Take Away,Food,-19.25,CHF,4192.40
+2026-02-09,Swisscom Rechnung,Phone/Utilities,-35.51,CHF,4156.89
+2026-02-10,Fiverr Auszahlung,Income,207.78,CHF,4364.67
+2026-02-11,Kebab Haus,Food,-11.00,CHF,4353.67
+2026-02-12,Lidl Schweiz,Groceries,-42.29,CHF,4311.38
+2026-02-14,Denner,Groceries,-20.51,CHF,4290.87
+2026-02-14,Migros Take Away,Food,-12.04,CHF,4278.83
+2026-02-14,Studienkredit Rückzahlung,Debt Repayment,-271.69,CHF,4007.14
+2026-02-15,Uber Auszahlung,Income,107.61,CHF,4114.75
+2026-02-16,Freelance Auftragszahlung,Income,385.71,CHF,4500.46
+2026-02-17,Konsumkredit Rate,Debt Repayment,-153.17,CHF,4347.29
+2026-02-18,Migros Take Away,Food,-19.74,CHF,4327.55
+2026-02-19,Mahngebühr,Fees,-54.89,CHF,4272.66
+2026-02-21,WG-Zimmer Miete,Housing,-547.22,CHF,3725.44
+2026-02-22,Kreditkarte Mindestzahlung,Debt Repayment,-192.51,CHF,3532.93
+2026-02-26,Kebab Haus,Food,-19.41,CHF,3513.52
+2026-02-28,EWZ Strom,Phone/Utilities,-76.73,CHF,3436.79
+2026-03-01,Kebab Haus,Food,-10.07,CHF,3426.72
+2026-03-02,Swisscom Rechnung,Phone/Utilities,-32.44,CHF,3394.28
+2026-03-03,Freelance Auftragszahlung,Income,289.68,CHF,3683.96
+2026-03-05,Kreditkarte Mindestzahlung,Debt Repayment,-123.17,CHF,3560.79
+2026-03-07,Lidl Schweiz,Groceries,-48.55,CHF,3512.24
+2026-03-07,EWZ Strom,Phone/Utilities,-84.43,CHF,3427.81
+2026-03-09,Migros Take Away,Food,-10.63,CHF,3417.18
+2026-03-11,Konsumkredit Rate,Debt Repayment,-195.26,CHF,3221.92
+2026-03-14,Lidl Schweiz,Groceries,-43.20,CHF,3178.72
+2026-03-16,WG-Zimmer Miete,Housing,-555.34,CHF,2623.38
+2026-03-18,Migros Take Away,Food,-12.88,CHF,2610.50
+2026-03-23,Kebab Haus,Food,-10.87,CHF,2599.63
+2026-03-26,Uber Auszahlung,Income,131.63,CHF,2731.26
+2026-03-27,Freelance Auftragszahlung,Income,443.00,CHF,3174.26
+2026-03-29,Denner,Groceries,-43.50,CHF,3130.76
+2026-03-30,Uber Auszahlung,Income,432.75,CHF,3563.51
+2026-03-30,Kebab Haus,Food,-15.07,CHF,3548.44
+2026-03-31,Freelance Auftragszahlung,Income,140.46,CHF,3688.90
+2026-03-31,Studienkredit Rückzahlung,Debt Repayment,-241.90,CHF,3447.00
+2026-04-02,Fiverr Auszahlung,Income,356.93,CHF,3803.93
+2026-04-06,Lidl Schweiz,Groceries,-32.13,CHF,3771.80
+2026-04-06,Swisscom Rechnung,Phone/Utilities,-62.40,CHF,3709.40
+2026-04-09,Mahngebühr,Fees,-48.29,CHF,3661.11
+2026-04-11,WG-Zimmer Miete,Housing,-505.81,CHF,3155.30
+2026-04-11,Migros Take Away,Food,-13.63,CHF,3141.67
+2026-04-13,Denner,Groceries,-30.47,CHF,3111.20
+2026-04-13,Studienkredit Rückzahlung,Debt Repayment,-224.39,CHF,2886.81
+2026-04-13,EWZ Strom,Phone/Utilities,-53.57,CHF,2833.24
+2026-04-14,Lidl Schweiz,Groceries,-27.07,CHF,2806.17
+2026-04-14,Migros Take Away,Food,-15.71,CHF,2790.46
+2026-04-16,Kebab Haus,Food,-19.77,CHF,2770.69
+2026-04-17,Konsumkredit Rate,Debt Repayment,-160.24,CHF,2610.45
+2026-04-20,Uber Auszahlung,Income,214.14,CHF,2824.59
+2026-04-20,Konsumkredit Rate,Debt Repayment,-128.29,CHF,2696.30
+2026-04-21,Freelance Auftragszahlung,Income,428.59,CHF,3124.89
+2026-04-22,Uber Auszahlung,Income,480.16,CHF,3605.05
+2026-04-24,Migros Take Away,Food,-12.01,CHF,3593.04
+2026-04-29,Uber Auszahlung,Income,235.08,CHF,3828.12
+2026-04-29,Kebab Haus,Food,-8.04,CHF,3820.08
+2026-05-01,Kebab Haus,Food,-10.56,CHF,3809.52
+2026-05-01,Kebab Haus,Food,-15.05,CHF,3794.47
+2026-05-01,Swisscom Rechnung,Phone/Utilities,-34.32,CHF,3760.15
+2026-05-06,Konsumkredit Rate,Debt Repayment,-151.78,CHF,3608.37
+2026-05-09,Kebab Haus,Food,-8.19,CHF,3600.18
+2026-05-11,Freelance Auftragszahlung,Income,122.38,CHF,3722.56
+2026-05-13,Freelance Auftragszahlung,Income,342.74,CHF,4065.30
+2026-05-13,Lidl Schweiz,Groceries,-39.14,CHF,4026.16
+2026-05-18,Freelance Auftragszahlung,Income,131.04,CHF,4157.20
+2026-05-18,Swisscom Rechnung,Phone/Utilities,-61.06,CHF,4096.14
+2026-05-20,Migros Take Away,Food,-10.82,CHF,4085.32
+2026-05-21,Denner,Groceries,-47.94,CHF,4037.38
+2026-05-21,Kebab Haus,Food,-13.18,CHF,4024.20
+2026-05-24,WG-Zimmer Miete,Housing,-575.51,CHF,3448.69
+2026-05-26,Studienkredit Rückzahlung,Debt Repayment,-264.42,CHF,3184.27
+2026-05-29,Denner,Groceries,-48.98,CHF,3135.29
+2026-05-29,Konsumkredit Rate,Debt Repayment,-219.22,CHF,2916.07
+2026-05-30,Mahngebühr,Fees,-28.05,CHF,2888.02
+2026-06-03,Studienkredit Rückzahlung,Debt Repayment,-276.53,CHF,2611.49
+2026-06-04,WG-Zimmer Miete,Housing,-571.10,CHF,2040.39
+2026-06-04,Überziehungszins Gebühr,Fees,-59.71,CHF,1980.68
+2026-06-07,Lidl Schweiz,Groceries,-39.98,CHF,1940.70
+2026-06-08,Kebab Haus,Food,-8.97,CHF,1931.73
+2026-06-11,Kebab Haus,Food,-17.93,CHF,1913.80
+2026-06-13,Swisscom Rechnung,Phone/Utilities,-81.62,CHF,1832.18
+2026-06-14,Kreditkarte Mindestzahlung,Debt Repayment,-157.35,CHF,1674.83
+2026-06-15,Swisscom Rechnung,Phone/Utilities,-83.19,CHF,1591.64
+2026-06-17,Migros Take Away,Food,-11.38,CHF,1580.26
+2026-06-20,Lidl Schweiz,Groceries,-40.04,CHF,1540.22
+2026-06-21,Konsumkredit Rate,Debt Repayment,-220.64,CHF,1319.58
+2026-06-24,Migros Take Away,Food,-11.71,CHF,1307.87
+2026-06-25,Kebab Haus,Food,-10.96,CHF,1296.91
+2026-06-27,Denner,Groceries,-20.79,CHF,1276.12
+2026-06-28,Freelance Auftragszahlung,Income,401.46,CHF,1677.58
+2026-06-29,Fiverr Auszahlung,Income,348.11,CHF,2025.69
+2026-07-02,EWZ Strom,Phone/Utilities,-65.36,CHF,1960.33
+2026-07-03,WG-Zimmer Miete,Housing,-522.30,CHF,1438.03
+2026-07-03,Migros Take Away,Food,-15.99,CHF,1422.04
+2026-07-04,Fiverr Auszahlung,Income,349.18,CHF,1771.22
+2026-07-04,Studienkredit Rückzahlung,Debt Repayment,-201.11,CHF,1570.11
+2026-07-05,Denner,Groceries,-29.42,CHF,1540.69
+2026-07-06,Freelance Auftragszahlung,Income,324.49,CHF,1865.18
+2026-07-08,Migros Take Away,Food,-18.37,CHF,1846.81
+2026-07-13,Migros Take Away,Food,-8.18,CHF,1838.63
+2026-07-17,Freelance Auftragszahlung,Income,182.67,CHF,2021.30
+2026-07-17,Denner,Groceries,-44.47,CHF,1976.83
+2026-07-17,Migros Take Away,Food,-9.87,CHF,1966.96
+2026-07-17,Migros Take Away,Food,-8.72,CHF,1958.24
+2026-07-19,Lidl Schweiz,Groceries,-36.03,CHF,1922.21
+2026-07-20,Konsumkredit Rate,Debt Repayment,-146.27,CHF,1775.94
+2026-07-24,Konsumkredit Rate,Debt Repayment,-225.14,CHF,1550.80
+2026-07-26,Swisscom Rechnung,Phone/Utilities,-37.41,CHF,1513.39
+2026-08-01,WG-Zimmer Miete,Housing,-563.10,CHF,950.29
+2026-08-06,Swisscom Rechnung,Phone/Utilities,-64.07,CHF,886.22
+2026-08-07,Kebab Haus,Food,-15.28,CHF,870.94
+2026-08-09,Freelance Auftragszahlung,Income,96.39,CHF,967.33
+2026-08-09,Uber Auszahlung,Income,468.47,CHF,1435.80
+2026-08-11,Studienkredit Rückzahlung,Debt Repayment,-298.85,CHF,1136.95
+2026-08-14,Fiverr Auszahlung,Income,96.21,CHF,1233.16
+2026-08-14,Lidl Schweiz,Groceries,-48.29,CHF,1184.87
+2026-08-17,Kebab Haus,Food,-11.67,CHF,1173.20
+2026-08-18,Denner,Groceries,-22.47,CHF,1150.73
+2026-08-18,Kebab Haus,Food,-10.23,CHF,1140.50
+2026-08-18,Konsumkredit Rate,Debt Repayment,-244.28,CHF,896.22
+2026-08-19,Migros Take Away,Food,-9.59,CHF,886.63
+2026-08-20,Lidl Schweiz,Groceries,-21.28,CHF,865.35
+2026-08-20,EWZ Strom,Phone/Utilities,-47.84,CHF,817.51
+2026-08-23,Uber Auszahlung,Income,163.25,CHF,980.76
+2026-08-25,Mahngebühr,Fees,-39.54,CHF,941.22
+2026-08-29,Fiverr Auszahlung,Income,386.71,CHF,1327.93
+2026-08-29,Kebab Haus,Food,-10.30,CHF,1317.63
+2026-08-29,Konsumkredit Rate,Debt Repayment,-249.60,CHF,1068.03
+2026-09-02,Migros Take Away,Food,-9.16,CHF,1058.87
+2026-09-03,Lidl Schweiz,Groceries,-47.08,CHF,1011.79
+2026-09-04,Freelance Auftragszahlung,Income,421.10,CHF,1432.89
+2026-09-04,Freelance Auftragszahlung,Income,271.43,CHF,1704.32
+2026-09-06,Konsumkredit Rate,Debt Repayment,-174.34,CHF,1529.98
+2026-09-07,Migros Take Away,Food,-9.70,CHF,1520.28
+2026-09-08,Kebab Haus,Food,-15.63,CHF,1504.65
+2026-09-10,Konsumkredit Rate,Debt Repayment,-108.07,CHF,1396.58
+2026-09-12,Swisscom Rechnung,Phone/Utilities,-30.81,CHF,1365.77
+2026-09-13,Lidl Schweiz,Groceries,-29.21,CHF,1336.56
+2026-09-14,Fiverr Auszahlung,Income,345.67,CHF,1682.23
+2026-09-20,WG-Zimmer Miete,Housing,-562.31,CHF,1119.92
+2026-09-20,Studienkredit Rückzahlung,Debt Repayment,-277.27,CHF,842.65
+2026-09-22,Freelance Auftragszahlung,Income,247.87,CHF,1090.52
+2026-09-22,Fiverr Auszahlung,Income,135.12,CHF,1225.64
+2026-09-22,Lidl Schweiz,Groceries,-33.33,CHF,1192.31
+2026-09-22,Kebab Haus,Food,-15.16,CHF,1177.15
+2026-09-22,Migros Take Away,Food,-18.06,CHF,1159.09
+2026-09-22,Überziehungszins Gebühr,Fees,-36.59,CHF,1122.50
+2026-09-22,Swisscom Rechnung,Phone/Utilities,-66.24,CHF,1056.26

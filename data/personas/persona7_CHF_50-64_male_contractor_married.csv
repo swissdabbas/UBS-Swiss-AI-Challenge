@@ -1,0 +1,259 @@
+date,description,category,amount,currency,balance
+2025-09-22,Kundenzahlung - Umbau Projekt,Income,3292.56,CHF,3792.56
+2025-09-22,Kundenzahlung - Umbau Projekt,Income,5552.75,CHF,9345.31
+2025-09-22,Kundenzahlung - Reparaturauftrag,Income,4288.78,CHF,13634.09
+2025-09-22,Werkzeugvermietung,Business Expense,-317.05,CHF,13317.04
+2025-09-22,Subunternehmer Zahlung,Business Expense,-496.94,CHF,12820.10
+2025-09-22,Hornbach Schweiz,Business Expense,-156.59,CHF,12663.51
+2025-09-22,Hypothekarzins,Housing,-1600.00,CHF,11063.51
+2025-09-22,Coop,Groceries,-166.75,CHF,10896.76
+2025-09-22,Migros,Groceries,-140.63,CHF,10756.13
+2025-09-22,Swisscom Internet,Utilities,-46.14,CHF,10709.99
+2025-09-22,Steakhouse Zürich,Food,-41.06,CHF,10668.93
+2025-09-22,Beizli Mittagessen,Food,-31.71,CHF,10637.22
+2025-09-22,Steakhouse Zürich,Food,-34.55,CHF,10602.67
+2025-09-22,Hotel Tessin,Travel,-269.62,CHF,10333.05
+2025-09-24,Migros,Groceries,-165.25,CHF,10167.80
+2025-09-24,Betriebshaftpflichtversicherung,Insurance,-496.95,CHF,9670.85
+2025-09-25,EWZ Strom,Utilities,-43.74,CHF,9627.11
+2025-09-28,Subunternehmer Zahlung,Business Expense,-412.14,CHF,9214.97
+2025-09-29,Subunternehmer Zahlung,Business Expense,-147.63,CHF,9067.34
+2025-09-29,Coop,Groceries,-118.73,CHF,8948.61
+2025-10-02,Kundenzahlung - Terrassenbau,Income,1655.52,CHF,10604.13
+2025-10-03,Kundenzahlung - Reparaturauftrag,Income,2475.51,CHF,13079.64
+2025-10-04,Hypothekarzins,Housing,-1600.00,CHF,11479.64
+2025-10-05,Swisscom Internet,Utilities,-66.54,CHF,11413.10
+2025-10-07,Coop,Groceries,-105.66,CHF,11307.44
+2025-10-08,Steakhouse Zürich,Food,-26.35,CHF,11281.09
+2025-10-08,Autobahnvignette Frankreich,Travel,-247.21,CHF,11033.88
+2025-10-10,Subunternehmer Zahlung,Business Expense,-62.62,CHF,10971.26
+2025-10-11,Tankstelle Transporter,Business Expense,-669.98,CHF,10301.28
+2025-10-11,Säule 3a Einzahlung,Retirement,-689.85,CHF,9611.43
+2025-10-13,Migros,Groceries,-103.15,CHF,9508.28
+2025-10-14,Beizli Mittagessen,Food,-29.77,CHF,9478.51
+2025-10-15,Steakhouse Zürich,Food,-83.44,CHF,9395.07
+2025-10-18,Tankstelle Transporter,Business Expense,-296.32,CHF,9098.75
+2025-10-18,Coop,Groceries,-115.87,CHF,8982.88
+2025-10-20,Betriebshaftpflichtversicherung,Insurance,-428.64,CHF,8554.24
+2025-10-20,EWZ Strom,Utilities,-85.42,CHF,8468.82
+2025-10-22,Subunternehmer Zahlung,Business Expense,-209.34,CHF,8259.48
+2025-10-24,Migros,Groceries,-106.60,CHF,8152.88
+2025-10-27,Werkzeugvermietung,Business Expense,-437.04,CHF,7715.84
+2025-11-02,Kundenzahlung - Umbau Projekt,Income,5582.32,CHF,13298.16
+2025-11-02,Kundenzahlung - Terrassenbau,Income,4258.65,CHF,17556.81
+2025-11-02,Hornbach Schweiz,Business Expense,-181.99,CHF,17374.82
+2025-11-03,Coop,Groceries,-81.28,CHF,17293.54
+2025-11-04,Subunternehmer Zahlung,Business Expense,-368.17,CHF,16925.37
+2025-11-08,Kundenzahlung - Reparaturauftrag,Income,4542.32,CHF,21467.69
+2025-11-09,Coop,Groceries,-73.96,CHF,21393.73
+2025-11-09,Migros,Groceries,-145.58,CHF,21248.15
+2025-11-11,Steakhouse Zürich,Food,-36.74,CHF,21211.41
+2025-11-13,Subunternehmer Zahlung,Business Expense,-314.76,CHF,20896.65
+2025-11-15,Tankstelle Transporter,Business Expense,-635.70,CHF,20260.95
+2025-11-16,EWZ Strom,Utilities,-61.50,CHF,20199.45
+2025-11-17,Hypothekarzins,Housing,-1600.00,CHF,18599.45
+2025-11-20,Hotel Tessin,Travel,-357.97,CHF,18241.48
+2025-11-21,Bauhaus Material,Business Expense,-492.77,CHF,17748.71
+2025-11-23,Krankenkasse Prämie,Insurance,-478.39,CHF,17270.32
+2025-11-23,Swisscom Internet,Utilities,-57.42,CHF,17212.90
+2025-11-24,Steakhouse Zürich,Food,-80.94,CHF,17131.96
+2025-11-26,Beizli Mittagessen,Food,-59.87,CHF,17072.09
+2025-11-29,Migros,Groceries,-80.48,CHF,16991.61
+2025-12-01,Säule 3a Einzahlung,Retirement,-1311.96,CHF,15679.65
+2025-12-02,Hypothekarzins,Housing,-1600.00,CHF,14079.65
+2025-12-02,Coop,Groceries,-149.96,CHF,13929.69
+2025-12-04,Bauhaus Material,Business Expense,-277.63,CHF,13652.06
+2025-12-04,Hornbach Schweiz,Business Expense,-60.15,CHF,13591.91
+2025-12-08,Kundenzahlung - Umbau Projekt,Income,1446.89,CHF,15038.80
+2025-12-09,Steakhouse Zürich,Food,-60.20,CHF,14978.60
+2025-12-10,Kundenzahlung - Reparaturauftrag,Income,3421.44,CHF,18400.04
+2025-12-11,Steakhouse Zürich,Food,-72.65,CHF,18327.39
+2025-12-13,Migros,Groceries,-84.94,CHF,18242.45
+2025-12-15,EWZ Strom,Utilities,-101.37,CHF,18141.08
+2025-12-17,Swisscom Internet,Utilities,-62.84,CHF,18078.24
+2025-12-17,Steakhouse Zürich,Food,-34.70,CHF,18043.54
+2025-12-18,Werkzeugvermietung,Business Expense,-124.94,CHF,17918.60
+2025-12-20,Hornbach Schweiz,Business Expense,-76.32,CHF,17842.28
+2025-12-20,Werkzeugvermietung,Business Expense,-300.79,CHF,17541.49
+2025-12-22,Migros,Groceries,-151.90,CHF,17389.59
+2025-12-23,Migros,Groceries,-102.70,CHF,17286.89
+2025-12-26,Betriebshaftpflichtversicherung,Insurance,-401.11,CHF,16885.78
+2026-01-03,Coop,Groceries,-96.89,CHF,16788.89
+2026-01-03,Coop,Groceries,-130.82,CHF,16658.07
+2026-01-03,Coop,Groceries,-96.45,CHF,16561.62
+2026-01-03,EWZ Strom,Utilities,-114.90,CHF,16446.72
+2026-01-03,Beizli Mittagessen,Food,-38.97,CHF,16407.75
+2026-01-04,Subunternehmer Zahlung,Business Expense,-603.32,CHF,15804.43
+2026-01-04,Hypothekarzins,Housing,-1600.00,CHF,14204.43
+2026-01-05,Werkzeugvermietung,Business Expense,-125.40,CHF,14079.03
+2026-01-06,Kundenzahlung - Reparaturauftrag,Income,1746.20,CHF,15825.23
+2026-01-10,Swisscom Internet,Utilities,-76.72,CHF,15748.51
+2026-01-13,Steakhouse Zürich,Food,-47.98,CHF,15700.53
+2026-01-16,Bauhaus Material,Business Expense,-369.65,CHF,15330.88
+2026-01-17,Beizli Mittagessen,Food,-57.05,CHF,15273.83
+2026-01-19,Kundenzahlung - Reparaturauftrag,Income,2834.95,CHF,18108.78
+2026-01-19,Betriebshaftpflichtversicherung,Insurance,-459.59,CHF,17649.19
+2026-01-20,Bauhaus Material,Business Expense,-293.06,CHF,17356.13
+2026-01-21,Migros,Groceries,-78.86,CHF,17277.27
+2026-01-24,Hornbach Schweiz,Business Expense,-229.44,CHF,17047.83
+2026-02-01,Werkzeugvermietung,Business Expense,-545.21,CHF,16502.62
+2026-02-02,Krankenkasse Prämie,Insurance,-326.62,CHF,16176.00
+2026-02-03,Hypothekarzins,Housing,-1600.00,CHF,14576.00
+2026-02-03,EWZ Strom,Utilities,-86.52,CHF,14489.48
+2026-02-05,Steakhouse Zürich,Food,-22.26,CHF,14467.22
+2026-02-06,Coop,Groceries,-96.19,CHF,14371.03
+2026-02-07,Kundenzahlung - Reparaturauftrag,Income,3173.71,CHF,17544.74
+2026-02-07,Tankstelle Transporter,Business Expense,-668.63,CHF,16876.11
+2026-02-09,Coop,Groceries,-132.17,CHF,16743.94
+2026-02-10,Beizli Mittagessen,Food,-79.41,CHF,16664.53
+2026-02-11,Migros,Groceries,-169.43,CHF,16495.10
+2026-02-12,Tankstelle Transporter,Business Expense,-153.83,CHF,16341.27
+2026-02-13,EWZ Strom,Utilities,-56.79,CHF,16284.48
+2026-02-17,Hornbach Schweiz,Business Expense,-294.69,CHF,15989.79
+2026-02-17,Coop,Groceries,-140.95,CHF,15848.84
+2026-02-18,Kundenzahlung - Terrassenbau,Income,3466.24,CHF,19315.08
+2026-02-19,Beizli Mittagessen,Food,-54.29,CHF,19260.79
+2026-02-20,Kundenzahlung - Reparaturauftrag,Income,2291.58,CHF,21552.37
+2026-02-21,Werkzeugvermietung,Business Expense,-612.53,CHF,20939.84
+2026-02-23,Kundenzahlung - Umbau Projekt,Income,1532.78,CHF,22472.62
+2026-03-08,Tankstelle Transporter,Business Expense,-400.86,CHF,22071.76
+2026-03-08,Beizli Mittagessen,Food,-30.81,CHF,22040.95
+2026-03-09,Coop,Groceries,-104.70,CHF,21936.25
+2026-03-09,Coop,Groceries,-73.69,CHF,21862.56
+2026-03-09,EWZ Strom,Utilities,-116.22,CHF,21746.34
+2026-03-10,Kundenzahlung - Umbau Projekt,Income,2516.66,CHF,24263.00
+2026-03-10,Coop,Groceries,-132.87,CHF,24130.13
+2026-03-10,Coop,Groceries,-114.57,CHF,24015.56
+2026-03-11,Tankstelle Transporter,Business Expense,-467.32,CHF,23548.24
+2026-03-13,Betriebshaftpflichtversicherung,Insurance,-467.16,CHF,23081.08
+2026-03-15,Hypothekarzins,Housing,-1600.00,CHF,21481.08
+2026-03-15,Beizli Mittagessen,Food,-37.39,CHF,21443.69
+2026-03-19,Kundenzahlung - Terrassenbau,Income,6094.24,CHF,27537.93
+2026-03-20,Swisscom Internet,Utilities,-105.62,CHF,27432.31
+2026-03-20,Autobahnvignette Frankreich,Travel,-190.26,CHF,27242.05
+2026-03-23,Kundenzahlung - Umbau Projekt,Income,5333.10,CHF,32575.15
+2026-03-24,Hornbach Schweiz,Business Expense,-574.13,CHF,32001.02
+2026-03-26,Hornbach Schweiz,Business Expense,-564.58,CHF,31436.44
+2026-03-26,Subunternehmer Zahlung,Business Expense,-213.21,CHF,31223.23
+2026-03-30,Steakhouse Zürich,Food,-84.97,CHF,31138.26
+2026-04-01,Beizli Mittagessen,Food,-74.76,CHF,31063.50
+2026-04-01,Hotel Tessin,Travel,-587.58,CHF,30475.92
+2026-04-03,Kundenzahlung - Terrassenbau,Income,1825.75,CHF,32301.67
+2026-04-03,Beizli Mittagessen,Food,-58.61,CHF,32243.06
+2026-04-06,Kundenzahlung - Umbau Projekt,Income,5212.85,CHF,37455.91
+2026-04-07,Werkzeugvermietung,Business Expense,-503.21,CHF,36952.70
+2026-04-08,Hypothekarzins,Housing,-1600.00,CHF,35352.70
+2026-04-08,Coop,Groceries,-163.46,CHF,35189.24
+2026-04-10,Kundenzahlung - Terrassenbau,Income,3983.54,CHF,39172.78
+2026-04-12,Bauhaus Material,Business Expense,-527.84,CHF,38644.94
+2026-04-12,Bauhaus Material,Business Expense,-111.54,CHF,38533.40
+2026-04-15,Werkzeugvermietung,Business Expense,-577.48,CHF,37955.92
+2026-04-18,Migros,Groceries,-167.81,CHF,37788.11
+2026-04-21,Betriebshaftpflichtversicherung,Insurance,-406.29,CHF,37381.82
+2026-04-22,Migros,Groceries,-151.89,CHF,37229.93
+2026-04-22,Migros,Groceries,-119.50,CHF,37110.43
+2026-04-23,Swisscom Internet,Utilities,-69.22,CHF,37041.21
+2026-04-24,Kundenzahlung - Reparaturauftrag,Income,3578.82,CHF,40620.03
+2026-04-24,Steakhouse Zürich,Food,-69.07,CHF,40550.96
+2026-04-26,Werkzeugvermietung,Business Expense,-238.83,CHF,40312.13
+2026-04-29,Swisscom Internet,Utilities,-110.09,CHF,40202.04
+2026-05-01,Betriebshaftpflichtversicherung,Insurance,-391.39,CHF,39810.65
+2026-05-01,Swisscom Internet,Utilities,-116.00,CHF,39694.65
+2026-05-02,Steakhouse Zürich,Food,-65.19,CHF,39629.46
+2026-05-03,Kundenzahlung - Reparaturauftrag,Income,5252.23,CHF,44881.69
+2026-05-07,Subunternehmer Zahlung,Business Expense,-276.15,CHF,44605.54
+2026-05-10,Coop,Groceries,-138.77,CHF,44466.77
+2026-05-11,Coop,Groceries,-89.86,CHF,44376.91
+2026-05-13,Coop,Groceries,-168.94,CHF,44207.97
+2026-05-13,EWZ Strom,Utilities,-64.16,CHF,44143.81
+2026-05-14,Kundenzahlung - Reparaturauftrag,Income,1407.80,CHF,45551.61
+2026-05-17,Beizli Mittagessen,Food,-64.54,CHF,45487.07
+2026-05-20,Tankstelle Transporter,Business Expense,-690.56,CHF,44796.51
+2026-05-24,Säule 3a Einzahlung,Retirement,-910.89,CHF,43885.62
+2026-05-26,Kundenzahlung - Terrassenbau,Income,5840.03,CHF,49725.65
+2026-05-26,Bauhaus Material,Business Expense,-471.61,CHF,49254.04
+2026-05-27,Werkzeugvermietung,Business Expense,-61.22,CHF,49192.82
+2026-05-27,Coop,Groceries,-82.98,CHF,49109.84
+2026-05-29,Hypothekarzins,Housing,-1600.00,CHF,47509.84
+2026-05-30,Hornbach Schweiz,Business Expense,-308.66,CHF,47201.18
+2026-05-31,Steakhouse Zürich,Food,-28.96,CHF,47172.22
+2026-06-01,Subunternehmer Zahlung,Business Expense,-156.74,CHF,47015.48
+2026-06-01,Swisscom Internet,Utilities,-65.96,CHF,46949.52
+2026-06-01,Steakhouse Zürich,Food,-57.62,CHF,46891.90
+2026-06-02,Migros,Groceries,-78.45,CHF,46813.45
+2026-06-03,Subunternehmer Zahlung,Business Expense,-572.53,CHF,46240.92
+2026-06-04,Hypothekarzins,Housing,-1600.00,CHF,44640.92
+2026-06-06,Werkzeugvermietung,Business Expense,-337.71,CHF,44303.21
+2026-06-10,Beizli Mittagessen,Food,-56.71,CHF,44246.50
+2026-06-13,Swisscom Internet,Utilities,-65.29,CHF,44181.21
+2026-06-13,Beizli Mittagessen,Food,-38.26,CHF,44142.95
+2026-06-15,Bauhaus Material,Business Expense,-316.89,CHF,43826.06
+2026-06-17,Betriebshaftpflichtversicherung,Insurance,-479.57,CHF,43346.49
+2026-06-19,Kundenzahlung - Umbau Projekt,Income,5423.53,CHF,48770.02
+2026-06-20,Migros,Groceries,-94.22,CHF,48675.80
+2026-06-23,Kundenzahlung - Terrassenbau,Income,3055.95,CHF,51731.75
+2026-06-24,Hornbach Schweiz,Business Expense,-161.67,CHF,51570.08
+2026-06-27,Kundenzahlung - Terrassenbau,Income,1696.06,CHF,53266.14
+2026-06-28,Migros,Groceries,-120.59,CHF,53145.55
+2026-06-29,Coop,Groceries,-95.56,CHF,53049.99
+2026-07-01,Bauhaus Material,Business Expense,-69.12,CHF,52980.87
+2026-07-01,Migros,Groceries,-96.32,CHF,52884.55
+2026-07-01,Steakhouse Zürich,Food,-87.24,CHF,52797.31
+2026-07-02,Säule 3a Einzahlung,Retirement,-1411.91,CHF,51385.40
+2026-07-03,Krankenkasse Prämie,Insurance,-449.15,CHF,50936.25
+2026-07-04,EWZ Strom,Utilities,-115.19,CHF,50821.06
+2026-07-05,Tankstelle Transporter,Business Expense,-451.41,CHF,50369.65
+2026-07-05,Hornbach Schweiz,Business Expense,-411.14,CHF,49958.51
+2026-07-06,Migros,Groceries,-85.75,CHF,49872.76
+2026-07-08,Hypothekarzins,Housing,-1600.00,CHF,48272.76
+2026-07-11,Beizli Mittagessen,Food,-65.12,CHF,48207.64
+2026-07-15,Autobahnvignette Frankreich,Travel,-551.12,CHF,47656.52
+2026-07-16,Werkzeugvermietung,Business Expense,-480.65,CHF,47175.87
+2026-07-16,Beizli Mittagessen,Food,-56.84,CHF,47119.03
+2026-07-17,Hornbach Schweiz,Business Expense,-539.68,CHF,46579.35
+2026-07-18,Coop,Groceries,-102.35,CHF,46477.00
+2026-07-19,Kundenzahlung - Terrassenbau,Income,6463.41,CHF,52940.41
+2026-07-23,Kundenzahlung - Umbau Projekt,Income,4720.01,CHF,57660.42
+2026-07-23,Swisscom Internet,Utilities,-40.94,CHF,57619.48
+2026-07-24,Kundenzahlung - Reparaturauftrag,Income,4917.91,CHF,62537.39
+2026-07-31,Coop,Groceries,-158.24,CHF,62379.15
+2026-08-01,Werkzeugvermietung,Business Expense,-221.17,CHF,62157.98
+2026-08-01,Coop,Groceries,-103.53,CHF,62054.45
+2026-08-03,Coop,Groceries,-96.42,CHF,61958.03
+2026-08-03,Betriebshaftpflichtversicherung,Insurance,-469.23,CHF,61488.80
+2026-08-03,EWZ Strom,Utilities,-71.43,CHF,61417.37
+2026-08-03,Steakhouse Zürich,Food,-38.01,CHF,61379.36
+2026-08-07,Steakhouse Zürich,Food,-54.88,CHF,61324.48
+2026-08-08,Coop,Groceries,-120.47,CHF,61204.01
+2026-08-11,Subunternehmer Zahlung,Business Expense,-225.99,CHF,60978.02
+2026-08-12,Kundenzahlung - Terrassenbau,Income,1319.58,CHF,62297.60
+2026-08-12,Kundenzahlung - Umbau Projekt,Income,2090.66,CHF,64388.26
+2026-08-12,Swisscom Internet,Utilities,-114.03,CHF,64274.23
+2026-08-14,Säule 3a Einzahlung,Retirement,-843.66,CHF,63430.57
+2026-08-16,Coop,Groceries,-97.89,CHF,63332.68
+2026-08-17,Tankstelle Transporter,Business Expense,-213.95,CHF,63118.73
+2026-08-23,Kundenzahlung - Reparaturauftrag,Income,3244.69,CHF,66363.42
+2026-08-26,Hypothekarzins,Housing,-1600.00,CHF,64763.42
+2026-08-27,Werkzeugvermietung,Business Expense,-143.89,CHF,64619.53
+2026-08-28,Hornbach Schweiz,Business Expense,-184.68,CHF,64434.85
+2026-08-30,Steakhouse Zürich,Food,-45.92,CHF,64388.93
+2026-09-02,Kundenzahlung - Terrassenbau,Income,2356.50,CHF,66745.43
+2026-09-03,Coop,Groceries,-128.56,CHF,66616.87
+2026-09-05,Kundenzahlung - Terrassenbau,Income,5113.33,CHF,71730.20
+2026-09-05,Tankstelle Transporter,Business Expense,-400.37,CHF,71329.83
+2026-09-07,Krankenkasse Prämie,Insurance,-346.15,CHF,70983.68
+2026-09-09,Swisscom Internet,Utilities,-48.14,CHF,70935.54
+2026-09-10,Coop,Groceries,-100.42,CHF,70835.12
+2026-09-11,Steakhouse Zürich,Food,-70.28,CHF,70764.84
+2026-09-13,Kundenzahlung - Terrassenbau,Income,6059.13,CHF,76823.97
+2026-09-14,Tankstelle Transporter,Business Expense,-589.37,CHF,76234.60
+2026-09-17,Subunternehmer Zahlung,Business Expense,-71.97,CHF,76162.63
+2026-09-19,Coop,Groceries,-74.17,CHF,76088.46
+2026-09-21,Hypothekarzins,Housing,-1600.00,CHF,74488.46
+2026-09-21,EWZ Strom,Utilities,-114.85,CHF,74373.61
+2026-09-22,Tankstelle Transporter,Business Expense,-433.34,CHF,73940.27
+2026-09-22,Bauhaus Material,Business Expense,-177.19,CHF,73763.08
+2026-09-22,Migros,Groceries,-159.28,CHF,73603.80
+2026-09-22,Säule 3a Einzahlung,Retirement,-1476.30,CHF,72127.50
+2026-09-22,Beizli Mittagessen,Food,-47.75,CHF,72079.75
+2026-09-22,Beizli Mittagessen,Food,-40.45,CHF,72039.30

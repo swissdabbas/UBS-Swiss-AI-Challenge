@@ -1,0 +1,265 @@
+date,description,category,amount,currency,balance
+2025-09-22,Hypothekarzins,Housing,-1800.00,CHF,3060.00
+2025-09-22,Coop,Groceries,-147.51,CHF,2912.49
+2025-09-22,Coop,Groceries,-177.26,CHF,2735.23
+2025-09-22,Migros,Groceries,-130.40,CHF,2604.83
+2025-09-22,Kinderturnen Gebühr,Kids/School,-114.05,CHF,2490.78
+2025-09-22,Klavierunterricht,Kids/School,-90.69,CHF,2400.09
+2025-09-22,Erdgas Versorgung,Utilities,-74.46,CHF,2325.63
+2025-09-22,Erdgas Versorgung,Utilities,-86.81,CHF,2238.82
+2025-09-22,Garage Autoleasing,Transportation,-320.28,CHF,1918.54
+2025-09-22,Familienrestaurant,Food,-43.46,CHF,1875.08
+2025-09-22,Pizzeria,Food,-49.68,CHF,1825.40
+2025-09-22,Familienrestaurant,Food,-57.24,CHF,1768.16
+2025-09-22,Pensionskasse Einkauf,Retirement,-250.00,CHF,1518.16
+2025-09-23,EWZ Strom,Utilities,-74.88,CHF,1443.28
+2025-09-23,Migrol Tankstelle,Transportation,-344.25,CHF,1099.03
+2025-09-23,Garage Autoleasing,Transportation,-352.12,CHF,746.91
+2025-09-24,Migros,Groceries,-109.34,CHF,637.57
+2025-09-25,Schulamt Lohnzahlung,Income,7809.59,CHF,8447.16
+2025-09-28,Lebensversicherung,Insurance,-117.00,CHF,8330.16
+2025-09-29,Familienrestaurant,Food,-61.14,CHF,8269.02
+2025-10-01,Hypothekarzins,Housing,-1800.00,CHF,6469.02
+2025-10-02,Denner,Groceries,-147.85,CHF,6321.17
+2025-10-02,Familienrestaurant,Food,-55.73,CHF,6265.44
+2025-10-02,Pizzeria,Food,-36.49,CHF,6228.95
+2025-10-03,Garage Autoleasing,Transportation,-251.62,CHF,5977.33
+2025-10-06,Garage Autoleasing,Transportation,-180.74,CHF,5796.59
+2025-10-09,Erdgas Versorgung,Utilities,-112.81,CHF,5683.78
+2025-10-09,Auto Versicherung,Insurance,-97.72,CHF,5586.06
+2025-10-11,Erdgas Versorgung,Utilities,-134.24,CHF,5451.82
+2025-10-14,Klavierunterricht,Kids/School,-41.32,CHF,5410.50
+2025-10-15,Familienrestaurant,Food,-38.77,CHF,5371.73
+2025-10-16,EWZ Strom,Utilities,-61.36,CHF,5310.37
+2025-10-16,Familienrestaurant,Food,-42.88,CHF,5267.49
+2025-10-17,Kinderturnen Gebühr,Kids/School,-88.23,CHF,5179.26
+2025-10-18,Migrol Tankstelle,Transportation,-76.79,CHF,5102.47
+2025-10-19,Migros,Groceries,-162.54,CHF,4939.93
+2025-10-25,Schulamt Lohnzahlung,Income,7818.86,CHF,12758.79
+2025-10-25,Migros,Groceries,-97.07,CHF,12661.72
+2025-10-26,Pensionskasse Einkauf,Retirement,-250.00,CHF,12411.72
+2025-10-31,Coop,Groceries,-174.98,CHF,12236.74
+2025-11-01,Migrol Tankstelle,Transportation,-186.77,CHF,12049.97
+2025-11-03,Familienrestaurant,Food,-49.39,CHF,12000.58
+2025-11-04,Erdgas Versorgung,Utilities,-104.31,CHF,11896.27
+2025-11-07,Pizzeria,Food,-33.07,CHF,11863.20
+2025-11-07,Familienrestaurant,Food,-48.91,CHF,11814.29
+2025-11-08,EWZ Strom,Utilities,-65.78,CHF,11748.51
+2025-11-09,Schulmaterial,Kids/School,-93.44,CHF,11655.07
+2025-11-09,Garage Autoleasing,Transportation,-59.57,CHF,11595.50
+2025-11-10,EWZ Strom,Utilities,-50.05,CHF,11545.45
+2025-11-12,Migros,Groceries,-168.20,CHF,11377.25
+2025-11-18,Klavierunterricht,Kids/School,-98.60,CHF,11278.65
+2025-11-19,SBB Familienbillett,Travel,-112.09,CHF,11166.56
+2025-11-22,Lebensversicherung,Insurance,-106.46,CHF,11060.10
+2025-11-24,Migros,Groceries,-155.91,CHF,10904.19
+2025-11-24,Garage Autoleasing,Transportation,-175.50,CHF,10728.69
+2025-11-25,Schulamt Lohnzahlung,Income,7823.03,CHF,18551.72
+2025-11-25,Schulamt 13. Monatslohn,Income,7800.00,CHF,26351.72
+2025-11-25,Denner,Groceries,-120.91,CHF,26230.81
+2025-11-27,Pensionskasse Einkauf,Retirement,-250.00,CHF,25980.81
+2025-11-28,Migros,Groceries,-102.55,CHF,25878.26
+2025-11-30,Hypothekarzins,Housing,-1800.00,CHF,24078.26
+2025-11-30,Familienrestaurant,Food,-39.12,CHF,24039.14
+2025-12-01,Swisscom Internet,Utilities,-85.43,CHF,23953.71
+2025-12-03,Denner,Groceries,-92.93,CHF,23860.78
+2025-12-03,Ferienwohnung Tessin,Travel,-116.40,CHF,23744.38
+2025-12-05,Migrol Tankstelle,Transportation,-233.34,CHF,23511.04
+2025-12-06,Klavierunterricht,Kids/School,-45.81,CHF,23465.23
+2025-12-09,Erdgas Versorgung,Utilities,-60.56,CHF,23404.67
+2025-12-11,Denner,Groceries,-100.32,CHF,23304.35
+2025-12-12,Lebensversicherung,Insurance,-154.72,CHF,23149.63
+2025-12-13,Pensionskasse Einkauf,Retirement,-250.00,CHF,22899.63
+2025-12-14,Pizzeria,Food,-50.71,CHF,22848.92
+2025-12-15,Pizzeria,Food,-49.28,CHF,22799.64
+2025-12-16,Migrol Tankstelle,Transportation,-206.46,CHF,22593.18
+2025-12-17,Familienrestaurant,Food,-53.13,CHF,22540.05
+2025-12-18,Denner,Groceries,-80.13,CHF,22459.92
+2025-12-19,Klavierunterricht,Kids/School,-66.90,CHF,22393.02
+2025-12-20,Coop,Groceries,-109.89,CHF,22283.13
+2025-12-25,Schulamt Lohnzahlung,Income,7834.51,CHF,30117.64
+2025-12-26,Hypothekarzins,Housing,-1800.00,CHF,28317.64
+2025-12-26,Erdgas Versorgung,Utilities,-38.86,CHF,28278.78
+2025-12-28,Familienrestaurant,Food,-57.86,CHF,28220.92
+2025-12-30,Migrol Tankstelle,Transportation,-58.96,CHF,28161.96
+2026-01-01,Hypothekarzins,Housing,-1800.00,CHF,26361.96
+2026-01-02,Lebensversicherung,Insurance,-138.14,CHF,26223.82
+2026-01-03,Denner,Groceries,-178.54,CHF,26045.28
+2026-01-05,Migros,Groceries,-149.32,CHF,25895.96
+2026-01-05,Erdgas Versorgung,Utilities,-110.75,CHF,25785.21
+2026-01-06,Denner,Groceries,-157.87,CHF,25627.34
+2026-01-08,Schulmaterial,Kids/School,-40.75,CHF,25586.59
+2026-01-09,Garage Autoleasing,Transportation,-61.48,CHF,25525.11
+2026-01-09,Migrol Tankstelle,Transportation,-323.09,CHF,25202.02
+2026-01-10,Erdgas Versorgung,Utilities,-86.69,CHF,25115.33
+2026-01-10,Familienrestaurant,Food,-55.99,CHF,25059.34
+2026-01-16,Coop,Groceries,-87.77,CHF,24971.57
+2026-01-16,Pizzeria,Food,-28.94,CHF,24942.63
+2026-01-16,Pensionskasse Einkauf,Retirement,-250.00,CHF,24692.63
+2026-01-17,Swisscom Internet,Utilities,-102.71,CHF,24589.92
+2026-01-18,Garage Autoleasing,Transportation,-226.96,CHF,24362.96
+2026-01-18,Pizzeria,Food,-30.21,CHF,24332.75
+2026-01-23,Kinderturnen Gebühr,Kids/School,-28.98,CHF,24303.77
+2026-01-25,Schulamt Lohnzahlung,Income,7818.71,CHF,32122.48
+2026-01-27,Familienrestaurant,Food,-43.12,CHF,32079.36
+2026-02-02,Denner,Groceries,-96.11,CHF,31983.25
+2026-02-02,Kinderturnen Gebühr,Kids/School,-64.47,CHF,31918.78
+2026-02-02,Pizzeria,Food,-56.66,CHF,31862.12
+2026-02-03,Familienrestaurant,Food,-46.22,CHF,31815.90
+2026-02-04,EWZ Strom,Utilities,-36.70,CHF,31779.20
+2026-02-04,Pensionskasse Einkauf,Retirement,-250.00,CHF,31529.20
+2026-02-05,Migrol Tankstelle,Transportation,-314.73,CHF,31214.47
+2026-02-05,Migrol Tankstelle,Transportation,-282.52,CHF,30931.95
+2026-02-05,Lebensversicherung,Insurance,-98.25,CHF,30833.70
+2026-02-06,Klavierunterricht,Kids/School,-70.85,CHF,30762.85
+2026-02-07,Hypothekarzins,Housing,-1800.00,CHF,28962.85
+2026-02-09,Familienrestaurant,Food,-27.76,CHF,28935.09
+2026-02-10,Swisscom Internet,Utilities,-64.65,CHF,28870.44
+2026-02-11,Swisscom Internet,Utilities,-99.43,CHF,28771.01
+2026-02-12,Migros,Groceries,-160.89,CHF,28610.12
+2026-02-15,Garage Autoleasing,Transportation,-290.50,CHF,28319.62
+2026-02-21,Coop,Groceries,-116.39,CHF,28203.23
+2026-02-21,Migros,Groceries,-73.60,CHF,28129.63
+2026-02-25,Schulamt Lohnzahlung,Income,7832.94,CHF,35962.57
+2026-02-26,Familienrestaurant,Food,-44.29,CHF,35918.28
+2026-03-02,Swisscom Internet,Utilities,-35.30,CHF,35882.98
+2026-03-06,Coop,Groceries,-117.80,CHF,35765.18
+2026-03-07,Denner,Groceries,-84.36,CHF,35680.82
+2026-03-07,Pensionskasse Einkauf,Retirement,-250.00,CHF,35430.82
+2026-03-08,Kinderturnen Gebühr,Kids/School,-93.21,CHF,35337.61
+2026-03-10,Hypothekarzins,Housing,-1800.00,CHF,33537.61
+2026-03-13,Migrol Tankstelle,Transportation,-338.16,CHF,33199.45
+2026-03-15,Swisscom Internet,Utilities,-71.73,CHF,33127.72
+2026-03-17,Garage Autoleasing,Transportation,-241.95,CHF,32885.77
+2026-03-19,Denner,Groceries,-174.48,CHF,32711.29
+2026-03-19,Familienrestaurant,Food,-26.27,CHF,32685.02
+2026-03-20,Schulmaterial,Kids/School,-31.84,CHF,32653.18
+2026-03-22,Garage Autoleasing,Transportation,-52.22,CHF,32600.96
+2026-03-22,Auto Versicherung,Insurance,-106.80,CHF,32494.16
+2026-03-24,EWZ Strom,Utilities,-120.33,CHF,32373.83
+2026-03-25,Schulamt Lohnzahlung,Income,7763.26,CHF,40137.09
+2026-03-25,Familienrestaurant,Food,-39.13,CHF,40097.96
+2026-03-29,Coop,Groceries,-156.68,CHF,39941.28
+2026-03-29,Pizzeria,Food,-29.43,CHF,39911.85
+2026-03-29,Familienrestaurant,Food,-37.87,CHF,39873.98
+2026-04-04,Garage Autoleasing,Transportation,-310.80,CHF,39563.18
+2026-04-09,Pizzeria,Food,-29.79,CHF,39533.39
+2026-04-13,Kinderturnen Gebühr,Kids/School,-115.45,CHF,39417.94
+2026-04-14,Migros,Groceries,-102.43,CHF,39315.51
+2026-04-16,Pensionskasse Einkauf,Retirement,-250.00,CHF,39065.51
+2026-04-17,Migros,Groceries,-119.89,CHF,38945.62
+2026-04-18,Erdgas Versorgung,Utilities,-55.07,CHF,38890.55
+2026-04-18,Garage Autoleasing,Transportation,-286.50,CHF,38604.05
+2026-04-18,Familienrestaurant,Food,-30.86,CHF,38573.19
+2026-04-21,Familienrestaurant,Food,-60.16,CHF,38513.03
+2026-04-22,Hypothekarzins,Housing,-1800.00,CHF,36713.03
+2026-04-23,Migros,Groceries,-150.25,CHF,36562.78
+2026-04-23,Auto Versicherung,Insurance,-91.75,CHF,36471.03
+2026-04-24,Pizzeria,Food,-27.12,CHF,36443.91
+2026-04-25,Schulamt Lohnzahlung,Income,7797.32,CHF,44241.23
+2026-04-25,Swisscom Internet,Utilities,-119.79,CHF,44121.44
+2026-04-28,Klavierunterricht,Kids/School,-35.93,CHF,44085.51
+2026-04-28,Migrol Tankstelle,Transportation,-91.27,CHF,43994.24
+2026-04-30,Coop,Groceries,-179.92,CHF,43814.32
+2026-04-30,Swisscom Internet,Utilities,-46.30,CHF,43768.02
+2026-05-01,Familienrestaurant,Food,-30.47,CHF,43737.55
+2026-05-02,Kinderturnen Gebühr,Kids/School,-77.24,CHF,43660.31
+2026-05-04,Denner,Groceries,-111.47,CHF,43548.84
+2026-05-04,Klavierunterricht,Kids/School,-53.05,CHF,43495.79
+2026-05-05,Migrol Tankstelle,Transportation,-278.51,CHF,43217.28
+2026-05-05,Pizzeria,Food,-36.82,CHF,43180.46
+2026-05-08,Garage Autoleasing,Transportation,-294.87,CHF,42885.59
+2026-05-10,Familienrestaurant,Food,-26.53,CHF,42859.06
+2026-05-13,Pensionskasse Einkauf,Retirement,-250.00,CHF,42609.06
+2026-05-16,Coop,Groceries,-114.42,CHF,42494.64
+2026-05-16,Erdgas Versorgung,Utilities,-125.16,CHF,42369.48
+2026-05-16,Swisscom Internet,Utilities,-76.15,CHF,42293.33
+2026-05-20,Lebensversicherung,Insurance,-118.07,CHF,42175.26
+2026-05-23,Hypothekarzins,Housing,-1800.00,CHF,40375.26
+2026-05-23,Swisscom Internet,Utilities,-135.09,CHF,40240.17
+2026-05-25,Schulamt Lohnzahlung,Income,7834.58,CHF,48074.75
+2026-05-27,Pizzeria,Food,-41.07,CHF,48033.68
+2026-05-28,Coop,Groceries,-107.23,CHF,47926.45
+2026-05-30,Garage Autoleasing,Transportation,-266.12,CHF,47660.33
+2026-05-31,Migros,Groceries,-89.73,CHF,47570.60
+2026-06-05,Pizzeria,Food,-41.31,CHF,47529.29
+2026-06-06,Lebensversicherung,Insurance,-122.76,CHF,47406.53
+2026-06-08,Migrol Tankstelle,Transportation,-138.53,CHF,47268.00
+2026-06-10,EWZ Strom,Utilities,-83.83,CHF,47184.17
+2026-06-10,Swisscom Internet,Utilities,-122.81,CHF,47061.36
+2026-06-12,Hypothekarzins,Housing,-1800.00,CHF,45261.36
+2026-06-12,Migros,Groceries,-76.94,CHF,45184.42
+2026-06-12,Familienrestaurant,Food,-25.56,CHF,45158.86
+2026-06-17,Denner,Groceries,-156.02,CHF,45002.84
+2026-06-19,Kinderturnen Gebühr,Kids/School,-52.85,CHF,44949.99
+2026-06-19,Pensionskasse Einkauf,Retirement,-250.00,CHF,44699.99
+2026-06-20,Pizzeria,Food,-25.75,CHF,44674.24
+2026-06-23,Coop,Groceries,-134.62,CHF,44539.62
+2026-06-24,Migrol Tankstelle,Transportation,-322.57,CHF,44217.05
+2026-06-24,Pizzeria,Food,-69.23,CHF,44147.82
+2026-06-25,Schulamt Lohnzahlung,Income,7811.62,CHF,51959.44
+2026-06-25,Denner,Groceries,-103.63,CHF,51855.81
+2026-06-25,Erdgas Versorgung,Utilities,-80.45,CHF,51775.36
+2026-06-26,Garage Autoleasing,Transportation,-171.15,CHF,51604.21
+2026-06-27,Kinderturnen Gebühr,Kids/School,-37.27,CHF,51566.94
+2026-06-30,TUI Suisse Familienreise,Travel,-529.64,CHF,51037.30
+2026-07-03,Ferienwohnung Tessin,Travel,-501.96,CHF,50535.34
+2026-07-05,Kinderturnen Gebühr,Kids/School,-39.89,CHF,50495.45
+2026-07-06,Swisscom Internet,Utilities,-85.23,CHF,50410.22
+2026-07-06,Familienrestaurant,Food,-53.38,CHF,50356.84
+2026-07-09,Migros,Groceries,-161.88,CHF,50194.96
+2026-07-10,Migros,Groceries,-175.26,CHF,50019.70
+2026-07-11,Hypothekarzins,Housing,-1800.00,CHF,48219.70
+2026-07-11,Familienrestaurant,Food,-45.06,CHF,48174.64
+2026-07-14,Migrol Tankstelle,Transportation,-366.82,CHF,47807.82
+2026-07-15,Pizzeria,Food,-59.41,CHF,47748.41
+2026-07-16,EWZ Strom,Utilities,-130.62,CHF,47617.79
+2026-07-17,Garage Autoleasing,Transportation,-52.36,CHF,47565.43
+2026-07-21,Coop,Groceries,-89.65,CHF,47475.78
+2026-07-21,Kinderturnen Gebühr,Kids/School,-76.15,CHF,47399.63
+2026-07-22,Pensionskasse Einkauf,Retirement,-250.00,CHF,47149.63
+2026-07-23,Auto Versicherung,Insurance,-122.76,CHF,47026.87
+2026-07-24,Garage Autoleasing,Transportation,-101.38,CHF,46925.49
+2026-07-25,Schulamt Lohnzahlung,Income,7831.27,CHF,54756.76
+2026-07-25,Denner,Groceries,-177.91,CHF,54578.85
+2026-07-26,Pizzeria,Food,-44.33,CHF,54534.52
+2026-07-29,Erdgas Versorgung,Utilities,-87.26,CHF,54447.26
+2026-08-02,Garage Autoleasing,Transportation,-103.36,CHF,54343.90
+2026-08-02,Migrol Tankstelle,Transportation,-206.61,CHF,54137.29
+2026-08-03,Erdgas Versorgung,Utilities,-111.93,CHF,54025.36
+2026-08-07,Lebensversicherung,Insurance,-155.83,CHF,53869.53
+2026-08-09,Denner,Groceries,-120.92,CHF,53748.61
+2026-08-12,Migros,Groceries,-100.13,CHF,53648.48
+2026-08-14,EWZ Strom,Utilities,-96.51,CHF,53551.97
+2026-08-14,Familienrestaurant,Food,-32.72,CHF,53519.25
+2026-08-17,Pensionskasse Einkauf,Retirement,-250.00,CHF,53269.25
+2026-08-18,Pizzeria,Food,-46.30,CHF,53222.95
+2026-08-20,Klavierunterricht,Kids/School,-33.63,CHF,53189.32
+2026-08-20,Familienrestaurant,Food,-25.07,CHF,53164.25
+2026-08-21,Migros,Groceries,-144.10,CHF,53020.15
+2026-08-22,Garage Autoleasing,Transportation,-298.52,CHF,52721.63
+2026-08-23,Hypothekarzins,Housing,-1800.00,CHF,50921.63
+2026-08-25,Schulamt Lohnzahlung,Income,7769.83,CHF,58691.46
+2026-08-25,Denner,Groceries,-97.58,CHF,58593.88
+2026-08-25,Familienrestaurant,Food,-55.06,CHF,58538.82
+2026-08-27,EWZ Strom,Utilities,-43.95,CHF,58494.87
+2026-08-31,Schulmaterial,Kids/School,-43.92,CHF,58450.95
+2026-09-01,Erdgas Versorgung,Utilities,-69.97,CHF,58380.98
+2026-09-01,Familienrestaurant,Food,-26.48,CHF,58354.50
+2026-09-03,Swisscom Internet,Utilities,-139.83,CHF,58214.67
+2026-09-04,Klavierunterricht,Kids/School,-55.97,CHF,58158.70
+2026-09-05,Coop,Groceries,-128.23,CHF,58030.47
+2026-09-07,Garage Autoleasing,Transportation,-92.59,CHF,57937.88
+2026-09-09,Auto Versicherung,Insurance,-90.44,CHF,57847.44
+2026-09-10,Hypothekarzins,Housing,-1800.00,CHF,56047.44
+2026-09-10,Migrol Tankstelle,Transportation,-342.52,CHF,55704.92
+2026-09-11,Garage Autoleasing,Transportation,-198.29,CHF,55506.63
+2026-09-12,Denner,Groceries,-175.22,CHF,55331.41
+2026-09-13,Familienrestaurant,Food,-45.89,CHF,55285.52
+2026-09-14,Familienrestaurant,Food,-55.85,CHF,55229.67
+2026-09-16,EWZ Strom,Utilities,-40.13,CHF,55189.54
+2026-09-16,Pizzeria,Food,-56.73,CHF,55132.81
+2026-09-18,Klavierunterricht,Kids/School,-38.37,CHF,55094.44
+2026-09-22,Coop,Groceries,-114.93,CHF,54979.51
+2026-09-22,Migros,Groceries,-165.37,CHF,54814.14
+2026-09-22,Pensionskasse Einkauf,Retirement,-250.00,CHF,54564.14

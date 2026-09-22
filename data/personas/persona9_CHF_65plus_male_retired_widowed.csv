@@ -1,0 +1,217 @@
+date,description,category,amount,currency,balance
+2025-09-22,Liegenschaftsunterhalt,Housing,-334.06,CHF,455.94
+2025-09-22,Arzt Selbstbehalt,Healthcare,-59.75,CHF,396.19
+2025-09-22,Krankenkasse Zusatzversicherung,Healthcare,-20.12,CHF,376.07
+2025-09-22,Volg,Groceries,-52.18,CHF,323.89
+2025-09-22,Volg,Groceries,-58.56,CHF,265.33
+2025-09-22,Wasserwerk,Utilities,-53.10,CHF,212.23
+2025-09-22,Beizli,Food,-19.44,CHF,192.79
+2025-09-22,Golfclub Restaurant,Food,-32.99,CHF,159.80
+2025-09-22,Spende Rotes Kreuz,Misc,-54.08,CHF,105.72
+2025-09-24,Beratungshonorar - Projektreview,Income,1345.17,CHF,1450.89
+2025-09-24,Arzt Selbstbehalt,Healthcare,-23.67,CHF,1427.22
+2025-09-24,Coop,Groceries,-42.65,CHF,1384.57
+2025-09-24,Golfclub Restaurant,Food,-16.07,CHF,1368.50
+2025-09-28,Golfclub Restaurant,Food,-12.50,CHF,1356.00
+2025-09-29,Coop,Groceries,-52.16,CHF,1303.84
+2025-09-30,EWZ Strom,Utilities,-98.58,CHF,1205.26
+2025-10-01,Liegenschaftsunterhalt,Housing,-180.31,CHF,1024.95
+2025-10-02,Golfclub Restaurant,Food,-18.95,CHF,1006.00
+2025-10-03,AHV Rente,Income,2100.00,CHF,3106.00
+2025-10-03,Coop,Groceries,-49.45,CHF,3056.55
+2025-10-03,Volg,Groceries,-43.24,CHF,3013.31
+2025-10-05,Wasserwerk,Utilities,-68.60,CHF,2944.71
+2025-10-10,Krankenkasse Zusatzversicherung,Healthcare,-145.90,CHF,2798.81
+2025-10-13,Golfreise Andalusien,Travel,-184.09,CHF,2614.72
+2025-10-15,Krankenkasse Zusatzversicherung,Healthcare,-73.93,CHF,2540.79
+2025-10-15,Enkelkinder Geschenk,Misc,-88.82,CHF,2451.97
+2025-10-17,Krankenkasse Zusatzversicherung,Healthcare,-176.82,CHF,2275.15
+2025-10-18,Beizli,Food,-34.45,CHF,2240.70
+2025-10-20,Volg,Groceries,-63.51,CHF,2177.19
+2025-10-21,Beizli,Food,-23.49,CHF,2153.70
+2025-10-22,Coop,Groceries,-60.49,CHF,2093.21
+2025-10-22,EWZ Strom,Utilities,-99.61,CHF,1993.60
+2025-10-24,Beizli,Food,-44.09,CHF,1949.51
+2025-11-03,AHV Rente,Income,2100.00,CHF,4049.51
+2025-11-04,Golfclub Restaurant,Food,-35.29,CHF,4014.22
+2025-11-06,Beizli,Food,-13.95,CHF,4000.27
+2025-11-07,Liegenschaftsunterhalt,Housing,-232.55,CHF,3767.72
+2025-11-12,Krankenkasse Zusatzversicherung,Healthcare,-161.89,CHF,3605.83
+2025-11-15,Volg,Groceries,-69.51,CHF,3536.32
+2025-11-16,Coop,Groceries,-81.64,CHF,3454.68
+2025-11-18,Apotheke,Healthcare,-181.51,CHF,3273.17
+2025-11-18,Wasserwerk,Utilities,-53.11,CHF,3220.06
+2025-11-18,Beizli,Food,-37.49,CHF,3182.57
+2025-11-19,Apotheke,Healthcare,-167.52,CHF,3015.05
+2025-11-22,Enkelkinder Geschenk,Misc,-135.36,CHF,2879.69
+2025-11-23,Golfclub Restaurant,Food,-26.48,CHF,2853.21
+2025-11-24,EWZ Strom,Utilities,-79.11,CHF,2774.10
+2025-11-25,Coop,Groceries,-43.77,CHF,2730.33
+2025-11-26,Volg,Groceries,-56.07,CHF,2674.26
+2025-12-02,Golfclub Restaurant,Food,-17.32,CHF,2656.94
+2025-12-03,AHV Rente,Income,2100.00,CHF,4756.94
+2025-12-04,Apotheke,Healthcare,-212.81,CHF,4544.13
+2025-12-04,Coop,Groceries,-42.64,CHF,4501.49
+2025-12-06,EWZ Strom,Utilities,-69.95,CHF,4431.54
+2025-12-07,Coop,Groceries,-88.43,CHF,4343.11
+2025-12-09,Golfclub Restaurant,Food,-27.09,CHF,4316.02
+2025-12-12,Apotheke,Healthcare,-47.83,CHF,4268.19
+2025-12-15,EWZ Strom,Utilities,-43.75,CHF,4224.44
+2025-12-17,Arzt Selbstbehalt,Healthcare,-94.59,CHF,4129.85
+2025-12-22,Coop,Groceries,-51.57,CHF,4078.28
+2025-12-25,Spende Rotes Kreuz,Misc,-107.95,CHF,3970.33
+2025-12-28,SBB Bahnticket,Travel,-499.38,CHF,3470.95
+2025-12-28,Beizli,Food,-25.92,CHF,3445.03
+2025-12-29,Golfclub Restaurant,Food,-33.13,CHF,3411.90
+2025-12-30,Liegenschaftsunterhalt,Housing,-154.37,CHF,3257.53
+2025-12-31,Coop,Groceries,-72.27,CHF,3185.26
+2026-01-01,Coop,Groceries,-61.96,CHF,3123.30
+2026-01-02,Krankenkasse Zusatzversicherung,Healthcare,-207.89,CHF,2915.41
+2026-01-02,Beizli,Food,-41.05,CHF,2874.36
+2026-01-03,AHV Rente,Income,2100.00,CHF,4974.36
+2026-01-05,EWZ Strom,Utilities,-93.65,CHF,4880.71
+2026-01-08,Coop,Groceries,-40.27,CHF,4840.44
+2026-01-09,Krankenkasse Zusatzversicherung,Healthcare,-209.30,CHF,4631.14
+2026-01-12,Coop,Groceries,-83.72,CHF,4547.42
+2026-01-12,Golfclub Restaurant,Food,-14.15,CHF,4533.27
+2026-01-14,Golfclub Restaurant,Food,-20.57,CHF,4512.70
+2026-01-17,Wasserwerk,Utilities,-48.18,CHF,4464.52
+2026-01-18,Hauswartung,Housing,-380.23,CHF,4084.29
+2026-01-18,Beizli,Food,-25.99,CHF,4058.30
+2026-01-24,Coop,Groceries,-41.17,CHF,4017.13
+2026-01-27,Krankenkasse Zusatzversicherung,Healthcare,-195.10,CHF,3822.03
+2026-01-29,Enkelkinder Geschenk,Misc,-61.34,CHF,3760.69
+2026-02-01,Apotheke,Healthcare,-29.77,CHF,3730.92
+2026-02-03,AHV Rente,Income,2100.00,CHF,5830.92
+2026-02-06,Enkelkinder Geschenk,Misc,-44.87,CHF,5786.05
+2026-02-07,Liegenschaftsunterhalt,Housing,-309.68,CHF,5476.37
+2026-02-07,Apotheke,Healthcare,-177.32,CHF,5299.05
+2026-02-09,Volg,Groceries,-63.78,CHF,5235.27
+2026-02-14,Golfclub Restaurant,Food,-28.32,CHF,5206.95
+2026-02-14,Golfclub Restaurant,Food,-14.60,CHF,5192.35
+2026-02-16,Wasserwerk,Utilities,-59.18,CHF,5133.17
+2026-02-17,Coop,Groceries,-80.00,CHF,5053.17
+2026-02-18,Wasserwerk,Utilities,-99.93,CHF,4953.24
+2026-02-20,Apotheke,Healthcare,-22.96,CHF,4930.28
+2026-02-20,Coop,Groceries,-83.74,CHF,4846.54
+2026-02-22,Volg,Groceries,-53.76,CHF,4792.78
+2026-02-24,Beizli,Food,-18.04,CHF,4774.74
+2026-02-26,Golfclub Restaurant,Food,-35.65,CHF,4739.09
+2026-03-03,AHV Rente,Income,2100.00,CHF,6839.09
+2026-03-04,Enkelkinder Geschenk,Misc,-40.08,CHF,6799.01
+2026-03-05,Liegenschaftsunterhalt,Housing,-193.14,CHF,6605.87
+2026-03-06,Volg,Groceries,-88.78,CHF,6517.09
+2026-03-06,Beizli,Food,-32.06,CHF,6485.03
+2026-03-10,Krankenkasse Zusatzversicherung,Healthcare,-159.20,CHF,6325.83
+2026-03-10,Beizli,Food,-35.44,CHF,6290.39
+2026-03-11,Volg,Groceries,-61.97,CHF,6228.42
+2026-03-12,Kuoni Pauschalreise,Travel,-467.60,CHF,5760.82
+2026-03-13,Wasserwerk,Utilities,-92.63,CHF,5668.19
+2026-03-16,Krankenkasse Zusatzversicherung,Healthcare,-132.39,CHF,5535.80
+2026-03-19,Golfclub Restaurant,Food,-43.58,CHF,5492.22
+2026-03-19,Beizli,Food,-31.05,CHF,5461.17
+2026-03-21,EWZ Strom,Utilities,-82.23,CHF,5378.94
+2026-03-26,Beratungshonorar - Projektreview,Income,1992.19,CHF,7371.13
+2026-03-30,Volg,Groceries,-40.36,CHF,7330.77
+2026-03-31,Arzt Selbstbehalt,Healthcare,-37.32,CHF,7293.45
+2026-03-31,Coop,Groceries,-82.96,CHF,7210.49
+2026-04-03,AHV Rente,Income,2100.00,CHF,9310.49
+2026-04-04,Golfclub Restaurant,Food,-24.56,CHF,9285.93
+2026-04-05,Apotheke,Healthcare,-160.77,CHF,9125.16
+2026-04-05,Golfclub Restaurant,Food,-40.38,CHF,9084.78
+2026-04-07,Beratungshonorar - Mandat,Income,1848.47,CHF,10933.25
+2026-04-10,Volg,Groceries,-63.09,CHF,10870.16
+2026-04-12,Enkelkinder Geschenk,Misc,-57.50,CHF,10812.66
+2026-04-14,Volg,Groceries,-50.45,CHF,10762.21
+2026-04-15,Volg,Groceries,-59.25,CHF,10702.96
+2026-04-16,Volg,Groceries,-68.17,CHF,10634.79
+2026-04-18,Liegenschaftsunterhalt,Housing,-320.81,CHF,10313.98
+2026-04-19,Krankenkasse Zusatzversicherung,Healthcare,-197.44,CHF,10116.54
+2026-04-22,Arzt Selbstbehalt,Healthcare,-163.09,CHF,9953.45
+2026-04-23,Beizli,Food,-43.99,CHF,9909.46
+2026-04-29,EWZ Strom,Utilities,-58.05,CHF,9851.41
+2026-04-29,Golfclub Restaurant,Food,-14.44,CHF,9836.97
+2026-04-30,EWZ Strom,Utilities,-45.79,CHF,9791.18
+2026-05-02,Golfclub Restaurant,Food,-31.48,CHF,9759.70
+2026-05-03,AHV Rente,Income,2100.00,CHF,11859.70
+2026-05-07,Golfclub Restaurant,Food,-22.07,CHF,11837.63
+2026-05-09,Krankenkasse Zusatzversicherung,Healthcare,-125.77,CHF,11711.86
+2026-05-11,Volg,Groceries,-44.59,CHF,11667.27
+2026-05-16,Krankenkasse Zusatzversicherung,Healthcare,-89.77,CHF,11577.50
+2026-05-17,EWZ Strom,Utilities,-47.11,CHF,11530.39
+2026-05-18,Coop,Groceries,-41.34,CHF,11489.05
+2026-05-21,Golfclub Restaurant,Food,-36.08,CHF,11452.97
+2026-05-22,Golfclub Restaurant,Food,-28.71,CHF,11424.26
+2026-05-22,Spende Rotes Kreuz,Misc,-118.00,CHF,11306.26
+2026-05-23,Coop,Groceries,-58.23,CHF,11248.03
+2026-05-24,Liegenschaftsunterhalt,Housing,-398.72,CHF,10849.31
+2026-05-26,Krankenkasse Zusatzversicherung,Healthcare,-145.94,CHF,10703.37
+2026-05-30,Wasserwerk,Utilities,-78.05,CHF,10625.32
+2026-05-31,Volg,Groceries,-71.27,CHF,10554.05
+2026-06-03,AHV Rente,Income,2100.00,CHF,12654.05
+2026-06-03,Volg,Groceries,-40.96,CHF,12613.09
+2026-06-03,Golfclub Restaurant,Food,-25.45,CHF,12587.64
+2026-06-03,Beizli,Food,-38.26,CHF,12549.38
+2026-06-06,EWZ Strom,Utilities,-36.83,CHF,12512.55
+2026-06-07,Apotheke,Healthcare,-55.17,CHF,12457.38
+2026-06-07,Volg,Groceries,-74.85,CHF,12382.53
+2026-06-07,Spende Rotes Kreuz,Misc,-76.00,CHF,12306.53
+2026-06-16,Volg,Groceries,-51.37,CHF,12255.16
+2026-06-19,Apotheke,Healthcare,-131.85,CHF,12123.31
+2026-06-19,Beizli,Food,-43.43,CHF,12079.88
+2026-06-20,Volg,Groceries,-69.98,CHF,12009.90
+2026-06-21,Golfclub Restaurant,Food,-28.13,CHF,11981.77
+2026-06-22,Wasserwerk,Utilities,-89.10,CHF,11892.67
+2026-06-23,Liegenschaftsunterhalt,Housing,-250.59,CHF,11642.08
+2026-06-26,Krankenkasse Zusatzversicherung,Healthcare,-64.48,CHF,11577.60
+2026-06-30,Beratungshonorar - Mandat,Income,919.78,CHF,12497.38
+2026-07-01,Arzt Selbstbehalt,Healthcare,-136.20,CHF,12361.18
+2026-07-03,AHV Rente,Income,2100.00,CHF,14461.18
+2026-07-03,EWZ Strom,Utilities,-61.38,CHF,14399.80
+2026-07-08,Volg,Groceries,-40.54,CHF,14359.26
+2026-07-11,EWZ Strom,Utilities,-54.35,CHF,14304.91
+2026-07-13,Spende Rotes Kreuz,Misc,-112.04,CHF,14192.87
+2026-07-15,Volg,Groceries,-75.85,CHF,14117.02
+2026-07-17,Hauswartung,Housing,-160.76,CHF,13956.26
+2026-07-18,Apotheke,Healthcare,-116.41,CHF,13839.85
+2026-07-18,Arzt Selbstbehalt,Healthcare,-33.32,CHF,13806.53
+2026-07-23,Beizli,Food,-21.40,CHF,13785.13
+2026-07-25,Golfclub Restaurant,Food,-30.37,CHF,13754.76
+2026-07-26,Beratungshonorar - Projektreview,Income,586.39,CHF,14341.15
+2026-07-26,Coop,Groceries,-65.71,CHF,14275.44
+2026-07-28,Golfclub Restaurant,Food,-43.85,CHF,14231.59
+2026-07-30,Coop,Groceries,-66.68,CHF,14164.91
+2026-07-31,Beizli,Food,-15.84,CHF,14149.07
+2026-08-02,Beratungshonorar - Mandat,Income,2291.63,CHF,16440.70
+2026-08-03,AHV Rente,Income,2100.00,CHF,18540.70
+2026-08-05,Coop,Groceries,-56.43,CHF,18484.27
+2026-08-05,Enkelkinder Geschenk,Misc,-115.90,CHF,18368.37
+2026-08-06,EWZ Strom,Utilities,-89.53,CHF,18278.84
+2026-08-11,Beizli,Food,-37.50,CHF,18241.34
+2026-08-17,Liegenschaftsunterhalt,Housing,-297.56,CHF,17943.78
+2026-08-17,Volg,Groceries,-81.20,CHF,17862.58
+2026-08-18,Arzt Selbstbehalt,Healthcare,-81.75,CHF,17780.83
+2026-08-18,Krankenkasse Zusatzversicherung,Healthcare,-148.32,CHF,17632.51
+2026-08-21,Volg,Groceries,-81.99,CHF,17550.52
+2026-08-23,Golfclub Restaurant,Food,-44.35,CHF,17506.17
+2026-08-28,Golfclub Restaurant,Food,-22.88,CHF,17483.29
+2026-08-29,Arzt Selbstbehalt,Healthcare,-148.56,CHF,17334.73
+2026-08-29,Coop,Groceries,-69.33,CHF,17265.40
+2026-08-29,Golfclub Restaurant,Food,-29.10,CHF,17236.30
+2026-08-31,Wasserwerk,Utilities,-80.15,CHF,17156.15
+2026-09-03,AHV Rente,Income,2100.00,CHF,19256.15
+2026-09-03,Arzt Selbstbehalt,Healthcare,-164.99,CHF,19091.16
+2026-09-03,Golfclub Restaurant,Food,-41.09,CHF,19050.07
+2026-09-04,Hauswartung,Housing,-366.01,CHF,18684.06
+2026-09-05,Arzt Selbstbehalt,Healthcare,-40.64,CHF,18643.42
+2026-09-07,Volg,Groceries,-56.02,CHF,18587.40
+2026-09-12,Volg,Groceries,-57.95,CHF,18529.45
+2026-09-16,Apotheke,Healthcare,-110.71,CHF,18418.74
+2026-09-19,Coop,Groceries,-49.12,CHF,18369.62
+2026-09-19,Volg,Groceries,-48.58,CHF,18321.04
+2026-09-19,Beizli,Food,-20.44,CHF,18300.60
+2026-09-20,Golfclub Restaurant,Food,-24.99,CHF,18275.61
+2026-09-20,Enkelkinder Geschenk,Misc,-99.76,CHF,18175.85
+2026-09-22,Wasserwerk,Utilities,-69.01,CHF,18106.84
+2026-09-22,EWZ Strom,Utilities,-84.20,CHF,18022.64
+2026-09-22,Beizli,Food,-35.07,CHF,17987.57

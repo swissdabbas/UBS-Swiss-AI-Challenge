@@ -1,0 +1,487 @@
+date,description,category,amount,currency,balance
+2025-09-22,Wolt Auszahlung,Income,195.59,CHF,3855.59
+2025-09-22,Uber Eats Auszahlung,Income,78.87,CHF,3934.46
+2025-09-22,Wolt Auszahlung,Income,164.25,CHF,4098.71
+2025-09-22,Uber Eats Auszahlung,Income,138.06,CHF,4236.77
+2025-09-22,Wolt Auszahlung,Income,157.19,CHF,4393.96
+2025-09-22,McDonald's Zürich,Food,-12.78,CHF,4381.18
+2025-09-22,Kebab Haus,Food,-9.34,CHF,4371.84
+2025-09-22,Kebab Haus,Food,-10.20,CHF,4361.64
+2025-09-22,Coop Pronto,Food,-10.39,CHF,4351.25
+2025-09-22,McDonald's Zürich,Food,-17.84,CHF,4333.41
+2025-09-22,Kebab Haus,Food,-12.07,CHF,4321.34
+2025-09-22,Auto Versicherung,Transportation,-35.95,CHF,4285.39
+2025-09-22,Auto Versicherung,Transportation,-47.85,CHF,4237.54
+2025-09-22,Migrol Tankstelle,Transportation,-61.49,CHF,4176.05
+2025-09-22,Spotify Schweiz,Subscriptions,-8.19,CHF,4167.86
+2025-09-22,PlayStation Store,Subscriptions,-8.14,CHF,4159.72
+2025-09-22,Spotify Schweiz,Subscriptions,-11.32,CHF,4148.40
+2025-09-22,Pathé Kino,Entertainment,-37.28,CHF,4111.12
+2025-09-22,Bar Zürich,Entertainment,-16.71,CHF,4094.41
+2025-09-22,Bar Zürich,Entertainment,-21.59,CHF,4072.82
+2025-09-22,Bancomat Bezug,Misc,-17.14,CHF,4055.68
+2025-09-22,TWINT Transfer,Misc,-68.32,CHF,3987.36
+2025-09-22,TWINT Transfer,Misc,-11.30,CHF,3976.06
+2025-09-23,Uber Auszahlung,Income,131.26,CHF,4107.32
+2025-09-25,Dominos Pizza,Food,-13.37,CHF,4093.95
+2025-09-25,Salt Mobile Rechnung,Phone/Utilities,-57.28,CHF,4036.67
+2025-09-26,Wolt Auszahlung,Income,96.60,CHF,4133.27
+2025-09-26,WG-Zimmer Miete,Housing,-542.62,CHF,3590.65
+2025-09-26,Dominos Pizza,Food,-15.41,CHF,3575.24
+2025-09-26,Denner,Groceries,-26.61,CHF,3548.63
+2025-09-28,Coop Pronto,Food,-16.26,CHF,3532.37
+2025-09-28,Migros,Groceries,-37.92,CHF,3494.45
+2025-09-29,Steam Store,Entertainment,-41.61,CHF,3452.84
+2025-09-30,Dominos Pizza,Food,-11.81,CHF,3441.03
+2025-09-30,Denner,Groceries,-31.82,CHF,3409.21
+2025-09-30,Migrol Tankstelle,Transportation,-71.22,CHF,3337.99
+2025-10-01,Uber Auszahlung,Income,63.57,CHF,3401.56
+2025-10-01,Coop Pronto,Food,-15.62,CHF,3385.94
+2025-10-01,Netflix,Subscriptions,-12.08,CHF,3373.86
+2025-10-03,TWINT Transfer,Misc,-52.54,CHF,3321.32
+2025-10-05,Migros,Groceries,-37.40,CHF,3283.92
+2025-10-06,Lidl Schweiz,Groceries,-45.87,CHF,3238.05
+2025-10-08,WG-Zimmer Miete,Housing,-506.60,CHF,2731.45
+2025-10-08,Kebab Haus,Food,-10.64,CHF,2720.81
+2025-10-09,Auto Versicherung,Transportation,-68.31,CHF,2652.50
+2025-10-09,TWINT Transfer,Misc,-40.76,CHF,2611.74
+2025-10-10,Kebab Haus,Food,-8.49,CHF,2603.25
+2025-10-11,Dominos Pizza,Food,-17.51,CHF,2585.74
+2025-10-11,Dominos Pizza,Food,-9.21,CHF,2576.53
+2025-10-11,Steam Store,Entertainment,-48.75,CHF,2527.78
+2025-10-13,Dominos Pizza,Food,-8.87,CHF,2518.91
+2025-10-15,Lidl Schweiz,Groceries,-36.61,CHF,2482.30
+2025-10-16,Salt Mobile Rechnung,Phone/Utilities,-57.99,CHF,2424.31
+2025-10-18,Uber Eats Auszahlung,Income,61.47,CHF,2485.78
+2025-10-18,Wolt Auszahlung,Income,97.29,CHF,2583.07
+2025-10-18,Migrol Tankstelle,Transportation,-46.82,CHF,2536.25
+2025-10-18,Pathé Kino,Entertainment,-22.99,CHF,2513.26
+2025-10-19,McDonald's Zürich,Food,-17.69,CHF,2495.57
+2025-10-21,Bar Zürich,Entertainment,-50.28,CHF,2445.29
+2025-10-22,Uber Eats Auszahlung,Income,94.66,CHF,2539.95
+2025-10-22,Uber Eats Auszahlung,Income,95.00,CHF,2634.95
+2025-10-23,SBB Ticket,Transportation,-77.21,CHF,2557.74
+2025-10-23,TWINT Transfer,Misc,-16.74,CHF,2541.00
+2025-10-24,Wolt Auszahlung,Income,64.65,CHF,2605.65
+2025-10-25,Uber Eats Auszahlung,Income,130.06,CHF,2735.71
+2025-10-25,Migros Take Away,Food,-17.51,CHF,2718.20
+2025-10-26,PlayStation Store,Subscriptions,-15.21,CHF,2702.99
+2025-10-27,Netflix,Subscriptions,-7.08,CHF,2695.91
+2025-10-28,McDonald's Zürich,Food,-8.85,CHF,2687.06
+2025-10-29,Kebab Haus,Food,-19.06,CHF,2668.00
+2025-10-30,Auto Versicherung,Transportation,-63.06,CHF,2604.94
+2025-10-30,Bar Zürich,Entertainment,-19.66,CHF,2585.28
+2025-10-31,Wolt Auszahlung,Income,106.37,CHF,2691.65
+2025-11-02,Auto Versicherung,Transportation,-61.41,CHF,2630.24
+2025-11-03,Migrol Tankstelle,Transportation,-36.35,CHF,2593.89
+2025-11-03,Salt Mobile Rechnung,Phone/Utilities,-40.29,CHF,2553.60
+2025-11-04,Uber Auszahlung,Income,89.75,CHF,2643.35
+2025-11-04,Dominos Pizza,Food,-16.51,CHF,2626.84
+2025-11-05,McDonald's Zürich,Food,-14.55,CHF,2612.29
+2025-11-05,Migrol Tankstelle,Transportation,-23.82,CHF,2588.47
+2025-11-05,Bancomat Bezug,Misc,-14.83,CHF,2573.64
+2025-11-06,Kebab Haus,Food,-17.31,CHF,2556.33
+2025-11-06,Denner,Groceries,-22.44,CHF,2533.89
+2025-11-07,Uber Auszahlung,Income,108.54,CHF,2642.43
+2025-11-08,Pathé Kino,Entertainment,-32.86,CHF,2609.57
+2025-11-09,Bar Zürich,Entertainment,-12.54,CHF,2597.03
+2025-11-10,WG-Zimmer Miete,Housing,-506.44,CHF,2090.59
+2025-11-10,Kebab Haus,Food,-9.52,CHF,2081.07
+2025-11-10,Denner,Groceries,-42.04,CHF,2039.03
+2025-11-10,Spotify Schweiz,Subscriptions,-7.64,CHF,2031.39
+2025-11-11,Uber Auszahlung,Income,203.29,CHF,2234.68
+2025-11-13,Wolt Auszahlung,Income,154.24,CHF,2388.92
+2025-11-14,Netflix,Subscriptions,-10.43,CHF,2378.49
+2025-11-15,Steam Store,Entertainment,-23.49,CHF,2355.00
+2025-11-16,Ryanair Flug,Travel,-82.28,CHF,2272.72
+2025-11-17,Uber Eats Auszahlung,Income,209.83,CHF,2482.55
+2025-11-17,Uber Auszahlung,Income,192.81,CHF,2675.36
+2025-11-17,Kebab Haus,Food,-19.39,CHF,2655.97
+2025-11-20,Spotify Schweiz,Subscriptions,-10.92,CHF,2645.05
+2025-11-20,Bancomat Bezug,Misc,-30.03,CHF,2615.02
+2025-11-24,Bar Zürich,Entertainment,-39.58,CHF,2575.44
+2025-11-25,McDonald's Zürich,Food,-17.54,CHF,2557.90
+2025-11-25,Dominos Pizza,Food,-11.79,CHF,2546.11
+2025-11-26,Dominos Pizza,Food,-16.07,CHF,2530.04
+2025-11-27,Uber Auszahlung,Income,206.60,CHF,2736.64
+2025-11-27,Coop Pronto,Food,-18.39,CHF,2718.25
+2025-11-28,Uber Auszahlung,Income,107.42,CHF,2825.67
+2025-11-28,Dominos Pizza,Food,-9.85,CHF,2815.82
+2025-11-28,Migrol Tankstelle,Transportation,-47.83,CHF,2767.99
+2025-11-28,Bancomat Bezug,Misc,-62.29,CHF,2705.70
+2025-11-29,Uber Auszahlung,Income,139.90,CHF,2845.60
+2025-11-29,Migros,Groceries,-40.90,CHF,2804.70
+2025-12-02,Uber Auszahlung,Income,109.36,CHF,2914.06
+2025-12-02,Migrol Tankstelle,Transportation,-28.23,CHF,2885.83
+2025-12-03,Migros,Groceries,-21.40,CHF,2864.43
+2025-12-05,TWINT Transfer,Misc,-65.19,CHF,2799.24
+2025-12-06,Dominos Pizza,Food,-11.59,CHF,2787.65
+2025-12-06,Kebab Haus,Food,-8.58,CHF,2779.07
+2025-12-06,McDonald's Zürich,Food,-11.10,CHF,2767.97
+2025-12-07,Migros,Groceries,-40.99,CHF,2726.98
+2025-12-07,Bar Zürich,Entertainment,-28.35,CHF,2698.63
+2025-12-08,Uber Eats Auszahlung,Income,179.00,CHF,2877.63
+2025-12-08,Salt Mobile Rechnung,Phone/Utilities,-53.60,CHF,2824.03
+2025-12-09,WG-Zimmer Miete,Housing,-460.77,CHF,2363.26
+2025-12-09,Migros Take Away,Food,-17.33,CHF,2345.93
+2025-12-11,Denner,Groceries,-33.76,CHF,2312.17
+2025-12-12,SBB Ticket,Transportation,-26.45,CHF,2285.72
+2025-12-12,Bancomat Bezug,Misc,-67.76,CHF,2217.96
+2025-12-13,Interrail Pass Europa,Travel,-109.01,CHF,2108.95
+2025-12-14,Uber Eats Auszahlung,Income,166.36,CHF,2275.31
+2025-12-14,PlayStation Store,Subscriptions,-7.42,CHF,2267.89
+2025-12-14,Pathé Kino,Entertainment,-16.68,CHF,2251.21
+2025-12-15,Coop Pronto,Food,-8.13,CHF,2243.08
+2025-12-15,SBB Ticket,Transportation,-63.18,CHF,2179.90
+2025-12-16,Uber Eats Auszahlung,Income,177.24,CHF,2357.14
+2025-12-17,Uber Eats Auszahlung,Income,194.39,CHF,2551.53
+2025-12-18,Uber Auszahlung,Income,201.24,CHF,2752.77
+2025-12-18,Dominos Pizza,Food,-13.27,CHF,2739.50
+2025-12-18,Bar Zürich,Entertainment,-47.55,CHF,2691.95
+2025-12-19,Uber Auszahlung,Income,152.51,CHF,2844.46
+2025-12-19,Coop Pronto,Food,-8.23,CHF,2836.23
+2025-12-20,Steam Store,Entertainment,-50.66,CHF,2785.57
+2025-12-22,Wolt Auszahlung,Income,141.35,CHF,2926.92
+2025-12-24,Uber Eats Auszahlung,Income,119.95,CHF,3046.87
+2025-12-24,Kebab Haus,Food,-19.84,CHF,3027.03
+2025-12-24,Netflix,Subscriptions,-5.87,CHF,3021.16
+2025-12-25,SBB Ticket,Transportation,-66.00,CHF,2955.16
+2025-12-26,Coop Pronto,Food,-13.16,CHF,2942.00
+2025-12-26,Migros Take Away,Food,-15.76,CHF,2926.24
+2025-12-27,TWINT Transfer,Misc,-24.06,CHF,2902.18
+2025-12-31,Netflix,Subscriptions,-7.27,CHF,2894.91
+2026-01-01,Uber Auszahlung,Income,121.39,CHF,3016.30
+2026-01-01,WG-Zimmer Miete,Housing,-511.37,CHF,2504.93
+2026-01-01,Denner,Groceries,-46.44,CHF,2458.49
+2026-01-02,Lidl Schweiz,Groceries,-19.77,CHF,2438.72
+2026-01-02,Migrol Tankstelle,Transportation,-75.88,CHF,2362.84
+2026-01-03,PlayStation Store,Subscriptions,-9.84,CHF,2353.00
+2026-01-06,Wolt Auszahlung,Income,140.36,CHF,2493.36
+2026-01-07,Bar Zürich,Entertainment,-32.44,CHF,2460.92
+2026-01-08,Uber Eats Auszahlung,Income,124.71,CHF,2585.63
+2026-01-08,Kebab Haus,Food,-13.83,CHF,2571.80
+2026-01-08,Migros Take Away,Food,-11.76,CHF,2560.04
+2026-01-09,Bancomat Bezug,Misc,-29.19,CHF,2530.85
+2026-01-11,Coop Pronto,Food,-14.72,CHF,2516.13
+2026-01-13,McDonald's Zürich,Food,-10.07,CHF,2506.06
+2026-01-13,Netflix,Subscriptions,-11.17,CHF,2494.89
+2026-01-13,Bancomat Bezug,Misc,-17.66,CHF,2477.23
+2026-01-14,Pathé Kino,Entertainment,-22.16,CHF,2455.07
+2026-01-15,Uber Auszahlung,Income,205.56,CHF,2660.63
+2026-01-16,Salt Mobile Rechnung,Phone/Utilities,-54.49,CHF,2606.14
+2026-01-16,Steam Store,Entertainment,-20.87,CHF,2585.27
+2026-01-17,Migros Take Away,Food,-11.81,CHF,2573.46
+2026-01-17,SBB Ticket,Transportation,-37.55,CHF,2535.91
+2026-01-18,Uber Auszahlung,Income,157.43,CHF,2693.34
+2026-01-18,Bancomat Bezug,Misc,-71.90,CHF,2621.44
+2026-01-19,Coop Pronto,Food,-9.50,CHF,2611.94
+2026-01-21,McDonald's Zürich,Food,-10.63,CHF,2601.31
+2026-01-22,Lidl Schweiz,Groceries,-19.11,CHF,2582.20
+2026-01-23,Pathé Kino,Entertainment,-23.76,CHF,2558.44
+2026-01-24,Auto Versicherung,Transportation,-36.97,CHF,2521.47
+2026-01-25,Uber Auszahlung,Income,91.92,CHF,2613.39
+2026-01-26,SBB Ticket,Transportation,-41.15,CHF,2572.24
+2026-01-26,Netflix,Subscriptions,-11.94,CHF,2560.30
+2026-01-27,Dominos Pizza,Food,-11.32,CHF,2548.98
+2026-01-30,Kebab Haus,Food,-16.24,CHF,2532.74
+2026-01-31,Uber Eats Auszahlung,Income,195.59,CHF,2728.33
+2026-01-31,Migros Take Away,Food,-10.70,CHF,2717.63
+2026-02-02,Bar Zürich,Entertainment,-32.68,CHF,2684.95
+2026-02-04,WG-Zimmer Miete,Housing,-532.61,CHF,2152.34
+2026-02-04,Denner,Groceries,-37.62,CHF,2114.72
+2026-02-06,Bar Zürich,Entertainment,-43.26,CHF,2071.46
+2026-02-07,Wolt Auszahlung,Income,128.17,CHF,2199.63
+2026-02-07,PlayStation Store,Subscriptions,-16.53,CHF,2183.10
+2026-02-10,Coop Pronto,Food,-11.58,CHF,2171.52
+2026-02-11,Wolt Auszahlung,Income,133.30,CHF,2304.82
+2026-02-13,Coop Pronto,Food,-10.12,CHF,2294.70
+2026-02-14,Uber Eats Auszahlung,Income,137.59,CHF,2432.29
+2026-02-14,Uber Auszahlung,Income,115.37,CHF,2547.66
+2026-02-14,Dominos Pizza,Food,-10.61,CHF,2537.05
+2026-02-14,Auto Versicherung,Transportation,-74.69,CHF,2462.36
+2026-02-15,Migros,Groceries,-28.96,CHF,2433.40
+2026-02-15,TWINT Transfer,Misc,-11.97,CHF,2421.43
+2026-02-16,Uber Auszahlung,Income,199.20,CHF,2620.63
+2026-02-17,Kebab Haus,Food,-17.19,CHF,2603.44
+2026-02-18,Uber Auszahlung,Income,91.97,CHF,2695.41
+2026-02-18,Uber Auszahlung,Income,159.76,CHF,2855.17
+2026-02-18,Wolt Auszahlung,Income,153.51,CHF,3008.68
+2026-02-18,SBB Ticket,Transportation,-33.35,CHF,2975.33
+2026-02-18,Bancomat Bezug,Misc,-71.25,CHF,2904.08
+2026-02-20,McDonald's Zürich,Food,-9.02,CHF,2895.06
+2026-02-20,Dominos Pizza,Food,-19.52,CHF,2875.54
+2026-02-20,TWINT Transfer,Misc,-54.15,CHF,2821.39
+2026-02-21,Kebab Haus,Food,-18.53,CHF,2802.86
+2026-02-23,Migros Take Away,Food,-16.42,CHF,2786.44
+2026-02-23,PlayStation Store,Subscriptions,-12.70,CHF,2773.74
+2026-02-23,Steam Store,Entertainment,-30.30,CHF,2743.44
+2026-02-23,Steam Store,Entertainment,-16.08,CHF,2727.36
+2026-02-24,McDonald's Zürich,Food,-17.09,CHF,2710.27
+2026-02-24,Lidl Schweiz,Groceries,-48.85,CHF,2661.42
+2026-02-24,Salt Mobile Rechnung,Phone/Utilities,-42.75,CHF,2618.67
+2026-02-26,Uber Auszahlung,Income,80.68,CHF,2699.35
+2026-02-26,Wolt Auszahlung,Income,96.74,CHF,2796.09
+2026-02-26,Migrol Tankstelle,Transportation,-44.71,CHF,2751.38
+2026-02-28,Kebab Haus,Food,-14.63,CHF,2736.75
+2026-02-28,Migrol Tankstelle,Transportation,-64.06,CHF,2672.69
+2026-02-28,Spotify Schweiz,Subscriptions,-16.85,CHF,2655.84
+2026-03-02,Uber Auszahlung,Income,194.68,CHF,2850.52
+2026-03-02,Bancomat Bezug,Misc,-16.45,CHF,2834.07
+2026-03-03,Wolt Auszahlung,Income,73.32,CHF,2907.39
+2026-03-05,Bar Zürich,Entertainment,-49.93,CHF,2857.46
+2026-03-06,Wolt Auszahlung,Income,115.11,CHF,2972.57
+2026-03-06,Uber Auszahlung,Income,85.54,CHF,3058.11
+2026-03-08,Uber Auszahlung,Income,102.98,CHF,3161.09
+2026-03-08,Migros,Groceries,-44.24,CHF,3116.85
+2026-03-09,Bar Zürich,Entertainment,-20.13,CHF,3096.72
+2026-03-10,PlayStation Store,Subscriptions,-11.15,CHF,3085.57
+2026-03-11,PlayStation Store,Subscriptions,-16.65,CHF,3068.92
+2026-03-13,Coop Pronto,Food,-16.61,CHF,3052.31
+2026-03-13,Kebab Haus,Food,-14.18,CHF,3038.13
+2026-03-13,Coop Pronto,Food,-9.98,CHF,3028.15
+2026-03-13,Migros,Groceries,-25.46,CHF,3002.69
+2026-03-13,Denner,Groceries,-42.02,CHF,2960.67
+2026-03-13,Auto Versicherung,Transportation,-82.16,CHF,2878.51
+2026-03-13,FlixBus Ticket,Travel,-89.27,CHF,2789.24
+2026-03-14,TWINT Transfer,Misc,-36.40,CHF,2752.84
+2026-03-15,Uber Eats Auszahlung,Income,62.33,CHF,2815.17
+2026-03-15,Kebab Haus,Food,-18.21,CHF,2796.96
+2026-03-16,Auto Versicherung,Transportation,-26.80,CHF,2770.16
+2026-03-16,Steam Store,Entertainment,-31.62,CHF,2738.54
+2026-03-17,Coop Pronto,Food,-19.77,CHF,2718.77
+2026-03-18,McDonald's Zürich,Food,-16.76,CHF,2702.01
+2026-03-18,Steam Store,Entertainment,-47.31,CHF,2654.70
+2026-03-20,Salt Mobile Rechnung,Phone/Utilities,-58.10,CHF,2596.60
+2026-03-21,Uber Eats Auszahlung,Income,173.85,CHF,2770.45
+2026-03-21,McDonald's Zürich,Food,-9.21,CHF,2761.24
+2026-03-21,PlayStation Store,Subscriptions,-11.86,CHF,2749.38
+2026-03-21,Bancomat Bezug,Misc,-55.77,CHF,2693.61
+2026-03-23,Uber Eats Auszahlung,Income,111.52,CHF,2805.13
+2026-03-24,Auto Versicherung,Transportation,-74.86,CHF,2730.27
+2026-03-26,Uber Eats Auszahlung,Income,196.20,CHF,2926.47
+2026-03-26,WG-Zimmer Miete,Housing,-548.82,CHF,2377.65
+2026-03-27,McDonald's Zürich,Food,-19.60,CHF,2358.05
+2026-03-27,Auto Versicherung,Transportation,-49.16,CHF,2308.89
+2026-03-28,Migros Take Away,Food,-12.59,CHF,2296.30
+2026-03-31,Uber Eats Auszahlung,Income,86.90,CHF,2383.20
+2026-03-31,Dominos Pizza,Food,-19.70,CHF,2363.50
+2026-04-01,Uber Eats Auszahlung,Income,109.92,CHF,2473.42
+2026-04-01,Dominos Pizza,Food,-19.52,CHF,2453.90
+2026-04-01,Pathé Kino,Entertainment,-44.82,CHF,2409.08
+2026-04-04,Uber Auszahlung,Income,100.55,CHF,2509.63
+2026-04-04,Dominos Pizza,Food,-13.18,CHF,2496.45
+2026-04-04,Denner,Groceries,-47.10,CHF,2449.35
+2026-04-07,Bar Zürich,Entertainment,-32.64,CHF,2416.71
+2026-04-08,Wolt Auszahlung,Income,62.86,CHF,2479.57
+2026-04-09,Dominos Pizza,Food,-10.98,CHF,2468.59
+2026-04-09,Coop Pronto,Food,-11.73,CHF,2456.86
+2026-04-09,Lidl Schweiz,Groceries,-28.56,CHF,2428.30
+2026-04-10,Kebab Haus,Food,-9.78,CHF,2418.52
+2026-04-10,Spotify Schweiz,Subscriptions,-10.43,CHF,2408.09
+2026-04-13,Lidl Schweiz,Groceries,-24.78,CHF,2383.31
+2026-04-13,Migrol Tankstelle,Transportation,-53.87,CHF,2329.44
+2026-04-14,Uber Eats Auszahlung,Income,187.39,CHF,2516.83
+2026-04-14,Wolt Auszahlung,Income,190.73,CHF,2707.56
+2026-04-14,Coop Pronto,Food,-18.91,CHF,2688.65
+2026-04-14,Auto Versicherung,Transportation,-42.45,CHF,2646.20
+2026-04-14,PlayStation Store,Subscriptions,-11.50,CHF,2634.70
+2026-04-14,PlayStation Store,Subscriptions,-12.23,CHF,2622.47
+2026-04-15,WG-Zimmer Miete,Housing,-466.74,CHF,2155.73
+2026-04-15,McDonald's Zürich,Food,-14.95,CHF,2140.78
+2026-04-17,Uber Auszahlung,Income,216.28,CHF,2357.06
+2026-04-17,TWINT Transfer,Misc,-43.03,CHF,2314.03
+2026-04-18,SBB Ticket,Transportation,-21.97,CHF,2292.06
+2026-04-18,Salt Mobile Rechnung,Phone/Utilities,-47.44,CHF,2244.62
+2026-04-18,TWINT Transfer,Misc,-27.61,CHF,2217.01
+2026-04-20,Kebab Haus,Food,-18.91,CHF,2198.10
+2026-04-21,Kebab Haus,Food,-19.68,CHF,2178.42
+2026-04-22,Bar Zürich,Entertainment,-15.23,CHF,2163.19
+2026-04-24,SBB Ticket,Transportation,-30.21,CHF,2132.98
+2026-04-27,Kebab Haus,Food,-11.12,CHF,2121.86
+2026-04-27,Bancomat Bezug,Misc,-17.22,CHF,2104.64
+2026-04-29,Pathé Kino,Entertainment,-23.85,CHF,2080.79
+2026-05-03,Dominos Pizza,Food,-14.00,CHF,2066.79
+2026-05-04,McDonald's Zürich,Food,-14.83,CHF,2051.96
+2026-05-04,TWINT Transfer,Misc,-46.55,CHF,2005.41
+2026-05-08,Wolt Auszahlung,Income,143.82,CHF,2149.23
+2026-05-08,Steam Store,Entertainment,-13.81,CHF,2135.42
+2026-05-09,Netflix,Subscriptions,-12.64,CHF,2122.78
+2026-05-09,Pathé Kino,Entertainment,-40.63,CHF,2082.15
+2026-05-09,Bar Zürich,Entertainment,-37.05,CHF,2045.10
+2026-05-10,McDonald's Zürich,Food,-17.73,CHF,2027.37
+2026-05-10,Migros,Groceries,-47.40,CHF,1979.97
+2026-05-10,Auto Versicherung,Transportation,-72.97,CHF,1907.00
+2026-05-11,Lidl Schweiz,Groceries,-46.44,CHF,1860.56
+2026-05-11,SBB Ticket,Transportation,-42.92,CHF,1817.64
+2026-05-13,Uber Eats Auszahlung,Income,167.98,CHF,1985.62
+2026-05-13,Pathé Kino,Entertainment,-11.04,CHF,1974.58
+2026-05-15,Kebab Haus,Food,-17.49,CHF,1957.09
+2026-05-18,Uber Auszahlung,Income,193.16,CHF,2150.25
+2026-05-18,Migros Take Away,Food,-12.28,CHF,2137.97
+2026-05-18,Kebab Haus,Food,-11.56,CHF,2126.41
+2026-05-18,SBB Ticket,Transportation,-40.39,CHF,2086.02
+2026-05-19,Kebab Haus,Food,-18.55,CHF,2067.47
+2026-05-19,Spotify Schweiz,Subscriptions,-6.68,CHF,2060.79
+2026-05-22,Dominos Pizza,Food,-12.28,CHF,2048.51
+2026-05-23,Uber Eats Auszahlung,Income,141.01,CHF,2189.52
+2026-05-24,Uber Eats Auszahlung,Income,213.58,CHF,2403.10
+2026-05-24,Auto Versicherung,Transportation,-68.65,CHF,2334.45
+2026-05-24,Spotify Schweiz,Subscriptions,-12.94,CHF,2321.51
+2026-05-26,Uber Eats Auszahlung,Income,171.21,CHF,2492.72
+2026-05-26,Dominos Pizza,Food,-11.74,CHF,2480.98
+2026-05-26,Migros,Groceries,-18.17,CHF,2462.81
+2026-05-27,Bancomat Bezug,Misc,-55.34,CHF,2407.47
+2026-05-28,WG-Zimmer Miete,Housing,-460.28,CHF,1947.19
+2026-05-28,Kebab Haus,Food,-9.46,CHF,1937.73
+2026-05-28,Bancomat Bezug,Misc,-20.31,CHF,1917.42
+2026-05-30,Salt Mobile Rechnung,Phone/Utilities,-41.06,CHF,1876.36
+2026-06-02,Wolt Auszahlung,Income,177.99,CHF,2054.35
+2026-06-03,Uber Eats Auszahlung,Income,197.36,CHF,2251.71
+2026-06-03,SBB Ticket,Transportation,-49.37,CHF,2202.34
+2026-06-03,Steam Store,Entertainment,-14.13,CHF,2188.21
+2026-06-04,Migros Take Away,Food,-13.31,CHF,2174.90
+2026-06-04,Auto Versicherung,Transportation,-29.67,CHF,2145.23
+2026-06-04,Steam Store,Entertainment,-21.29,CHF,2123.94
+2026-06-05,Wolt Auszahlung,Income,61.36,CHF,2185.30
+2026-06-06,Uber Eats Auszahlung,Income,126.59,CHF,2311.89
+2026-06-07,Uber Eats Auszahlung,Income,200.09,CHF,2511.98
+2026-06-07,Migros Take Away,Food,-19.84,CHF,2492.14
+2026-06-09,Dominos Pizza,Food,-15.63,CHF,2476.51
+2026-06-09,Bancomat Bezug,Misc,-52.74,CHF,2423.77
+2026-06-10,Pathé Kino,Entertainment,-24.27,CHF,2399.50
+2026-06-11,Dominos Pizza,Food,-17.40,CHF,2382.10
+2026-06-11,Auto Versicherung,Transportation,-71.01,CHF,2311.09
+2026-06-11,TWINT Transfer,Misc,-37.46,CHF,2273.63
+2026-06-12,Migros Take Away,Food,-11.66,CHF,2261.97
+2026-06-13,McDonald's Zürich,Food,-10.45,CHF,2251.52
+2026-06-13,Lidl Schweiz,Groceries,-22.65,CHF,2228.87
+2026-06-13,PlayStation Store,Subscriptions,-8.38,CHF,2220.49
+2026-06-13,Hostel Barcelona,Travel,-128.42,CHF,2092.07
+2026-06-15,Uber Auszahlung,Income,87.44,CHF,2179.51
+2026-06-16,Migros Take Away,Food,-9.36,CHF,2170.15
+2026-06-16,SBB Ticket,Transportation,-49.52,CHF,2120.63
+2026-06-18,WG-Zimmer Miete,Housing,-540.92,CHF,1579.71
+2026-06-19,Uber Auszahlung,Income,191.11,CHF,1770.82
+2026-06-20,Uber Eats Auszahlung,Income,141.42,CHF,1912.24
+2026-06-20,Migros Take Away,Food,-18.02,CHF,1894.22
+2026-06-20,TWINT Transfer,Misc,-38.27,CHF,1855.95
+2026-06-22,Pathé Kino,Entertainment,-35.83,CHF,1820.12
+2026-06-23,Dominos Pizza,Food,-10.04,CHF,1810.08
+2026-06-24,Salt Mobile Rechnung,Phone/Utilities,-41.37,CHF,1768.71
+2026-06-26,Denner,Groceries,-47.24,CHF,1721.47
+2026-06-27,Denner,Groceries,-42.27,CHF,1679.20
+2026-06-29,Spotify Schweiz,Subscriptions,-14.01,CHF,1665.19
+2026-06-29,Spotify Schweiz,Subscriptions,-6.09,CHF,1659.10
+2026-06-30,Uber Auszahlung,Income,210.29,CHF,1869.39
+2026-06-30,Coop Pronto,Food,-16.94,CHF,1852.45
+2026-07-01,Uber Eats Auszahlung,Income,112.06,CHF,1964.51
+2026-07-02,Bancomat Bezug,Misc,-32.20,CHF,1932.31
+2026-07-03,Migros,Groceries,-32.81,CHF,1899.50
+2026-07-05,SBB Ticket,Transportation,-23.17,CHF,1876.33
+2026-07-06,Salt Mobile Rechnung,Phone/Utilities,-48.59,CHF,1827.74
+2026-07-07,Uber Auszahlung,Income,138.78,CHF,1966.52
+2026-07-07,Uber Auszahlung,Income,197.21,CHF,2163.73
+2026-07-07,McDonald's Zürich,Food,-12.31,CHF,2151.42
+2026-07-12,Uber Auszahlung,Income,75.84,CHF,2227.26
+2026-07-12,Steam Store,Entertainment,-11.40,CHF,2215.86
+2026-07-13,Uber Eats Auszahlung,Income,107.37,CHF,2323.23
+2026-07-13,Dominos Pizza,Food,-12.03,CHF,2311.20
+2026-07-13,Migrol Tankstelle,Transportation,-73.02,CHF,2238.18
+2026-07-13,Netflix,Subscriptions,-8.23,CHF,2229.95
+2026-07-16,Kebab Haus,Food,-19.85,CHF,2210.10
+2026-07-19,McDonald's Zürich,Food,-19.69,CHF,2190.41
+2026-07-19,Denner,Groceries,-30.14,CHF,2160.27
+2026-07-19,SBB Ticket,Transportation,-75.45,CHF,2084.82
+2026-07-21,Coop Pronto,Food,-19.60,CHF,2065.22
+2026-07-21,Kebab Haus,Food,-8.25,CHF,2056.97
+2026-07-21,Migros Take Away,Food,-17.35,CHF,2039.62
+2026-07-21,Steam Store,Entertainment,-41.11,CHF,1998.51
+2026-07-22,Uber Auszahlung,Income,203.45,CHF,2201.96
+2026-07-22,Migros Take Away,Food,-12.67,CHF,2189.29
+2026-07-22,Steam Store,Entertainment,-24.80,CHF,2164.49
+2026-07-23,WG-Zimmer Miete,Housing,-497.70,CHF,1666.79
+2026-07-24,Netflix,Subscriptions,-15.23,CHF,1651.56
+2026-07-25,Dominos Pizza,Food,-8.88,CHF,1642.68
+2026-07-25,TWINT Transfer,Misc,-63.05,CHF,1579.63
+2026-07-26,Kebab Haus,Food,-11.24,CHF,1568.39
+2026-07-26,PlayStation Store,Subscriptions,-14.38,CHF,1554.01
+2026-07-26,Bancomat Bezug,Misc,-55.45,CHF,1498.56
+2026-07-29,Wolt Auszahlung,Income,105.02,CHF,1603.58
+2026-07-29,Lidl Schweiz,Groceries,-18.46,CHF,1585.12
+2026-07-30,Migrol Tankstelle,Transportation,-57.63,CHF,1527.49
+2026-07-30,Bar Zürich,Entertainment,-27.97,CHF,1499.52
+2026-08-01,Kebab Haus,Food,-9.97,CHF,1489.55
+2026-08-02,McDonald's Zürich,Food,-11.25,CHF,1478.30
+2026-08-03,Wolt Auszahlung,Income,81.28,CHF,1559.58
+2026-08-05,Coop Pronto,Food,-13.54,CHF,1546.04
+2026-08-05,Spotify Schweiz,Subscriptions,-9.98,CHF,1536.06
+2026-08-06,Netflix,Subscriptions,-14.77,CHF,1521.29
+2026-08-06,TWINT Transfer,Misc,-45.30,CHF,1475.99
+2026-08-07,Lidl Schweiz,Groceries,-18.88,CHF,1457.11
+2026-08-08,Wolt Auszahlung,Income,70.45,CHF,1527.56
+2026-08-11,Uber Eats Auszahlung,Income,128.68,CHF,1656.24
+2026-08-11,WG-Zimmer Miete,Housing,-453.96,CHF,1202.28
+2026-08-11,Steam Store,Entertainment,-53.15,CHF,1149.13
+2026-08-12,Migros Take Away,Food,-8.80,CHF,1140.33
+2026-08-12,Auto Versicherung,Transportation,-84.39,CHF,1055.94
+2026-08-12,SBB Ticket,Transportation,-46.17,CHF,1009.77
+2026-08-12,Bar Zürich,Entertainment,-51.55,CHF,958.22
+2026-08-16,Dominos Pizza,Food,-10.04,CHF,948.18
+2026-08-17,Hostel Barcelona,Travel,-153.03,CHF,795.15
+2026-08-18,Uber Auszahlung,Income,137.52,CHF,932.67
+2026-08-19,Bancomat Bezug,Misc,-11.41,CHF,921.26
+2026-08-20,Dominos Pizza,Food,-11.65,CHF,909.61
+2026-08-20,Auto Versicherung,Transportation,-83.68,CHF,825.93
+2026-08-22,Uber Eats Auszahlung,Income,75.42,CHF,901.35
+2026-08-22,Salt Mobile Rechnung,Phone/Utilities,-51.89,CHF,849.46
+2026-08-23,Coop Pronto,Food,-9.12,CHF,840.34
+2026-08-23,SBB Ticket,Transportation,-57.30,CHF,783.04
+2026-08-24,McDonald's Zürich,Food,-15.09,CHF,767.95
+2026-08-24,Bar Zürich,Entertainment,-47.95,CHF,720.00
+2026-08-25,Denner,Groceries,-21.76,CHF,698.24
+2026-08-26,Netflix,Subscriptions,-6.40,CHF,691.84
+2026-08-27,Migros,Groceries,-22.13,CHF,669.71
+2026-08-28,Coop Pronto,Food,-16.22,CHF,653.49
+2026-08-29,Bancomat Bezug,Misc,-32.16,CHF,621.33
+2026-08-30,Uber Auszahlung,Income,147.62,CHF,768.95
+2026-08-30,Uber Eats Auszahlung,Income,146.11,CHF,915.06
+2026-08-30,Migros Take Away,Food,-11.17,CHF,903.89
+2026-08-30,Pathé Kino,Entertainment,-49.17,CHF,854.72
+2026-09-01,Auto Versicherung,Transportation,-29.64,CHF,825.08
+2026-09-03,Dominos Pizza,Food,-16.39,CHF,808.69
+2026-09-05,Wolt Auszahlung,Income,152.79,CHF,961.48
+2026-09-06,Auto Versicherung,Transportation,-69.81,CHF,891.67
+2026-09-08,Migrol Tankstelle,Transportation,-56.58,CHF,835.09
+2026-09-09,Kebab Haus,Food,-12.27,CHF,822.82
+2026-09-09,Denner,Groceries,-39.98,CHF,782.84
+2026-09-09,Netflix,Subscriptions,-16.27,CHF,766.57
+2026-09-10,Uber Auszahlung,Income,97.63,CHF,864.20
+2026-09-10,Dominos Pizza,Food,-15.84,CHF,848.36
+2026-09-11,Wolt Auszahlung,Income,66.26,CHF,914.62
+2026-09-11,Coop Pronto,Food,-16.59,CHF,898.03
+2026-09-11,TWINT Transfer,Misc,-73.37,CHF,824.66
+2026-09-12,Wolt Auszahlung,Income,114.22,CHF,938.88
+2026-09-13,Wolt Auszahlung,Income,198.59,CHF,1137.47
+2026-09-13,Kebab Haus,Food,-14.73,CHF,1122.74
+2026-09-13,Ryanair Flug,Travel,-150.69,CHF,972.05
+2026-09-15,Salt Mobile Rechnung,Phone/Utilities,-44.88,CHF,927.17
+2026-09-16,Dominos Pizza,Food,-17.48,CHF,909.69
+2026-09-16,Bar Zürich,Entertainment,-35.40,CHF,874.29
+2026-09-18,Kebab Haus,Food,-16.84,CHF,857.45
+2026-09-19,Netflix,Subscriptions,-14.43,CHF,843.02
+2026-09-19,Bar Zürich,Entertainment,-37.93,CHF,805.09
+2026-09-20,Uber Eats Auszahlung,Income,140.94,CHF,946.03
+2026-09-20,McDonald's Zürich,Food,-16.48,CHF,929.55
+2026-09-20,Migrol Tankstelle,Transportation,-23.26,CHF,906.29
+2026-09-21,Migros,Groceries,-26.58,CHF,879.71
+2026-09-21,Steam Store,Entertainment,-23.62,CHF,856.09
+2026-09-22,Uber Eats Auszahlung,Income,212.69,CHF,1068.78
+2026-09-22,Wolt Auszahlung,Income,80.00,CHF,1148.78
+2026-09-22,WG-Zimmer Miete,Housing,-479.55,CHF,669.23
+2026-09-22,McDonald's Zürich,Food,-12.01,CHF,657.22
+2026-09-22,Dominos Pizza,Food,-12.42,CHF,644.80
+2026-09-22,Migros,Groceries,-32.32,CHF,612.48
+2026-09-22,Netflix,Subscriptions,-10.05,CHF,602.43
+2026-09-22,Steam Store,Entertainment,-27.72,CHF,574.71
+2026-09-22,TWINT Transfer,Misc,-71.95,CHF,502.76
+2026-09-22,Bancomat Bezug,Misc,-24.81,CHF,477.95

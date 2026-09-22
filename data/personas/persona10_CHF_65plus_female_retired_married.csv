@@ -1,0 +1,224 @@
+date,description,category,amount,currency,balance
+2025-09-22,Hausunterhalt,Housing,-253.33,CHF,1696.67
+2025-09-22,Krankenkasse Zusatzversicherung,Healthcare,-50.57,CHF,1646.10
+2025-09-22,Coop,Groceries,-109.08,CHF,1537.02
+2025-09-22,Migros,Groceries,-83.45,CHF,1453.57
+2025-09-22,Migros,Groceries,-109.11,CHF,1344.46
+2025-09-22,EWZ Strom,Utilities,-97.18,CHF,1247.28
+2025-09-22,Swisscom Internet,Utilities,-37.48,CHF,1209.80
+2025-09-22,Migros Reisen Pauschalreise,Travel,-535.31,CHF,674.49
+2025-09-22,Café,Food,-28.63,CHF,645.86
+2025-09-22,Café,Food,-33.19,CHF,612.67
+2025-09-22,Café,Food,-46.19,CHF,566.48
+2025-09-22,Enkelkinder Geschenk,Gifts,-53.02,CHF,513.46
+2025-09-23,Familienrestaurant,Food,-24.59,CHF,488.87
+2025-09-25,Apotheke,Healthcare,-52.29,CHF,436.58
+2025-09-29,Migros,Groceries,-107.54,CHF,329.04
+2025-09-29,EWZ Strom,Utilities,-78.78,CHF,250.26
+2025-10-01,Pensionskasse Rente,Income,1600.00,CHF,1850.26
+2025-10-02,Familienrestaurant,Food,-38.58,CHF,1811.68
+2025-10-03,AHV Rente,Income,1800.00,CHF,3611.68
+2025-10-07,Migros,Groceries,-72.55,CHF,3539.13
+2025-10-08,Liegenschaftssteuer,Housing,-133.49,CHF,3405.64
+2025-10-08,Krankenkasse Zusatzversicherung,Healthcare,-25.78,CHF,3379.86
+2025-10-11,Krankenkasse Zusatzversicherung,Healthcare,-164.02,CHF,3215.84
+2025-10-11,Café,Food,-19.55,CHF,3196.29
+2025-10-13,Familienrestaurant,Food,-36.35,CHF,3159.94
+2025-10-20,Coop,Groceries,-68.68,CHF,3091.26
+2025-10-22,Enkelkinder Geschenk,Gifts,-110.63,CHF,2980.63
+2025-10-24,Migros,Groceries,-81.11,CHF,2899.52
+2025-10-24,Swisscom Internet,Utilities,-50.30,CHF,2849.22
+2025-10-27,Swisscom Internet,Utilities,-93.51,CHF,2755.71
+2025-10-28,Coop,Groceries,-69.82,CHF,2685.89
+2025-10-28,Wasserwerk,Utilities,-92.40,CHF,2593.49
+2025-10-30,Familienrestaurant,Food,-39.43,CHF,2554.06
+2025-11-01,Pensionskasse Rente,Income,1600.00,CHF,4154.06
+2025-11-01,Café,Food,-47.57,CHF,4106.49
+2025-11-03,AHV Rente,Income,1800.00,CHF,5906.49
+2025-11-04,Café,Food,-17.37,CHF,5889.12
+2025-11-08,EWZ Strom,Utilities,-67.28,CHF,5821.84
+2025-11-08,Familienrestaurant,Food,-38.08,CHF,5783.76
+2025-11-12,Migros,Groceries,-61.56,CHF,5722.20
+2025-11-13,Apotheke,Healthcare,-167.70,CHF,5554.50
+2025-11-13,EWZ Strom,Utilities,-78.54,CHF,5475.96
+2025-11-14,Coop,Groceries,-96.81,CHF,5379.15
+2025-11-14,Migros,Groceries,-94.36,CHF,5284.79
+2025-11-15,Krankenkasse Zusatzversicherung,Healthcare,-87.74,CHF,5197.05
+2025-11-15,Migros,Groceries,-90.18,CHF,5106.87
+2025-11-22,Swisscom Internet,Utilities,-41.06,CHF,5065.81
+2025-11-25,Liegenschaftssteuer,Housing,-324.55,CHF,4741.26
+2025-11-26,Café,Food,-30.96,CHF,4710.30
+2025-11-30,Geburtstagsgeschenk,Gifts,-72.60,CHF,4637.70
+2025-12-01,Pensionskasse Rente,Income,1600.00,CHF,6237.70
+2025-12-01,Kreuzfahrt Anzahlung,Travel,-711.53,CHF,5526.17
+2025-12-03,AHV Rente,Income,1800.00,CHF,7326.17
+2025-12-05,Café,Food,-41.73,CHF,7284.44
+2025-12-08,Apotheke,Healthcare,-139.13,CHF,7145.31
+2025-12-09,Migros,Groceries,-71.30,CHF,7074.01
+2025-12-10,EWZ Strom,Utilities,-54.88,CHF,7019.13
+2025-12-12,Migros,Groceries,-92.23,CHF,6926.90
+2025-12-15,Hausunterhalt,Housing,-209.01,CHF,6717.89
+2025-12-17,Apotheke,Healthcare,-99.80,CHF,6618.09
+2025-12-18,Familienrestaurant,Food,-39.43,CHF,6578.66
+2025-12-18,Geburtstagsgeschenk,Gifts,-68.38,CHF,6510.28
+2025-12-19,Migros,Groceries,-76.19,CHF,6434.09
+2025-12-22,Familienrestaurant,Food,-48.30,CHF,6385.79
+2025-12-24,Café,Food,-20.47,CHF,6365.32
+2025-12-25,Swisscom Internet,Utilities,-63.20,CHF,6302.12
+2025-12-29,Migros,Groceries,-74.04,CHF,6228.08
+2025-12-29,EWZ Strom,Utilities,-57.94,CHF,6170.14
+2026-01-01,Pensionskasse Rente,Income,1600.00,CHF,7770.14
+2026-01-01,Migros,Groceries,-83.47,CHF,7686.67
+2026-01-03,AHV Rente,Income,1800.00,CHF,9486.67
+2026-01-05,Apotheke,Healthcare,-90.17,CHF,9396.50
+2026-01-10,Enkelkinder Geschenk,Gifts,-68.66,CHF,9327.84
+2026-01-11,Hausunterhalt,Housing,-311.02,CHF,9016.82
+2026-01-13,Coop,Groceries,-104.21,CHF,8912.61
+2026-01-13,EWZ Strom,Utilities,-86.79,CHF,8825.82
+2026-01-16,Apotheke,Healthcare,-129.52,CHF,8696.30
+2026-01-17,Café,Food,-35.94,CHF,8660.36
+2026-01-18,EWZ Strom,Utilities,-67.19,CHF,8593.17
+2026-01-18,Familienrestaurant,Food,-40.53,CHF,8552.64
+2026-01-21,Wasserwerk,Utilities,-88.60,CHF,8464.04
+2026-01-24,Migros,Groceries,-81.68,CHF,8382.36
+2026-01-26,Familienrestaurant,Food,-48.58,CHF,8333.78
+2026-01-28,Familienrestaurant,Food,-36.22,CHF,8297.56
+2026-01-31,Migros,Groceries,-84.19,CHF,8213.37
+2026-02-01,Pensionskasse Rente,Income,1600.00,CHF,9813.37
+2026-02-01,Wasserwerk,Utilities,-44.39,CHF,9768.98
+2026-02-01,Familienrestaurant,Food,-30.90,CHF,9738.08
+2026-02-03,AHV Rente,Income,1800.00,CHF,11538.08
+2026-02-04,Apotheke,Healthcare,-175.15,CHF,11362.93
+2026-02-06,Wasserwerk,Utilities,-80.89,CHF,11282.04
+2026-02-08,Coop,Groceries,-82.05,CHF,11199.99
+2026-02-08,Café,Food,-26.69,CHF,11173.30
+2026-02-10,Coop,Groceries,-51.20,CHF,11122.10
+2026-02-11,EWZ Strom,Utilities,-73.77,CHF,11048.33
+2026-02-12,Familienrestaurant,Food,-28.45,CHF,11019.88
+2026-02-13,Migros,Groceries,-84.67,CHF,10935.21
+2026-02-13,Familienrestaurant,Food,-30.95,CHF,10904.26
+2026-02-14,Hausunterhalt,Housing,-159.59,CHF,10744.67
+2026-02-16,Apotheke,Healthcare,-133.77,CHF,10610.90
+2026-02-20,Coop,Groceries,-57.11,CHF,10553.79
+2026-02-24,Geburtstagsgeschenk,Gifts,-94.42,CHF,10459.37
+2026-03-01,Pensionskasse Rente,Income,1600.00,CHF,12059.37
+2026-03-01,Café,Food,-26.40,CHF,12032.97
+2026-03-02,Krankenkasse Zusatzversicherung,Healthcare,-79.19,CHF,11953.78
+2026-03-03,AHV Rente,Income,1800.00,CHF,13753.78
+2026-03-07,Migros,Groceries,-82.02,CHF,13671.76
+2026-03-07,EWZ Strom,Utilities,-47.29,CHF,13624.47
+2026-03-13,Coop,Groceries,-58.09,CHF,13566.38
+2026-03-13,Swisscom Internet,Utilities,-73.03,CHF,13493.35
+2026-03-14,Café,Food,-39.99,CHF,13453.36
+2026-03-16,Café,Food,-29.59,CHF,13423.77
+2026-03-16,Enkelkinder Geschenk,Gifts,-62.14,CHF,13361.63
+2026-03-17,Migros,Groceries,-105.62,CHF,13256.01
+2026-03-17,Familienrestaurant,Food,-46.41,CHF,13209.60
+2026-03-20,Swisscom Internet,Utilities,-59.31,CHF,13150.29
+2026-03-27,Hausunterhalt,Housing,-251.67,CHF,12898.62
+2026-03-28,Krankenkasse Zusatzversicherung,Healthcare,-25.44,CHF,12873.18
+2026-03-30,Coop,Groceries,-108.37,CHF,12764.81
+2026-04-01,Pensionskasse Rente,Income,1600.00,CHF,14364.81
+2026-04-02,Migros,Groceries,-81.74,CHF,14283.07
+2026-04-03,AHV Rente,Income,1800.00,CHF,16083.07
+2026-04-04,EWZ Strom,Utilities,-78.52,CHF,16004.55
+2026-04-05,Apotheke,Healthcare,-96.09,CHF,15908.46
+2026-04-05,EWZ Strom,Utilities,-30.38,CHF,15878.08
+2026-04-11,Coop,Groceries,-84.08,CHF,15794.00
+2026-04-14,Familienrestaurant,Food,-49.68,CHF,15744.32
+2026-04-15,Apotheke,Healthcare,-154.19,CHF,15590.13
+2026-04-15,Familienrestaurant,Food,-20.66,CHF,15569.47
+2026-04-18,Geburtstagsgeschenk,Gifts,-98.14,CHF,15471.33
+2026-04-22,Coop,Groceries,-90.00,CHF,15381.33
+2026-04-25,Migros,Groceries,-55.25,CHF,15326.08
+2026-04-27,EWZ Strom,Utilities,-33.85,CHF,15292.23
+2026-04-27,Café,Food,-19.04,CHF,15273.19
+2026-04-27,Familienrestaurant,Food,-28.26,CHF,15244.93
+2026-04-28,Liegenschaftssteuer,Housing,-120.24,CHF,15124.69
+2026-05-01,Pensionskasse Rente,Income,1600.00,CHF,16724.69
+2026-05-01,Migros,Groceries,-91.99,CHF,16632.70
+2026-05-02,Migros,Groceries,-54.46,CHF,16578.24
+2026-05-03,AHV Rente,Income,1800.00,CHF,18378.24
+2026-05-03,Migros,Groceries,-70.83,CHF,18307.41
+2026-05-12,Hausunterhalt,Housing,-328.24,CHF,17979.17
+2026-05-13,Hotel Gardasee,Travel,-970.22,CHF,17008.95
+2026-05-14,EWZ Strom,Utilities,-81.68,CHF,16927.27
+2026-05-14,Café,Food,-48.05,CHF,16879.22
+2026-05-17,Café,Food,-43.93,CHF,16835.29
+2026-05-18,Swisscom Internet,Utilities,-41.87,CHF,16793.42
+2026-05-19,Familienrestaurant,Food,-31.91,CHF,16761.51
+2026-05-20,EWZ Strom,Utilities,-59.52,CHF,16701.99
+2026-05-23,Migros,Groceries,-75.60,CHF,16626.39
+2026-05-24,Enkelkinder Geschenk,Gifts,-82.71,CHF,16543.68
+2026-05-28,Familienrestaurant,Food,-31.69,CHF,16511.99
+2026-05-29,Apotheke,Healthcare,-147.25,CHF,16364.74
+2026-05-30,Apotheke,Healthcare,-94.30,CHF,16270.44
+2026-06-01,Pensionskasse Rente,Income,1600.00,CHF,17870.44
+2026-06-01,Café,Food,-30.53,CHF,17839.91
+2026-06-02,Wasserwerk,Utilities,-57.92,CHF,17781.99
+2026-06-03,AHV Rente,Income,1800.00,CHF,19581.99
+2026-06-06,Geburtstagsgeschenk,Gifts,-44.53,CHF,19537.46
+2026-06-13,Migros,Groceries,-57.63,CHF,19479.83
+2026-06-15,EWZ Strom,Utilities,-61.87,CHF,19417.96
+2026-06-15,Café,Food,-20.83,CHF,19397.13
+2026-06-16,Swisscom Internet,Utilities,-96.68,CHF,19300.45
+2026-06-20,Migros,Groceries,-56.38,CHF,19244.07
+2026-06-21,Krankenkasse Zusatzversicherung,Healthcare,-105.55,CHF,19138.52
+2026-06-21,Coop,Groceries,-54.92,CHF,19083.60
+2026-06-21,Café,Food,-34.89,CHF,19048.71
+2026-06-23,Familienrestaurant,Food,-29.69,CHF,19019.02
+2026-06-24,Krankenkasse Zusatzversicherung,Healthcare,-61.79,CHF,18957.23
+2026-06-25,Liegenschaftssteuer,Housing,-293.28,CHF,18663.95
+2026-06-27,Migros,Groceries,-98.62,CHF,18565.33
+2026-07-01,Pensionskasse Rente,Income,1600.00,CHF,20165.33
+2026-07-01,Apotheke,Healthcare,-150.18,CHF,20015.15
+2026-07-03,AHV Rente,Income,1800.00,CHF,21815.15
+2026-07-03,Wasserwerk,Utilities,-39.73,CHF,21775.42
+2026-07-04,Enkelkinder Geschenk,Gifts,-65.00,CHF,21710.42
+2026-07-05,Swisscom Internet,Utilities,-49.46,CHF,21660.96
+2026-07-06,EWZ Strom,Utilities,-36.38,CHF,21624.58
+2026-07-07,Migros,Groceries,-82.05,CHF,21542.53
+2026-07-10,Familienrestaurant,Food,-21.43,CHF,21521.10
+2026-07-15,Café,Food,-29.12,CHF,21491.98
+2026-07-18,Coop,Groceries,-69.45,CHF,21422.53
+2026-07-20,Migros,Groceries,-48.37,CHF,21374.16
+2026-07-20,Café,Food,-41.59,CHF,21332.57
+2026-07-21,Apotheke,Healthcare,-165.22,CHF,21167.35
+2026-07-21,Café,Food,-39.67,CHF,21127.68
+2026-07-26,Liegenschaftssteuer,Housing,-147.73,CHF,20979.95
+2026-07-31,Coop,Groceries,-106.74,CHF,20873.21
+2026-08-01,Pensionskasse Rente,Income,1600.00,CHF,22473.21
+2026-08-02,Café,Food,-20.76,CHF,22452.45
+2026-08-03,AHV Rente,Income,1800.00,CHF,24252.45
+2026-08-03,Coop,Groceries,-67.45,CHF,24185.00
+2026-08-04,Migros,Groceries,-86.35,CHF,24098.65
+2026-08-06,Familienrestaurant,Food,-33.59,CHF,24065.06
+2026-08-06,Familienrestaurant,Food,-41.88,CHF,24023.18
+2026-08-10,Wasserwerk,Utilities,-79.38,CHF,23943.80
+2026-08-13,Migros,Groceries,-83.87,CHF,23859.93
+2026-08-14,Liegenschaftssteuer,Housing,-211.40,CHF,23648.53
+2026-08-18,Familienrestaurant,Food,-34.77,CHF,23613.76
+2026-08-19,Geburtstagsgeschenk,Gifts,-106.50,CHF,23507.26
+2026-08-25,EWZ Strom,Utilities,-37.32,CHF,23469.94
+2026-08-26,Wasserwerk,Utilities,-30.25,CHF,23439.69
+2026-08-27,Coop,Groceries,-57.06,CHF,23382.63
+2026-08-28,Apotheke,Healthcare,-63.21,CHF,23319.42
+2026-08-29,Krankenkasse Zusatzversicherung,Healthcare,-38.80,CHF,23280.62
+2026-09-01,Pensionskasse Rente,Income,1600.00,CHF,24880.62
+2026-09-02,Swisscom Internet,Utilities,-72.62,CHF,24808.00
+2026-09-02,Café,Food,-15.60,CHF,24792.40
+2026-09-02,Geburtstagsgeschenk,Gifts,-79.48,CHF,24712.92
+2026-09-03,AHV Rente,Income,1800.00,CHF,26512.92
+2026-09-05,Apotheke,Healthcare,-80.95,CHF,26431.97
+2026-09-05,Swisscom Internet,Utilities,-79.91,CHF,26352.06
+2026-09-06,Migros,Groceries,-71.37,CHF,26280.69
+2026-09-06,Coop,Groceries,-99.17,CHF,26181.52
+2026-09-10,Apotheke,Healthcare,-50.21,CHF,26131.31
+2026-09-11,Familienrestaurant,Food,-16.50,CHF,26114.81
+2026-09-14,Café,Food,-37.09,CHF,26077.72
+2026-09-15,Familienrestaurant,Food,-41.99,CHF,26035.73
+2026-09-17,Hausunterhalt,Housing,-144.62,CHF,25891.11
+2026-09-17,SBB Bahnticket,Travel,-1035.95,CHF,24855.16
+2026-09-19,Coop,Groceries,-90.90,CHF,24764.26
+2026-09-22,Coop,Groceries,-66.34,CHF,24697.92
+2026-09-22,Swisscom Internet,Utilities,-66.22,CHF,24631.70

@@ -1,0 +1,387 @@
+date,description,category,amount,currency,balance
+2025-09-22,Studio Miete,Housing,-700.00,CHF,920.00
+2025-09-22,Denner,Groceries,-53.04,CHF,866.96
+2025-09-22,Coop,Groceries,-47.51,CHF,819.45
+2025-09-22,Denner,Groceries,-32.01,CHF,787.44
+2025-09-22,Starbucks Zürich,Food,-11.11,CHF,776.33
+2025-09-22,Läderach,Food,-13.10,CHF,763.23
+2025-09-22,Starbucks Zürich,Food,-6.23,CHF,757.00
+2025-09-22,Coop Restaurant,Food,-10.40,CHF,746.60
+2025-09-22,Postauto Ticket,Transportation,-36.36,CHF,710.24
+2025-09-22,SBB Halbtax Abo,Transportation,-28.67,CHF,681.57
+2025-09-22,Spotify Schweiz,Subscriptions,-10.79,CHF,670.78
+2025-09-22,EWZ Strom,Phone/Utilities,-69.41,CHF,601.37
+2025-09-22,EWZ Strom,Phone/Utilities,-44.11,CHF,557.26
+2025-09-22,Sephora Schweiz,Shopping,-39.29,CHF,517.97
+2025-09-22,Sephora Schweiz,Shopping,-21.79,CHF,496.18
+2025-09-22,Bar Abend,Entertainment,-34.80,CHF,461.38
+2025-09-22,Bar Abend,Entertainment,-27.98,CHF,433.40
+2025-09-22,Pathé Kino,Entertainment,-30.64,CHF,402.76
+2025-09-22,SBB Sparbillett,Travel,-154.91,CHF,247.85
+2025-09-23,Spotify Schweiz,Subscriptions,-11.92,CHF,235.93
+2025-09-24,Postauto Ticket,Transportation,-21.98,CHF,213.95
+2025-09-25,H&M Schweiz Lohnzahlung,Income,3665.67,CHF,3879.62
+2025-09-25,Netflix,Subscriptions,-11.40,CHF,3868.22
+2025-09-26,Postauto Ticket,Transportation,-34.71,CHF,3833.51
+2025-09-27,Denner,Groceries,-27.48,CHF,3806.03
+2025-09-28,Starbucks Zürich,Food,-14.22,CHF,3791.81
+2025-09-29,Zalando,Shopping,-39.81,CHF,3752.00
+2025-09-30,Starbucks Zürich,Food,-12.30,CHF,3739.70
+2025-09-30,Läderach,Food,-7.13,CHF,3732.57
+2025-09-30,Starbucks Zürich,Food,-10.47,CHF,3722.10
+2025-10-01,Coop Restaurant,Food,-10.47,CHF,3711.63
+2025-10-02,Läderach,Food,-10.93,CHF,3700.70
+2025-10-03,Läderach,Food,-8.63,CHF,3692.07
+2025-10-03,Zalando,Shopping,-68.33,CHF,3623.74
+2025-10-07,Coop Restaurant,Food,-16.09,CHF,3607.65
+2025-10-07,Läderach,Food,-7.39,CHF,3600.26
+2025-10-07,Spotify Schweiz,Subscriptions,-10.52,CHF,3589.74
+2025-10-11,SBB Halbtax Abo,Transportation,-38.82,CHF,3550.92
+2025-10-12,Denner,Groceries,-52.83,CHF,3498.09
+2025-10-13,Postauto Ticket,Transportation,-24.52,CHF,3473.57
+2025-10-15,Studio Miete,Housing,-700.00,CHF,2773.57
+2025-10-15,Coop Restaurant,Food,-8.50,CHF,2765.07
+2025-10-16,SBB Halbtax Abo,Transportation,-12.63,CHF,2752.44
+2025-10-18,Denner,Groceries,-39.09,CHF,2713.35
+2025-10-18,Spotify Schweiz,Subscriptions,-13.77,CHF,2699.58
+2025-10-18,Zalando,Shopping,-70.07,CHF,2629.51
+2025-10-20,Coop,Groceries,-41.40,CHF,2588.11
+2025-10-20,Läderach,Food,-6.89,CHF,2581.22
+2025-10-20,Bar Abend,Entertainment,-43.24,CHF,2537.98
+2025-10-21,Spotify Schweiz,Subscriptions,-8.24,CHF,2529.74
+2025-10-21,Zalando,Shopping,-20.58,CHF,2509.16
+2025-10-24,Denner,Groceries,-28.86,CHF,2480.30
+2025-10-25,H&M Schweiz Lohnzahlung,Income,3664.49,CHF,6144.79
+2025-10-27,Läderach,Food,-6.19,CHF,6138.60
+2025-10-28,Swisscom Rechnung,Phone/Utilities,-88.24,CHF,6050.36
+2025-10-30,EWZ Strom,Phone/Utilities,-51.88,CHF,5998.48
+2025-10-30,Bar Abend,Entertainment,-38.95,CHF,5959.53
+2025-10-31,Postauto Ticket,Transportation,-37.04,CHF,5922.49
+2025-10-31,Bar Abend,Entertainment,-39.99,CHF,5882.50
+2025-10-31,Airbnb Amsterdam,Travel,-180.32,CHF,5702.18
+2025-11-01,Migros,Groceries,-51.95,CHF,5650.23
+2025-11-01,SBB Halbtax Abo,Transportation,-26.28,CHF,5623.95
+2025-11-02,Spotify Schweiz,Subscriptions,-13.63,CHF,5610.32
+2025-11-02,Zalando,Shopping,-21.11,CHF,5589.21
+2025-11-03,Postauto Ticket,Transportation,-37.53,CHF,5551.68
+2025-11-04,Coop Restaurant,Food,-7.48,CHF,5544.20
+2025-11-04,Postauto Ticket,Transportation,-20.52,CHF,5523.68
+2025-11-07,Starbucks Zürich,Food,-14.31,CHF,5509.37
+2025-11-08,Pathé Kino,Entertainment,-34.94,CHF,5474.43
+2025-11-12,Studio Miete,Housing,-700.00,CHF,4774.43
+2025-11-12,Starbucks Zürich,Food,-17.52,CHF,4756.91
+2025-11-13,Läderach,Food,-16.65,CHF,4740.26
+2025-11-14,H&M,Shopping,-50.00,CHF,4690.26
+2025-11-14,Pathé Kino,Entertainment,-28.53,CHF,4661.73
+2025-11-14,Bar Abend,Entertainment,-22.92,CHF,4638.81
+2025-11-15,Läderach,Food,-7.68,CHF,4631.13
+2025-11-19,EWZ Strom,Phone/Utilities,-70.79,CHF,4560.34
+2025-11-20,Starbucks Zürich,Food,-13.91,CHF,4546.43
+2025-11-21,Denner,Groceries,-23.61,CHF,4522.82
+2025-11-23,Disney+,Subscriptions,-13.50,CHF,4509.32
+2025-11-23,EWZ Strom,Phone/Utilities,-86.14,CHF,4423.18
+2025-11-24,Denner,Groceries,-25.50,CHF,4397.68
+2025-11-24,Läderach,Food,-14.47,CHF,4383.21
+2025-11-25,H&M Schweiz Lohnzahlung,Income,3536.14,CHF,7919.35
+2025-11-25,H&M Schweiz 13. Monatslohn,Income,3600.00,CHF,11519.35
+2025-11-26,Denner,Groceries,-49.07,CHF,11470.28
+2025-11-26,Zalando,Shopping,-32.73,CHF,11437.55
+2025-11-27,Postauto Ticket,Transportation,-35.01,CHF,11402.54
+2025-11-27,Netflix,Subscriptions,-8.30,CHF,11394.24
+2025-11-28,Läderach,Food,-10.01,CHF,11384.23
+2025-12-04,SBB Halbtax Abo,Transportation,-39.12,CHF,11345.11
+2025-12-05,Migros,Groceries,-50.18,CHF,11294.93
+2025-12-07,Spotify Schweiz,Subscriptions,-15.97,CHF,11278.96
+2025-12-08,Swisscom Rechnung,Phone/Utilities,-72.20,CHF,11206.76
+2025-12-09,Läderach,Food,-11.81,CHF,11194.95
+2025-12-09,Swisscom Rechnung,Phone/Utilities,-73.28,CHF,11121.67
+2025-12-10,Starbucks Zürich,Food,-10.74,CHF,11110.93
+2025-12-11,Postauto Ticket,Transportation,-17.53,CHF,11093.40
+2025-12-12,Postauto Ticket,Transportation,-19.49,CHF,11073.91
+2025-12-13,Bar Abend,Entertainment,-23.98,CHF,11049.93
+2025-12-13,Pathé Kino,Entertainment,-32.77,CHF,11017.16
+2025-12-14,Studio Miete,Housing,-700.00,CHF,10317.16
+2025-12-14,Migros,Groceries,-51.63,CHF,10265.53
+2025-12-14,Coop Restaurant,Food,-14.35,CHF,10251.18
+2025-12-16,Coop Restaurant,Food,-13.16,CHF,10238.02
+2025-12-16,SBB Halbtax Abo,Transportation,-29.13,CHF,10208.89
+2025-12-19,H&M,Shopping,-75.17,CHF,10133.72
+2025-12-21,Spotify Schweiz,Subscriptions,-13.24,CHF,10120.48
+2025-12-22,H&M,Shopping,-32.70,CHF,10087.78
+2025-12-22,Pathé Kino,Entertainment,-24.41,CHF,10063.37
+2025-12-24,Läderach,Food,-17.46,CHF,10045.91
+2025-12-25,H&M Schweiz Lohnzahlung,Income,3540.22,CHF,13586.13
+2025-12-25,Disney+,Subscriptions,-15.60,CHF,13570.53
+2025-12-27,Migros,Groceries,-28.95,CHF,13541.58
+2025-12-27,Starbucks Zürich,Food,-12.91,CHF,13528.67
+2025-12-29,Denner,Groceries,-52.22,CHF,13476.45
+2025-12-29,H&M,Shopping,-80.87,CHF,13395.58
+2025-12-30,Coop Restaurant,Food,-11.91,CHF,13383.67
+2025-12-30,Coop Restaurant,Food,-7.01,CHF,13376.66
+2026-01-01,Migros,Groceries,-24.74,CHF,13351.92
+2026-01-01,Migros,Groceries,-23.35,CHF,13328.57
+2026-01-02,Läderach,Food,-7.54,CHF,13321.03
+2026-01-03,SBB Halbtax Abo,Transportation,-20.28,CHF,13300.75
+2026-01-04,EWZ Strom,Phone/Utilities,-88.52,CHF,13212.23
+2026-01-04,Bar Abend,Entertainment,-15.32,CHF,13196.91
+2026-01-05,Läderach,Food,-12.49,CHF,13184.42
+2026-01-06,Starbucks Zürich,Food,-12.29,CHF,13172.13
+2026-01-06,Disney+,Subscriptions,-14.42,CHF,13157.71
+2026-01-06,Bar Abend,Entertainment,-37.43,CHF,13120.28
+2026-01-08,Studio Miete,Housing,-700.00,CHF,12420.28
+2026-01-11,SBB Halbtax Abo,Transportation,-38.20,CHF,12382.08
+2026-01-11,Bar Abend,Entertainment,-33.15,CHF,12348.93
+2026-01-12,Denner,Groceries,-27.67,CHF,12321.26
+2026-01-12,Migros,Groceries,-30.44,CHF,12290.82
+2026-01-13,Coop Restaurant,Food,-8.78,CHF,12282.04
+2026-01-15,Spotify Schweiz,Subscriptions,-12.67,CHF,12269.37
+2026-01-18,Läderach,Food,-7.76,CHF,12261.61
+2026-01-18,H&M,Shopping,-33.29,CHF,12228.32
+2026-01-23,SBB Halbtax Abo,Transportation,-17.20,CHF,12211.12
+2026-01-24,EWZ Strom,Phone/Utilities,-59.56,CHF,12151.56
+2026-01-25,H&M Schweiz Lohnzahlung,Income,3648.31,CHF,15799.87
+2026-01-27,Disney+,Subscriptions,-9.50,CHF,15790.37
+2026-01-28,SBB Halbtax Abo,Transportation,-14.32,CHF,15776.05
+2026-01-29,Starbucks Zürich,Food,-6.80,CHF,15769.25
+2026-01-29,Läderach,Food,-14.17,CHF,15755.08
+2026-01-30,Coop Restaurant,Food,-16.75,CHF,15738.33
+2026-01-30,Zalando,Shopping,-45.21,CHF,15693.12
+2026-01-30,H&M,Shopping,-24.73,CHF,15668.39
+2026-01-31,Städtereise Lissabon,Travel,-226.60,CHF,15441.79
+2026-02-01,Läderach,Food,-15.72,CHF,15426.07
+2026-02-03,Sephora Schweiz,Shopping,-55.01,CHF,15371.06
+2026-02-04,Bar Abend,Entertainment,-33.10,CHF,15337.96
+2026-02-05,Studio Miete,Housing,-700.00,CHF,14637.96
+2026-02-05,Migros,Groceries,-54.04,CHF,14583.92
+2026-02-05,Coop Restaurant,Food,-11.60,CHF,14572.32
+2026-02-08,Postauto Ticket,Transportation,-39.92,CHF,14532.40
+2026-02-08,Swisscom Rechnung,Phone/Utilities,-42.75,CHF,14489.65
+2026-02-09,Starbucks Zürich,Food,-8.03,CHF,14481.62
+2026-02-11,Postauto Ticket,Transportation,-29.45,CHF,14452.17
+2026-02-12,Denner,Groceries,-52.97,CHF,14399.20
+2026-02-13,Läderach,Food,-16.49,CHF,14382.71
+2026-02-13,Swisscom Rechnung,Phone/Utilities,-54.24,CHF,14328.47
+2026-02-14,Disney+,Subscriptions,-15.08,CHF,14313.39
+2026-02-15,Starbucks Zürich,Food,-17.37,CHF,14296.02
+2026-02-16,Städtereise Lissabon,Travel,-199.81,CHF,14096.21
+2026-02-17,Coop,Groceries,-44.82,CHF,14051.39
+2026-02-17,Coop Restaurant,Food,-8.98,CHF,14042.41
+2026-02-17,SBB Halbtax Abo,Transportation,-27.30,CHF,14015.11
+2026-02-17,Zalando,Shopping,-56.22,CHF,13958.89
+2026-02-17,Bar Abend,Entertainment,-32.99,CHF,13925.90
+2026-02-19,Migros,Groceries,-23.42,CHF,13902.48
+2026-02-19,H&M,Shopping,-65.62,CHF,13836.86
+2026-02-20,Bar Abend,Entertainment,-42.57,CHF,13794.29
+2026-02-22,Disney+,Subscriptions,-14.76,CHF,13779.53
+2026-02-24,Coop Restaurant,Food,-8.17,CHF,13771.36
+2026-02-24,Netflix,Subscriptions,-7.30,CHF,13764.06
+2026-02-25,H&M Schweiz Lohnzahlung,Income,3633.98,CHF,17398.04
+2026-02-25,Postauto Ticket,Transportation,-18.16,CHF,17379.88
+2026-02-26,Coop Restaurant,Food,-15.17,CHF,17364.71
+2026-03-01,Denner,Groceries,-32.18,CHF,17332.53
+2026-03-01,Bar Abend,Entertainment,-24.89,CHF,17307.64
+2026-03-01,Airbnb Amsterdam,Travel,-202.21,CHF,17105.43
+2026-03-03,Coop Restaurant,Food,-15.14,CHF,17090.29
+2026-03-04,Coop,Groceries,-31.44,CHF,17058.85
+2026-03-05,Sephora Schweiz,Shopping,-49.88,CHF,17008.97
+2026-03-07,Netflix,Subscriptions,-10.77,CHF,16998.20
+2026-03-08,Starbucks Zürich,Food,-12.39,CHF,16985.81
+2026-03-09,Coop Restaurant,Food,-10.86,CHF,16974.95
+2026-03-09,Spotify Schweiz,Subscriptions,-15.50,CHF,16959.45
+2026-03-11,Coop Restaurant,Food,-14.56,CHF,16944.89
+2026-03-13,Läderach,Food,-15.80,CHF,16929.09
+2026-03-13,Postauto Ticket,Transportation,-35.22,CHF,16893.87
+2026-03-13,EWZ Strom,Phone/Utilities,-75.35,CHF,16818.52
+2026-03-14,H&M,Shopping,-84.04,CHF,16734.48
+2026-03-16,Postauto Ticket,Transportation,-28.58,CHF,16705.90
+2026-03-16,Pathé Kino,Entertainment,-19.20,CHF,16686.70
+2026-03-18,SBB Halbtax Abo,Transportation,-35.13,CHF,16651.57
+2026-03-18,Disney+,Subscriptions,-13.55,CHF,16638.02
+2026-03-18,Swisscom Rechnung,Phone/Utilities,-73.73,CHF,16564.29
+2026-03-19,Postauto Ticket,Transportation,-25.31,CHF,16538.98
+2026-03-21,Coop Restaurant,Food,-11.67,CHF,16527.31
+2026-03-21,Pathé Kino,Entertainment,-41.93,CHF,16485.38
+2026-03-22,Studio Miete,Housing,-700.00,CHF,15785.38
+2026-03-24,Coop Restaurant,Food,-17.24,CHF,15768.14
+2026-03-24,Zalando,Shopping,-46.10,CHF,15722.04
+2026-03-25,H&M Schweiz Lohnzahlung,Income,3624.44,CHF,19346.48
+2026-03-25,Migros,Groceries,-41.97,CHF,19304.51
+2026-03-29,Coop,Groceries,-30.71,CHF,19273.80
+2026-03-29,Starbucks Zürich,Food,-13.62,CHF,19260.18
+2026-04-01,Starbucks Zürich,Food,-10.84,CHF,19249.34
+2026-04-03,Coop,Groceries,-43.81,CHF,19205.53
+2026-04-03,Postauto Ticket,Transportation,-21.78,CHF,19183.75
+2026-04-04,SBB Halbtax Abo,Transportation,-38.12,CHF,19145.63
+2026-04-06,Bar Abend,Entertainment,-25.02,CHF,19120.61
+2026-04-08,Bar Abend,Entertainment,-37.23,CHF,19083.38
+2026-04-09,Coop Restaurant,Food,-14.93,CHF,19068.45
+2026-04-09,EWZ Strom,Phone/Utilities,-45.05,CHF,19023.40
+2026-04-13,Starbucks Zürich,Food,-15.79,CHF,19007.61
+2026-04-13,SBB Halbtax Abo,Transportation,-25.74,CHF,18981.87
+2026-04-15,Zalando,Shopping,-31.37,CHF,18950.50
+2026-04-17,Läderach,Food,-14.54,CHF,18935.96
+2026-04-17,EWZ Strom,Phone/Utilities,-87.10,CHF,18848.86
+2026-04-19,Coop Restaurant,Food,-8.30,CHF,18840.56
+2026-04-20,Zalando,Shopping,-86.57,CHF,18753.99
+2026-04-21,Starbucks Zürich,Food,-8.13,CHF,18745.86
+2026-04-21,Pathé Kino,Entertainment,-42.20,CHF,18703.66
+2026-04-23,Migros,Groceries,-27.06,CHF,18676.60
+2026-04-24,Studio Miete,Housing,-700.00,CHF,17976.60
+2026-04-24,Läderach,Food,-12.83,CHF,17963.77
+2026-04-25,H&M Schweiz Lohnzahlung,Income,3572.37,CHF,21536.14
+2026-04-25,Spotify Schweiz,Subscriptions,-8.16,CHF,21527.98
+2026-04-26,Migros,Groceries,-50.87,CHF,21477.11
+2026-04-26,Netflix,Subscriptions,-14.87,CHF,21462.24
+2026-04-27,Coop,Groceries,-25.37,CHF,21436.87
+2026-04-27,Sephora Schweiz,Shopping,-50.80,CHF,21386.07
+2026-04-29,Starbucks Zürich,Food,-8.59,CHF,21377.48
+2026-04-29,SBB Halbtax Abo,Transportation,-13.25,CHF,21364.23
+2026-04-30,Netflix,Subscriptions,-15.03,CHF,21349.20
+2026-04-30,Städtereise Lissabon,Travel,-92.67,CHF,21256.53
+2026-05-01,Postauto Ticket,Transportation,-17.59,CHF,21238.94
+2026-05-03,Läderach,Food,-15.06,CHF,21223.88
+2026-05-03,Bar Abend,Entertainment,-30.11,CHF,21193.77
+2026-05-07,Städtereise Lissabon,Travel,-282.88,CHF,20910.89
+2026-05-08,SBB Halbtax Abo,Transportation,-15.19,CHF,20895.70
+2026-05-08,Bar Abend,Entertainment,-25.85,CHF,20869.85
+2026-05-09,Coop,Groceries,-30.64,CHF,20839.21
+2026-05-09,Starbucks Zürich,Food,-12.16,CHF,20827.05
+2026-05-09,EWZ Strom,Phone/Utilities,-41.24,CHF,20785.81
+2026-05-09,H&M,Shopping,-69.36,CHF,20716.45
+2026-05-11,Coop,Groceries,-26.75,CHF,20689.70
+2026-05-11,Postauto Ticket,Transportation,-39.15,CHF,20650.55
+2026-05-12,Studio Miete,Housing,-700.00,CHF,19950.55
+2026-05-12,Läderach,Food,-6.04,CHF,19944.51
+2026-05-13,Netflix,Subscriptions,-11.26,CHF,19933.25
+2026-05-14,SBB Halbtax Abo,Transportation,-30.09,CHF,19903.16
+2026-05-15,Starbucks Zürich,Food,-14.55,CHF,19888.61
+2026-05-15,Coop Restaurant,Food,-9.20,CHF,19879.41
+2026-05-15,Netflix,Subscriptions,-8.73,CHF,19870.68
+2026-05-18,Coop Restaurant,Food,-16.05,CHF,19854.63
+2026-05-20,Läderach,Food,-14.14,CHF,19840.49
+2026-05-20,Netflix,Subscriptions,-8.72,CHF,19831.77
+2026-05-21,Denner,Groceries,-22.60,CHF,19809.17
+2026-05-21,Zalando,Shopping,-48.85,CHF,19760.32
+2026-05-23,Swisscom Rechnung,Phone/Utilities,-63.01,CHF,19697.31
+2026-05-24,Bar Abend,Entertainment,-29.57,CHF,19667.74
+2026-05-25,H&M Schweiz Lohnzahlung,Income,3615.26,CHF,23283.00
+2026-05-25,Denner,Groceries,-34.97,CHF,23248.03
+2026-05-28,H&M,Shopping,-44.57,CHF,23203.46
+2026-05-30,Läderach,Food,-14.10,CHF,23189.36
+2026-06-02,SBB Halbtax Abo,Transportation,-15.99,CHF,23173.37
+2026-06-02,Airbnb Amsterdam,Travel,-100.03,CHF,23073.34
+2026-06-03,Läderach,Food,-13.36,CHF,23059.98
+2026-06-05,Migros,Groceries,-27.32,CHF,23032.66
+2026-06-05,Läderach,Food,-6.65,CHF,23026.01
+2026-06-05,SBB Halbtax Abo,Transportation,-30.87,CHF,22995.14
+2026-06-06,Läderach,Food,-15.12,CHF,22980.02
+2026-06-06,Pathé Kino,Entertainment,-41.84,CHF,22938.18
+2026-06-07,Pathé Kino,Entertainment,-32.58,CHF,22905.60
+2026-06-08,Disney+,Subscriptions,-13.92,CHF,22891.68
+2026-06-08,Swisscom Rechnung,Phone/Utilities,-66.88,CHF,22824.80
+2026-06-09,Coop Restaurant,Food,-14.10,CHF,22810.70
+2026-06-10,Läderach,Food,-7.87,CHF,22802.83
+2026-06-11,Spotify Schweiz,Subscriptions,-9.79,CHF,22793.04
+2026-06-12,Läderach,Food,-6.41,CHF,22786.63
+2026-06-12,Netflix,Subscriptions,-12.45,CHF,22774.18
+2026-06-12,H&M,Shopping,-72.55,CHF,22701.63
+2026-06-13,Coop Restaurant,Food,-17.91,CHF,22683.72
+2026-06-13,Pathé Kino,Entertainment,-40.88,CHF,22642.84
+2026-06-14,H&M,Shopping,-50.48,CHF,22592.36
+2026-06-15,Denner,Groceries,-42.96,CHF,22549.40
+2026-06-15,H&M,Shopping,-52.90,CHF,22496.50
+2026-06-16,SBB Halbtax Abo,Transportation,-14.18,CHF,22482.32
+2026-06-18,Starbucks Zürich,Food,-11.61,CHF,22470.71
+2026-06-21,EWZ Strom,Phone/Utilities,-47.09,CHF,22423.62
+2026-06-22,Migros,Groceries,-23.87,CHF,22399.75
+2026-06-25,H&M Schweiz Lohnzahlung,Income,3615.38,CHF,26015.13
+2026-06-25,Studio Miete,Housing,-700.00,CHF,25315.13
+2026-06-29,SBB Halbtax Abo,Transportation,-24.25,CHF,25290.88
+2026-06-30,Migros,Groceries,-54.45,CHF,25236.43
+2026-07-03,Läderach,Food,-9.10,CHF,25227.33
+2026-07-04,SBB Halbtax Abo,Transportation,-23.99,CHF,25203.34
+2026-07-04,Spotify Schweiz,Subscriptions,-7.11,CHF,25196.23
+2026-07-05,SBB Halbtax Abo,Transportation,-21.15,CHF,25175.08
+2026-07-05,SBB Halbtax Abo,Transportation,-26.20,CHF,25148.88
+2026-07-06,Bar Abend,Entertainment,-15.05,CHF,25133.83
+2026-07-07,Läderach,Food,-16.45,CHF,25117.38
+2026-07-08,Studio Miete,Housing,-700.00,CHF,24417.38
+2026-07-08,Migros,Groceries,-45.56,CHF,24371.82
+2026-07-09,Migros,Groceries,-24.65,CHF,24347.17
+2026-07-10,Läderach,Food,-10.00,CHF,24337.17
+2026-07-10,H&M,Shopping,-85.19,CHF,24251.98
+2026-07-16,Läderach,Food,-13.79,CHF,24238.19
+2026-07-17,SBB Halbtax Abo,Transportation,-20.13,CHF,24218.06
+2026-07-20,Denner,Groceries,-48.12,CHF,24169.94
+2026-07-20,Sephora Schweiz,Shopping,-78.50,CHF,24091.44
+2026-07-21,Coop Restaurant,Food,-13.71,CHF,24077.73
+2026-07-21,Coop Restaurant,Food,-8.53,CHF,24069.20
+2026-07-22,EWZ Strom,Phone/Utilities,-73.50,CHF,23995.70
+2026-07-22,Pathé Kino,Entertainment,-20.95,CHF,23974.75
+2026-07-23,Denner,Groceries,-33.87,CHF,23940.88
+2026-07-23,Läderach,Food,-12.46,CHF,23928.42
+2026-07-24,Pathé Kino,Entertainment,-25.85,CHF,23902.57
+2026-07-25,H&M Schweiz Lohnzahlung,Income,3611.69,CHF,27514.26
+2026-07-27,Coop Restaurant,Food,-17.05,CHF,27497.21
+2026-07-28,Netflix,Subscriptions,-8.87,CHF,27488.34
+2026-07-29,Netflix,Subscriptions,-8.15,CHF,27480.19
+2026-07-30,Zalando,Shopping,-58.35,CHF,27421.84
+2026-07-31,Swisscom Rechnung,Phone/Utilities,-78.10,CHF,27343.74
+2026-08-01,Bar Abend,Entertainment,-33.64,CHF,27310.10
+2026-08-02,Migros,Groceries,-34.70,CHF,27275.40
+2026-08-02,EWZ Strom,Phone/Utilities,-55.53,CHF,27219.87
+2026-08-04,Migros,Groceries,-38.90,CHF,27180.97
+2026-08-07,Starbucks Zürich,Food,-9.82,CHF,27171.15
+2026-08-08,Migros,Groceries,-25.36,CHF,27145.79
+2026-08-08,Coop Restaurant,Food,-17.39,CHF,27128.40
+2026-08-08,Starbucks Zürich,Food,-12.27,CHF,27116.13
+2026-08-09,Disney+,Subscriptions,-14.13,CHF,27102.00
+2026-08-09,Zalando,Shopping,-37.30,CHF,27064.70
+2026-08-10,easyJet Flug,Travel,-269.14,CHF,26795.56
+2026-08-11,Starbucks Zürich,Food,-11.49,CHF,26784.07
+2026-08-11,Disney+,Subscriptions,-7.53,CHF,26776.54
+2026-08-11,Spotify Schweiz,Subscriptions,-14.40,CHF,26762.14
+2026-08-15,Zalando,Shopping,-45.55,CHF,26716.59
+2026-08-15,H&M,Shopping,-83.52,CHF,26633.07
+2026-08-16,EWZ Strom,Phone/Utilities,-42.35,CHF,26590.72
+2026-08-17,Migros,Groceries,-46.77,CHF,26543.95
+2026-08-17,SBB Halbtax Abo,Transportation,-13.16,CHF,26530.79
+2026-08-20,Pathé Kino,Entertainment,-15.20,CHF,26515.59
+2026-08-21,Starbucks Zürich,Food,-7.07,CHF,26508.52
+2026-08-21,Postauto Ticket,Transportation,-21.37,CHF,26487.15
+2026-08-21,SBB Halbtax Abo,Transportation,-38.72,CHF,26448.43
+2026-08-25,H&M Schweiz Lohnzahlung,Income,3550.81,CHF,29999.24
+2026-08-27,Studio Miete,Housing,-700.00,CHF,29299.24
+2026-08-27,Läderach,Food,-15.45,CHF,29283.79
+2026-08-28,Coop Restaurant,Food,-7.79,CHF,29276.00
+2026-08-29,SBB Halbtax Abo,Transportation,-38.05,CHF,29237.95
+2026-08-30,Pathé Kino,Entertainment,-21.30,CHF,29216.65
+2026-08-31,Coop Restaurant,Food,-7.34,CHF,29209.31
+2026-09-01,Pathé Kino,Entertainment,-25.79,CHF,29183.52
+2026-09-04,EWZ Strom,Phone/Utilities,-70.45,CHF,29113.07
+2026-09-04,H&M,Shopping,-55.38,CHF,29057.69
+2026-09-05,Starbucks Zürich,Food,-15.54,CHF,29042.15
+2026-09-05,Netflix,Subscriptions,-8.46,CHF,29033.69
+2026-09-06,Starbucks Zürich,Food,-7.19,CHF,29026.50
+2026-09-07,Migros,Groceries,-44.59,CHF,28981.91
+2026-09-07,Läderach,Food,-17.16,CHF,28964.75
+2026-09-07,Bar Abend,Entertainment,-37.23,CHF,28927.52
+2026-09-08,Migros,Groceries,-25.47,CHF,28902.05
+2026-09-09,Coop Restaurant,Food,-15.70,CHF,28886.35
+2026-09-10,Coop,Groceries,-39.67,CHF,28846.68
+2026-09-10,SBB Halbtax Abo,Transportation,-20.22,CHF,28826.46
+2026-09-13,Pathé Kino,Entertainment,-33.51,CHF,28792.95
+2026-09-14,Postauto Ticket,Transportation,-13.91,CHF,28779.04
+2026-09-15,Studio Miete,Housing,-700.00,CHF,28079.04
+2026-09-16,Coop Restaurant,Food,-8.27,CHF,28070.77
+2026-09-17,Coop,Groceries,-44.09,CHF,28026.68
+2026-09-18,Postauto Ticket,Transportation,-13.00,CHF,28013.68
+2026-09-18,Sephora Schweiz,Shopping,-31.17,CHF,27982.51
+2026-09-19,Spotify Schweiz,Subscriptions,-12.17,CHF,27970.34
+2026-09-22,Starbucks Zürich,Food,-9.50,CHF,27960.84
+2026-09-22,Coop Restaurant,Food,-14.62,CHF,27946.22
+2026-09-22,Läderach,Food,-10.49,CHF,27935.73
+2026-09-22,SBB Halbtax Abo,Transportation,-18.98,CHF,27916.75
+2026-09-22,Netflix,Subscriptions,-13.41,CHF,27903.34
+2026-09-22,EWZ Strom,Phone/Utilities,-86.13,CHF,27817.21
+2026-09-22,Sephora Schweiz,Shopping,-72.84,CHF,27744.37
