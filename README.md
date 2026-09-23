@@ -1,6 +1,6 @@
 
 # DISCLAIMER
-<h2>This is a **demo project** for the UBS Swiss AI Challenge. It is not a UBS product, nor is it financial advice. It is not intended for production use, and it is not a substitute for professional financial advice. The project is provided "as is" without any warranties or guarantees of accuracy, completeness, or reliability. Users should exercise caution and seek professional advice before making any financial decisions based on the information provided in this demo. </h2>
+<h2>This is a demo project for the UBS Swiss AI Challenge. It is not a UBS product, nor is it financial advice. It is not intended for production use, and it is not a substitute for professional financial advice. The project is provided "as is" without any warranties or guarantees of accuracy, completeness, or reliability. Users should exercise caution and seek professional advice before making any financial decisions based on the information provided in this demo. </h2>
 
 
 # UBS-Swiss-AI-Challenge 22nd September 2026
@@ -33,6 +33,7 @@ its output is validated against the catalog before anything is shown.
 Then open **http://localhost:8000**. Nothing else is required — no Docker, no database server,
 no API key. On first launch the app asks how your data should be processed; choose
 **"Rules only"** and the whole demo runs offline.
+For the OpenAI or local-LLM modes, see the configuration section below, provide api-key.sk file with your OpenAI API key or set LOCAL_LLM_BASE_URL to a local LLM endpoint, and restart the app.
 
 ```bash
 HOST=0.0.0.0 PORT=8080 ./run.sh    # if you need it on another interface/port
