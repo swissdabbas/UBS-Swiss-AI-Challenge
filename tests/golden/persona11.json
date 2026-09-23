@@ -1,0 +1,49 @@
+{
+ "profile": {
+  "age": 24,
+  "employment_type": "employee",
+  "has_pension_fund": false,
+  "children": 0,
+  "canton": "ZH"
+ },
+ "kpis": {
+  "annual_income": 19907,
+  "annual_spending": 10887,
+  "annual_saving": 0,
+  "trailing_monthly_surplus": 466
+ },
+ "signals": [
+  "debt_stress",
+  "idle_cash",
+  "monthly_surplus",
+  "pillar_3a_gap",
+  "recurring_rent"
+ ],
+ "tax": {
+  "eligible": true,
+  "cap": 1091.0,
+  "recommended_annual": 1091.0,
+  "tax_saved_per_year": 125.0
+ },
+ "risk_profile": "Conservative",
+ "baskets": {
+  "Savings": [
+   "ubs-savings-account-for-young-people"
+  ],
+  "Cards": [
+   "ubs-prepaid-card",
+   "ubs-debit-card"
+  ],
+  "Everyday banking": [
+   "ubs-personal-account-for-young-people",
+   "ubs-key4-banking"
+  ]
+ },
+ "hidden": [
+  "ubs-fisca-3a",
+  "ubs-key4-pension-3a"
+ ],
+ "projections": {
+  "Savings": 10608
+ }
+}

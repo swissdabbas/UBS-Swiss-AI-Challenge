@@ -1,0 +1,99 @@
+# Central configuration. Every business number lives here (or in the other
+# files of this folder), never in code. Values marked "verify" change yearly.
+
+app:
+  base_currency: CHF
+  personas_glob: data/personas/*.csv
+  products_csv: data/ubs_products_with_risk.csv
+  uploads_dir: data/uploads
+  db_path: var/app.db
+
+llm:
+  # Processing mode offered first on the start screen: local | openai | off.
+  # "local" talks to an OpenAI-compatible endpoint (LOCAL_LLM_BASE_URL); if none
+  # is configured the AI steps fall back to deterministic rules, so no data
+  # leaves the machine. "off" always uses the rules.
+  default_mode: local
+  classify_batch_size: 50
+  confidence_threshold: 0.70      # below this a transaction is flagged "needs review"
+  prompt_versions:
+    classify: classify-v1
+    rank: rank-v1
+  reasoning_effort:               # only sent to OpenAI reasoning models
+    fast: minimal
+    reasoning: low
+  timeout_s: 120
+  usd_to_chf: 0.80
+  max_spend_per_run_chf: 1.00     # overridden by OPENAI_MAX_SPEND_PER_RUN_CHF
+  pricing_usd_per_million_tokens: # verify against the OpenAI pricing page
+    gpt-5-mini: {input: 0.25, output: 2.00}
+    gpt-5: {input: 1.25, output: 10.00}
+    gpt-5-nano: {input: 0.05, output: 0.40}
+    default: {input: 2.00, output: 10.00}
+
+signals:
+  recurring:
+    min_occurrences: 3
+    interval_tolerance_days: 3    # +/- days around 7 / 14 / 30 / 91 day cycles
+    max_amount_cv: 0.15           # coefficient of variation for "low variance"
+  trailing_months: 6
+  idle_cash_months: 3             # balance above N months of spending counts as idle
+  foreign_spend:
+    min_share: 0.03               # of total spending
+    min_volume_chf: 500
+  salary_jump_threshold: 0.10
+  new_flow_min_days_after_start: 60   # a payer/landlord first seen this late is "new"
+  stopped_flow_min_days_before_end: 45
+  debt_stress_min_payments: 3
+  high_income_chf: 250000
+
+pillar3a:
+  tax_year: 2026
+  max_with_pension_fund: 7258      # CHF, 2025/2026 figure (verify yearly)
+  max_without_pension_fund: 36288  # CHF, 2025/2026 figure (verify yearly)
+  self_employed_income_share: 0.20
+  retirement_age: 65
+  max_work_extension_years: 5      # contributions allowed up to 5 years past 65 if still working
+  bvg_entry_threshold: 22680       # CHF annual salary for mandatory pension fund (verify)
+  surplus_share_for_3a: 0.60       # share of free annual surplus we allow the 3a top-up to use
+  retroactive_first_gap_year: 2025 # buy-backs possible for gap years from 2025 onwards
+  min_gap_share: 0.10              # gap below 10% of the cap is not flagged
+
+tax:
+  provider: estv                   # estv (live, cached) with automatic fallback to tables
+  estv_base_url: https://swisstaxcalculator.estv.admin.ch/delegate/ost-integration/v1/lg-proxy/operation/c3b67379_ESTV/
+  timeout_s: 15
+  default_location: {zip: "8001", city: "Zürich", canton: ZH}
+  net_to_gross_salary: 0.88        # salary credited to the account ~ 88% of gross
+  fallback_tables: config/tax_tables.json
+
+mortgage:
+  imputed_rate: 0.05
+  maintenance_rate: 0.01
+  max_ltv: 0.80
+  second_mortgage_share: 0.15      # part above 65% LTV, amortised
+  amortization_years: 15
+  affordability_max_share: 0.33
+  max_age_new_mortgage: 55
+  max_age_refinancing: 70
+  min_property_price: 450000
+
+suitability:
+  # risk profile labels, 1 = most conservative
+  profiles:
+    1: Conservative
+    2: Cautious
+    3: Balanced
+    4: Growth
+    5: Dynamic
+  horizon_years_by_profile: {1: 3, 2: 5, 3: 7, 4: 10, 5: 12}
+  qualified_investor_min_assets: 500000   # CISA/FinSA: 500k with knowledge, or 2M
+  credit_card_min_income: {ubs-classic-credit-card: 30000, ubs-gold-credit-card: 60000, ubs-platinum-credit-card: 120000}
+
+projection:
+  mc_paths: 2000
+  seed: 42
+  investment_share_of_free_surplus: 0.50
+  savings_share_of_free_surplus: 0.25
+  idle_cash_share_to_invest: 0.70
+  savings_horizon_years: 3

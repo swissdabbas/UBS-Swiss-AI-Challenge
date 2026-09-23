@@ -1,0 +1,65 @@
+{
+ "profile": {
+  "age": 63,
+  "employment_type": "independent_means",
+  "has_pension_fund": false,
+  "children": 0,
+  "canton": "ZH"
+ },
+ "kpis": {
+  "annual_income": 5117600,
+  "annual_spending": 1889899,
+  "annual_saving": 0,
+  "trailing_monthly_surplus": 237427
+ },
+ "signals": [
+  "foreign_spend",
+  "high_net_worth",
+  "idle_cash",
+  "monthly_surplus"
+ ],
+ "tax": {
+  "eligible": false,
+  "cap": null,
+  "recommended_annual": null,
+  "tax_saved_per_year": null
+ },
+ "risk_profile": "Growth",
+ "baskets": {
+  "Investment": [
+   "ubs-key4-smart-investing",
+   "investment-funds",
+   "ubs-investment-fund-account",
+   "sustainable-impact-investing",
+   "fixed-income",
+   "equities",
+   "ubs-key4-trading",
+   "real-estate-investment",
+   "structured-products"
+  ],
+  "Savings": [
+   "ubs-savings-account",
+   "ubs-sustainable-savings-account"
+  ],
+  "Cards": [
+   "ubs-classic-credit-card",
+   "ubs-gold-credit-card",
+   "ubs-platinum-credit-card"
+  ],
+  "FX": [
+   "ubs-key4-credit-prepaid-cards",
+   "ubs-personal-account-eur",
+   "ubs-other-special-cards"
+  ],
+  "Mortgage & credit": [
+   "lending-solutions"
+  ]
+ },
+ "hidden": [
+  "alternative-investments"
+ ],
+ "projections": {
+  "Investment": 23776887,
+  "Savings": 3017208
+ }
+}

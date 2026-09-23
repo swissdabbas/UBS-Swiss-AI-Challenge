@@ -1,0 +1,61 @@
+{
+ "profile": {
+  "age": 42,
+  "employment_type": "employee",
+  "has_pension_fund": true,
+  "children": 1,
+  "canton": "ZH"
+ },
+ "kpis": {
+  "annual_income": 57680,
+  "annual_spending": 39563,
+  "annual_saving": 0,
+  "trailing_monthly_surplus": 1558
+ },
+ "signals": [
+  "family",
+  "idle_cash",
+  "monthly_surplus",
+  "pillar_3a_gap",
+  "recurring_income",
+  "recurring_rent"
+ ],
+ "tax": {
+  "eligible": true,
+  "cap": 7258.0,
+  "recommended_annual": 7258.0,
+  "tax_saved_per_year": 1163.0
+ },
+ "risk_profile": "Balanced",
+ "baskets": {
+  "Pillar 3a": [
+   "ubs-key4-pension-3a",
+   "ubs-fisca-3a"
+  ],
+  "Investment": [
+   "ubs-key4-smart-investing",
+   "investment-funds",
+   "ubs-investment-fund-account",
+   "sustainable-impact-investing",
+   "fixed-income"
+  ],
+  "Savings": [
+   "ubs-savings-account",
+   "ubs-sustainable-savings-account"
+  ],
+  "Everyday banking": [
+   "ubs-me-banking-package",
+   "ubs-banking-formerly-ubs-me-banking"
+  ]
+ },
+ "hidden": [
+  "equities",
+  "financing",
+  "ubs-key4-trading"
+ ],
+ "projections": {
+  "Pillar 3a": 235829,
+  "Investment": 92770,
+  "Savings": 11321
+ }
+}

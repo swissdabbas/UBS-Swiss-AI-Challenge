@@ -1,0 +1,112 @@
+# Signal -> product candidate mapping. Candidates are then passed through the
+# FinSA suitability gate; the survivors are ranked (LLM or deterministic).
+#
+# when:
+#   signals:      all of these signals must be detected
+#   any_signals:  at least one of these must be detected
+#   not_signals:  none of these may be detected
+#   predicates:   named checks on profile / metrics (see app/recommend/engine.py)
+# priority: 1 = most important (used by the deterministic ranker and as a hint to the LLM)
+
+rules:
+  - id: pillar3a_gap
+    when: {signals: [pillar_3a_gap]}
+    products: [ubs-fisca-3a, ubs-key4-pension-3a]
+    priority: 1
+    reason: Pillar 3a contributions are below the legal maximum, so tax savings are being left on the table.
+
+  - id: debt_first
+    when: {signals: [debt_stress]}
+    products: [ubs-prepaid-card, ubs-debit-card]
+    priority: 1
+    reason: Consumer-debt repayments and penalty fees point to a budget-control card rather than more credit.
+
+  - id: idle_cash_invest
+    when: {signals: [idle_cash, monthly_surplus], not_signals: [debt_stress]}
+    products: [ubs-key4-smart-investing, investment-funds, ubs-investment-fund-account, sustainable-impact-investing, fixed-income, equities, ubs-key4-trading]
+    priority: 2
+    reason: Cash above the safety reserve plus a regular surplus can be invested for the long term.
+
+  - id: surplus_savings
+    when: {signals: [monthly_surplus], not_signals: [debt_stress]}
+    products: [ubs-savings-account, ubs-sustainable-savings-account, ubs-key4-smart-investing]
+    priority: 3
+    reason: A regular monthly surplus can feed an automatic savings plan.
+
+  - id: foreign_spend_fx
+    when: {signals: [foreign_spend]}
+    products: [ubs-key4-credit-prepaid-cards, ubs-personal-account-eur, ubs-other-special-cards]
+    priority: 2
+    reason: Regular spending abroad or with foreign merchants benefits from low foreign-currency surcharges.
+
+  - id: travel_cards
+    when: {signals: [foreign_spend], not_signals: [debt_stress]}
+    products: [ubs-classic-credit-card, ubs-gold-credit-card, ubs-platinum-credit-card]
+    priority: 3
+    reason: Travel spending benefits from included travel insurance and KeyClub points.
+
+  - id: renter_mortgage
+    when: {signals: [recurring_rent], predicates: [stable_employment_income]}
+    products: [financing]
+    priority: 2
+    reason: Stable salary and a recurring rent payment make home ownership worth checking.
+
+  - id: mortgage_refinancing
+    when: {signals: [existing_mortgage]}
+    products: [financing]
+    priority: 3
+    reason: An existing mortgage should be reviewed for renewal / refinancing terms.
+
+  - id: family_banking
+    when: {signals: [family]}
+    products: [ubs-me-banking-package, ubs-banking-formerly-ubs-me-banking, ubs-savings-account]
+    priority: 3
+    reason: Family spending suggests a family banking package and savings for the children.
+
+  - id: young_client
+    when: {predicates: [{age_max: 25}]}
+    products: [ubs-personal-account-for-young-people, ubs-savings-account-for-young-people, ubs-key4-banking]
+    priority: 3
+    reason: Young clients get preferential account and savings conditions.
+
+  - id: wealth
+    when: {signals: [high_net_worth]}
+    products: [structured-products, alternative-investments, fixed-income, real-estate-investment, lending-solutions, equities]
+    priority: 2
+    reason: A large and growing asset base calls for a diversified portfolio beyond cash.
+
+  - id: consolidate_investments
+    when: {signals: [external_investments], not_signals: [debt_stress]}
+    products: [ubs-investment-fund-account, ubs-key4-trading, ubs-key4-smart-investing]
+    priority: 3
+    reason: Regular transfers to other investment providers could be consolidated.
+
+  - id: self_employed_business
+    when: {signals: [self_employed]}
+    products: [ubs-business-debit-card, ubs-business-prepaid-card, ubs-corporate-credit-cards]
+    priority: 3
+    reason: Business expenses run through the private account; a separate business card simplifies bookkeeping and taxes.
+
+  - id: retired_income
+    when: {signals: [retired]}
+    products: [fixed-income, ubs-savings-account]
+    priority: 2
+    reason: Retirement calls for capital preservation and predictable income.
+
+  - id: job_change
+    when: {signals: [new_employer]}
+    products: [ubs-vested-benefits-account]
+    priority: 2
+    reason: A change of employer can leave pension assets in need of a vested benefits account.
+
+  - id: moved
+    when: {signals: [move]}
+    products: [ubs-rental-deposit-account]
+    priority: 2
+    reason: A move usually requires a rental deposit.
+
+  - id: salary_increase
+    when: {signals: [salary_jump], not_signals: [debt_stress]}
+    products: [ubs-key4-smart-investing, ubs-fisca-3a]
+    priority: 2
+    reason: A salary increase is a good moment to automate saving before spending adjusts.
