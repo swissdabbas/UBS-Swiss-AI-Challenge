@@ -1,6 +1,6 @@
 
 # DISCLAIMER
-This is a **demo project** for the UBS Swiss AI Challenge. It is not a UBS product, nor is it financial advice. It is not intended for production use, and it is not a substitute for professional financial advice. The project is provided "as is" without any warranties or guarantees of accuracy, completeness, or reliability. Users should exercise caution and seek professional advice before making any financial decisions based on the information provided in this demo.
+<h2>This is a **demo project** for the UBS Swiss AI Challenge. It is not a UBS product, nor is it financial advice. It is not intended for production use, and it is not a substitute for professional financial advice. The project is provided "as is" without any warranties or guarantees of accuracy, completeness, or reliability. Users should exercise caution and seek professional advice before making any financial decisions based on the information provided in this demo. </h2>
 
 
 # UBS-Swiss-AI-Challenge 22nd September 2026
