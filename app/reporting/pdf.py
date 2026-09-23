@@ -75,27 +75,27 @@ class Report(FPDF):
     def p(self, s, size=9, color=(0, 0, 0), bold=False):
         self.set_font(self.fam, "B" if bold else "", size)
         self.set_text_color(*color)
-        self.multi_cell(0, 4.6, self.txt(s), new_x="LMARGIN", new_y="NEXT", align="L")
+        self.multi_cell(0, 4.6, self.txt(s), new_x="LMARGIN", new_y="NEXT")
         self.set_text_color(0, 0, 0)
 
     def table(self, headers, rows, widths, size=8):
         self.set_font(self.fam, "B", size)
         self.set_fill_color(245, 245, 245)
         for h, w in zip(headers, widths):
-            self.cell(w, 5.5, self.txt(h), border="B", fill=True, align="L")
+            self.cell(w, 5.5, self.txt(h), border="B", fill=True)
         self.ln()
         self.set_font(self.fam, "", size)
         lh = size * 0.5
         for r in rows:
             vals = [self.txt(v) for v in r]
-            h = max([len(self.multi_cell(w, lh, v, dry_run=True, output="LINES", align="L")) * lh for v, w in zip(vals, widths)] + [5])
+            h = max([len(self.multi_cell(w, lh, v, dry_run=True, output="LINES")) * lh for v, w in zip(vals, widths)] + [5])
             if self.get_y() + h > 278:
                 self.add_page()
                 self.set_font(self.fam, "", size)
             y0, x = self.get_y(), self.l_margin
             for v, w in zip(vals, widths):
                 self.set_xy(x, y0)
-                self.multi_cell(w, lh, v, align="L")
+                self.multi_cell(w, lh, v)
                 x += w
             self.set_xy(self.l_margin, y0 + h)
             self.set_draw_color(*LINE)
@@ -166,9 +166,9 @@ def build(run: dict) -> bytes:
               [40, 45, 93])
     doc.p(f"Occupation: {p['occupation']} · segment: {p['segment']} · data window {k['window_start']} to {k['window_end']}.", 8)
 
-    doc.h2("2. Key figures (last 12 months; surplus and savings rate: last 6 full months)")
+    doc.h2("2. Key figures (last 12 months)")
     rate = k.get("trailing_savings_rate")
-    doc.table(["Income", "Spending", "Saved", "Surplus / month", "Savings rate", "Balance"],
+    doc.table(["Income", "Spending", "Saved (3a/invest)", "Monthly surplus (6m)", "Savings rate (6m)", "Balance"],
               [[_chf(k["annual_income"]), _chf(k["annual_spending"]), _chf(k["annual_saving"]),
                 _chf(k["trailing_monthly_surplus"]), f"{rate:.0%}" if rate is not None else "-", _chf(k["balance"])]],
               [29, 29, 30, 32, 29, 29])
@@ -256,18 +256,15 @@ def build(run: dict) -> bytes:
                           f"over {len(pr['years']) - 1} years (nominal). Source: {pr['tax_saved']['source']}.", 8)
 
     doc.h2("9. Audit trail (LLM calls)")
-    # classifications are cached across runs, so list every call made for this client
-    calls = db.fetchall("SELECT ts, run_id, purpose, provider, model, prompt_version, input_sha256, prompt_tokens, "
-                        "completion_tokens, cost_chf, status FROM llm_audit WHERE client_id=? ORDER BY id", (a["client_id"],))
+    calls = db.fetchall("SELECT ts, purpose, provider, model, prompt_version, input_sha256, prompt_tokens, completion_tokens, "
+                        "cost_chf, status FROM llm_audit WHERE run_id=? ORDER BY id", (a["run_id"],))
     if calls:
-        doc.table(["Time (UTC)", "Run", "Purpose", "Model", "Prompt", "Input sha256", "Tokens", "CHF", "Status"],
-                  [[c["ts"][:19].replace("T", " "), c["run_id"] or "", c["purpose"], c["model"], c["prompt_version"],
-                    c["input_sha256"][:12], f"{c['prompt_tokens']}/{c['completion_tokens']}", f"{c['cost_chf']:.4f}", c["status"]]
-                   for c in calls],
-                  [27, 30, 14, 18, 17, 22, 18, 14, 13], 6.5)
-        doc.p(f"Total LLM cost for this client: CHF {sum(c['cost_chf'] or 0 for c in calls):.4f}.", 7.5, GREY)
+        doc.table(["Time", "Purpose", "Model", "Prompt", "Input sha256", "Tokens in/out", "CHF", "Status"],
+                  [[c["ts"][11:19], c["purpose"], c["model"], c["prompt_version"], c["input_sha256"][:12],
+                    f"{c['prompt_tokens']}/{c['completion_tokens']}", f"{c['cost_chf']:.4f}", c["status"]] for c in calls],
+                  [16, 16, 24, 20, 28, 24, 16, 16], 7)
     else:
-        doc.p("No LLM calls for this client (rules only).", 8.5)
+        doc.p("No LLM calls in this run (rules / cache only).", 8.5)
     doc.p(f"Transactions classified: {a['classification_summary']}. The audit log is append-only (enforced by database triggers).", 7.5, GREY)
     doc.ln(3)
     doc.p("Demo record generated from synthetic data. Return scenarios and product attributes are illustrative "

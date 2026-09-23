@@ -25,7 +25,7 @@ from .projection.scenarios import basket_projections
 from .recommend.engine import recommend as run_recommend
 from .suitability import questionnaire
 from .suitability.gate import client_context
-from .tax.service import pillar3a_plan
+from .tax.service import estimated_annual_tax, pillar3a_plan
 
 # ---------------------------------------------------------------- settings
 
@@ -103,6 +103,8 @@ def analyse(client_id: str, mode: str, progress: Callable[[str], None] = lambda 
     flows = cashflow.recurring_flows(rows)
     answers = get_answers(client_id)
     profile = derive_profile(base, rows, answers.get("profile"))
+    progress("Checking income tax and health insurance are covered")
+    cashflow.add_missing_obligations(kpis, months, rows, profile, *estimated_annual_tax(profile, kpis, rows))
     progress("Detecting signals")
     signals = sig.detect_all(rows, kpis, months, flows, profile)
     progress("Computing Pillar 3a and tax savings (ESTV tax calculator)")

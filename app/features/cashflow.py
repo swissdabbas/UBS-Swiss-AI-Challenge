@@ -139,6 +139,61 @@ def kpis(rows: list[Row], months: list[dict]) -> dict:
     }
 
 
+def _health_premium_due(p: dict) -> float:
+    h = config.settings()["obligations"]
+    per_adult = h["health_premium_young_adult"] if p["age"] <= 25 else h["health_premium_adult"]
+    adults = 2 if p["relationship"] == "married" else 1
+    return float(per_adult * adults + h["health_premium_child"] * p["children"])
+
+
+def add_missing_obligations(kpis: dict, months: list[dict], rows: list[Row], p: dict,
+                            tax_due: float, tax_source: str) -> None:
+    """Income tax and basic health insurance are often paid from another account. Where the account
+    shows less than the expected yearly amount, add the gap as estimated spending (kpis and months
+    are updated in place) so surplus and savings rate are not overstated."""
+    start, end = window(rows)
+    w = in_window(rows, start, end)
+    tax_seen = -sum(r.amount for r in w if r.category == "taxes")
+    health_seen = -sum(r.amount for r in w if r.category == "health_insurance" and "zusatz" not in r.description.lower())
+    items = [
+        {"category": "taxes", "label": "Income tax", "expected": tax_due, "seen": tax_seen, "source": tax_source},
+        {"category": "health_insurance", "label": "Basic health insurance", "expected": _health_premium_due(p),
+         "seen": health_seen, "source": "average basic premium (FOPH), per adult and child"},
+    ]
+    for it in items:
+        it["added"] = round(max(0.0, it["expected"] - it["seen"]), 2)
+        it["expected"], it["seen"] = round(it["expected"], 2), round(it["seen"], 2)
+    total = sum(it["added"] for it in items)
+    kpis["estimated_obligations"] = {"items": items, "annual_added": round(total, 2)}
+    kpis["reported_trailing_savings_rate"] = kpis["trailing_savings_rate"]
+    if not total:
+        return
+
+    for m in months:
+        for it in items:
+            if it["added"]:
+                m["by_category"][it["category"]] = round(m["by_category"].get(it["category"], 0.0) + it["added"] / 12, 2)
+        m["by_category"] = dict(sorted(m["by_category"].items(), key=lambda kv: -kv[1]))
+        m["spending"] = round(m["spending"] + total / 12, 2)
+        m["surplus"] = round(m["income"] - m["spending"], 2)
+        m["free_cash_flow"] = round(m["surplus"] - m["saving"], 2)
+        m["savings_rate"] = round(m["surplus"] / m["income"], 4) if m["income"] > 0 else None
+
+    k = kpis
+    k["annual_spending"] = round(k["annual_spending"] + total, 2)
+    for key in ("annual_surplus", "annual_free_cash_flow"):
+        k[key] = round(k[key] - total, 2)
+    k["monthly_spending"] = round(k["annual_spending"] / 12, 2)
+    for key in ("trailing_monthly_surplus", "trailing_monthly_free_cash_flow"):
+        k[key] = round(k[key] - total / 12, 2)
+    trailing = [m for m in months if m["month"] in set(k["trailing_months"])]
+    t_inc = sum(m["income"] for m in trailing)
+    k["trailing_savings_rate"] = round(sum(m["surplus"] for m in trailing) / t_inc, 4) if t_inc > 0 else None
+    k["savings_rate_12m"] = round(k["annual_surplus"] / k["annual_income"], 4) if k["annual_income"] > 0 else None
+    if k["balance"] is not None and k["monthly_spending"] > 0:
+        k["reserve_months"] = round(k["balance"] / k["monthly_spending"], 1)
+
+
 # ------------------------------------------------------------ recurring flows
 
 CYCLES = (("weekly", 7), ("biweekly", 14), ("monthly", 30.4), ("quarterly", 91.3))

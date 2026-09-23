@@ -31,15 +31,6 @@ def _predicate_ok(pred: Any, ctx: dict) -> bool:
     raise ValueError(f"unknown predicate in product_rules.yaml: {pred!r}")
 
 
-def _predicate_basis(pred: Any, ctx: dict) -> str:
-    p = ctx["profile"]
-    if pred == "stable_employment_income":
-        return "regular salary from an employer"
-    (name, value), = pred.items()
-    src = p["sources"].get("age", "profile")
-    return f"age {p['age']} ({'at most' if name == 'age_max' else 'at least'} {value}; {src})"
-
-
 def rule_matches(when: dict, ctx: dict) -> bool:
     types = ctx["signal_types"]
     if not all(s in types for s in when.get("signals", [])):
@@ -63,16 +54,11 @@ def candidates(signals: list[dict], ctx: dict) -> dict[str, dict]:
         for pid in rule["products"]:
             if pid not in catalog:
                 raise ValueError(f"product_rules.yaml rule {rule['id']} references unknown product {pid}")
-            c = out.setdefault(pid, {"rules": [], "priority": 99, "order": order, "pos": rule["products"].index(pid),
-                                     "reasons": [], "signals": [], "profile_basis": []})
+            c = out.setdefault(pid, {"rules": [], "priority": 99, "order": order, "reasons": [], "signals": []})
             c["rules"].append(rule["id"])
             c["priority"] = min(c["priority"], int(rule["priority"]))
             c["reasons"].append(rule["reason"])
             c["signals"] += [t for t in rule_signals if t not in c["signals"]]
-            for pr in rule["when"].get("predicates", []):
-                basis = _predicate_basis(pr, ctx)
-                if basis not in c["profile_basis"]:
-                    c["profile_basis"].append(basis)
     return out
 
 
@@ -154,8 +140,6 @@ def validate_ranking(out: dict, eligible: dict[str, dict], signals_by_type: dict
 
 def deterministic_rationale(prod: Product, cand: dict, signals_by_type: dict[str, dict]) -> str:
     facts = " ".join(signals_by_type[t]["summary"] for t in cand["signals"][:2] if t in signals_by_type)
-    if not facts and cand["profile_basis"]:
-        facts = "Based on your profile: " + "; ".join(cand["profile_basis"]) + "."
     first_feature = prod.characteristics.split(";")[0].strip()
     return f"{cand['reasons'][0]} {facts} {prod.name}: {first_feature}.".replace("..", ".").strip()
 
@@ -176,7 +160,7 @@ def rank(eligible: dict[str, dict], signals: list[dict], ctx: dict, llm: LLMClie
             "products": [
                 {"id": pid, "name": catalog[pid].name, "basket": catalog[pid].basket,
                  "characteristics": catalog[pid].characteristics[:400], "price": catalog[pid].price,
-                 "why_candidate": c["reasons"], "profile_basis": c["profile_basis"], "priority_hint": c["priority"]}
+                 "why_candidate": c["reasons"], "priority_hint": c["priority"]}
                 for pid, c in eligible.items()
             ],
         }
@@ -194,11 +178,7 @@ def rank(eligible: dict[str, dict], signals: list[dict], ctx: dict, llm: LLMClie
             progress(f"Ranking agent unavailable ({exc}); using deterministic ranking")
             ranked = []
     if not ranked:
-        # most important rule first; within a rule, products whose risk best fits the client
-        # (diversified, mid-risk products for everyone above "Balanced"), then the rule's own order
-        target = min(ctx["risk_profile"] or 1, 3)
-        order = sorted(eligible.items(), key=lambda kv: (
-            kv[1]["priority"], kv[1]["order"], abs(max(catalog[kv[0]].risk_class, 1) - target), kv[1]["pos"]))
+        order = sorted(eligible.items(), key=lambda kv: (kv[1]["priority"], kv[1]["order"], catalog[kv[0]].risk_class))
         for i, (pid, c) in enumerate(order, start=1):
             ranked.append({
                 "product_id": pid, "rank": i,
@@ -228,7 +208,6 @@ def build_baskets(ranked: list[dict], eligible: dict[str, dict], ctx: dict, tax_
             "risk_class": prod.risk_class,
             "priority": eligible[item["product_id"]]["priority"],
             "rules": eligible[item["product_id"]]["rules"],
-            "profile_basis": eligible[item["product_id"]]["profile_basis"],
             "holding_period_years": holding_period(prod, ctx, tax_plan),
             "returns": prod.returns.model_dump() if prod.returns else None,
         }
@@ -256,7 +235,7 @@ def recommend(signals: list[dict], ctx: dict, tax_plan: dict, llm: LLMClient, pr
     progress(f"{len(cands)} candidates from rules, {len(eligible)} pass the FinSA gate, {len(hidden)} hidden")
     ranking = rank(eligible, signals, ctx, llm, progress)
     return {
-        "candidates": {pid: {k: v for k, v in c.items() if k not in ("order", "pos")} for pid, c in cands.items()},
+        "candidates": {pid: {k: v for k, v in c.items() if k != "order"} for pid, c in cands.items()},
         "gate": gate,
         "hidden": hidden,
         "baskets": build_baskets(ranking["ranked"], eligible, ctx, tax_plan),

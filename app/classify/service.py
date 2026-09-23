@@ -152,8 +152,6 @@ def classify_transactions(
     pv = s["prompt_versions"]["classify"]
     system = SYSTEM_PROMPT.format(taxonomy=_taxonomy_text())
     llm_ok = llm.available
-    if todo and not llm_ok:
-        progress(f"No LLM in this mode: {len(todo)} descriptions categorised from the bank's own category")
     for b in range(0, len(todo), batch_size):
         batch = todo[b : b + batch_size]
         if not llm_ok:

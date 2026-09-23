@@ -149,7 +149,7 @@ function updateNav(r) {
     }
   });
   const p = has ? S.analysis.profile : null;
-  $("#client-chip").textContent = p ? `${p.display_name} · ${p.occupation} · ${p.age_band}` : "";
+  $("#client-chip").textContent = p ? `${p.display_name} · ${p.age} · ${p.occupation}` : "";
 }
 
 async function render() {
@@ -206,10 +206,10 @@ async function viewClients(view) {
        </form></div>`;
   $("#client-grid").innerHTML = clients.map((c) => `
     <div class="card client-card" data-id="${esc(c.client_id)}" data-run="${c.last_run ? 1 : 0}" tabindex="0">
-      <div class="top"><div class="avatar">${esc(c.display_name.replace(/[^0-9A-Z]/g, "").slice(0, 3) || "C")}</div>
+      <div class="top"><div class="avatar">${esc(c.display_name.split(/\s+/).map((w) => w[0]).join("").slice(0, 2).toUpperCase() || "C")}</div>
         ${c.last_run ? `<span class="chip good">${c.last_run.status === "recommended" ? "Advice ready" : "Analysed"}</span>` : `<span class="chip">New</span>`}</div>
       <h3>${esc(c.display_name)}</h3>
-      <div class="meta">${esc(c.occupation)} · ${esc(c.age_band)} · ${esc(c.marital_status)}</div>
+      <div class="meta">${esc(c.age)} years · ${esc(c.occupation)} · ${esc(c.marital_status)}</div>
       <div><span class="chip">${esc(c.segment)}</span></div>
       <div class="row" style="margin-top:6px">
         <button class="btn small ${c.last_run ? "ghost" : "primary"}" data-act="analyse">${c.last_run ? "Re-analyse" : "Start check-up"}</button>
@@ -259,7 +259,7 @@ async function showEvidence(title, ids) {
 }
 
 async function viewOverview(view) {
-  const a = S.analysis, k = a.kpis, tp = a.tax_plan;
+  const a = S.analysis, k = a.kpis, tp = a.tax_plan, ob = k.estimated_obligations;
   const idle = a.signals.find((s) => s.type === "idle_cash");
   const cs = a.classification_summary;
   view.innerHTML = head("Step 2", `Your overview`,
@@ -268,13 +268,19 @@ async function viewOverview(view) {
       `<button class="btn ghost small" id="rerun">Re-analyse</button>`) +
     `<div class="tiles">
       <div class="tile hero-tile"><div class="label">Monthly surplus</div><div class="value">${compact(k.trailing_monthly_surplus)}</div><div class="sub">average of the last ${k.trailing_months.length} full months</div></div>
-      <div class="tile"><div class="label">Savings rate</div><div class="value">${pct(k.trailing_savings_rate)}</div><div class="sub">of income, last ${k.trailing_months.length} months</div></div>
+      <div class="tile"><div class="label">Savings rate</div><div class="value">${pct(k.trailing_savings_rate)}</div><div class="sub">${ob && ob.annual_added ? `${pct(k.reported_trailing_savings_rate)} before tax &amp; health insurance` : `of income, last ${k.trailing_months.length} months`}</div></div>
       <div class="tile"><div class="label">Income</div><div class="value">${compact(k.annual_income)}</div><div class="sub">last 12 months</div></div>
-      <div class="tile"><div class="label">Spending</div><div class="value">${compact(k.annual_spending)}</div><div class="sub">last 12 months</div></div>
+      <div class="tile"><div class="label">Spending</div><div class="value">${compact(k.annual_spending)}</div><div class="sub">${ob && ob.annual_added ? `incl. ${compact(ob.annual_added)} estimated` : "last 12 months"}</div></div>
       <div class="tile"><div class="label">Already saved</div><div class="value">${compact(k.annual_saving)}</div><div class="sub">3a, pension, investments</div></div>
       <div class="tile"><div class="label">Idle cash</div><div class="value">${compact(idle ? idle.metrics.idle_cash : 0)}</div><div class="sub">balance ${compact(k.balance)} minus ${S.status.idle_cash_months}-month reserve</div></div>
     </div>
-    ${tp.eligible && tp.additional_annual > 0 && !a.signals.some((s) => ["debt_stress", "spending_exceeds_income"].includes(s.type)) ? `
+    ${ob && ob.annual_added ? `
+    <div class="card section">
+      <div class="eyebrow">Tax &amp; health insurance check</div>
+      <p class="small ink2" style="margin:.3em 0 0">Not fully visible in this account, so the gap is counted as estimated spending:
+        ${ob.items.filter((i) => i.added).map((i) => `<b>${esc(i.label)}</b> ${chf(i.added)} a year (expected ${chf(i.expected)}, seen ${chf(i.seen)}; ${esc(i.source)})`).join(" · ")}.</p>
+    </div>` : ""}
+    ${tp.eligible && tp.additional_annual > 0 ? `
     <div class="card section" style="border-color:#f7c9c9">
       <div class="row" style="justify-content:space-between">
         <div><div class="eyebrow">Tax tip</div><h2 style="margin:0">Pay ${chf(tp.additional_annual)} more into Pillar 3a and save about ${chf(tp.additional_tax_saved_per_year)} tax a year</h2>
@@ -320,18 +326,16 @@ function legendHtml(items) {
 }
 
 async function viewCashflow(view) {
-  const a = S.analysis, months = a.months, labels = a.category_labels;
+  const a = S.analysis, months = a.months, labels = { ...a.category_labels };
+  (a.kpis.estimated_obligations?.items || []).filter((i) => i.added).forEach((i) => (labels[i.category] = `${labels[i.category] || i.label} (incl. estimate)`));
   const totals = {};
   months.forEach((m) => Object.entries(m.by_category).forEach(([c, v]) => (totals[c] = (totals[c] || 0) + v)));
   const top = Object.entries(totals).sort((x, y) => y[1] - x[1]).slice(0, 7).map(([c]) => c);
   const complete = months.filter((m) => m.complete);
   const defaultMonth = (complete[complete.length - 1] || months[months.length - 1]).month;
-  const full = complete.length >= 3 ? complete : months; // partial first/last months would distort the charts
-  const partial = months.filter((m) => !m.complete).map((m) => monthLabel(m.month));
-  const xlabels = full.map((m) => monthLabel(m.month));
+  const xlabels = months.map((m) => monthLabel(m.month) + (m.complete ? "" : "*"));
 
-  view.innerHTML = head("Step 3", "Income & spending", `Where your money comes from and where it goes, month by month.
-      ${partial.length && full !== months ? `Charts show complete months only (${partial.join(", ")} are partial).` : ""}`) +
+  view.innerHTML = head("Step 3", "Income & spending", "Where your money comes from and where it goes, month by month. * = partial month.") +
     `<div class="grid cols-2">
       <div class="card"><h2>Spending by category</h2>${legendHtml([...top.map((c, i) => ({ label: labels[c], color: SERIES[i] })), { label: "Other", color: OTHER }])}
         <div class="chart-box"><canvas id="c-stack"></canvas></div></div>
@@ -350,7 +354,7 @@ async function viewCashflow(view) {
   const surface = css("--card");
   const datasets = [...top, "__other"].map((c, i) => ({
     label: c === "__other" ? "Other" : labels[c],
-    data: full.map((m) => c === "__other"
+    data: months.map((m) => c === "__other"
       ? Object.entries(m.by_category).filter(([k]) => !top.includes(k)).reduce((s, [, v]) => s + v, 0)
       : m.by_category[c] || 0),
     backgroundColor: c === "__other" ? OTHER : SERIES[i],
@@ -366,7 +370,7 @@ async function viewCashflow(view) {
   S.charts.push(new Chart($("#c-stack"), { type: "bar", data: { labels: xlabels, datasets },
     options: baseChartOptions({ scales: { x: { stacked: true, grid: { display: false }, ticks: { color: css("--muted") } },
       y: { stacked: true, grid: { color: css("--line") }, border: { display: false }, ticks: { color: css("--muted"), callback: (v) => num(v) } } } }) }));
-  const lineDs = (label, key, color) => ({ label, data: full.map((m) => m[key]), borderColor: color, backgroundColor: color, borderWidth: 2,
+  const lineDs = (label, key, color) => ({ label, data: months.map((m) => m[key]), borderColor: color, backgroundColor: color, borderWidth: 2,
     pointRadius: 4, pointBorderColor: surface, pointBorderWidth: 2, tension: 0.25 });
   S.charts.push(new Chart($("#c-lines"), { type: "line", data: { labels: xlabels,
     datasets: [lineDs("Income", "income", SERIES[0]), lineDs("Spending", "spending", SERIES[1])] }, options: baseChartOptions() }));
@@ -497,7 +501,7 @@ async function viewSuitability(view) {
   if (!d.answers_updated_at) return;
   const labels = ["Conservative", "Cautious", "Balanced", "Growth", "Dynamic"];
   const meter = (score) => `<div class="meter">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= (score || 0) ? "on" : ""}"></i>`).join("")}</div>
-    <div class="meter-labels"><span>${labels[0]}</span><span style="text-align:right">${labels[4]}</span></div>`;
+    <div class="meter-labels">${labels.map((l) => `<span>${l}</span>`).join("")}</div>`;
   const cap = res.risk_capacity, m = res.mortgage;
   $("#result").innerHTML = `<div class="section grid cols-3">
       <div class="card"><div class="label muted small">Risk capacity (from your finances)</div><h2>${cap.score} / 5</h2>${meter(cap.score)}
@@ -545,9 +549,7 @@ function projectionChart(canvas, pr) {
   ds.push({ label: "Paid in", data: pr.contributions, borderColor: css("--muted"), borderWidth: 1.5, pointRadius: 0, borderDash: [4, 3] });
   ["low", "medium", "high"].forEach((k) => ds.push({ label: `${k[0].toUpperCase() + k.slice(1)} (${pr.assumptions[`return_${k}_pct`]}% p.a.)`,
     data: pr.scenarios[k], borderColor: RAMP[k], backgroundColor: RAMP[k], borderWidth: 2, pointRadius: 0, pointHoverRadius: 5, tension: 0.2 }));
-  const opts = baseChartOptions();
-  opts.scales.y.beginAtZero = true;
-  S.charts.push(new Chart(canvas, { type: "line", data: { labels, datasets: ds }, options: opts }));
+  S.charts.push(new Chart(canvas, { type: "line", data: { labels, datasets: ds }, options: baseChartOptions() }));
 }
 
 async function viewRecommendations(view) {
@@ -586,8 +588,7 @@ async function viewRecommendations(view) {
         <p class="muted small">Tax source: ${esc(tp.source)}.${tp.retroactive.possible_up_to ? ` Optional: a retroactive contribution for ${tp.retroactive.year} of up to ${chf(tp.retroactive.possible_up_to)}${tp.retroactive.tax_saved_estimate ? ` could save about ${chf(tp.retroactive.tax_saved_estimate)} more tax` : ""}. ${esc(tp.retroactive.note)}` : ""}</p>` : ""}
       ${isMortgage ? `<p class="small ink2">Affordability: income supports up to ${chf(su.mortgage.max_price_by_income)}, equity up to ${chf(su.mortgage.max_price_by_equity)}
         (${pct(su.mortgage.assumptions.imputed_rate)} imputed interest, ${pct(su.mortgage.assumptions.maintenance_rate)} maintenance, max ${pct(su.mortgage.assumptions.affordability_max_share)} of income).</p>` : ""}
-      ${b.products.map((p, i) => `${i === 3 ? `<details><summary class="small">${b.products.length - 3} more option(s) in this basket</summary>` : ""}
-        <div class="product ${i ? "secondary" : ""}"><div class="rank">${p.rank}</div><div>
+      ${b.products.map((p, i) => `<div class="product ${i ? "secondary" : ""}"><div class="rank">${p.rank}</div><div>
         <h3>${esc(p.name)} ${i === 0 ? '<span class="chip red">Top pick</span>' : ""}</h3>
         <div class="muted small">${esc(p.product_type)} · ${esc(p.price)}</div>
         <p>${esc(p.rationale)}</p>
@@ -596,9 +597,7 @@ async function viewRecommendations(view) {
           ${p.returns ? `<span class="chip">Return ${p.returns.low}–${p.returns.high}% p.a. (illustrative)</span>` : ""}
           ${p.cited_signals.map((s) => `<span class="chip">${ICONS[s] || ""} ${esc(s.replace(/_/g, " "))}</span>`).join("")}
           ${p.evidence.length ? evidenceButton(p.evidence, p.name) : ""}
-          ${(p.profile_basis || []).map((x) => `<span class="chip">👤 ${esc(x)}</span>`).join("")}
-          <a class="chip" href="${esc(p.url)}" target="_blank" rel="noopener">Product page ↗</a></div></div></div>
-        ${i === b.products.length - 1 && i >= 3 ? "</details>" : ""}`).join("")}
+          <a class="chip" href="${esc(p.url)}" target="_blank" rel="noopener">Product page ↗</a></div></div></div>`).join("")}
       ${pr ? `<div class="section"><h3>Projection: ${esc(pr.product_name)}</h3>
         ${legendHtml([{ label: `High (${pr.assumptions.return_high_pct}%)`, color: RAMP.high, kind: "ln" }, { label: `Medium (${pr.assumptions.return_medium_pct}%)`, color: RAMP.medium, kind: "ln" },
           { label: `Low (${pr.assumptions.return_low_pct}%)`, color: RAMP.low, kind: "ln" }, { label: "Paid in", color: css("--muted"), kind: "ln dash" },

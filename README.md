@@ -1,133 +1,265 @@
+
+# DISCLAIMER
+<h2>This is a demo project for the UBS Swiss AI Challenge. It is not a UBS product, nor is it financial advice. It is not intended for production use, and it is not a substitute for professional financial advice. The project is provided "as is" without any warranties or guarantees of accuracy, completeness, or reliability. Users should exercise caution and seek professional advice before making any financial decisions based on the information provided in this demo. </h2>
+
+
 # UBS-Swiss-AI-Challenge 22nd September 2026
 
-Team document: https://docs.google.com/document/d/1j1pWXmOZwlGYhHIVCQdm_VhaaExKX5-2u7fW1QXmMyo/edit?usp=sharing
+**AI Client Advisor** — a client-facing financial check-up. It reads twelve months of account
+transactions, works out where the money goes, finds the gaps (unused Pillar 3a allowance, idle
+cash, foreign-currency fees, an affordable mortgage) and recommends UBS products that pass a
+FinSA suitability check — with the evidence, the projection and the assumptions shown next to
+every recommendation.
 
-**Financial check-up**: a client-facing demo that reads a year of account transactions, finds what they say
-about the client (surplus, idle cash, missing Pillar 3a, rent, children, debt, ...), checks FinSA suitability,
-and recommends UBS products in baskets with projections, tax savings and a PDF advice record.
+The guiding rule of the whole build:
 
-The LLM classifies, ranks and explains. Deterministic code does all maths, eligibility and compliance
-gating, so results are reproducible and testable, and the LLM can only pick products that exist in the catalog
-and passed the gate.
+> **The AI categorises and explains. Deterministic code does all the maths, the eligibility
+> checks and the compliance gating.**
 
-## Run it
+That means results are reproducible and testable, the numbers are defensible, and the model
+cannot invent a product: the ranking step is constrained to an enum of catalog product IDs and
+its output is validated against the catalog before anything is shown.
+
+![Choose a client](docs/screenshots/01-choose-client.png)
+
+---
+
+## Quick start
 
 ```bash
-./run.sh                 # creates .venv on first run, then serves http://localhost:8000
+./run.sh                 # creates .venv on first run, installs deps, serves the app
 ```
 
-Python 3.12, no Docker, no database server. State lives in `var/app.db` (SQLite).
+Then open **http://localhost:8000**. Nothing else is required — no Docker, no database server,
+no API key. On first launch the app asks how your data should be processed; choose
+**"Rules only"** and the whole demo runs offline.
+For the OpenAI or local-LLM modes, see the configuration section below, provide api-key.sk file with your OpenAI API key or set LOCAL_LLM_BASE_URL to a local LLM endpoint, and restart the app.
 
-The start screen asks how data is processed:
+```bash
+HOST=0.0.0.0 PORT=8080 ./run.sh    # if you need it on another interface/port
+```
 
-| Mode | What happens |
-|---|---|
-| **Local (Switzerland)**, default | LLM calls go to an OpenAI-compatible endpoint you host (`LOCAL_LLM_BASE_URL`, e.g. Ollama or vLLM). If none is configured, the AI steps fall back to deterministic rules, and nothing leaves the machine. |
-| OpenAI cloud | Uses the key from `.env` (`OPENAI_API_KEY`) or `api-key.sk`. Transaction descriptions are sent to OpenAI. Use it with the synthetic data only. |
-| Rules only | No LLM at all. |
+Developed on Python 3.12. State (SQLite DB, caches) lands in `var/app.db` and is git-ignored,
+so deleting `var/` resets the demo.
 
-The badge in the top-right corner shows the active mode and lets you switch.
+---
+
+## Data processing modes
+
+The first screen is a gate: no transaction is read before the user has chosen how their data is
+handled. This is the answer to the banking-secrecy question — the choice is explicit, visible in
+the top-right badge at all times, and recorded in the event log.
+
+| Mode | What happens | Data leaves the machine? |
+|---|---|---|
+| **`local`** (default) | An OpenAI-compatible endpoint hosted in Switzerland (Ollama, vLLM, …) via `LOCAL_LLM_BASE_URL`. If none is configured, the AI steps fall back to the deterministic rules. | No |
+| **`openai`** | OpenAI API; key from `.env` or `api-key.sk`. Transaction descriptions are sent to OpenAI. | Yes |
+| **`off`** | Rules only, LLM never called. | No |
+
+Every LLM call — provider, model, prompt version, input hash, tokens, latency, cost in CHF — is
+written to the `llm_audit` table and surfaced in the advice record. A per-run spend cap
+(`OPENAI_MAX_SPEND_PER_RUN_CHF`, default CHF 1.00) is enforced in code; when it is hit, the run
+degrades to rules instead of failing.
 
 ### Configuration
 
-Copy `.env.example` to `.env`. Every setting is optional:
-
-```
-OPENAI_API_KEY=...                  # or keep the key in api-key.sk (git-ignored)
-OPENAI_MODEL_FAST=gpt-5-mini        # transaction classification
-OPENAI_MODEL_REASONING=gpt-5        # ranking + rationales
-OPENAI_MAX_SPEND_PER_RUN_CHF=1.00   # hard cap per run, enforced before each call
-LOCAL_LLM_BASE_URL=http://localhost:11434/v1
-LOCAL_LLM_MODEL=llama3.1:8b
-```
-
-All business numbers are in `config/`:
-
-| File | Content |
-|---|---|
-| `settings.yaml` | thresholds (idle cash months, recurring tolerance, salary jump %), 3a caps, mortgage rules, projection shares, LLM prices |
-| `products.yaml` | per-product attributes the catalog CSV lacks: basket, risk class, required knowledge, eligibility, **illustrative** low/medium/high returns, volatility, costs |
-| `product_rules.yaml` | signal → product candidate rules |
-| `tax_tables.json` | offline tax fallback, pre-computed from ESTV (`scripts/build_tax_tables.py`) |
-
-## What it does
-
-```
-CSV ─► ingest ─► classify ─► cash flow ─► signals ─► Pillar 3a / tax ─► FinSA gate ─► rank ─► baskets ─► projections ─► PDF
-       schema    rules →     monthly      17 rules    ESTV calculator    suitability    LLM or    3a, Invest,  low/med/high   advice record
-       checks    cache →     KPIs,        with        (live, cached)     appropriate-   rules     Savings,     + Monte Carlo  + audit log
-                 LLM →       recurring    evidence    else ESTV table    ness, eligib.            Cards, FX,
-                 fallback    flows                                                                Mortgage ...
-```
-
-| Module | Responsibility |
-|---|---|
-| `app/ingest` | CSV schema validation with readable errors, Swiss number/date formats, counterparty normalisation, profile from the file name, product catalog + attribute check |
-| `app/classify` | 40-category taxonomy; rule pre-classifier; batched LLM classification (50 per call) with a strict JSON schema, confidence and reason; SQLite cache per unique description; sign check; manual overrides |
-| `app/features` | monthly cash flow, KPIs, recurring flows (±3-day interval or calendar-monthly), derived profile, signal detectors |
-| `app/tax` | 3a eligibility and caps, ESTV tax calculator client (tax with vs without the contribution), table fallback, retroactive 3a |
-| `app/suitability` | questionnaire, risk capacity × tolerance → risk profile, product gate, FinSA notice + acknowledgement |
-| `app/recommend` | YAML rules → candidates → gate → LLM ranking (enum-constrained, validated) or deterministic ranking; mortgage affordability |
-| `app/projection` | low/medium/high scenarios after costs + seeded Monte Carlo 10th–90th percentile |
-| `app/reporting` | PDF advice record |
-| `app/llm` | one client for OpenAI and local endpoints: structured outputs, spend cap, append-only audit log |
-| `static/` | plain HTML/CSS/JS UI (Chart.js vendored, so it works offline) |
-
-### Signals (all with evidence = transaction ids)
-
-Recurring income · monthly surplus and savings rate (trailing 6 full months) · spending exceeds income · idle
-cash (balance above 3 months of spending) · foreign & travel spend · recurring rent · children · Pillar 3a gap
-(missing or below the cap) · salary jump · new employer · move · consumer debt · existing mortgage ·
-investments held elsewhere · high net worth · self-employed · retired.
-
-### Suitability gate
-
-A product is **hidden with its reasons** (shown to the client) if any check fails:
-
-* **Eligibility:** intermediary/research products, business products for employees, age limits, 3a
-  eligibility, qualified-investor thresholds, card income guidelines, credit checks when in debt, and mortgage
-  affordability (5% imputed rate + 1% maintenance + amortisation ≤ 33% of income, 20% equity).
-* **Suitability:** product risk above the client's profile, horizon too short, consumer debt or deficit.
-* **Appropriateness:** declared knowledge below what the product needs.
-
-Recommendations require a complete questionnaire and an acknowledgement of the FinSA notice that is newer
-than the last change to the answers. The acknowledgement timestamp and notice hash are stored and printed in the
-advice record.
-
-## Tests
-
 ```bash
-.venv/bin/pytest                               # 118 tests, offline, ~10 s
-ESTV_LIVE=1 .venv/bin/pytest tests/test_tax.py # also re-verify the 3 recorded ESTV cases live
-.venv/bin/python scripts/eval_classifier.py openai   # classification accuracy on the labelled set
+cp .env.example .env     # optional: only needed for the openai / local-LLM modes
 ```
 
-* Unit tests per signal, tax rule, gate check and projection formula.
-* Golden files (`tests/golden/`) for all 16 personas: the full pipeline in rules mode. After an intended
-  change, run `UPDATE_GOLDEN=1 .venv/bin/pytest tests/test_golden.py` and review the diff.
-* Validation tests: the LLM ranker cannot introduce products outside the catalog or the gate.
-* Audit tables reject `UPDATE`/`DELETE`.
-* `tests/eval/labelled_transactions.csv`: 113 hand-labelled transactions. Current accuracy: rules + bank-category
-  fallback 94.7%; rules + gpt-5-mini 94.7% (most LLM "misses" are defensible, e.g. SBB ticket as transport).
+`api-key.sk` and `.env` are git-ignored and must never be committed.
 
-## Data notes
+---
 
-* 16 synthetic personas (not 10), one year each (2025-09-22 to 2026-09-22), all in CHF, columns
-  `date, description, category, amount, currency, balance`.
-* There is **no separate profile CSV**. Age band, gender, occupation/segment and marital status come from the
-  file name. Canton, church tax, children, pension fund and wealth held elsewhere are derived from transactions
-  or defaults, and the client confirms them in step 5.
-* There is **no fund CSV**. Expected returns are illustrative assumptions in `config/products.yaml`, shown
-  next to every projection.
-* Every transaction is in CHF, so FX fees actually paid cannot be measured. "Foreign spend" is detected from
-  merchant names and locations.
-* The catalog has no dedicated mortgage product. Mortgage advice maps to the catalog's **Financing** product
-  (real-estate financing), for refinancing reviews of existing mortgages and for renters who pass affordability.
+## The client journey
 
-## Limitations
+Seven steps, matching the sidebar:
 
-* The ESTV API is public but undocumented. Answers are cached, and the offline table covers canton capitals only.
-* Net salary is converted to gross with a fixed 0.88 factor. For married couples only this account's income is
-  known.
-* Product attributes (risk class, returns, card income guidelines) are demo assumptions, not UBS figures.
-* The processing mode is a global setting, not per user.
+| # | Step | What it does |
+|---|---|---|
+| 1 | **Choose client** | 16 synthetic personas (ages 20 to 71, gig worker to UHNW), or upload your own transaction CSV |
+| 2 | **Your overview** | Surplus, savings rate, income, spending, idle cash, detected signals with drill-down to the transactions that triggered them |
+| 3 | **Income & spending** | Monthly stacked spending by category, income vs. spending, recurring flows |
+| 4 | **Check transactions** | Every transaction with its category, confidence and who classified it; low-confidence rows flagged "needs review" and manually overridable |
+| 5 | **Your profile & risk** | Profile completion, risk questionnaire, knowledge & experience check, FinSA notice + acknowledgement |
+| 6 | **Recommendations** | Ranked product baskets with rationale, holding period, projection chart and tax saved |
+| 7 | **Advice record** | The whole run as a PDF, including the audit trail |
+
+![Your overview](docs/screenshots/02-overview.png)
+
+---
+
+## How it works
+
+### 1. Ingest
+`app/ingest/` loads the persona CSV (`date, description, category, amount, currency, balance`)
+against a Pydantic schema and fails loudly with a readable message on a missing or malformed
+column. Counterparty names are normalised (`MIGROS ZH 1234` → `Migros`), and each transaction
+gets a stable ID derived from its content.
+
+### 2. Classify
+`app/classify/` maps every transaction onto a fixed taxonomy of ~40 categories (salary, bonus,
+pension income, rent, mortgage interest, childcare, health insurance, FX spend, Pillar 3a …).
+
+- A rule-based pre-classifier handles the obvious cases first, which keeps the LLM cost near zero.
+- What is left goes to the LLM in batches of 50 using **structured outputs** with a fixed JSON
+  schema; the category is an enum, so an unknown label cannot come back.
+- Results are cached by transaction hash — re-runs are free and deterministic.
+- Anything below the confidence threshold (0.70) is flagged for review in step 4.
+
+### 3. Signals (deterministic, with evidence)
+`app/features/signals.py` runs 17 detectors. Each one stores the IDs of the transactions that
+triggered it, and that evidence is shown in the UI and printed in the advice record.
+
+| | |
+|---|---|
+| `recurring_income` | Same payer, periodic interval (±3 days), low amount variance |
+| `monthly_surplus` | Income − spending, per month and as a 6-month trailing average |
+| `spending_exceeds_income` | Structural deficit |
+| `idle_cash` | Balance above 3 months of spending |
+| `foreign_spend` | Share and volume of non-CHF spending, plus estimated FX fees paid |
+| `recurring_rent` | Regular payment to a landlord — a mortgage prospect |
+| `family` | Daycare, school and child-related payments |
+| `pillar_3a_gap` | Employment income present, 3a contributions below the cap |
+| `salary_jump` | Salary up more than 10% month over month |
+| `new_employer` | Change of salary payer |
+| `move` | New landlord, moving company, new utility providers |
+| `debt_stress` | Repeated consumer-debt repayments and penalty fees |
+| `existing_mortgage` | Mortgage interest paid — refinancing prospect |
+| `external_investments` | Money going to a competitor custody account |
+| `high_net_worth` | Income/assets above the segment threshold |
+| `self_employed` | Self-employment income, no pension fund |
+| `retired` | AHV / pension-fund income |
+
+A "tax & health insurance check" runs alongside: if income tax or the basic (KVG) premium is not
+visible in the account, the expected annual amount is added as estimated spending, so surplus
+and savings rate are not overstated. That is the difference between the 51% and 29% savings rate
+in the screenshot above.
+
+### 4. Tax and Pillar 3a
+`app/tax/` calls the JSON API behind the official **ESTV tax calculator**
+(`swisstaxcalculator.estv.admin.ch`), caching every response in SQLite by payload hash. If ESTV
+is unreachable, it falls back to pre-computed tables in `config/tax_tables.json`, and the source
+used is always stated in the UI. Output: the recommended annual 3a contribution, tax saved per
+year and cumulatively over the holding period, and retroactive buy-backs for gap years (possible
+from 2025).
+
+### 5. FinSA suitability gate
+`app/suitability/` derives **risk capacity** from income, surplus, assets and signals, and
+**risk tolerance** from the questionnaire; the two combine into a risk profile (1 Conservative →
+5 Dynamic) and a horizon. `check_product()` then runs the suitability and appropriateness checks
+per product — risk class, knowledge level, minimum horizon, income and credit conditions.
+
+Nothing is recommended before the questionnaire is complete and the FinSA notice has been
+acknowledged; the acknowledgement is stored with the notice hash and a timestamp, and it is
+invalidated if the answers change afterwards. Products that fail the gate are **hidden with a
+stated reason**, which is listed in the advice record — not silently dropped.
+
+### 6. Product mapping and ranking
+`config/product_rules.yaml` holds 17 rules mapping signals to product candidates (no 3a → 3a
+products; idle cash + surplus → funds and investing; debt stress → a budget-control card rather
+than more credit; rent + stable salary + affordability → mortgage). Candidates pass through the
+gate, and the survivors are ranked — by the LLM when one is available, deterministically
+otherwise — into baskets: **Pillar 3a, Investment, Savings, Cards, FX, Mortgage & credit,
+Everyday banking**.
+
+The catalog is `data/ubs_products_with_risk.csv` (55 UBS products with source URLs);
+`config/products.yaml` adds what the CSV does not carry — basket, risk class, knowledge
+requirement, minimum horizon, eligibility and illustrative return assumptions. The loader fails
+if the two disagree.
+
+### 7. Projections
+`app/projection/` shows low / medium / high expected-return scenarios, funded by the detected
+surplus and idle cash, plus a seeded Monte Carlo 10th–90th percentile band for products that
+carry a volatility assumption (a 3a savings account has none, so it gets scenario lines only). Running costs are
+deducted from returns, and start amount, monthly contribution, horizon, costs and volatility are
+printed under every chart. **The return assumptions are illustrative demo figures, not UBS
+figures**, and the UI says so.
+
+![Recommendations](docs/screenshots/03-recommendations.png)
+
+### 8. Advice record and audit trail
+`GET /api/clients/{id}/report.pdf` builds a nine-section PDF: profile, key figures, signals with
+evidence, Pillar 3a and tax, suitability and appropriateness results, recommended products with
+rationale, products not shown and why, projections with assumptions, and the LLM audit trail
+(model, prompt version, cost). Alongside it, the `events` table records every state change —
+mode chosen, analysis completed, classification overridden, notice acknowledged, record
+generated.
+
+---
+
+## Architecture
+
+Deliberately small: one process, one file of state, no build step.
+
+```
+./run.sh
+ └── uvicorn app.main:app                  :8000
+      ├── app/            FastAPI + Pydantic v2, in-process threaded job runner
+      ├── var/app.db      SQLite: runs, caches, questionnaires, acks, llm_audit, events
+      ├── static/         vanilla HTML/CSS/JS + bundled Chart.js (no npm, no CDN)
+      ├── config/         every business number lives here, never in code
+      └── data/           16 persona CSVs + the UBS product catalog
+```
+
+| Path | Responsibility |
+|---|---|
+| `app/ingest/` | CSV loading, schema validation, normalisation |
+| `app/classify/` | Taxonomy, rule pre-classifier, LLM classification with caching |
+| `app/features/` | Cash-flow aggregation, profile derivation, the 17 signal detectors |
+| `app/tax/` | ESTV client, tax tables, Pillar 3a planning |
+| `app/suitability/` | Questionnaire, risk profiling, FinSA product gate |
+| `app/recommend/` | Rule engine, LLM ranking with schema validation, mortgage affordability |
+| `app/projection/` | Scenario and Monte Carlo projections |
+| `app/reporting/` | PDF advice record |
+| `app/llm/` | One client for both providers: structured outputs, spend cap, audit |
+| `app/pipeline.py` | Orchestration of `analyse()` and `recommend()` |
+| `config/settings.yaml` | Thresholds, caps, pricing, 3a limits, mortgage rules — all of it |
+
+### HTTP API
+
+| Method | Path | |
+|---|---|---|
+| `GET` | `/api/status` | mode, availability, catalog size |
+| `POST` | `/api/mode` | choose `local` / `openai` / `off` |
+| `GET` | `/api/clients` | personas + last run |
+| `POST` | `/api/clients/upload` | upload a transaction CSV |
+| `POST` | `/api/clients/{id}/analyse` | start analysis (returns a job ID) |
+| `GET` | `/api/jobs/{job_id}` | progress messages |
+| `GET` | `/api/clients/{id}/analysis` | KPIs, months, flows, signals, tax plan |
+| `GET` | `/api/clients/{id}/transactions` | classified transactions |
+| `POST` | `/api/clients/{id}/transactions/{txn}/override` | correct a category |
+| `GET`/`POST` | `/api/clients/{id}/suitability` | questionnaire + risk result |
+| `POST` | `/api/clients/{id}/acknowledge` | record the FinSA acknowledgement |
+| `POST` | `/api/clients/{id}/recommend` | rank and project (returns a job ID) |
+| `GET` | `/api/clients/{id}/recommendations` | baskets, hidden products, projections |
+| `GET` | `/api/clients/{id}/report.pdf` | advice record |
+| `GET` | `/api/clients/{id}/audit` | LLM calls and events |
+
+---
+
+## Data
+
+All transaction data is **synthetic**. `data/personas/` holds 16 made-up clients aged 20 to 71 and spanning the
+segments — gig worker, retail employee, software engineer, freelancer, teacher, nurse,
+contractor, accountant, retirees, mass affluent through UHNW, and two with negative or
+low net worth — each with one year of transactions. No real client data is used anywhere.
+
+The product catalog was compiled from public ubs.com pages; every row carries its source URL.
+
+---
+
+## Status and limitations
+
+- **Return figures are illustrative.** They are demo assumptions in `config/products.yaml`, not
+  UBS performance data, and are labelled as such wherever they appear.
+- **Tax figures are estimates.** ESTV gives a good federal/cantonal/municipal figure, but the app
+  infers gross income from credited salary (`net_to_gross_salary: 0.88`) and does not model
+  deductions beyond 3a.
+- **2026 statutory values need a yearly check** — the 3a caps, the BVG entry threshold and the
+  average health premium are marked `verify` in `config/settings.yaml`.
+- **No automated tests yet.** `tests/` is scaffolded (`fixtures/`, `golden/`, `eval/`) but empty;
+  the signal detectors, tax calculation, suitability gate and projections are the parts that most
+  need unit and golden-file coverage, and an eval set of hand-labelled transactions would put a
+  number on classification accuracy.
+- Single-process SQLite, in-memory job registry: fine for a demo, not for concurrent users.

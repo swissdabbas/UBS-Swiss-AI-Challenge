@@ -94,18 +94,17 @@ def spec() -> dict:
 def demo_answers(profile: dict, signal_types: set[str]) -> dict:
     """Plausible answers for the demo button; a real client fills the form themselves."""
     age = profile["age"]
-    horizon = 5 if age < 40 else 4 if age < 52 else 3 if age < 63 else 2
     if "debt_stress" in signal_types or "spending_exceeds_income" in signal_types:
         risk, know = 2, "none"
-    elif "high_net_worth" in signal_types:
-        risk, know = 4, "experienced"
-        horizon = max(horizon, 4)  # wealth beyond living needs is invested for the long run
     elif age >= 63 or profile["employment_type"] == "retired":
         risk, know = 2, "basic"
+    elif "high_net_worth" in signal_types:
+        risk, know = 4, "experienced"
     elif age < 35:
         risk, know = 4, "basic"
     else:
         risk, know = 3, "basic"
+    horizon = 5 if age < 40 else 4 if age < 52 else 3 if age < 63 else 2
     answers = {q["id"]: risk for q in RISK_QUESTIONS}
     answers["horizon"] = horizon
     knowledge = {c: know for c, _ in KNOWLEDGE_CATEGORIES}

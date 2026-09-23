@@ -154,6 +154,26 @@ LABELS = {
     "negativenetworth": ("Freelancer", "Negative net worth"),
 }
 
+# Demo names and exact ages for the synthetic personas (ages fall inside each file's age band).
+PERSONAS = {
+    1: ("Luca Meier", 22),
+    2: ("Lea Brunner", 20),
+    3: ("Noah Keller", 31),
+    4: ("Chiara Rossi", 28),
+    5: ("Thomas Müller", 44),
+    6: ("Sandra Weber", 41),
+    7: ("Beat Schneider", 58),
+    8: ("Monika Huber", 55),
+    9: ("Hans Zimmermann", 71),
+    10: ("Ursula Fischer", 68),
+    11: ("Jana Baumann", 24),
+    12: ("Marco Steiner", 42),
+    13: ("Claudia Frei", 48),
+    14: ("Andreas Gerber", 55),
+    15: ("Christoph Sutter", 63),
+    16: ("David Moser", 33),
+}
+
 
 def profile_from_filename(path: Path) -> Profile:
     stem = path.stem
@@ -173,9 +193,13 @@ def profile_from_filename(path: Path) -> Profile:
         age, band, est = int(age_raw), age_raw, False
     occupation, segment = LABELS.get(m["label"], (m["label"].replace("_", " ").title(), "Mass market"))
     num = int(m["num"])
+    name = f"Persona {num}"
+    if num in PERSONAS:
+        name, age = PERSONAS[num]
+        est = False
     return Profile(
         client_id=f"persona{num}",
-        display_name=f"Persona {num}",
+        display_name=name,
         source_file=path.name,
         age=age,
         age_band=band,

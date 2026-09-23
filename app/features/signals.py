@@ -182,15 +182,14 @@ def salary_jump(rows, ctx) -> dict | None:
     best = None
     for payer, pays in _salary_series(rows).items():
         amts = [p.amount for p in pays]
-        for i in range(4, len(amts) - 1):
-            prior, after_amts = amts[:i], amts[i:]
+        for i in range(3, len(amts) - 1):
+            prior = amts[max(0, i - 3):i]
             if statistics.pstdev(prior) / statistics.fmean(prior) > max_cv:
                 continue  # irregular pay (temp work, hourly): a jump is not meaningful
             before = statistics.median(prior)
-            after = statistics.median(after_amts)
-            sustained = all(a > before * (1 + thr / 2) for a in after_amts)
+            after = statistics.median(amts[i:i + 3])
             change = after / before - 1 if before else 0
-            if sustained and change > thr and (best is None or change > best[1]):
+            if change > thr and (best is None or change > best[1]):
                 best = (payer, change, before, after, pays[max(0, i - 2):i + 2])
     if not best:
         return None

@@ -16,14 +16,14 @@ class Rule:
     sources: Optional[tuple[str, ...]] = None    # restrict to these CSV categories
     confidence: float = 0.97
 
-    def matches(self, desc: str, source: str, amount: float) -> Optional[re.Match]:
+    def matches(self, desc: str, source: str, amount: float) -> bool:
         if self.sign == "+" and amount <= 0:
-            return None
+            return False
         if self.sign == "-" and amount >= 0:
-            return None
+            return False
         if self.sources and source not in self.sources:
-            return None
-        return re.search(self.pattern, desc, flags=re.I)
+            return False
+        return re.search(self.pattern, desc, flags=re.I) is not None
 
 
 RULES: list[Rule] = [
@@ -114,13 +114,12 @@ def is_foreign_marker(desc: str) -> bool:
 
 def rule_classify(desc: str, source: str, amount: float) -> Optional[dict]:
     for rule in RULES:
-        m = rule.matches(desc, source, amount)
-        if m:
+        if rule.matches(desc, source, amount):
             return {
                 "category": rule.category,
                 "is_foreign": is_foreign_marker(desc),
                 "confidence": rule.confidence,
-                "reason": f"Rule: description contains '{m.group(0).strip()}'",
+                "reason": f"Rule: description matches '{rule.pattern.split('|')[0]}'",
                 "source": "rule",
             }
     return None

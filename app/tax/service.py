@@ -40,6 +40,33 @@ def _round_down(x: float, step: int = 100) -> float:
     return float(int(x // step) * step)
 
 
+def _tax_input(p: dict, kpis: dict) -> dict:
+    tax_input = dict(p)
+    tax_input["side_income_net"] = p["self_employment_net"] if p["employment_type"] in ("employee", "retired") else 0.0
+    tax_input["wealth_for_tax"] = max(0.0, (kpis.get("balance") or 0.0) + p.get("other_assets", 0.0))
+    return tax_input
+
+
+def estimated_annual_tax(p: dict, kpis: dict, rows: list[Row]) -> tuple[float, str]:
+    """Income tax owed for one year with the current 3a contributions (ESTV, else a flat effective rate)."""
+    s = config.settings()
+    year = int(s["pillar3a"]["tax_year"])
+    paid = -sum(r.amount for r in rows if r.category == "pillar_3a" and r.date.isoformat() >= kpis["window_start"])
+    gross = max(0.0, (p["gross_salary_est"] or p["earned_income_net"]) + p["pension_income"] + p["investment_income"])
+    try:
+        t = estv.taxes_for_3a(_tax_input(p, kpis), [paid], year)["taxes"][round(paid)]
+        return float(t["total"] or 0), "ESTV tax calculator"
+    except estv.EstvError:
+        pass
+    try:  # ESTV's budget endpoint rejects pension-only / investment-only households: price the income as salary
+        proxy = _tax_input({**p, "employment_type": "employee", "gross_salary_est": gross, "self_employment_net": 0.0}, kpis)
+        t = estv.taxes_for_3a(proxy, [paid], year)["taxes"][round(paid)]
+        return float(t["total"] or 0), "ESTV tax calculator (all income priced as salary, approximate)"
+    except estv.EstvError:
+        rate = float(s["tax"]["fallback_effective_rate"])
+        return round(gross * rate, 0), f"rough estimate ({rate:.0%} of gross income)"
+
+
 def pillar3a_plan(p: dict, kpis: dict, rows: list[Row]) -> dict:
     s = config.settings()
     c3a = s["pillar3a"]
@@ -62,9 +89,7 @@ def pillar3a_plan(p: dict, kpis: dict, rows: list[Row]) -> dict:
     data_starts = min(r.date for r in rows)
     retro_amount = max(0.0, cap - paid_2025) if year > first_gap else 0.0
 
-    tax_input = dict(p)
-    tax_input["side_income_net"] = p["self_employment_net"] if p["employment_type"] in ("employee", "retired") else 0.0
-    tax_input["wealth_for_tax"] = max(0.0, (kpis.get("balance") or 0.0) + p.get("other_assets", 0.0))
+    tax_input = _tax_input(p, kpis)
 
     result = {
         "eligible": True,

@@ -1,3 +1,7 @@
+> **Historical.** This is the original build plan of 22 September 2026, kept for reference.
+> The implemented system differs from the architecture sketched in section 2 — see
+> [README.md](README.md) for what was actually built.
+
 # Build plan: UBS Client Recommendation Demo
 
 This plan is written so you can hand it directly to a coding agent. Anything I couldn't determine from your description is marked **[OPEN-n]** and listed at the end. The agent should not guess on those; it should stop and ask.

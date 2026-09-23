@@ -66,6 +66,14 @@ tax:
   default_location: {zip: "8001", city: "Zürich", canton: ZH}
   net_to_gross_salary: 0.88        # salary credited to the account ~ 88% of gross
   fallback_tables: config/tax_tables.json
+  fallback_effective_rate: 0.12    # average tax on gross income when ESTV is unreachable (rough)
+
+# Bills often paid from another account. When the transactions show less than the expected
+# yearly amount, the gap is added as estimated spending so surplus and savings rate are not overstated.
+obligations:
+  health_premium_adult: 5400       # CHF/year basic (KVG) premium, age 26+ (~FOPH 2025 average, CHF 450/month)
+  health_premium_young_adult: 3800 # age 19-25
+  health_premium_child: 1400
 
 mortgage:
   imputed_rate: 0.05

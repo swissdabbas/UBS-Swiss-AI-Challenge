@@ -108,12 +108,6 @@ def check_product(prod: Product, ctx: dict) -> dict:
         ok, why = pillar3a.eligibility(p)
         if not ok:
             add("eligibility", False, why)
-    if el.get("requires_no_consumer_debt") and "debt_stress" in ctx["signal_types"]:
-        add("suitability", False, "Financial situation: repaying consumer debt (typically 8-12% interest) saves more "
-                                  "than the Pillar 3a tax deduction; tie up money in 3a once the debt is repaid.")
-    elif el.get("requires_no_consumer_debt") and "spending_exceeds_income" in ctx["signal_types"]:
-        add("suitability", False, "Financial situation: spending currently exceeds income; build a cash buffer "
-                                  "before tying money up in Pillar 3a until retirement.")
     if el.get("credit_check") and ctx["signal_types"] & {"debt_stress", "spending_exceeds_income"}:
         add("eligibility", False, "Credit check: current consumer debt or a spending deficit; more credit is not in your interest.")
     if el.get("min_income_key"):
