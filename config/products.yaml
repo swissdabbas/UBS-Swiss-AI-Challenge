@@ -1,0 +1,232 @@
+# Attributes the UBS catalog CSV does not carry, keyed by product id
+# (slug of "Product Name"). Every CSV product must appear here and vice versa;
+# the loader fails loudly otherwise.
+#
+# segment:     private | business | intermediary | info  (only private, and
+#              business for self-employed clients, can be recommended)
+# basket:      Pillar 3a | Investment | Savings | Cards | FX | Mortgage & credit | Everyday banking
+# risk_class:  0 = no market risk, 1 (very low) .. 5 (very high), compared to the client risk profile
+# knowledge:   FinSA appropriateness category + level required (none | basic | experienced)
+# returns:     ILLUSTRATIVE expected annual returns in % before fees (low / medium / high),
+#              volatility in % p.a. and running costs in % p.a. They are demo assumptions,
+#              not UBS figures, and are shown next to every projection.
+
+defaults:
+  segment: private
+  basket: null
+  risk_class: 0
+  knowledge: null
+  knowledge_level: none
+  complex: false
+  min_horizon_years: 0
+  returns: null
+  eligibility: {}
+
+products:
+  # ----------------------------------------------------------------- cards
+  ubs-platinum-credit-card:
+    basket: Cards
+    eligibility: {credit_check: true, min_income_key: ubs-platinum-credit-card}
+  ubs-gold-credit-card:
+    basket: Cards
+    eligibility: {credit_check: true, min_income_key: ubs-gold-credit-card}
+  ubs-classic-credit-card:
+    basket: Cards
+    eligibility: {credit_check: true, min_income_key: ubs-classic-credit-card}
+  ubs-debit-card:
+    basket: Cards
+  ubs-prepaid-card:
+    basket: Cards
+  ubs-key4-credit-prepaid-cards:
+    basket: FX
+  ubs-other-special-cards:
+    basket: FX
+  ubs-corporate-credit-cards:
+    segment: business
+    basket: Cards
+    eligibility: {requires_self_employed: true, credit_check: true}
+  ubs-business-prepaid-card:
+    segment: business
+    basket: Cards
+    eligibility: {requires_self_employed: true}
+  ubs-business-debit-card:
+    segment: business
+    basket: Cards
+    eligibility: {requires_self_employed: true}
+
+  # ----------------------------------------------- intermediary / research
+  ubs-transact-intermediaries: {segment: intermediary}
+  ubs-transact-intermediaries-premium: {segment: intermediary}
+  ubs-advice-intermediaries: {segment: intermediary}
+  ubs-advice-intermediaries-premium: {segment: intermediary}
+  wealth-management-cio-research: {segment: info}
+  investment-bank-research: {segment: info}
+
+  # ------------------------------------------------------------ investments
+  equities:
+    basket: Investment
+    risk_class: 4
+    knowledge: equities
+    knowledge_level: basic
+    min_horizon_years: 5
+    returns: {low: 2.0, medium: 6.0, high: 9.0, volatility: 16.0, fees: 0.40}
+  fixed-income:
+    basket: Investment
+    risk_class: 2
+    knowledge: bonds
+    knowledge_level: basic
+    min_horizon_years: 3
+    returns: {low: 0.5, medium: 2.0, high: 3.5, volatility: 4.0, fees: 0.30}
+  fx:
+    basket: FX
+    risk_class: 5
+    knowledge: fx
+    knowledge_level: experienced
+    complex: true
+    min_horizon_years: 1
+  real-estate-investment:
+    basket: Investment
+    risk_class: 3
+    knowledge: real_estate
+    knowledge_level: basic
+    min_horizon_years: 5
+    returns: {low: 1.5, medium: 3.5, high: 5.5, volatility: 8.0, fees: 0.80}
+  alternative-investments:
+    basket: Investment
+    risk_class: 5
+    knowledge: alternatives
+    knowledge_level: experienced
+    complex: true
+    min_horizon_years: 7
+    returns: {low: 2.0, medium: 7.0, high: 12.0, volatility: 15.0, fees: 1.50}
+    eligibility: {qualified_investor: true}
+  commodities:
+    basket: Investment
+    risk_class: 4
+    knowledge: alternatives
+    knowledge_level: basic
+    min_horizon_years: 5
+    returns: {low: -1.0, medium: 3.0, high: 7.0, volatility: 18.0, fees: 0.50}
+  investment-funds:
+    basket: Investment
+    risk_class: 3
+    knowledge: funds
+    knowledge_level: basic
+    min_horizon_years: 3
+    returns: {low: 1.5, medium: 4.0, high: 6.5, volatility: 10.0, fees: 1.00}
+  structured-products:
+    basket: Investment
+    risk_class: 4
+    knowledge: structured
+    knowledge_level: experienced
+    complex: true
+    min_horizon_years: 2
+    returns: {low: 1.0, medium: 4.0, high: 7.0, volatility: 12.0, fees: 1.00}
+  options:
+    basket: Investment
+    risk_class: 5
+    knowledge: derivatives
+    knowledge_level: experienced
+    complex: true
+    eligibility: {qualified_investor: true}
+  futures:
+    basket: Investment
+    risk_class: 5
+    knowledge: derivatives
+    knowledge_level: experienced
+    complex: true
+    eligibility: {qualified_investor: true}
+  sustainable-impact-investing:
+    basket: Investment
+    risk_class: 3
+    knowledge: funds
+    knowledge_level: basic
+    min_horizon_years: 5
+    returns: {low: 1.5, medium: 4.0, high: 6.5, volatility: 11.0, fees: 1.00}
+  ubs-key4-smart-investing:
+    # digital asset management mandate: suitability applies, no appropriateness test
+    basket: Investment
+    risk_class: 3
+    min_horizon_years: 3
+    returns: {low: 1.5, medium: 4.0, high: 6.5, volatility: 10.0, fees: 0.75}
+  ubs-key4-trading:
+    basket: Investment
+    risk_class: 4
+    knowledge: equities
+    knowledge_level: basic
+    min_horizon_years: 5
+    returns: {low: 0.0, medium: 5.0, high: 9.0, volatility: 16.0, fees: 0.20}
+  ubs-investment-fund-account:
+    basket: Investment
+    risk_class: 3
+    knowledge: funds
+    knowledge_level: basic
+    min_horizon_years: 3
+    returns: {low: 1.5, medium: 4.0, high: 6.5, volatility: 10.0, fees: 1.00}
+
+  # ------------------------------------------------------ banking / credit
+  liquidity-solutions-cash-management: {segment: intermediary}
+  lending-solutions:
+    basket: Mortgage & credit
+    knowledge: credit
+    knowledge_level: basic
+    eligibility: {qualified_investor: true, credit_check: true}
+  financing:
+    basket: Mortgage & credit
+    eligibility: {credit_check: true, mortgage_affordability: true}
+  securities-lending: {segment: intermediary}
+  tax-regulatory-reporting: {segment: intermediary}
+  private-label-fund-solutions: {segment: intermediary}
+
+  # ------------------------------------------------ accounts and packages
+  ubs-banking-formerly-ubs-me-banking:
+    basket: Everyday banking
+  ubs-personal-account-for-young-people:
+    basket: Everyday banking
+    eligibility: {age_max: 25}
+  ubs-personal-account-for-students:
+    basket: Everyday banking
+    eligibility: {age_max: 30, requires_student: true}
+  ubs-personal-account:
+    basket: Everyday banking
+  ubs-personal-account-eur:
+    basket: FX
+  ubs-current-account-for-private-clients:
+    basket: Everyday banking
+
+  # ---------------------------------------------------------------- savings
+  ubs-savings-account-for-young-people:
+    basket: Savings
+    eligibility: {age_max: 25}
+    returns: {low: 0.0, medium: 0.4, high: 0.8, volatility: 0.0, fees: 0.0}
+  ubs-savings-account:
+    basket: Savings
+    returns: {low: 0.0, medium: 0.25, high: 0.5, volatility: 0.0, fees: 0.0}
+  ubs-sustainable-savings-account:
+    basket: Savings
+    returns: {low: 0.0, medium: 0.25, high: 0.5, volatility: 0.0, fees: 0.0}
+  ubs-rental-deposit-account:
+    basket: Savings
+
+  # ---------------------------------------------------------------- pension
+  ubs-key4-pension-3a:
+    # fund-based 3a (balanced strategy assumed)
+    basket: Pillar 3a
+    risk_class: 3
+    min_horizon_years: 5
+    eligibility: {requires_3a_eligible: true}
+    returns: {low: 1.5, medium: 3.5, high: 5.5, volatility: 9.0, fees: 0.60}
+  ubs-fisca-3a:
+    basket: Pillar 3a
+    eligibility: {requires_3a_eligible: true}
+    returns: {low: 0.2, medium: 0.5, high: 0.8, volatility: 0.0, fees: 0.0}
+  ubs-vested-benefits-account:
+    basket: Savings
+
+  # ----------------------------------------------------- digital services
+  ubs-digital-banking-e-banking-mobile-banking-app: {basket: Everyday banking}
+  ubs-twint: {basket: Everyday banking}
+  ubs-safe: {basket: Everyday banking}
+  ubs-keyclub: {basket: Cards}
+  ubs-key4-banking: {basket: Everyday banking}
+  ubs-me-banking-package: {basket: Everyday banking}

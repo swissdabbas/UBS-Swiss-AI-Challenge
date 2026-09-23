@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Client Advisor</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/vendor/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/clients"><img class="brand-logo" src="/static/ubs_logo.png" alt="UBS">AI Client Advisor</a>
+    <span class="spacer"></span>
+    <span class="client-chip" id="client-chip"></span>
+    <button class="mode-badge" id="mode-badge" title="Change data processing mode"><span class="dot"></span><span id="mode-text">…</span></button>
+  </header>
+
+  <div class="shell">
+    <nav class="sidebar">
+      <ol class="steps" id="steps">
+        <li><a href="#/clients" data-step="clients"><span class="n">1</span>Choose client</a></li>
+        <li><a data-step="overview"><span class="n">2</span>Your overview</a></li>
+        <li><a data-step="cashflow"><span class="n">3</span>Income &amp; spending</a></li>
+        <li><a data-step="review"><span class="n">4</span>Check transactions</a></li>
+        <li><a data-step="suitability"><span class="n">5</span>Your profile &amp; risk</a></li>
+        <li><a data-step="recommendations"><span class="n">6</span>Recommendations</a></li>
+        <li><a data-step="report"><span class="n">7</span>Advice record</a></li>
+      </ol>
+      <p class="side-note">Synthetic demo data. Calculations are deterministic; AI only categorises and explains.</p>
+    </nav>
+    <main id="view"></main>
+  </div>
+
+  <div class="overlay hidden" id="gate">
+    <div class="dialog gate">
+      <div class="shield">🔒</div>
+      <h1>Before we start</h1>
+      <p class="ink2">We analyse your account transactions to find ways to save tax, invest idle cash and pick the right
+        cards. Choose how your data is processed.</p>
+      <div class="choices" id="gate-choices"></div>
+    </div>
+  </div>
+
+  <div class="overlay hidden" id="modal">
+    <div class="dialog">
+      <button class="btn ghost small close" id="modal-close">Close</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
